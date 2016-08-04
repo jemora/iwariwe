@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="31" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://fonts/dialog_box.fnt" type="Font" index="14"></ext_resource>
+	<ext_resource path="res://scripts/texto_gui.gd" type="Script" index="10"></ext_resource>
+	<ext_resource path="res://scripts/idiomas_igu.gd" type="Script" index="15"></ext_resource>
+	<ext_resource path="res://scripts/save_load.gd" type="Script" index="25"></ext_resource>
+	<ext_resource path="res://scripts/level.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://scripts/dialogue_box.gd" type="Script" index="11"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://fonts/chalk.fnt" type="Font" index="9"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://textures/blue_square.png" type="Texture" index="18"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://fonts/dialog_box_italic.fnt" type="Font" index="12"></ext_resource>
+	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="2"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://fonts/dialog_box_bold.fnt" type="Font" index="13"></ext_resource>
+	<ext_resource path="res://sonidos/fondo.ogg" type="AudioStream" index="23"></ext_resource>
+	<ext_resource path="res://icon.png" type="Texture" index="27"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino recto.xml" type="PackedScene" index="19"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino3.scn" type="PackedScene" index="22"></ext_resource>
+	<ext_resource path="res://elementos/medicina.xml" type="PackedScene" index="16"></ext_resource>
+	<ext_resource path="res://elementos/bono.xml" type="PackedScene" index="17"></ext_resource>
+	<ext_resource path="res://igu/dialogo1.scn" type="PackedScene" index="24"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino2.scn" type="PackedScene" index="20"></ext_resource>
+	<ext_resource path="res://personajes/character.xml" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino1.scn" type="PackedScene" index="21"></ext_resource>
+	<ext_resource path="res://enemy.tscn" type="PackedScene" index="26"></ext_resource>
+	<resource type="RectangleShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 13.419, 22.7901 </vector2>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://2">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 10, 10 </vector2>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 5 </int>
+			<string> "conns" </string>
+			<int_array  len="30"> 				0, 4, 165, 164, 2, 0, 11, 11, 167, 166, 2, 0, 26, 0, 31, 168, 2, 0, 27, 0, 31, 169, 2, 0, 45, 1, 171, 170, 2, 0 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="172">
+				<string> "world" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Node2D" </string>
+				<string> "player" </string>
+				<string> "transform/pos" </string>
+				<string> "z/z" </string>
+				<string> "player_speed" </string>
+				<string> "jumpforce" </string>
+				<string> "extra_gravity" </string>
+				<string> "SamplePlayer2D" </string>
+				<string> "params/volume_db" </string>
+				<string> "params/pitch_scale" </string>
+				<string> "params/attenuation/min_distance" </string>
+				<string> "params/attenuation/max_distance" </string>
+				<string> "params/attenuation/distance_exp" </string>
+				<string> "config/polyphony" </string>
+				<string> "config/samples" </string>
+				<string> "config/pitch_random" </string>
+				<string> "SamplePlayer2D_reinicio" </string>
+				<string> "transform/scale" </string>
+				<string> "gui" </string>
+				<string> "layer" </string>
+				<string> "offset" </string>
+				<string> "rotation" </string>
+				<string> "scale" </string>
+				<string> "CanvasLayer" </string>
+				<string> "left_inputs" </string>
+				<string> "left" </string>
+				<string> "visibility/opacity" </string>
+				<string> "normal" </string>
+				<string> "pressed" </string>
+				<string> "bitmask" </string>
+				<string> "passby_press" </string>
+				<string> "action" </string>
+				<string> "visibility_mode" </string>
+				<string> "TouchScreenButton" </string>
+				<string> "right" </string>
+				<string> "right_inputs" </string>
+				<string> "splash" </string>
+				<string> "label" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "custom_fonts/font" </string>
+				<string> "custom_colors/font_color" </string>
+				<string> "custom_colors/font_color_shadow" </string>
+				<string> "custom_constants/shadow_as_outline" </string>
+				<string> "align" </string>
+				<string> "percent_visible" </string>
+				<string> "lines_skipped" </string>
+				<string> "max_lines_visible" </string>
+				<string> "splashes_path" </string>
+				<string> "Label" </string>
+				<string> "hud_text" </string>
+				<string> "bonos_collected" </string>
+				<string> "text" </string>
+				<string> "medicinas_collected" </string>
+				<string> "bonos_total" </string>
+				<string> "medicinas_total" </string>
+				<string> "Bonos" </string>
+				<string> "Medicinas" </string>
+				<string> "Bonos_tolal" </string>
+				<string> "Medicina_total" </string>
+				<string> "dialogue_box" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "Panel" </string>
+				<string> "custom_fonts/italics_font" </string>
+				<string> "custom_fonts/bold_font" </string>
+				<string> "custom_fonts/normal_font" </string>
+				<string> "bbcode/enabled" </string>
+				<string> "bbcode/bbcode" </string>
+				<string> "visible_characters" </string>
+				<string> "RichTextLabel" </string>
+				<string> "idioma_gui" </string>
+				<string> "Popup_pause" </string>
+				<string> "visibility/visible" </string>
+				<string> "popup/exclusive" </string>
+				<string> "PopupPanel" </string>
+				<string> "Label_pause" </string>
+				<string> "continuar" </string>
+				<string> "toggle_mode" </string>
+				<string> "flat" </string>
+				<string> "Button" </string>
+				<string> "pausa" </string>
+				<string> "elementos" </string>
+				<string> "medicina" </string>
+				<string> "bono" </string>
+				<string> "medicina1" </string>
+				<string> "value_medicina" </string>
+				<string> "medicina2" </string>
+				<string> "bono1" </string>
+				<string> "bono2" </string>
+				<string> "bono3" </string>
+				<string> "bono4" </string>
+				<string> "value" </string>
+				<string> "mundo" </string>
+				<string> "reinicio" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "gravity_vec" </string>
+				<string> "gravity" </string>
+				<string> "linear_damp" </string>
+				<string> "angular_damp" </string>
+				<string> "Area2D" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "Sprite" </string>
+				<string> "texture" </string>
+				<string> "ground" </string>
+				<string> "camino2" </string>
+				<string> "camino1" </string>
+				<string> "camino1 2" </string>
+				<string> "Timer_reinicio" </string>
+				<string> "process_mode" </string>
+				<string> "wait_time" </string>
+				<string> "one_shot" </string>
+				<string> "autostart" </string>
+				<string> "Timer" </string>
+				<string> "StreamPlayer_fondo" </string>
+				<string> "stream/stream" </string>
+				<string> "stream/play" </string>
+				<string> "stream/loop" </string>
+				<string> "stream/volume_db" </string>
+				<string> "stream/autoplay" </string>
+				<string> "stream/paused" </string>
+				<string> "stream/loop_restart_time" </string>
+				<string> "stream/buffering_ms" </string>
+				<string> "StreamPlayer" </string>
+				<string> "dialogos_obj" </string>
+				<string> "dialogo2" </string>
+				<string> "line" </string>
+				<string> "dialogo1" </string>
+				<string> "dialogo3" </string>
+				<string> "save_load" </string>
+				<string> "enemy" </string>
+				<string> "enemigo" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "mode" </string>
+				<string> "mass" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "gravity_scale" </string>
+				<string> "custom_integrator" </string>
+				<string> "continuous_cd" </string>
+				<string> "contacts_reported" </string>
+				<string> "contact_monitor" </string>
+				<string> "sleeping" </string>
+				<string> "can_sleep" </string>
+				<string> "velocity/linear" </string>
+				<string> "velocity/angular" </string>
+				<string> "damp_override/linear" </string>
+				<string> "damp_override/angular" </string>
+				<string> "RigidBody2D" </string>
+				<string> "_on_world_script_changed" </string>
+				<string> "script_changed" </string>
+				<string> "_on_label_renamed" </string>
+				<string> "renamed" </string>
+				<string> "_on_continuar_pressed" </string>
+				<string> "_on_pausa_pressed" </string>
+				<string> "_on_Timer_reinicio_timeout" </string>
+				<string> "timeout" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 58 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="1162"> 				-1, -1, 3, 0, -1, 2, 1, 0, 2, 1, 0, 0, 0, 2147483647, 4, 2, 5, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 0, 1, 0, 10, 10, -1, 9, 5, 8, 11, 9, 12, 10, 13, 10, 14, 11, 15, 10, 16, 4, 17, 12, 18, 9, 0, 1, 0, 10, 19, -1, 10, 5, 13, 20, 14, 11, 15, 12, 10, 13, 10, 14, 11, 15, 10, 16, 16, 17, 12, 18, 9, 0, 0, 0, 26, 21, -1, 5, 22, 16, 23, 17, 24, 9, 25, 18, 2, 19, 0, 4, 0, 3, 27, -1, 2, 20, 20, 2, 21, 0, 5, 0, 36, 28, -1, 8, 29, 22, 5, 23, 30, 24, 31, 25, 32, 26, 33, 27, 34, 28, 35, 29, 0, 5, 0, 36, 37, -1, 8, 29, 30, 5, 31, 30, 32, 31, 33, 32, 26, 33, 27, 34, 34, 35, 29, 0, 4, 0, 3, 38, -1, 2, 20, 20, 2, 35, 0, 8, 0, 36, 36, -1, 8, 29, 36, 5, 37, 30, 38, 31, 39, 32, 26, 33, 27, 34, 40, 35, 29, 0, 4, 0, 3, 39, -1, 3, 5, 41, 20, 42, 2, 43, 0, 10, 0, 57, 40, -1, 17, 41, 44, 42, 45, 43, 46, 44, 47, 45, 48, 46, 48, 47, 4, 48, 49, 49, 50, 50, 51, 51, 16, 52, 16, 53, 10, 54, 29, 55, 52, 1, 53, 56, 54, 0, 4, 0, 3, 58, -1, 1, 2, 55, 0, 12, 0, 57, 59, -1, 15, 41, 56, 42, 57, 43, 58, 44, 59, 45, 48, 46, 48, 47, 4, 48, 49, 49, 60, 50, 51, 51, 16, 60, 61, 53, 10, 54, 29, 55, 52, 0, 12, 0, 57, 61, -1, 15, 41, 62, 42, 63, 43, 64, 44, 65, 45, 48, 46, 48, 47, 4, 48, 49, 49, 60, 50, 51, 51, 16, 60, 61, 53, 10, 54, 29, 55, 52, 0, 12, 0, 57, 62, -1, 15, 41, 66, 42, 67, 43, 68, 44, 69, 45, 48, 46, 48, 47, 4, 48, 49, 49, 70, 50, 51, 51, 16, 60, 71, 53, 10, 54, 29, 55, 52, 0, 12, 0, 57, 63, -1, 15, 41, 72, 42, 73, 43, 74, 44, 75, 45, 48, 46, 48, 47, 4, 48, 49, 49, 70, 50, 51, 51, 16, 60, 71, 53, 10, 54, 29, 55, 52, 0, 12, 0, 57, 64, -1, 15, 41, 76, 42, 77, 43, 78, 44, 79, 45, 48, 46, 48, 47, 4, 48, 49, 49, 80, 50, 51, 51, 16, 60, 81, 53, 10, 54, 29, 55, 52, 0, 12, 0, 57, 65, -1, 15, 41, 82, 42, 83, 43, 84, 44, 85, 45, 48, 46, 48, 47, 4, 48, 49, 49, 80, 50, 51, 51, 16, 60, 86, 53, 10, 54, 29, 55, 52, 0, 12, 0, 57, 66, -1, 15, 41, 87, 42, 88, 43, 89, 44, 90, 45, 48, 46, 48, 47, 4, 48, 49, 49, 70, 50, 51, 51, 16, 60, 71, 53, 10, 54, 29, 55, 52, 0, 12, 0, 57, 67, -1, 15, 41, 91, 42, 92, 43, 93, 44, 94, 45, 48, 46, 48, 47, 4, 48, 49, 49, 70, 50, 51, 51, 16, 60, 71, 53, 10, 54, 29, 55, 52, 0, 4, 0, 71, 68, -1, 11, 69, 95, 41, 96, 42, 77, 43, 97, 44, 98, 45, 27, 46, 48, 47, 4, 70, 4, 1, 99, 2, 100, 0, 21, 0, 78, 60, -1, 14, 41, 83, 42, 101, 43, 56, 44, 102, 45, 27, 46, 48, 47, 4, 70, 4, 72, 103, 73, 104, 74, 105, 75, 48, 76, 106, 77, 52, 0, 4, 0, 57, 79, -1, 12, 41, 107, 42, 108, 43, 75, 44, 109, 45, 48, 46, 48, 47, 4, 60, 110, 53, 10, 54, 29, 55, 52, 1, 111, 0, 4, 0, 83, 80, -1, 11, 81, 27, 69, 112, 41, 113, 42, 114, 43, 115, 44, 116, 45, 27, 46, 48, 47, 4, 70, 4, 82, 27, 0, 24, 0, 57, 84, -1, 11, 41, 117, 42, 118, 43, 113, 44, 119, 45, 48, 46, 48, 47, 4, 60, 120, 53, 10, 54, 29, 55, 52, 0, 24, 0, 88, 85, -1, 11, 41, 121, 42, 122, 43, 123, 44, 124, 45, 27, 46, 48, 47, 4, 70, 4, 86, 27, 60, 125, 87, 27, 0, 4, 0, 88, 89, -1, 11, 41, 126, 42, 127, 43, 78, 44, 128, 45, 27, 46, 48, 47, 4, 70, 4, 86, 27, 60, 129, 87, 27, 0, 0, 0, 3, 90, -1, 2, 5, 130, 2, 131, 0, 28, 0, 2147483647, 91, 132, 1, 5, 133, 0, 28, 0, 2147483647, 92, 134, 1, 5, 135, 0, 28, 0, 2147483647, 93, 132, 2, 5, 136, 94, 137, 0, 28, 0, 2147483647, 95, 132, 2, 5, 138, 94, 139, 0, 28, 0, 2147483647, 96, 134, 1, 5, 140, 0, 28, 0, 2147483647, 97, 134, 1, 5, 141, 0, 28, 0, 2147483647, 98, 134, 1, 5, 142, 0, 28, 0, 2147483647, 99, 134, 2, 5, 143, 100, 144, 0, 0, 0, 3, 101, -1, 0, 0, 37, 0, 111, 102, -1, 9, 103, 27, 104, 145, 105, 146, 106, 27, 107, 147, 108, 148, 109, 149, 110, 10, 2, 150, 0, 38, 0, 112, 112, -1, 5, 5, 151, 20, 152, 113, 145, 114, 27, 115, 29, 0, 38, 0, 116, 116, -1, 5, 29, 153, 5, 154, 20, 155, 6, 139, 117, 156, 0, 37, 0, 2147483647, 118, 157, 0, 0, 37, 0, 2147483647, 119, 158, 1, 5, 159, 0, 37, 0, 2147483647, 120, 160, 1, 5, 161, 0, 37, 0, 2147483647, 121, 162, 1, 5, 163, 0, 0, 0, 127, 122, -1, 4, 123, 16, 124, 10, 125, 27, 126, 27, 0, 0, 0, 10, 10, -1, 8, 11, 164, 12, 165, 13, 10, 14, 11, 15, 10, 16, 16, 17, 12, 18, 9, 0, 0, 0, 137, 128, -1, 8, 129, 166, 130, 27, 131, 48, 132, 167, 133, 48, 134, 27, 135, 9, 136, 168, 0, 0, 0, 3, 138, -1, 1, 2, 169, 0, 48, 0, 2147483647, 139, 170, 2, 5, 171, 140, 172, 0, 48, 0, 2147483647, 141, 170, 2, 5, 173, 140, 174, 0, 48, 0, 2147483647, 142, 170, 2, 5, 175, 140, 176, 0, 0, 0, 127, 127, -1, 4, 123, 16, 124, 10, 125, 27, 126, 48, 0, 0, 0, 3, 143, -1, 1, 1, 177, 0, 0, 0, 2147483647, 144, 178, 2, 5, 179, 20, 180, 0, 0, 0, 163, 145, -1, 22, 5, 181, 103, 27, 104, 182, 105, 183, 106, 27, 146, 16, 147, 16, 148, 29, 149, 184, 150, 10, 151, 9, 152, 10, 153, 27, 154, 29, 155, 29, 156, 27, 157, 27, 158, 48, 159, 17, 160, 9, 161, 185, 162, 185, 0, 55, 0, 116, 116, -1, 1, 117, 186, 0, 55, 0, 112, 112, -1, 5, 5, 187, 20, 188, 113, 182, 114, 27, 115, 29, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="189" shared="false">
+				<resource  external="0">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+				</dictionary>
+				<resource  external="1">  </resource>
+				<vector2> 275.013, 120.188 </vector2>
+				<int> 2 </int>
+				<int> 1200 </int>
+				<int> 1400 </int>
+				<int> 2800 </int>
+				<vector2> -276.242, -119.368 </vector2>
+				<real> 0 </real>
+				<real> 1 </real>
+				<real> 2048 </real>
+				<resource  external="2">  </resource>
+				<vector2> -277.229, -121.13 </vector2>
+				<vector2> 0.96917, 0.944922 </vector2>
+				<real> 5 </real>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<vector2> 1, 1 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 0.4, 0.4 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.11593 </real>
+				<vector2> -15.773, 816.829 </vector2>
+				<resource  external="3">  </resource>
+				<resource  external="4">  </resource>
+				<resource name=""></resource>				<bool> False </bool>
+				<string> "btn_left" </string>
+				<int> 0 </int>
+				<real> 0.15221 </real>
+				<vector2> 339.118, 1086.32 </vector2>
+				<resource  external="5">  </resource>
+				<resource  external="6">  </resource>
+				<string> "btn_right" </string>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.137207 </real>
+				<vector2> 1562.97, 1058.51 </vector2>
+				<resource  external="7">  </resource>
+				<resource  external="8">  </resource>
+				<string> "btn_jump" </string>
+				<vector2> 405.095, 328.265 </vector2>
+				<vector2> 1.08134, 1.12139 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> -258 </real>
+				<real> -94 </real>
+				<real> 250 </real>
+				<real> 54 </real>
+				<bool> True </bool>
+				<resource  external="9">  </resource>
+				<color> 0, 0.71875, 1, 1 </color>
+				<color> 0, 0, 0, 1 </color>
+				<int> -1 </int>
+				<resource  external="10">  </resource>
+				<string> "res://igu/splashes.txt" </string>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 20 </real>
+				<real> 73 </real>
+				<real> 37 </real>
+				<real> 111 </real>
+				<color> 0.212769, 0.972656, 0.972656, 1 </color>
+				<string> "0" </string>
+				<real> 630 </real>
+				<real> 62 </real>
+				<real> 647 </real>
+				<real> 100 </real>
+				<real> 21 </real>
+				<real> 45 </real>
+				<real> 36 </real>
+				<real> 83 </real>
+				<color> 1, 0, 0.609375, 1 </color>
+				<string> "x" </string>
+				<real> 631 </real>
+				<real> 34 </real>
+				<real> 646 </real>
+				<real> 72 </real>
+				<real> 15 </real>
+				<real> 18 </real>
+				<real> 105 </real>
+				<real> 56 </real>
+				<color> 1, 0.539062, 0, 1 </color>
+				<string> "Bonos" </string>
+				<real> 617 </real>
+				<real> 8 </real>
+				<real> 772 </real>
+				<real> 46 </real>
+				<string> "Medicinas" </string>
+				<real> 316 </real>
+				<real> 559 </real>
+				<real> 331 </real>
+				<real> 597 </real>
+				<real> 460 </real>
+				<real> 558 </real>
+				<real> 475 </real>
+				<real> 596 </real>
+				<real> 0.347958 </real>
+				<real> 371 </real>
+				<real> 612 </real>
+				<real> 284 </real>
+				<resource  external="11">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 11 </real>
+				<real> 66 </real>
+				<resource  external="12">  </resource>
+				<resource  external="13">  </resource>
+				<resource  external="14">  </resource>
+				<string> "" </string>
+				<real> 12 </real>
+				<real> 542 </real>
+				<real> 555 </real>
+				<string> "castellano" </string>
+				<resource  external="15">  </resource>
+				<real> 0.444746 </real>
+				<real> 214 </real>
+				<real> 133 </real>
+				<real> 585 </real>
+				<real> 422 </real>
+				<real> 159 </real>
+				<real> 52 </real>
+				<real> 65 </real>
+				<string> "Pausado" </string>
+				<real> 141 </real>
+				<real> 235 </real>
+				<real> 240 </real>
+				<real> 271 </real>
+				<string> "Continuar" </string>
+				<real> 9 </real>
+				<real> 113 </real>
+				<real> 161 </real>
+				<string> "Pausa" </string>
+				<vector2> -0.663422, 2.65369 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="16">  </resource>
+				<vector2> 668.076, 246.133 </vector2>
+				<resource  external="17">  </resource>
+				<vector2> 2548.33, -191.195 </vector2>
+				<vector2> 1613.49, 205.236 </vector2>
+				<int> 5 </int>
+				<vector2> 2260.99, -169.513 </vector2>
+				<int> 3 </int>
+				<vector2> 2992.29, -82.7853 </vector2>
+				<vector2> 3302.03, -62.136 </vector2>
+				<vector2> 3807.94, -108.597 </vector2>
+				<vector2> 4257.06, 278.579 </vector2>
+				<int> 10 </int>
+				<resource  resource_type="Shape2D" path="local://1">  </resource>
+				<matrix32> 451.455, -0, 0, 6.89146, 3334.08, 908.384 </matrix32>
+				<vector2> 0, 1 </vector2>
+				<real> 98 </real>
+				<real> 0.1 </real>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 3334.08, 908.384 </vector2>
+				<vector2> 451.455, 6.89146 </vector2>
+				<real> 0.401364 </real>
+				<vector2> 1871.03, 1727.58 </vector2>
+				<vector2> 133.587, 36.4036 </vector2>
+				<resource  external="18">  </resource>
+				<resource  external="19">  </resource>
+				<resource  external="20">  </resource>
+				<vector2> 1082.97, 355.895 </vector2>
+				<resource  external="21">  </resource>
+				<vector2> 2701.74, 94.3262 </vector2>
+				<resource  external="22">  </resource>
+				<vector2> 4763.27, 244.122 </vector2>
+				<real> -5 </real>
+				<real> 0.92 </real>
+				<resource  external="23">  </resource>
+				<real> -0.936171 </real>
+				<int> 500 </int>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="24">  </resource>
+				<vector2> 52.3964, 423.696 </vector2>
+				<string> "capital" </string>
+				<vector2> 1446.06, 349.857 </vector2>
+				<string> "land" </string>
+				<vector2> 2551.06, 24.3209 </vector2>
+				<string> "intro" </string>
+				<resource  external="25">  </resource>
+				<resource  external="26">  </resource>
+				<vector2> 370.363, 324.354 </vector2>
+				<vector2> 1.59347, 1.59347 </vector2>
+				<vector2> 1083.79, 279.467 </vector2>
+				<resource  resource_type="Shape2D" path="local://2">  </resource>
+				<matrix32> 3.25432, -0, 0, 3.78676, 0.0763229, 0.841058 </matrix32>
+				<real> 5.501148 </real>
+				<real> -1 </real>
+				<resource  external="27">  </resource>
+				<vector2> 0.0763229, 0.841058 </vector2>
+				<vector2> 3.25432, 3.78676 </vector2>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

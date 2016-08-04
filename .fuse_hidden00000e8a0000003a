@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="19" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://scripts/level.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://scripts/touch_screen_button.gd" type="Script" index="4"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture" index="10"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://textures/red_square.png" type="Texture" index="16"></ext_resource>
+	<ext_resource path="res://gear.xml" type="PackedScene" index="12"></ext_resource>
+	<ext_resource path="res://gear2.gd" type="Script" index="14"></ext_resource>
+	<ext_resource path="res://gear2.xml" type="PackedScene" index="13"></ext_resource>
+	<ext_resource path="res://character.xml" type="PackedScene" index="3"></ext_resource>
+	<ext_resource path="res://level_ground_element_01.xml" type="PackedScene" index="15"></ext_resource>
+	<ext_resource path="res://fonts/chalk.fnt" type="Font" index="11"></ext_resource>
+	<ext_resource path="res://sonidos/fondo.ogg" type="AudioStream" index="2"></ext_resource>
+	<ext_resource path="res://samplelibrary.res" type="SampleLibrary" index="1"></ext_resource>
+	<resource type="RectangleShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 10, 10 </vector2>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="104">
+				<string> "world" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Node2D" </string>
+				<string> "SamplePlayer2D" </string>
+				<string> "params/volume_db" </string>
+				<string> "params/pitch_scale" </string>
+				<string> "params/attenuation/min_distance" </string>
+				<string> "params/attenuation/max_distance" </string>
+				<string> "params/attenuation/distance_exp" </string>
+				<string> "config/polyphony" </string>
+				<string> "config/samples" </string>
+				<string> "config/pitch_random" </string>
+				<string> "StreamPlayer_fondo" </string>
+				<string> "stream/stream" </string>
+				<string> "stream/play" </string>
+				<string> "stream/loop" </string>
+				<string> "stream/volume_db" </string>
+				<string> "stream/autoplay" </string>
+				<string> "stream/paused" </string>
+				<string> "stream/loop_restart_time" </string>
+				<string> "stream/buffering_ms" </string>
+				<string> "StreamPlayer" </string>
+				<string> "player" </string>
+				<string> "transform/pos" </string>
+				<string> "player_speed" </string>
+				<string> "jumpforce" </string>
+				<string> "extra_gravity" </string>
+				<string> "gui" </string>
+				<string> "layer" </string>
+				<string> "offset" </string>
+				<string> "rotation" </string>
+				<string> "scale" </string>
+				<string> "CanvasLayer" </string>
+				<string> "left_inputs" </string>
+				<string> "transform/scale" </string>
+				<string> "left" </string>
+				<string> "visibility/opacity" </string>
+				<string> "normal" </string>
+				<string> "pressed" </string>
+				<string> "bitmask" </string>
+				<string> "passby_press" </string>
+				<string> "action" </string>
+				<string> "visibility_mode" </string>
+				<string> "TouchScreenButton" </string>
+				<string> "right" </string>
+				<string> "right_inputs" </string>
+				<string> "bonos_collected" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "custom_fonts/font" </string>
+				<string> "custom_colors/font_color" </string>
+				<string> "custom_colors/font_color_shadow" </string>
+				<string> "custom_constants/shadow_as_outline" </string>
+				<string> "text" </string>
+				<string> "percent_visible" </string>
+				<string> "lines_skipped" </string>
+				<string> "max_lines_visible" </string>
+				<string> "Label" </string>
+				<string> "medicinas_collected" </string>
+				<string> "bonos_total" </string>
+				<string> "medicinas_total" </string>
+				<string> "Bonos" </string>
+				<string> "Medicinas" </string>
+				<string> "elementos" </string>
+				<string> "gear" </string>
+				<string> "gear1" </string>
+				<string> "gear2" </string>
+				<string> "gear3" </string>
+				<string> "value" </string>
+				<string> "gear4" </string>
+				<string> "medicina" </string>
+				<string> "value_medicina" </string>
+				<string> "medicina1" </string>
+				<string> "medicina2" </string>
+				<string> "medicina3" </string>
+				<string> "mundo" </string>
+				<string> "ground" </string>
+				<string> "input/pickable" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "ground1" </string>
+				<string> "transform/rot" </string>
+				<string> "ground2" </string>
+				<string> "ground3" </string>
+				<string> "Sprite" </string>
+				<string> "texture" </string>
+				<string> "StaticBody2D" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 35 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="671"> 				-1, -1, 3, 0, -1, 2, 1, 0, 2, 1, 0, 0, 0, 4, 4, -1, 8, 5, 2, 6, 3, 7, 4, 8, 5, 9, 4, 10, 6, 11, 7, 12, 8, 0, 0, 0, 22, 13, -1, 8, 14, 9, 15, 10, 16, 11, 17, 12, 18, 11, 19, 10, 20, 8, 21, 13, 0, 0, 0, 2147483647, 23, 14, 4, 24, 15, 25, 16, 26, 17, 27, 18, 0, 3, 0, 4, 4, -1, 9, 24, 19, 5, 8, 6, 4, 7, 4, 8, 5, 9, 4, 10, 20, 11, 7, 12, 8, 0, 0, 0, 33, 28, -1, 6, 29, 6, 30, 21, 31, 8, 32, 22, 1, 23, 2, 24, 0, 5, 0, 3, 34, -1, 1, 35, 25, 0, 6, 0, 44, 36, -1, 8, 37, 26, 24, 27, 38, 28, 39, 29, 40, 30, 41, 10, 42, 31, 43, 32, 0, 6, 0, 44, 45, -1, 9, 37, 33, 24, 34, 35, 35, 38, 36, 39, 37, 40, 30, 41, 10, 42, 38, 43, 32, 0, 5, 0, 3, 46, -1, 1, 35, 25, 0, 9, 0, 44, 44, -1, 8, 37, 39, 24, 40, 38, 41, 39, 42, 40, 30, 41, 10, 42, 43, 43, 32, 0, 5, 0, 63, 47, -1, 15, 48, 44, 49, 45, 50, 46, 51, 47, 52, 11, 53, 11, 54, 20, 55, 48, 56, 49, 57, 50, 58, 6, 59, 51, 60, 4, 61, 32, 62, 52, 0, 5, 0, 63, 64, -1, 15, 48, 53, 49, 54, 50, 55, 51, 56, 52, 11, 53, 11, 54, 20, 55, 48, 56, 49, 57, 50, 58, 6, 59, 57, 60, 4, 61, 32, 62, 52, 0, 5, 0, 63, 65, -1, 15, 48, 58, 49, 59, 50, 60, 51, 61, 52, 11, 53, 11, 54, 20, 55, 48, 56, 62, 57, 50, 58, 6, 59, 63, 60, 4, 61, 32, 62, 52, 0, 5, 0, 63, 66, -1, 15, 48, 64, 49, 65, 50, 66, 51, 67, 52, 11, 53, 11, 54, 20, 55, 48, 56, 62, 57, 50, 58, 6, 59, 63, 60, 4, 61, 32, 62, 52, 0, 5, 0, 63, 67, -1, 15, 48, 68, 49, 69, 50, 70, 51, 71, 52, 11, 53, 11, 54, 20, 55, 48, 56, 72, 57, 50, 58, 6, 59, 73, 60, 4, 61, 32, 62, 52, 0, 5, 0, 63, 68, -1, 15, 48, 74, 49, 75, 50, 76, 51, 77, 52, 11, 53, 11, 54, 20, 55, 48, 56, 72, 57, 50, 58, 6, 59, 78, 60, 4, 61, 32, 62, 52, 0, 0, 0, 3, 69, -1, 2, 24, 79, 2, 80, 0, 17, 0, 2147483647, 70, 81, 1, 24, 82, 0, 17, 0, 2147483647, 71, 81, 1, 24, 83, 0, 17, 0, 2147483647, 72, 81, 1, 24, 84, 0, 17, 0, 2147483647, 73, 81, 3, 24, 85, 35, 86, 74, 87, 0, 17, 0, 2147483647, 75, 81, 1, 24, 88, 0, 17, 0, 2147483647, 76, 89, 3, 24, 90, 1, 91, 77, 87, 0, 17, 0, 2147483647, 78, 89, 3, 24, 92, 1, 91, 77, 87, 0, 17, 0, 2147483647, 79, 89, 3, 24, 93, 1, 91, 77, 87, 0, 17, 0, 2147483647, 80, 89, 3, 24, 94, 1, 91, 77, 20, 0, 0, 0, 3, 81, -1, 1, 2, 95, 0, 27, 0, 2147483647, 82, 96, 3, 83, 10, 84, 6, 85, 6, 0, 27, 0, 2147483647, 86, 96, 6, 24, 97, 87, 98, 35, 99, 83, 10, 84, 6, 85, 6, 0, 27, 0, 2147483647, 88, 96, 5, 24, 100, 87, 101, 83, 10, 84, 6, 85, 6, 0, 27, 0, 2147483647, 89, 96, 5, 24, 102, 87, 101, 83, 10, 84, 6, 85, 6, 0, 27, 0, 90, 90, -1, 3, 24, 103, 35, 104, 91, 105, 0, 0, 0, 92, 92, -1, 10, 83, 10, 93, 106, 94, 107, 95, 10, 84, 6, 85, 6, 96, 21, 97, 8, 98, 4, 99, 8, 0, 33, 0, 100, 100, -1, 5, 24, 108, 35, 109, 101, 106, 102, 10, 103, 32, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="110" shared="false">
+				<resource  external="0">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+				</dictionary>
+				<real> -5 </real>
+				<real> 0.92 </real>
+				<real> 1 </real>
+				<real> 2048 </real>
+				<int> 1 </int>
+				<resource  external="1">  </resource>
+				<real> 0 </real>
+				<resource  external="2">  </resource>
+				<bool> False </bool>
+				<bool> True </bool>
+				<real> -0.936171 </real>
+				<int> 500 </int>
+				<resource  external="3">  </resource>
+				<vector2> 276.242, 119.368 </vector2>
+				<int> 1200 </int>
+				<int> 1400 </int>
+				<int> 2800 </int>
+				<vector2> -276.242, -119.368 </vector2>
+				<int> 2 </int>
+				<vector2> 0, 0 </vector2>
+				<vector2> 1, 1 </vector2>
+				<resource  external="4">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 0.4, 0.4 </vector2>
+				<real> 0.11593 </real>
+				<vector2> 0.84033, -842.475 </vector2>
+				<resource  external="5">  </resource>
+				<resource  external="6">  </resource>
+				<resource name=""></resource>				<string> "btn_left" </string>
+				<int> 0 </int>
+				<real> 0.15221 </real>
+				<vector2> 200.654, -424.205 </vector2>
+				<vector2> 1, 1 </vector2>
+				<resource  external="7">  </resource>
+				<resource  external="8">  </resource>
+				<string> "btn_right" </string>
+				<real> 0.137207 </real>
+				<vector2> -463.641, -458.299 </vector2>
+				<resource  external="9">  </resource>
+				<resource  external="10">  </resource>
+				<string> "btn_jump" </string>
+				<real> 5 </real>
+				<real> 107 </real>
+				<real> 179 </real>
+				<real> 145 </real>
+				<resource  external="11">  </resource>
+				<color> 0.212769, 0.972656, 0.972656, 1 </color>
+				<color> 0, 0, 0, 1 </color>
+				<string> "Bonos_count" </string>
+				<int> -1 </int>
+				<real> 491 </real>
+				<real> 102 </real>
+				<real> 719 </real>
+				<real> 140 </real>
+				<string> "Medicinas_count" </string>
+				<real> 7 </real>
+				<real> 80 </real>
+				<real> 162 </real>
+				<real> 118 </real>
+				<color> 1, 0, 0.609375, 1 </color>
+				<string> "total" </string>
+				<real> 494 </real>
+				<real> 78 </real>
+				<real> 649 </real>
+				<real> 116 </real>
+				<real> 9 </real>
+				<real> 54 </real>
+				<real> 164 </real>
+				<real> 92 </real>
+				<color> 1, 0.539062, 0, 1 </color>
+				<string> "Bonos" </string>
+				<real> 493 </real>
+				<real> 50 </real>
+				<real> 648 </real>
+				<real> 88 </real>
+				<string> "Medicinas" </string>
+				<vector2> -0.663422, 2.65369 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="12">  </resource>
+				<vector2> 701.476, 220.464 </vector2>
+				<vector2> 941.983, 167.018 </vector2>
+				<vector2> 1185.83, 95.2002 </vector2>
+				<vector2> 1417.98, 35.0735 </vector2>
+				<vector2> 0.7, 0.7 </vector2>
+				<int> 5 </int>
+				<vector2> 1658.49, 33.4036 </vector2>
+				<resource  external="13">  </resource>
+				<vector2> 804.898, 57.6444 </vector2>
+				<resource  external="14">  </resource>
+				<vector2> 1077.55, 225.779 </vector2>
+				<vector2> 1875.35, -25.2784 </vector2>
+				<vector2> 2607.89, -235.458 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="15">  </resource>
+				<vector2> 1157.61, 353.692 </vector2>
+				<real> 19.574837 </real>
+				<vector2> 1, 1 </vector2>
+				<vector2> 1919.21, 220.077 </vector2>
+				<real> 0.222343 </real>
+				<vector2> 3242.11, 213.895 </vector2>
+				<vector2> 2058.91, 653.94 </vector2>
+				<vector2> 63.9323, 2.85228 </vector2>
+				<resource  external="16">  </resource>
+				<resource  resource_type="Shape2D" path="local://1">  </resource>
+				<matrix32> 381.401, 0, 0, 9.08239, 1936.59, 655.98 </matrix32>
+				<vector2> 1936.59, 655.98 </vector2>
+				<vector2> 381.401, 9.08239 </vector2>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

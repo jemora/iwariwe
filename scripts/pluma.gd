@@ -1,0 +1,103 @@
+# BONOS GEAR
+extends Node2D
+
+export var valor = 1
+export var color = 1
+
+var sonidolisto
+
+
+func _ready():
+	add_to_group("tela_arana")
+	if get_owner() != null:
+		get_owner().pluma_total += valor
+		get_owner().get_node("gui/Popup_item/plumas_total").set_text(str(get_owner().pluma_total))
+
+	
+	
+	get_node("Area2D").connect("body_enter",self,"coge_pluma")
+	#get_node("Area2D").connect("body_enter",get_owner().get_node("gui/splash/label"),"_collect_gear")
+	
+#-----Lista de sonidos
+	sonidolisto = get_node("SamplePlayer2D")
+
+
+func coge_pluma( body ):
+
+#	sonidolisto.play("listo")
+#	get_node("AnimationPlayer").play("collect")
+
+	if get_node("AnimationPlayer").get_current_animation() != "collect":
+		if get_owner() != null:
+			get_owner().pluma_collected += valor
+			get_owner().get_node("gui/Popup_item/plumas_collected").set_text(str(get_owner().pluma_collected))
+			sonidolisto.play("listo")
+			get_node("AnimationPlayer").play("collect")
+
+
+		if get_owner().pluma_collected == get_owner().pluma_total:
+			get_owner().get_node("gui/splash/label").set_text("Pluma premio")
+			sonidolisto.play("vida")
+
+
+#..........guardar
+			var add_plumas = get_tree().get_nodes_in_group("save_load")
+			for pluma in add_plumas:
+				pluma.add_plumas()
+
+
+
+
+
+
+	if color == 1: # azul
+
+		var mensajes_pluma = get_tree().get_nodes_in_group("world")
+		for pluma in mensajes_pluma:
+			pluma.pluma_premio()
+
+
+	if color == 2:# amarilla
+
+		var mensajes_pluma = get_tree().get_nodes_in_group("world")
+		for pluma in mensajes_pluma:
+			pluma.pluma_premio2()
+
+
+	if color == 3:# morada
+
+		var mensajes_pluma = get_tree().get_nodes_in_group("world")
+		for pluma in mensajes_pluma:
+			pluma.pluma_premio3()
+
+
+	if color == 4:# roja
+
+		var mensajes_pluma = get_tree().get_nodes_in_group("world")
+		for pluma in mensajes_pluma:
+			pluma.pluma_premio4()
+
+
+	if color == 5:# verde
+
+		var mensajes_pluma = get_tree().get_nodes_in_group("world")
+		for pluma in mensajes_pluma:
+			pluma.pluma_premio5()
+
+
+	if color == 6:# pluma blanca recoleccion, completar para ganar una dorada
+
+		var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
+		for reinicio in mensajes_GUI:
+			reinicio.set_opacidad()
+
+		var grito = get_owner().get_node("gui/splash/label")
+		grito.set_text("Pluma blanca")	
+
+
+	
+	if color == 7:# huevo
+
+		var mensajes_pluma = get_tree().get_nodes_in_group("world")
+		for pluma in mensajes_pluma:
+			pluma.huevo_premio()

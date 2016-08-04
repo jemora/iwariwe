@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="34" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://scripts/level.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://scripts/texto_gui.gd" type="Script" index="11"></ext_resource>
+	<ext_resource path="res://scripts/idiomas_igu.gd" type="Script" index="16"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino3.scn" type="PackedScene" index="21"></ext_resource>
+	<ext_resource path="res://scripts/dialogue_box.gd" type="Script" index="12"></ext_resource>
+	<ext_resource path="res://scripts/save_load.gd" type="Script" index="29"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://elementos/bono.xml" type="PackedScene" index="23"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino recto.xml" type="PackedScene" index="18"></ext_resource>
+	<ext_resource path="res://personajes/character.xml" type="PackedScene" index="1"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino1.scn" type="PackedScene" index="20"></ext_resource>
+	<ext_resource path="res://scripts/touch_screen_button.gd" type="Script" index="3"></ext_resource>
+	<ext_resource path="res://textures/blue_square.png" type="Texture" index="17"></ext_resource>
+	<ext_resource path="res://fonts/dialog_box.fnt" type="Font" index="15"></ext_resource>
+	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="2"></ext_resource>
+	<ext_resource path="res://fonts/chalk.fnt" type="Font" index="10"></ext_resource>
+	<ext_resource path="res://elementos/medicina.xml" type="PackedScene" index="22"></ext_resource>
+	<ext_resource path="res://icon.png" type="Texture" index="30"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://fonts/dialog_box_bold.fnt" type="Font" index="14"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://fonts/dialog_box_italic.fnt" type="Font" index="13"></ext_resource>
+	<ext_resource path="res://sonidos/fondo.ogg" type="AudioStream" index="28"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://enemy.tscn" type="PackedScene" index="25"></ext_resource>
+	<ext_resource path="res://elementos/ave_fuego.scn" type="PackedScene" index="27"></ext_resource>
+	<ext_resource path="res://elementos/chaman.scn" type="PackedScene" index="26"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino2.scn" type="PackedScene" index="19"></ext_resource>
+	<ext_resource path="res://elementos/poresito.scn" type="PackedScene" index="24"></ext_resource>
+	<resource type="RectangleShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 16.7766, 10 </vector2>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://4">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 10, 10 </vector2>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 6 </int>
+			<string> "conns" </string>
+			<int_array  len="36"> 				0, 4, 174, 173, 2, 0, 1, 0, 176, 175, 2, 0, 11, 11, 178, 177, 2, 0, 26, 0, 31, 179, 2, 0, 27, 0, 31, 180, 2, 0, 57, 1, 182, 181, 2, 0 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="183">
+				<string> "world" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Node2D" </string>
+				<string> "player" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/scale" </string>
+				<string> "z/z" </string>
+				<string> "player_speed" </string>
+				<string> "jumpforce" </string>
+				<string> "extra_gravity" </string>
+				<string> "SamplePlayer2D" </string>
+				<string> "params/volume_db" </string>
+				<string> "params/pitch_scale" </string>
+				<string> "params/attenuation/min_distance" </string>
+				<string> "params/attenuation/max_distance" </string>
+				<string> "params/attenuation/distance_exp" </string>
+				<string> "config/polyphony" </string>
+				<string> "config/samples" </string>
+				<string> "config/pitch_random" </string>
+				<string> "SamplePlayer2D_reinicio" </string>
+				<string> "gui" </string>
+				<string> "layer" </string>
+				<string> "offset" </string>
+				<string> "rotation" </string>
+				<string> "scale" </string>
+				<string> "CanvasLayer" </string>
+				<string> "left_inputs" </string>
+				<string> "left" </string>
+				<string> "visibility/opacity" </string>
+				<string> "normal" </string>
+				<string> "pressed" </string>
+				<string> "bitmask" </string>
+				<string> "passby_press" </string>
+				<string> "action" </string>
+				<string> "visibility_mode" </string>
+				<string> "TouchScreenButton" </string>
+				<string> "right" </string>
+				<string> "right_inputs" </string>
+				<string> "splash" </string>
+				<string> "label" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "custom_fonts/font" </string>
+				<string> "custom_colors/font_color" </string>
+				<string> "custom_colors/font_color_shadow" </string>
+				<string> "custom_constants/shadow_as_outline" </string>
+				<string> "align" </string>
+				<string> "percent_visible" </string>
+				<string> "lines_skipped" </string>
+				<string> "max_lines_visible" </string>
+				<string> "splashes_path" </string>
+				<string> "Label" </string>
+				<string> "hud_text" </string>
+				<string> "bonos_collected" </string>
+				<string> "text" </string>
+				<string> "medicinas_collected" </string>
+				<string> "bonos_total" </string>
+				<string> "medicinas_total" </string>
+				<string> "Bonos" </string>
+				<string> "Medicinas" </string>
+				<string> "Bonos_tolal" </string>
+				<string> "Medicina_total" </string>
+				<string> "dialogue_box" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "anchor/right" </string>
+				<string> "anchor/bottom" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "Panel" </string>
+				<string> "custom_fonts/italics_font" </string>
+				<string> "custom_fonts/bold_font" </string>
+				<string> "custom_fonts/normal_font" </string>
+				<string> "bbcode/enabled" </string>
+				<string> "bbcode/bbcode" </string>
+				<string> "visible_characters" </string>
+				<string> "RichTextLabel" </string>
+				<string> "idioma_gui" </string>
+				<string> "Popup_pause" </string>
+				<string> "process/pause_mode" </string>
+				<string> "visibility/visible" </string>
+				<string> "popup/exclusive" </string>
+				<string> "PopupPanel" </string>
+				<string> "Label_pause" </string>
+				<string> "continuar" </string>
+				<string> "toggle_mode" </string>
+				<string> "flat" </string>
+				<string> "Button" </string>
+				<string> "pausa" </string>
+				<string> "mundo" </string>
+				<string> "reinicio" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "StaticBody2D" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "Sprite" </string>
+				<string> "texture" </string>
+				<string> "ground" </string>
+				<string> "camino2" </string>
+				<string> "camino1" </string>
+				<string> "camino1 2" </string>
+				<string> "camino13" </string>
+				<string> "camino14" </string>
+				<string> "camino15" </string>
+				<string> "elementos" </string>
+				<string> "medicina" </string>
+				<string> "bono" </string>
+				<string> "medicina1" </string>
+				<string> "value_medicina" </string>
+				<string> "medicina2" </string>
+				<string> "bono1" </string>
+				<string> "bono2" </string>
+				<string> "bono3" </string>
+				<string> "bono4" </string>
+				<string> "value" </string>
+				<string> "poresito" </string>
+				<string> "mass" </string>
+				<string> "gravity_scale" </string>
+				<string> "tiempo" </string>
+				<string> "tiempo2" </string>
+				<string> "poresito1" </string>
+				<string> "enemy" </string>
+				<string> "dialogos_obj" </string>
+				<string> "chaman" </string>
+				<string> "line" </string>
+				<string> "chaman1" </string>
+				<string> "Ave_fuego" </string>
+				<string> "Position2D" </string>
+				<string> "Timer" </string>
+				<string> "process_mode" </string>
+				<string> "wait_time" </string>
+				<string> "one_shot" </string>
+				<string> "autostart" </string>
+				<string> "Timer_reinicio" </string>
+				<string> "StreamPlayer_fondo" </string>
+				<string> "stream/stream" </string>
+				<string> "stream/play" </string>
+				<string> "stream/loop" </string>
+				<string> "stream/volume_db" </string>
+				<string> "stream/autoplay" </string>
+				<string> "stream/paused" </string>
+				<string> "stream/loop_restart_time" </string>
+				<string> "stream/buffering_ms" </string>
+				<string> "StreamPlayer" </string>
+				<string> "save_load" </string>
+				<string> "fuego" </string>
+				<string> "mode" </string>
+				<string> "custom_integrator" </string>
+				<string> "continuous_cd" </string>
+				<string> "contacts_reported" </string>
+				<string> "contact_monitor" </string>
+				<string> "sleeping" </string>
+				<string> "can_sleep" </string>
+				<string> "velocity/linear" </string>
+				<string> "velocity/angular" </string>
+				<string> "damp_override/linear" </string>
+				<string> "damp_override/angular" </string>
+				<string> "RigidBody2D" </string>
+				<string> "_on_world_script_changed" </string>
+				<string> "script_changed" </string>
+				<string> "_on_player_body_enter" </string>
+				<string> "body_enter" </string>
+				<string> "_on_label_renamed" </string>
+				<string> "renamed" </string>
+				<string> "_on_continuar_pressed" </string>
+				<string> "_on_pausa_pressed" </string>
+				<string> "_on_Timer_reinicio_timeout" </string>
+				<string> "timeout" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 64 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="1266"> 				-1, -1, 3, 0, -1, 2, 1, 0, 2, 1, 0, 0, 0, 2147483647, 4, 2, 6, 5, 3, 6, 4, 7, 5, 8, 6, 9, 7, 10, 8, 0, 1, 0, 11, 11, -1, 9, 5, 9, 12, 10, 13, 11, 14, 11, 15, 12, 16, 11, 17, 5, 18, 13, 19, 10, 0, 1, 0, 11, 20, -1, 10, 5, 14, 6, 15, 12, 16, 13, 11, 14, 11, 15, 12, 16, 11, 17, 17, 18, 13, 19, 10, 0, 0, 0, 26, 21, -1, 6, 22, 17, 23, 18, 24, 10, 25, 19, 1, 20, 2, 21, 0, 4, 0, 3, 27, -1, 2, 6, 22, 2, 23, 0, 5, 0, 36, 28, -1, 8, 29, 24, 5, 25, 30, 26, 31, 27, 32, 28, 33, 29, 34, 30, 35, 31, 0, 5, 0, 36, 37, -1, 8, 29, 32, 5, 33, 30, 34, 31, 35, 32, 28, 33, 29, 34, 36, 35, 31, 0, 4, 0, 3, 38, -1, 2, 6, 22, 2, 37, 0, 8, 0, 36, 36, -1, 8, 29, 38, 5, 39, 30, 40, 31, 41, 32, 28, 33, 29, 34, 42, 35, 31, 0, 4, 0, 3, 39, -1, 2, 5, 43, 6, 44, 0, 10, 0, 57, 40, -1, 17, 41, 45, 42, 46, 43, 47, 44, 48, 45, 49, 46, 49, 47, 5, 48, 50, 49, 51, 50, 52, 51, 17, 52, 17, 53, 11, 54, 31, 55, 53, 1, 54, 56, 55, 0, 4, 0, 3, 58, -1, 1, 2, 56, 0, 12, 0, 57, 59, -1, 15, 41, 57, 42, 58, 43, 59, 44, 60, 45, 49, 46, 49, 47, 5, 48, 50, 49, 61, 50, 52, 51, 17, 60, 62, 53, 11, 54, 31, 55, 53, 0, 12, 0, 57, 61, -1, 15, 41, 63, 42, 64, 43, 65, 44, 66, 45, 49, 46, 49, 47, 5, 48, 50, 49, 61, 50, 52, 51, 17, 60, 62, 53, 11, 54, 31, 55, 53, 0, 12, 0, 57, 62, -1, 15, 41, 67, 42, 68, 43, 69, 44, 70, 45, 49, 46, 49, 47, 5, 48, 50, 49, 71, 50, 52, 51, 17, 60, 72, 53, 11, 54, 31, 55, 53, 0, 12, 0, 57, 63, -1, 15, 41, 73, 42, 74, 43, 75, 44, 76, 45, 49, 46, 49, 47, 5, 48, 50, 49, 71, 50, 52, 51, 17, 60, 72, 53, 11, 54, 31, 55, 53, 0, 12, 0, 57, 64, -1, 15, 41, 77, 42, 78, 43, 79, 44, 80, 45, 49, 46, 49, 47, 5, 48, 50, 49, 81, 50, 52, 51, 17, 60, 82, 53, 11, 54, 31, 55, 53, 0, 12, 0, 57, 65, -1, 15, 41, 83, 42, 84, 43, 85, 44, 86, 45, 49, 46, 49, 47, 5, 48, 50, 49, 81, 50, 52, 51, 17, 60, 87, 53, 11, 54, 31, 55, 53, 0, 12, 0, 57, 66, -1, 15, 41, 88, 42, 89, 43, 90, 44, 91, 45, 49, 46, 49, 47, 5, 48, 50, 49, 71, 50, 52, 51, 17, 60, 72, 53, 11, 54, 31, 55, 53, 0, 12, 0, 57, 67, -1, 15, 41, 92, 42, 93, 43, 94, 44, 95, 45, 49, 46, 49, 47, 5, 48, 50, 49, 71, 50, 52, 51, 17, 60, 72, 53, 11, 54, 31, 55, 53, 0, 4, 0, 73, 68, -1, 13, 69, 96, 70, 17, 71, 17, 41, 97, 42, 98, 43, 16, 44, 99, 45, 29, 46, 49, 47, 5, 72, 5, 1, 100, 2, 101, 0, 21, 0, 80, 60, -1, 14, 41, 84, 42, 102, 43, 57, 44, 103, 45, 29, 46, 49, 47, 5, 72, 5, 74, 104, 75, 105, 76, 106, 77, 49, 78, 107, 79, 53, 0, 4, 0, 57, 81, -1, 12, 41, 108, 42, 109, 43, 76, 44, 110, 45, 49, 46, 49, 47, 5, 60, 111, 53, 11, 54, 31, 55, 53, 1, 112, 0, 4, 0, 86, 82, -1, 13, 83, 5, 84, 29, 69, 113, 41, 114, 42, 115, 43, 116, 44, 117, 45, 29, 46, 49, 47, 5, 72, 5, 85, 29, 2, 118, 0, 24, 0, 57, 87, -1, 11, 41, 119, 42, 120, 43, 114, 44, 121, 45, 49, 46, 49, 47, 5, 60, 122, 53, 11, 54, 31, 55, 53, 0, 24, 0, 91, 88, -1, 11, 41, 123, 42, 124, 43, 125, 44, 126, 45, 29, 46, 49, 47, 5, 72, 5, 89, 29, 60, 127, 90, 29, 0, 4, 0, 91, 92, -1, 11, 41, 128, 42, 129, 43, 79, 44, 130, 45, 29, 46, 49, 47, 5, 72, 5, 89, 29, 60, 131, 90, 29, 0, 0, 0, 3, 93, -1, 1, 2, 132, 0, 28, 0, 105, 94, -1, 11, 95, 29, 96, 133, 97, 134, 98, 49, 99, 17, 100, 17, 101, 18, 102, 10, 103, 11, 104, 10, 2, 135, 0, 29, 0, 106, 106, -1, 5, 5, 136, 6, 137, 107, 133, 108, 49, 109, 31, 0, 29, 0, 110, 110, -1, 5, 29, 138, 5, 139, 6, 140, 7, 141, 111, 142, 0, 28, 0, 2147483647, 112, 143, 2, 5, 144, 6, 145, 0, 28, 0, 2147483647, 113, 146, 1, 5, 147, 0, 28, 0, 2147483647, 114, 148, 1, 5, 149, 0, 28, 0, 2147483647, 115, 150, 1, 5, 151, 0, 28, 0, 2147483647, 116, 150, 1, 5, 152, 0, 28, 0, 2147483647, 117, 150, 1, 5, 153, 0, 28, 0, 2147483647, 118, 150, 1, 5, 154, 0, 0, 0, 3, 119, -1, 2, 5, 155, 2, 156, 0, 39, 0, 2147483647, 120, 157, 2, 5, 158, 6, 159, 0, 39, 0, 2147483647, 121, 160, 1, 5, 161, 0, 39, 0, 2147483647, 122, 157, 3, 5, 162, 6, 163, 123, 164, 0, 39, 0, 2147483647, 124, 157, 2, 5, 165, 123, 141, 0, 39, 0, 2147483647, 125, 160, 1, 5, 166, 0, 39, 0, 2147483647, 126, 160, 1, 5, 167, 0, 39, 0, 2147483647, 127, 160, 1, 5, 168, 0, 39, 0, 2147483647, 128, 160, 2, 5, 169, 129, 170, 0, 39, 0, 2147483647, 130, 171, 6, 5, 172, 6, 173, 131, 66, 132, 16, 133, 141, 134, 141, 0, 39, 0, 2147483647, 135, 171, 6, 5, 174, 6, 173, 131, 66, 132, 16, 133, 141, 134, 164, 0, 0, 0, 2147483647, 136, 175, 2, 5, 176, 6, 177, 0, 0, 0, 3, 137, -1, 1, 2, 178, 0, 51, 0, 2147483647, 138, 179, 3, 5, 180, 6, 181, 139, 182, 0, 51, 0, 2147483647, 140, 179, 3, 5, 183, 6, 181, 139, 184, 0, 0, 0, 2147483647, 141, 185, 3, 5, 186, 6, 187, 133, 164, 0, 54, 0, 142, 142, -1, 2, 5, 188, 6, 189, 0, 0, 0, 143, 143, -1, 4, 144, 17, 145, 11, 146, 29, 147, 49, 0, 0, 0, 143, 148, -1, 4, 144, 17, 145, 11, 146, 29, 147, 29, 0, 0, 0, 11, 11, -1, 8, 12, 190, 13, 191, 14, 11, 15, 12, 16, 11, 17, 17, 18, 13, 19, 10, 0, 0, 0, 158, 149, -1, 8, 150, 192, 151, 29, 152, 49, 153, 193, 154, 49, 155, 29, 156, 10, 157, 194, 0, 0, 0, 3, 159, -1, 1, 1, 195, 0, 0, 0, 172, 160, -1, 22, 5, 196, 95, 29, 96, 197, 97, 198, 98, 29, 99, 17, 100, 17, 161, 5, 131, 11, 103, 11, 104, 10, 132, 11, 162, 29, 163, 31, 164, 31, 165, 29, 166, 29, 167, 49, 168, 18, 169, 10, 170, 199, 171, 199, 0, 61, 0, 110, 110, -1, 1, 111, 200, 0, 61, 0, 106, 106, -1, 4, 6, 201, 107, 197, 108, 29, 109, 31, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="202" shared="false">
+				<resource  external="0">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+				</dictionary>
+				<resource  external="1">  </resource>
+				<vector2> 162.824, 254.872 </vector2>
+				<vector2> 0.883957, 0.883957 </vector2>
+				<int> 2 </int>
+				<int> 1200 </int>
+				<int> 1400 </int>
+				<int> 2800 </int>
+				<vector2> -276.242, -119.368 </vector2>
+				<real> 0 </real>
+				<real> 1 </real>
+				<real> 2048 </real>
+				<resource  external="2">  </resource>
+				<vector2> -277.229, -121.13 </vector2>
+				<vector2> 0.96917, 0.944922 </vector2>
+				<real> 5 </real>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<vector2> 1, 1 </vector2>
+				<resource  external="3">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 0.4, 0.4 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.11593 </real>
+				<vector2> 6.60912, -711.858 </vector2>
+				<resource  external="4">  </resource>
+				<resource  external="5">  </resource>
+				<resource name=""></resource>				<bool> False </bool>
+				<string> "btn_left" </string>
+				<int> 0 </int>
+				<real> 0.15221 </real>
+				<vector2> 333.438, -413.25 </vector2>
+				<resource  external="6">  </resource>
+				<resource  external="7">  </resource>
+				<string> "btn_right" </string>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.137207 </real>
+				<vector2> -417.245, -417.268 </vector2>
+				<resource  external="8">  </resource>
+				<resource  external="9">  </resource>
+				<string> "btn_jump" </string>
+				<vector2> 405.095, 328.265 </vector2>
+				<vector2> 1.08134, 1.12139 </vector2>
+				<real> -258 </real>
+				<real> -94 </real>
+				<real> 250 </real>
+				<real> 54 </real>
+				<bool> True </bool>
+				<resource  external="10">  </resource>
+				<color> 0, 0.71875, 1, 1 </color>
+				<color> 0, 0, 0, 1 </color>
+				<int> -1 </int>
+				<resource  external="11">  </resource>
+				<string> "res://igu/splashes.txt" </string>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 20 </real>
+				<real> 73 </real>
+				<real> 37 </real>
+				<real> 111 </real>
+				<color> 0.212769, 0.972656, 0.972656, 1 </color>
+				<string> "0" </string>
+				<real> 630 </real>
+				<real> 62 </real>
+				<real> 647 </real>
+				<real> 100 </real>
+				<real> 21 </real>
+				<real> 45 </real>
+				<real> 36 </real>
+				<real> 83 </real>
+				<color> 1, 0, 0.609375, 1 </color>
+				<string> "x" </string>
+				<real> 631 </real>
+				<real> 34 </real>
+				<real> 646 </real>
+				<real> 72 </real>
+				<real> 15 </real>
+				<real> 18 </real>
+				<real> 105 </real>
+				<real> 56 </real>
+				<color> 1, 0.539062, 0, 1 </color>
+				<string> "Bonos" </string>
+				<real> 617 </real>
+				<real> 8 </real>
+				<real> 772 </real>
+				<real> 46 </real>
+				<string> "Medicinas" </string>
+				<real> 316 </real>
+				<real> 559 </real>
+				<real> 331 </real>
+				<real> 597 </real>
+				<real> 460 </real>
+				<real> 558 </real>
+				<real> 475 </real>
+				<real> 596 </real>
+				<real> 0.347958 </real>
+				<real> 519 </real>
+				<real> 91 </real>
+				<real> 132 </real>
+				<resource  external="12">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 11 </real>
+				<real> 66 </real>
+				<resource  external="13">  </resource>
+				<resource  external="14">  </resource>
+				<resource  external="15">  </resource>
+				<string> "" </string>
+				<real> 12 </real>
+				<real> 542 </real>
+				<real> 555 </real>
+				<string> "castellano" </string>
+				<resource  external="16">  </resource>
+				<real> 0.444746 </real>
+				<real> 214 </real>
+				<real> 133 </real>
+				<real> 585 </real>
+				<real> 422 </real>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 159 </real>
+				<real> 52 </real>
+				<real> 65 </real>
+				<string> "Pausado" </string>
+				<real> 141 </real>
+				<real> 235 </real>
+				<real> 240 </real>
+				<real> 271 </real>
+				<string> "Continuar" </string>
+				<real> 9 </real>
+				<real> 113 </real>
+				<real> 161 </real>
+				<string> "Pausa" </string>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  resource_type="Shape2D" path="local://3">  </resource>
+				<matrix32> 636.152, -0, 0, 6.89146, 2462.8, 783.919 </matrix32>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 2462.8, 783.919 </vector2>
+				<vector2> 636.152, 6.89146 </vector2>
+				<real> 0.401364 </real>
+				<vector2> 3133.7, 1789.8 </vector2>
+				<vector2> 173.038, 36.4036 </vector2>
+				<int> 3 </int>
+				<resource  external="17">  </resource>
+				<resource  external="18">  </resource>
+				<vector2> 6.86042, 496.253 </vector2>
+				<vector2> 2.17183, 1 </vector2>
+				<resource  external="19">  </resource>
+				<vector2> 1086.15, 355.732 </vector2>
+				<resource  external="20">  </resource>
+				<vector2> 2701.74, 94.3262 </vector2>
+				<resource  external="21">  </resource>
+				<vector2> 4763.27, 244.122 </vector2>
+				<vector2> 6442.83, -294.605 </vector2>
+				<vector2> 8388.59, 415.247 </vector2>
+				<vector2> 10423.1, 256.798 </vector2>
+				<vector2> -0.663422, 2.65369 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="22">  </resource>
+				<vector2> 1877.64, -175.969 </vector2>
+				<vector2> 0.606575, 0.606575 </vector2>
+				<resource  external="23">  </resource>
+				<vector2> 2548.33, -191.195 </vector2>
+				<vector2> 1619.76, 98.656 </vector2>
+				<vector2> 0.947418, 0.947418 </vector2>
+				<int> 5 </int>
+				<vector2> 2260.99, -169.513 </vector2>
+				<vector2> 2992.29, -82.7853 </vector2>
+				<vector2> 3302.03, -62.136 </vector2>
+				<vector2> 3807.94, -108.597 </vector2>
+				<vector2> 4257.06, 278.579 </vector2>
+				<int> 10 </int>
+				<resource  external="24">  </resource>
+				<vector2> 11425, -66.7433 </vector2>
+				<vector2> 1.7151, 1.7151 </vector2>
+				<vector2> 11106.3, 33.4846 </vector2>
+				<resource  external="25">  </resource>
+				<vector2> 4666.9, 94.1641 </vector2>
+				<vector2> 1.59347, 1.59347 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="26">  </resource>
+				<vector2> 9181.84, 177.939 </vector2>
+				<vector2> 1.22009, 1.22009 </vector2>
+				<string> "chaman2" </string>
+				<vector2> 671.996, 308.463 </vector2>
+				<string> "chaman1" </string>
+				<resource  external="27">  </resource>
+				<vector2> 393.397, 129.843 </vector2>
+				<vector2> 0.685439, 0.685439 </vector2>
+				<vector2> -0.978941, 149.308 </vector2>
+				<vector2> 1.45892, 1.45892 </vector2>
+				<real> -5 </real>
+				<real> 0.92 </real>
+				<resource  external="28">  </resource>
+				<real> -0.936171 </real>
+				<int> 500 </int>
+				<resource  external="29">  </resource>
+				<vector2> -268.902, 427.568 </vector2>
+				<resource  resource_type="Shape2D" path="local://4">  </resource>
+				<matrix32> 3.38266, -0, 0, 3.38266, 0, 0 </matrix32>
+				<real> -1 </real>
+				<resource  external="30">  </resource>
+				<vector2> 3.38266, 3.38266 </vector2>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>

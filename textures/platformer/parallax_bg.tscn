@@ -1,0 +1,114 @@
+[gd_scene load_steps=7 format=1]
+
+[ext_resource path="res://textures/platformer/scroll_bg_sky.png" type="Texture" id=1]
+[ext_resource path="res://textures/platformer/scroll_bg_cloud_1.png" type="Texture" id=2]
+[ext_resource path="res://textures/fondos/montañas_1.png" type="Texture" id=3]
+[ext_resource path="res://textures/fondos/fondo_arboles_grande.png" type="Texture" id=4]
+[ext_resource path="res://textures/fondos/agua_lejos.png" type="Texture" id=5]
+[ext_resource path="res://textures/fondos/fondo_arboles_2.png" type="Texture" id=6]
+
+[node name="parallax_bg" type="ParallaxBackground"]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+scroll/offset = Vector2( 0, 0 )
+scroll/base_offset = Vector2( 0, 0 )
+scroll/base_scale = Vector2( 0.4, 0 )
+scroll/limit_begin = Vector2( 0, 0 )
+scroll/limit_end = Vector2( 0, 0 )
+scroll/ignore_camera_zoom = true
+
+[node name="sky" type="ParallaxLayer" parent="."]
+
+transform/pos = Vector2( -1.68149, -30.1748 )
+motion/scale = Vector2( 1, 1 )
+motion/mirroring = Vector2( 800, 0 )
+__meta__ = { "_editor_collapsed":true }
+
+[node name="Sprite" type="Sprite" parent="sky"]
+
+transform/pos = Vector2( 2.95307, 15.3262 )
+transform/scale = Vector2( 40, 0.599461 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="clouds" type="ParallaxLayer" parent="."]
+
+transform/pos = Vector2( -1.6815, -19.0168 )
+motion/scale = Vector2( 0.1, 1 )
+motion/mirroring = Vector2( 800, 0 )
+__meta__ = { "_editor_collapsed":true }
+
+[node name="Sprite" type="Sprite" parent="clouds"]
+
+visibility/visible = false
+transform/pos = Vector2( 70.5642, 86.2864 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="mount_ 2" type="ParallaxLayer" parent="."]
+
+transform/pos = Vector2( -1.6815, -30.1748 )
+motion/scale = Vector2( 0.1, 1 )
+motion/mirroring = Vector2( 1250, 0 )
+
+[node name="Sprite" type="Sprite" parent="mount_ 2"]
+
+transform/pos = Vector2( 4.47794, -7.15701 )
+transform/scale = Vector2( 1.59838, 1.23834 )
+texture = ExtResource( 3 )
+centered = false
+region = true
+region_rect = Rect2( 0, 0, 800, 400 )
+
+[node name="mount_1" type="ParallaxLayer" parent="."]
+
+transform/pos = Vector2( 7, 140.568 )
+motion/scale = Vector2( 0.2, 0.8 )
+motion/mirroring = Vector2( 900, 0 )
+
+[node name="Sprite" type="Sprite" parent="mount_1"]
+
+transform/pos = Vector2( -6.44397, -139.099 )
+transform/scale = Vector2( 1.00273, 1.29719 )
+texture = ExtResource( 4 )
+centered = false
+region = true
+region_rect = Rect2( 0, 0, 900, 500 )
+
+[node name="agua" type="ParallaxLayer" parent="."]
+
+transform/pos = Vector2( 8.55413, 140.568 )
+motion/scale = Vector2( 0.9, 0.6 )
+motion/mirroring = Vector2( 1500, 0 )
+__meta__ = { "_editor_collapsed":true }
+
+[node name="Sprite1" type="Sprite" parent="agua"]
+
+transform/pos = Vector2( -14.7002, 361.5 )
+transform/scale = Vector2( 1.04522, 1.73321 )
+texture = ExtResource( 5 )
+centered = false
+region = true
+region_rect = Rect2( 0, 0, 1500, 100 )
+
+[node name="mount_2" type="ParallaxLayer" parent="."]
+
+transform/pos = Vector2( 8.55413, 140.568 )
+motion/scale = Vector2( 0.9, 0.6 )
+motion/mirroring = Vector2( 1200, 0 )
+__meta__ = { "_editor_collapsed":true }
+
+[node name="Sprite" type="Sprite" parent="mount_2"]
+
+transform/pos = Vector2( -9.32296, 181.882 )
+transform/scale = Vector2( 1.01524, 1.03976 )
+texture = ExtResource( 6 )
+centered = false
+flip_h = true
+region = true
+region_rect = Rect2( 0, 0, 1200, 193 )
+
+

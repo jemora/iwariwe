@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="144" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://fonts/chalk.fnt" type="Font" index="10"></ext_resource>
+	<ext_resource path="res://textures/fondos/tronco4.png" type="Texture" index="26"></ext_resource>
+	<ext_resource path="res://sonidos/fondo.ogg" type="AudioStream" index="19"></ext_resource>
+	<ext_resource path="res://scripts/level.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="18"></ext_resource>
+	<ext_resource path="res://elementos/pluma.xml" type="PackedScene" index="59"></ext_resource>
+	<ext_resource path="res://scripts/save_load.gd" type="Script" index="20"></ext_resource>
+	<ext_resource path="res://scripts/telarana.gd" type="Script" index="57"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco1.png" type="Texture" index="44"></ext_resource>
+	<ext_resource path="res://textures/fondos/flor_de_palo5.png" type="Texture" index="30"></ext_resource>
+	<ext_resource path="res://scripts/touch_screen_button.gd" type="Script" index="1"></ext_resource>
+	<ext_resource path="res://textures/fondos/flor_de_palo3.png" type="Texture" index="34"></ext_resource>
+	<ext_resource path="res://textures/elementos/items.png" type="Texture" index="12"></ext_resource>
+	<ext_resource path="res://scripts/idiomas_igu.gd" type="Script" index="14"></ext_resource>
+	<ext_resource path="res://scripts/texto_gui.gd" type="Script" index="11"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://textures/fondos/telaraña.png" type="Texture" index="40"></ext_resource>
+	<ext_resource path="res://textures/fondos/agua_lejos.png" type="Texture" index="47"></ext_resource>
+	<ext_resource path="res://textures/fondos/montañas_1_2.png" type="Texture" index="51"></ext_resource>
+	<ext_resource path="res://icon.png" type="Texture" index="56"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedra_caiman.png" type="Texture" index="23"></ext_resource>
+	<ext_resource path="res://textures/fondos/tronco1.png" type="Texture" index="24"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://textures/elementos/opciones_on.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_grande6.png" type="Texture" index="25"></ext_resource>
+	<ext_resource path="res://textures/fondos/tronco2.png" type="Texture" index="27"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras1.png" type="Texture" index="49"></ext_resource>
+	<ext_resource path="res://textures/elementos/opciones.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco3.png" type="Texture" index="38"></ext_resource>
+	<ext_resource path="res://textures/fondos/musgo1.png" type="Texture" index="48"></ext_resource>
+	<ext_resource path="res://textures/fondos/rama4.png" type="Texture" index="33"></ext_resource>
+	<ext_resource path="res://textures/fondos/flor_de_palo1.png" type="Texture" index="32"></ext_resource>
+	<ext_resource path="res://textures/fondos/rama6.png" type="Texture" index="35"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco2_a.png" type="Texture" index="36"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco2_b.png" type="Texture" index="41"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco2x.png" type="Texture" index="39"></ext_resource>
+	<ext_resource path="res://textures/fondos/flor_de_palo2.png" type="Texture" index="31"></ext_resource>
+	<ext_resource path="res://textures/fondos/rama3.png" type="Texture" index="29"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco2.png" type="Texture" index="28"></ext_resource>
+	<ext_resource path="res://textures/fondos/tronco_huevos.png" type="Texture" index="43"></ext_resource>
+	<ext_resource path="res://textures/fondos/camino_tabla1.png" type="Texture" index="37"></ext_resource>
+	<ext_resource path="res://textures/fondos/rama5.png" type="Texture" index="42"></ext_resource>
+	<ext_resource path="res://textures/fondos/cueva_interna.png" type="Texture" index="50"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino4.scn" type="PackedScene" index="52"></ext_resource>
+	<ext_resource path="res://elementos/Popup_pause.scn" type="PackedScene" index="16"></ext_resource>
+	<ext_resource path="res://igu/dialogue_box.scn" type="PackedScene" index="15"></ext_resource>
+	<ext_resource path="res://scripts/caiman.gd" type="Script" index="61"></ext_resource>
+	<ext_resource path="res://elementos/Popup_item.scn" type="PackedScene" index="17"></ext_resource>
+	<ext_resource path="res://elementos/pluma_blanca.xml" type="PackedScene" index="46"></ext_resource>
+	<ext_resource path="res://elementos/ave_fuego.scn" type="PackedScene" index="54"></ext_resource>
+	<ext_resource path="res://elementos/chaman.scn" type="PackedScene" index="53"></ext_resource>
+	<ext_resource path="res://elementos/caiman.scn" type="PackedScene" index="60"></ext_resource>
+	<ext_resource path="res://elementos/medicina.xml" type="PackedScene" index="21"></ext_resource>
+	<ext_resource path="res://personajes/character.xml" type="PackedScene" index="55"></ext_resource>
+	<ext_resource path="res://elementos/elementos_misiones.scn" type="PackedScene" index="13"></ext_resource>
+	<ext_resource path="res://elementos/poresito.scn" type="PackedScene" index="22"></ext_resource>
+	<ext_resource path="res://elementos/huevo.xml" type="PackedScene" index="45"></ext_resource>
+	<ext_resource path="res://textures/platformer/parallax_bg.tscn" type="PackedScene" index="58"></ext_resource>
+	<resource type="ConvexPolygonShape2D" path="local://194">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			11478.1, 580.062, 11594.7, 631.301, 11630.8, 685.225, 11615.2, 765.909, 9452.23, 731.302, 11056.8, 596.773 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://195">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			10781.2, 605.452, 11056.8, 596.773, 9452.23, 731.302 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://196">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10722.4, 503.542, 10781.2, 605.452, 9452.23, 731.302, 10323.9, 502.945 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://197">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10323.9, 502.945, 9452.23, 731.302, 9724.54, 366.31, 9948.03, 383.28 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://198">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			9724.54, 366.31, 9914.69, 329.494, 9948.03, 383.28 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://199">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			10155.5, 336.535, 10323.9, 502.945, 9948.03, 383.28, 10069.6, 340.807 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://200">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			2397.58, 86.2699, 2436.5, 162.225, 173.543, 166.509, 454.902, 64.8908, 1232.2, 65.4709 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://201">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			173.543, 166.509, 223.922, 59.5378, 454.902, 64.8908 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://202">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			2397.58, 86.2699, 1232.2, 65.4709, 1281.74, 47.5827 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://203">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			17381.8, -78.0397, 17558.2, -61.2021, 17722.6, -35.9457, 17700.2, 1.45746, 17322.7, 69.1387, 17358.9, -70.514 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://204">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17568.7, -105.434, 17846.4, -130.989, 17664.2, -73.2802, 17303.1, -36.3811 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://205">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17303.1, -36.3811, 17173.7, -65.153, 17389.5, -103.995, 17568.7, -105.434 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://206">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17358.5, -15.3757, 17039.6, -39.1164, 17067.3, -49.4021, 17374.8, -39.407 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://207">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17638, 14.9933, 17358.5, -15.3757, 17374.8, -39.407, 17641.3, -4.09453 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://208">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			17683.9, -11.5745, 17678.4, -127.43, 17697.4, -3.35124 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://209">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17683.9, -11.5745, 17697.4, -3.35124, 17566.8, 12.3502, 17609.6, -0.228798 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://210">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			17566.8, 12.3502, 17552.4, -0.228798, 17609.6, -0.228798 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://211">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			17358.7, 28.9643, 17547.5, 45.8426, 17414.1, 45.9474 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://212">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17280.8, 61.4225, 17226.9, 62.7208, 17358.7, 28.9643, 17327.2, 51.1408 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://213">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			17327.2, 51.1408, 17358.7, 28.9643, 17414.1, 45.9474 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://214">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			17732.6, 15.6558, 17742.4, -299.549, 17751.3, 26.1541 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://215">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			17634.4, 13.6921, 17732.6, 15.6558, 17751.3, 26.1541, 17550.2, 34.6438, 17560.8, 23.2909 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://216">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			17688.4, -8.58459, 17690.4, -249.689, 17704.1, -4.30347 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://217">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			17605, 36.7354, 17541.1, 18.1671, 17616, 18.1671 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://218">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17704.1, -4.30347, 17605, 36.7354, 17616, 18.1671, 17688.4, -8.58459 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://219">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			17579.6, -51.3723, 17715.6, -44.8173, 17783.6, -14.5311, 17637.1, 8.74591, 17452.8, 26.4363, 17451.9, -14.6888 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://220">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17614.5, -6.23737, 17681.7, -12.3782, 17675.6, 5.9046, 17615.7, 16.6592 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://221">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17614.5, -6.23737, 17615.7, 16.6592, 17547.9, -8.07632, 17547.5, -16.5042 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://222">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17573.8, -70.408, 17818.9, -121.553, 17704, -82.7284, 17452, -42.8782 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://223">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17413.5, -62.6179, 17573.8, -70.408, 17452, -42.8782, 17311.7, -44.4413 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://224">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17407, -77.0096, 17208.2, -111.463, 17367.2, -119.215, 17618.7, -108.879 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://225">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17618.7, -108.879, 17852.2, -58.9215, 17621.6, -21.0227, 17407, -77.0096 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://226">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17809.5, -151.728, 17941.2, -131.635, 17502.5, -125.03, 17585, -144.325 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://227">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17502.5, -125.03, 17250.3, -191.35, 17326.3, -190.855, 17585, -144.325 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://228">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			17634.1, -66.0759, 17784.2, -76.1953, 17830.1, -60.5574, 17748.1, -22.8215, 17494, -32.4836, 17561.6, -53.1558 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://229">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			22642.1, -81.0636, 23062, -89.45, 23113.3, -60.1561, 21616.2, 141.815, 22356.6, -30.713 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://230">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			21931.7, -10.5728, 22356.6, -30.713, 21616.2, 141.815, 21687.7, 34.0236 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://231">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			20753.2, -91.1338, 21495.2, -6.25696, 21687.7, 34.0236, 21616.2, 141.815, 20061.9, -23.2467, 20135.7, -145.8 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://232">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			19425.3, -85.3795, 20135.7, -145.8, 20061.9, -23.2467, 18384.6, 125.841, 18760.3, -26.278 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://233">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17886.6, 25.392, 18760.3, -26.278, 18384.6, 125.841, 17850.2, 147.139 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://234">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			17371.5, -11.5679, 17886.6, 25.392, 17850.2, 147.139, 17352.5, 56.6218 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://235">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			20987.7, -3083.94, 21032.3, -3056.94, 21056.5, -3017.95, 20971.9, -3049.41, 20930.9, -3094.57 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://236">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			20862.5, -3088.27, 20821.3, -3093.83, 20811.4, -3125.3, 20854.3, -3125.29, 20930.9, -3094.57 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://237">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			20971.9, -3049.41, 20862.5, -3088.27, 20930.9, -3094.57 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://238">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			17710.6, -48.0791, 17785, -41.8604, 17834.3, -24.7585, 17723.1, -15.4302, 17611, -17.7622, 17637.9, -36.4187 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://239">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			26186.6, -3112.27, 26715.6, -3226.06, 26813.3, -3198.17, 25888.1, -2891.9, 25809.1, -2966.64 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://240">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			24978.7, -2869.58, 25337.3, -2927.58, 25809.1, -2966.64, 25888.1, -2891.9, 25037.3, -2758, 24526.8, -2730.11 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://241">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			24496.1, -2844.48, 24978.7, -2869.58, 24526.8, -2730.11, 24180.9, -2713.37, 24144.7, -2785.9 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://242">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			26890.2, -3120.5, 27352.9, -3155.66, 27410.2, -3094.59, 26460.9, -2920.63, 26536.7, -3053.88 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://243">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			26051.9, -3024.27, 26536.7, -3053.88, 26460.9, -2920.63, 25729.9, -2863.26, 25687.3, -2952.09 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://244">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			26504.6, -3185.33, 25673.1, -3326.2, 25718.6, -3386.25, 26195.6, -3361.14, 26558.3, -3283.04 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://245">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			27402.1, -3114.9, 26504.6, -3185.33, 26558.3, -3283.04, 27034, -3260.31, 27402.1, -3176.25 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://246">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			26481.4, -3273.17, 26481.4, -2939.36, 26434.2, -2625.52, 26432, -3016.63, 26435.1, -3183.54 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://247">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			26435.1, -3183.54, 25673.1, -3326.2, 25718.6, -3386.25, 26195.6, -3361.14, 26481.4, -3273.17 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://248">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			28796.6, -1338.02, 28353.2, -1233.27, 28014.7, -1163.14, 27932.8, -1189.74, 28277, -1297.21, 28740.9, -1399.24 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://249">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			28557.6, -552.095, 28898.4, -436.852, 28751.4, -432.73, 28041.5, -613.992, 28100, -657.316 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://250">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			27286.6, -1225.18, 27464.1, -1208.5, 27422.9, -1116.77, 27259.9, -1106.6, 27143, -1193.45 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://251">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			27212.2, -858.52, 27143, -1193.45, 27259.9, -1106.6, 27290, -916.195 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://252">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			28041.5, -613.992, 27212.2, -858.52, 27290, -916.195, 27752.6, -804.292, 28083.3, -690.72, 28100, -657.316 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://253">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			30739.4, -2191.15, 30537.3, -2186.14, 30584.1, -2241.26, 30761.1, -2271.32 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://254">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			30856.3, -2294.7, 30739.4, -2191.15, 30761.1, -2271.32, 30859.7, -2338.13 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://255">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			31230.9, -2616.4, 30697.8, -2749.69, 30805.5, -2800.77, 31311.6, -2676.98 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://256">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			31630.8, -2462.61, 31230.9, -2616.4, 31311.6, -2676.98, 31667.7, -2546.68 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://257">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			32386.2, -2416.91, 32447.5, -2410.6, 31974, -2174.94, 31910.4, -2230.31 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://258">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			31664.4, -1980.14, 31574.2, -2023.2, 31910.4, -2230.31, 31974, -2174.94 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://259">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="6"> 			32494.1, -2932.75, 31481.3, -4376.38, 30336.6, -6040.76, 31126.5, -5341.62, 31913, -4534.01, 32647, -3013.98 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://260">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			24246.2, -2949.84, 24155.3, -2903.41, 24161.3, -2953.82, 24200.4, -2959.13 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://261">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			24299.4, -2994.03, 24246.2, -2949.84, 24200.4, -2959.13, 24239.8, -2982, 24298.5, -3013.53 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://262">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			22952.8, -4032.16, 22489.8, -4677.74, 22967.8, -4060.8 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://263">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			22952.8, -4032.16, 22967.8, -4060.8, 23049.1, -3851.84, 23027, -3835.88 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://264">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			12678.2, 194.226, 12801.6, -1325.2, 12887.4, -1342.36, 12769, 192.987 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://265">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			29102.5, 37.1745, 28739.8, 227.787, 28614.1, 161.208, 29015.6, -31.2981, 29483.8, -168.243 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://266">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			29600.4, -138.634, 29102.5, 37.1745, 29483.8, -168.243, 29557.8, -170.094 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://267">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			27701.9, 451.348, 27628.4, 377.888, 27791.4, 410.598 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://268">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="5"> 			28740.7, 250.118, 27701.9, 451.348, 27791.4, 410.598, 28093.2, 292.842, 28648.8, 198.04 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://192">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			6941.17, 2024.33, 7720.83, 2106.76, 6798.66, 2110.49 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://193">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			6798.66, 2110.49, 6823.52, 1977.25, 6941.17, 2024.33 </vector2_array>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 32.924, 10 </vector2>
+
+	</resource>
+	<resource type="RectangleShape2D" path="local://4">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 10, 10 </vector2>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://124">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			30.2, -22.3687, 49.3442, -27.5764, 51.8892, 30.2326, 30.8018, 5.8728 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://125">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="3"> 			30.8018, 5.8728, 51.8892, 30.2326, 29.3472, 31.6869 </vector2_array>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 9 </int>
+			<string> "conns" </string>
+			<int_array  len="54"> 				0, 1, 510, 509, 2, 0, 7, 0, 16, 511, 2, 0, 9, 9, 513, 512, 2, 0, 11, 0, 16, 514, 2, 0, 12, 0, 16, 515, 2, 0, 13, 0, 16, 516, 2, 0, 14, 0, 16, 517, 2, 0, 20, 179, 519, 518, 2, 0, 179, 0, 521, 520, 2, 0 </int_array>
+			<string> "editable_instances" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "names" </string>
+			<string_array  len="522">
+				<string> "world" </string>
+				<string> "transform/pos" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Node2D" </string>
+				<string> "gui" </string>
+				<string> "layer" </string>
+				<string> "offset" </string>
+				<string> "rotation" </string>
+				<string> "scale" </string>
+				<string> "CanvasLayer" </string>
+				<string> "left_inputs" </string>
+				<string> "transform/scale" </string>
+				<string> "left" </string>
+				<string> "visibility/opacity" </string>
+				<string> "normal" </string>
+				<string> "pressed" </string>
+				<string> "bitmask" </string>
+				<string> "passby_press" </string>
+				<string> "action" </string>
+				<string> "visibility_mode" </string>
+				<string> "TouchScreenButton" </string>
+				<string> "right" </string>
+				<string> "right_inputs" </string>
+				<string> "pausa" </string>
+				<string> "splash" </string>
+				<string> "label" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "custom_fonts/font" </string>
+				<string> "custom_colors/font_color" </string>
+				<string> "custom_colors/font_color_shadow" </string>
+				<string> "custom_constants/shadow_as_outline" </string>
+				<string> "align" </string>
+				<string> "autowrap" </string>
+				<string> "percent_visible" </string>
+				<string> "lines_skipped" </string>
+				<string> "max_lines_visible" </string>
+				<string> "splashes_path" </string>
+				<string> "Label" </string>
+				<string> "hud_text" </string>
+				<string> "items" </string>
+				<string> "items_mision" </string>
+				<string> "visibility/visible" </string>
+				<string> "items_mision2" </string>
+				<string> "items_mision3" </string>
+				<string> "idioma_gui" </string>
+				<string> "text" </string>
+				<string> "dialogue_box" </string>
+				<string> "Popup_pause" </string>
+				<string> "Popup_item" </string>
+				<string> "Timer" </string>
+				<string> "process_mode" </string>
+				<string> "wait_time" </string>
+				<string> "one_shot" </string>
+				<string> "autostart" </string>
+				<string> "Timer_reinicio" </string>
+				<string> "SamplePlayer2D" </string>
+				<string> "params/volume_db" </string>
+				<string> "params/pitch_scale" </string>
+				<string> "params/attenuation/min_distance" </string>
+				<string> "params/attenuation/max_distance" </string>
+				<string> "params/attenuation/distance_exp" </string>
+				<string> "config/polyphony" </string>
+				<string> "config/samples" </string>
+				<string> "config/pitch_random" </string>
+				<string> "fx" </string>
+				<string> "StreamPlayer_fondo" </string>
+				<string> "stream/stream" </string>
+				<string> "stream/play" </string>
+				<string> "stream/loop" </string>
+				<string> "stream/volume_db" </string>
+				<string> "stream/autoplay" </string>
+				<string> "stream/paused" </string>
+				<string> "stream/loop_restart_time" </string>
+				<string> "stream/buffering_ms" </string>
+				<string> "StreamPlayer" </string>
+				<string> "save_load" </string>
+				<string> "elementos" </string>
+				<string> "medicina1" </string>
+				<string> "z/z" </string>
+				<string> "value_medicina" </string>
+				<string> "frame" </string>
+				<string> "poresito" </string>
+				<string> "mass" </string>
+				<string> "gravity_scale" </string>
+				<string> "tiempo" </string>
+				<string> "tiempo2" </string>
+				<string> "plataformas_colli" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "shapes/1/shape" </string>
+				<string> "shapes/1/transform" </string>
+				<string> "shapes/1/trigger" </string>
+				<string> "shapes/2/shape" </string>
+				<string> "shapes/2/transform" </string>
+				<string> "shapes/2/trigger" </string>
+				<string> "shapes/3/shape" </string>
+				<string> "shapes/3/transform" </string>
+				<string> "shapes/3/trigger" </string>
+				<string> "shapes/4/shape" </string>
+				<string> "shapes/4/transform" </string>
+				<string> "shapes/4/trigger" </string>
+				<string> "shapes/5/shape" </string>
+				<string> "shapes/5/transform" </string>
+				<string> "shapes/5/trigger" </string>
+				<string> "shapes/6/shape" </string>
+				<string> "shapes/6/transform" </string>
+				<string> "shapes/6/trigger" </string>
+				<string> "shapes/7/shape" </string>
+				<string> "shapes/7/transform" </string>
+				<string> "shapes/7/trigger" </string>
+				<string> "shapes/8/shape" </string>
+				<string> "shapes/8/transform" </string>
+				<string> "shapes/8/trigger" </string>
+				<string> "shapes/9/shape" </string>
+				<string> "shapes/9/transform" </string>
+				<string> "shapes/9/trigger" </string>
+				<string> "shapes/10/shape" </string>
+				<string> "shapes/10/transform" </string>
+				<string> "shapes/10/trigger" </string>
+				<string> "shapes/11/shape" </string>
+				<string> "shapes/11/transform" </string>
+				<string> "shapes/11/trigger" </string>
+				<string> "shapes/12/shape" </string>
+				<string> "shapes/12/transform" </string>
+				<string> "shapes/12/trigger" </string>
+				<string> "shapes/13/shape" </string>
+				<string> "shapes/13/transform" </string>
+				<string> "shapes/13/trigger" </string>
+				<string> "shapes/14/shape" </string>
+				<string> "shapes/14/transform" </string>
+				<string> "shapes/14/trigger" </string>
+				<string> "shapes/15/shape" </string>
+				<string> "shapes/15/transform" </string>
+				<string> "shapes/15/trigger" </string>
+				<string> "shapes/16/shape" </string>
+				<string> "shapes/16/transform" </string>
+				<string> "shapes/16/trigger" </string>
+				<string> "shapes/17/shape" </string>
+				<string> "shapes/17/transform" </string>
+				<string> "shapes/17/trigger" </string>
+				<string> "shapes/18/shape" </string>
+				<string> "shapes/18/transform" </string>
+				<string> "shapes/18/trigger" </string>
+				<string> "shapes/19/shape" </string>
+				<string> "shapes/19/transform" </string>
+				<string> "shapes/19/trigger" </string>
+				<string> "shapes/20/shape" </string>
+				<string> "shapes/20/transform" </string>
+				<string> "shapes/20/trigger" </string>
+				<string> "shapes/21/shape" </string>
+				<string> "shapes/21/transform" </string>
+				<string> "shapes/21/trigger" </string>
+				<string> "shapes/22/shape" </string>
+				<string> "shapes/22/transform" </string>
+				<string> "shapes/22/trigger" </string>
+				<string> "shapes/23/shape" </string>
+				<string> "shapes/23/transform" </string>
+				<string> "shapes/23/trigger" </string>
+				<string> "shapes/24/shape" </string>
+				<string> "shapes/24/transform" </string>
+				<string> "shapes/24/trigger" </string>
+				<string> "shapes/25/shape" </string>
+				<string> "shapes/25/transform" </string>
+				<string> "shapes/25/trigger" </string>
+				<string> "shapes/26/shape" </string>
+				<string> "shapes/26/transform" </string>
+				<string> "shapes/26/trigger" </string>
+				<string> "shapes/27/shape" </string>
+				<string> "shapes/27/transform" </string>
+				<string> "shapes/27/trigger" </string>
+				<string> "shapes/28/shape" </string>
+				<string> "shapes/28/transform" </string>
+				<string> "shapes/28/trigger" </string>
+				<string> "shapes/29/shape" </string>
+				<string> "shapes/29/transform" </string>
+				<string> "shapes/29/trigger" </string>
+				<string> "shapes/30/shape" </string>
+				<string> "shapes/30/transform" </string>
+				<string> "shapes/30/trigger" </string>
+				<string> "shapes/31/shape" </string>
+				<string> "shapes/31/transform" </string>
+				<string> "shapes/31/trigger" </string>
+				<string> "shapes/32/shape" </string>
+				<string> "shapes/32/transform" </string>
+				<string> "shapes/32/trigger" </string>
+				<string> "shapes/33/shape" </string>
+				<string> "shapes/33/transform" </string>
+				<string> "shapes/33/trigger" </string>
+				<string> "shapes/34/shape" </string>
+				<string> "shapes/34/transform" </string>
+				<string> "shapes/34/trigger" </string>
+				<string> "shapes/35/shape" </string>
+				<string> "shapes/35/transform" </string>
+				<string> "shapes/35/trigger" </string>
+				<string> "shapes/36/shape" </string>
+				<string> "shapes/36/transform" </string>
+				<string> "shapes/36/trigger" </string>
+				<string> "shapes/37/shape" </string>
+				<string> "shapes/37/transform" </string>
+				<string> "shapes/37/trigger" </string>
+				<string> "shapes/38/shape" </string>
+				<string> "shapes/38/transform" </string>
+				<string> "shapes/38/trigger" </string>
+				<string> "shapes/39/shape" </string>
+				<string> "shapes/39/transform" </string>
+				<string> "shapes/39/trigger" </string>
+				<string> "shapes/40/shape" </string>
+				<string> "shapes/40/transform" </string>
+				<string> "shapes/40/trigger" </string>
+				<string> "shapes/41/shape" </string>
+				<string> "shapes/41/transform" </string>
+				<string> "shapes/41/trigger" </string>
+				<string> "shapes/42/shape" </string>
+				<string> "shapes/42/transform" </string>
+				<string> "shapes/42/trigger" </string>
+				<string> "shapes/43/shape" </string>
+				<string> "shapes/43/transform" </string>
+				<string> "shapes/43/trigger" </string>
+				<string> "shapes/44/shape" </string>
+				<string> "shapes/44/transform" </string>
+				<string> "shapes/44/trigger" </string>
+				<string> "shapes/45/shape" </string>
+				<string> "shapes/45/transform" </string>
+				<string> "shapes/45/trigger" </string>
+				<string> "shapes/46/shape" </string>
+				<string> "shapes/46/transform" </string>
+				<string> "shapes/46/trigger" </string>
+				<string> "shapes/47/shape" </string>
+				<string> "shapes/47/transform" </string>
+				<string> "shapes/47/trigger" </string>
+				<string> "shapes/48/shape" </string>
+				<string> "shapes/48/transform" </string>
+				<string> "shapes/48/trigger" </string>
+				<string> "shapes/49/shape" </string>
+				<string> "shapes/49/transform" </string>
+				<string> "shapes/49/trigger" </string>
+				<string> "shapes/50/shape" </string>
+				<string> "shapes/50/transform" </string>
+				<string> "shapes/50/trigger" </string>
+				<string> "shapes/51/shape" </string>
+				<string> "shapes/51/transform" </string>
+				<string> "shapes/51/trigger" </string>
+				<string> "shapes/52/shape" </string>
+				<string> "shapes/52/transform" </string>
+				<string> "shapes/52/trigger" </string>
+				<string> "shapes/53/shape" </string>
+				<string> "shapes/53/transform" </string>
+				<string> "shapes/53/trigger" </string>
+				<string> "shapes/54/shape" </string>
+				<string> "shapes/54/transform" </string>
+				<string> "shapes/54/trigger" </string>
+				<string> "shapes/55/shape" </string>
+				<string> "shapes/55/transform" </string>
+				<string> "shapes/55/trigger" </string>
+				<string> "shapes/56/shape" </string>
+				<string> "shapes/56/transform" </string>
+				<string> "shapes/56/trigger" </string>
+				<string> "shapes/57/shape" </string>
+				<string> "shapes/57/transform" </string>
+				<string> "shapes/57/trigger" </string>
+				<string> "shapes/58/shape" </string>
+				<string> "shapes/58/transform" </string>
+				<string> "shapes/58/trigger" </string>
+				<string> "shapes/59/shape" </string>
+				<string> "shapes/59/transform" </string>
+				<string> "shapes/59/trigger" </string>
+				<string> "shapes/60/shape" </string>
+				<string> "shapes/60/transform" </string>
+				<string> "shapes/60/trigger" </string>
+				<string> "shapes/61/shape" </string>
+				<string> "shapes/61/transform" </string>
+				<string> "shapes/61/trigger" </string>
+				<string> "shapes/62/shape" </string>
+				<string> "shapes/62/transform" </string>
+				<string> "shapes/62/trigger" </string>
+				<string> "shapes/63/shape" </string>
+				<string> "shapes/63/transform" </string>
+				<string> "shapes/63/trigger" </string>
+				<string> "shapes/64/shape" </string>
+				<string> "shapes/64/transform" </string>
+				<string> "shapes/64/trigger" </string>
+				<string> "shapes/65/shape" </string>
+				<string> "shapes/65/transform" </string>
+				<string> "shapes/65/trigger" </string>
+				<string> "shapes/66/shape" </string>
+				<string> "shapes/66/transform" </string>
+				<string> "shapes/66/trigger" </string>
+				<string> "shapes/67/shape" </string>
+				<string> "shapes/67/transform" </string>
+				<string> "shapes/67/trigger" </string>
+				<string> "shapes/68/shape" </string>
+				<string> "shapes/68/transform" </string>
+				<string> "shapes/68/trigger" </string>
+				<string> "shapes/69/shape" </string>
+				<string> "shapes/69/transform" </string>
+				<string> "shapes/69/trigger" </string>
+				<string> "shapes/70/shape" </string>
+				<string> "shapes/70/transform" </string>
+				<string> "shapes/70/trigger" </string>
+				<string> "shapes/71/shape" </string>
+				<string> "shapes/71/transform" </string>
+				<string> "shapes/71/trigger" </string>
+				<string> "shapes/72/shape" </string>
+				<string> "shapes/72/transform" </string>
+				<string> "shapes/72/trigger" </string>
+				<string> "shapes/73/shape" </string>
+				<string> "shapes/73/transform" </string>
+				<string> "shapes/73/trigger" </string>
+				<string> "shapes/74/shape" </string>
+				<string> "shapes/74/transform" </string>
+				<string> "shapes/74/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "constant_linear_velocity" </string>
+				<string> "constant_angular_velocity" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "StaticBody2D" </string>
+				<string> "piedra_caiman" </string>
+				<string> "transform/rot" </string>
+				<string> "texture" </string>
+				<string> "Sprite" </string>
+				<string> "Collision_caiman" </string>
+				<string> "build_mode" </string>
+				<string> "polygon" </string>
+				<string> "shape_range" </string>
+				<string> "trigger" </string>
+				<string> "CollisionPolygon2D" </string>
+				<string> "tronco" </string>
+				<string> "flip_v" </string>
+				<string> "CollisionPolygon2D21" </string>
+				<string> "arbol1" </string>
+				<string> "flip_h" </string>
+				<string> "arbol3" </string>
+				<string> "arbol4" </string>
+				<string> "arbol8" </string>
+				<string> "arbol9" </string>
+				<string> "hongo_colli8" </string>
+				<string> "arbol10" </string>
+				<string> "hongo_colli10" </string>
+				<string> "hongo_colli2" </string>
+				<string> "arbol13" </string>
+				<string> "hongo_colli" </string>
+				<string> "arbol14" </string>
+				<string> "hongo_colli3" </string>
+				<string> "arbol15" </string>
+				<string> "hongo_colli4" </string>
+				<string> "arbol17" </string>
+				<string> "hongo_colli5" </string>
+				<string> "arbol18" </string>
+				<string> "hongo_colli7" </string>
+				<string> "arbol11" </string>
+				<string> "hongo_colli1" </string>
+				<string> "arbol6" </string>
+				<string> "hongo_colli6" </string>
+				<string> "arbol19" </string>
+				<string> "hongo_colli9" </string>
+				<string> "arbol20" </string>
+				<string> "arbol23" </string>
+				<string> "hongo_colli11" </string>
+				<string> "arbol16" </string>
+				<string> "hongo_colli12" </string>
+				<string> "arbol21" </string>
+				<string> "arbol24" </string>
+				<string> "tabla_camico" </string>
+				<string> "arbol27" </string>
+				<string> "tabla_camico4" </string>
+				<string> "tabla_camico3" </string>
+				<string> "tabla_camico2" </string>
+				<string> "arbol22" </string>
+				<string> "tabla_camico1" </string>
+				<string> "arbol26" </string>
+				<string> "arbol25" </string>
+				<string> "tabla_camico8" </string>
+				<string> "tabla_camico5" </string>
+				<string> "tabla_camico7" </string>
+				<string> "tabla_camico6" </string>
+				<string> "puente" </string>
+				<string> "arbol28" </string>
+				<string> "CollisionPolygon2D 2" </string>
+				<string> "arbol30" </string>
+				<string> "arbol29" </string>
+				<string> "arbol31" </string>
+				<string> "arbol32" </string>
+				<string> "hongo_colli13" </string>
+				<string> "arbol33" </string>
+				<string> "arbol34" </string>
+				<string> "tabla_camico10" </string>
+				<string> "tabla_camico9" </string>
+				<string> "tabla_camico11" </string>
+				<string> "tabla_camico12" </string>
+				<string> "tabla_camico13" </string>
+				<string> "arbol47" </string>
+				<string> "tabla_camico14" </string>
+				<string> "arbol36" </string>
+				<string> "tabla_camico15" </string>
+				<string> "arbol41" </string>
+				<string> "telaraña" </string>
+				<string> "tabla_camico16" </string>
+				<string> "tabla_camico18" </string>
+				<string> "tabla_camico19" </string>
+				<string> "CollisionPolygon2D 3" </string>
+				<string> "CollisionPolygon2D24" </string>
+				<string> "CollisionPolygon2D25" </string>
+				<string> "CollisionPolygon2D26" </string>
+				<string> "arbol35" </string>
+				<string> "arbol38" </string>
+				<string> "arbol37" </string>
+				<string> "tabla_camico17" </string>
+				<string> "tabla_camico20" </string>
+				<string> "tabla_camico21" </string>
+				<string> "tabla_camico22" </string>
+				<string> "arbol39" </string>
+				<string> "arbol40" </string>
+				<string> "arbol43" </string>
+				<string> "arbol44" </string>
+				<string> "arbol45" </string>
+				<string> "CollisionPolygon2D 4" </string>
+				<string> "CollisionPolygon2D29" </string>
+				<string> "arbol46" </string>
+				<string> "CollisionPolygon2D30" </string>
+				<string> "CollisionPolygon2D31" </string>
+				<string> "CollisionPolygon2D32" </string>
+				<string> "CollisionPolygon2D33" </string>
+				<string> "CollisionPolygon2D34" </string>
+				<string> "CollisionPolygon2D35" </string>
+				<string> "CollisionPolygon2D36" </string>
+				<string> "tabla_camico23" </string>
+				<string> "CollisionPolygon2D37" </string>
+				<string> "arbol48" </string>
+				<string> "tabla_camico24" </string>
+				<string> "CollisionPolygon2D38" </string>
+				<string> "tronco_huevos" </string>
+				<string> "arbol49" </string>
+				<string> "arbol50" </string>
+				<string> "tabla_camico25" </string>
+				<string> "tabla_camico26" </string>
+				<string> "huevo" </string>
+				<string> "medicina2" </string>
+				<string> "camino_caiman" </string>
+				<string> "pluma_blanca" </string>
+				<string> "pluma_blanca1" </string>
+				<string> "pluma_blanca2" </string>
+				<string> "pluma_blanca3" </string>
+				<string> "pluma_blanca4" </string>
+				<string> "pluma_blanca5" </string>
+				<string> "pluma_blanca6" </string>
+				<string> "pluma_blanca7" </string>
+				<string> "pluma_blanca8" </string>
+				<string> "pluma_blanca9" </string>
+				<string> "pluma_blanca10" </string>
+				<string> "pluma_blanca11" </string>
+				<string> "pluma_blanca12" </string>
+				<string> "pluma_blanca13" </string>
+				<string> "pluma_blanca14" </string>
+				<string> "pluma_blanca15" </string>
+				<string> "mundo" </string>
+				<string> "reinicio" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "shape" </string>
+				<string> "_update_shape_index" </string>
+				<string> "Sprite1" </string>
+				<string> "Sprite2" </string>
+				<string> "hueco_camino6" </string>
+				<string> "rocas" </string>
+				<string> "fondo_cueva" </string>
+				<string> "arbles_fondo3" </string>
+				<string> "camino7" </string>
+				<string> "camino8" </string>
+				<string> "hueco_camino7" </string>
+				<string> "hueco_camino8" </string>
+				<string> "dialogos_obj" </string>
+				<string> "chaman1" </string>
+				<string> "line" </string>
+				<string> "nombre" </string>
+				<string> "Position2D" </string>
+				<string> "Position2D_nex" </string>
+				<string> "Ave_fuego" </string>
+				<string> "player" </string>
+				<string> "player_speed" </string>
+				<string> "jumpforce" </string>
+				<string> "acceleration" </string>
+				<string> "extra_gravity" </string>
+				<string> "SamplePlayer2D_reinicio" </string>
+				<string> "plumero" </string>
+				<string> "mode" </string>
+				<string> "custom_integrator" </string>
+				<string> "continuous_cd" </string>
+				<string> "contacts_reported" </string>
+				<string> "contact_monitor" </string>
+				<string> "sleeping" </string>
+				<string> "can_sleep" </string>
+				<string> "velocity/linear" </string>
+				<string> "velocity/angular" </string>
+				<string> "damp_override/linear" </string>
+				<string> "damp_override/angular" </string>
+				<string> "RigidBody2D" </string>
+				<string> "telarana" </string>
+				<string> "parallax_bg" </string>
+				<string> "pluma_dorada_premio" </string>
+				<string> "_on_world_script_changed" </string>
+				<string> "script_changed" </string>
+				<string> "_on_pausa_pressed" </string>
+				<string> "_on_label_renamed" </string>
+				<string> "renamed" </string>
+				<string> "_on_items_pressed" </string>
+				<string> "_on_items_mision_pressed" </string>
+				<string> "_on_items_mision2_pressed" </string>
+				<string> "_on_items_mision3_pressed" </string>
+				<string> "_on_Timer_reinicio_timeout" </string>
+				<string> "timeout" </string>
+				<string> "_on_player_body_enter" </string>
+				<string> "body_enter" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 191 </int>
+			<string> "node_paths" </string>
+			<array  len="0" shared="false">
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="3741"> 				-1, -1, 4, 0, -1, 3, 1, 0, 2, 1, 3, 2, 0, 0, 0, 10, 5, -1, 5, 6, 3, 7, 4, 8, 5, 9, 6, 2, 7, 0, 1, 0, 4, 11, -1, 2, 12, 8, 3, 9, 0, 2, 0, 21, 13, -1, 8, 14, 10, 1, 11, 15, 12, 16, 13, 17, 14, 18, 15, 19, 16, 20, 17, 0, 2, 0, 21, 22, -1, 8, 14, 10, 1, 18, 15, 19, 16, 20, 17, 14, 18, 15, 19, 21, 20, 17, 0, 1, 0, 4, 23, -1, 1, 12, 8, 0, 5, 0, 21, 21, -1, 8, 14, 22, 1, 23, 15, 24, 16, 25, 17, 14, 18, 15, 19, 26, 20, 17, 0, 5, 0, 21, 24, -1, 8, 1, 27, 12, 28, 15, 29, 16, 30, 17, 14, 18, 15, 19, 31, 20, 17, 0, 1, 0, 4, 25, -1, 2, 1, 32, 12, 33, 0, 8, 0, 44, 26, -1, 18, 27, 34, 28, 35, 29, 36, 30, 37, 31, 38, 32, 38, 33, 39, 34, 40, 35, 41, 36, 42, 37, 3, 38, 3, 39, 38, 40, 43, 41, 17, 42, 44, 2, 45, 43, 46, 0, 1, 0, 4, 45, -1, 0, 0, 1, 0, 21, 46, -1, 8, 1, 47, 12, 48, 15, 49, 16, 49, 17, 14, 18, 15, 19, 31, 20, 17, 0, 1, 0, 2147483647, 47, 50, 2, 48, 15, 1, 51, 0, 1, 0, 2147483647, 49, 50, 2, 48, 15, 1, 52, 0, 1, 0, 2147483647, 50, 50, 2, 48, 15, 1, 53, 0, 1, 0, 44, 51, -1, 12, 27, 54, 28, 55, 29, 56, 30, 57, 31, 38, 32, 38, 33, 39, 52, 58, 40, 43, 41, 17, 42, 44, 2, 59, 0, 1, 0, 2147483647, 53, 60, 4, 27, 61, 28, 62, 29, 63, 30, 64, 0, 1, 0, 2147483647, 54, 65, 1, 48, 15, 0, 1, 0, 2147483647, 55, 66, 1, 48, 15, 0, 0, 0, 56, 56, -1, 4, 57, 3, 58, 43, 59, 15, 60, 38, 0, 0, 0, 56, 61, -1, 4, 57, 3, 58, 43, 59, 15, 60, 15, 0, 0, 0, 62, 62, -1, 8, 63, 67, 64, 68, 65, 43, 66, 69, 67, 43, 68, 3, 69, 70, 70, 5, 0, 0, 0, 62, 71, -1, 8, 63, 71, 64, 43, 65, 43, 66, 69, 67, 43, 68, 3, 69, 70, 70, 5, 0, 0, 0, 81, 72, -1, 8, 73, 72, 74, 15, 75, 38, 76, 73, 77, 38, 78, 15, 79, 5, 80, 74, 0, 0, 0, 4, 82, -1, 1, 2, 75, 0, 0, 0, 4, 83, -1, 2, 1, 76, 3, 77, 0, 25, 0, 2147483647, 84, 78, 5, 1, 79, 12, 80, 85, 39, 86, 39, 87, 39, 0, 25, 0, 2147483647, 88, 81, 7, 1, 82, 12, 83, 85, 39, 89, 84, 90, 85, 91, 86, 92, 86, 0, 25, 0, 326, 93, -1, 233, 1, 87, 94, 15, 95, 88, 96, 89, 97, 15, 98, 90, 99, 89, 100, 15, 101, 91, 102, 89, 103, 15, 104, 92, 105, 89, 106, 15, 107, 93, 108, 89, 109, 15, 110, 94, 111, 89, 112, 15, 113, 95, 114, 96, 115, 15, 116, 97, 117, 96, 118, 15, 119, 98, 120, 96, 121, 15, 122, 99, 123, 100, 124, 15, 125, 101, 126, 102, 127, 15, 128, 103, 129, 102, 130, 15, 131, 104, 132, 105, 133, 15, 134, 106, 135, 105, 136, 15, 137, 107, 138, 108, 139, 15, 140, 109, 141, 108, 142, 15, 143, 110, 144, 108, 145, 15, 146, 111, 147, 112, 148, 15, 149, 113, 150, 112, 151, 15, 152, 114, 153, 112, 154, 15, 155, 115, 156, 116, 157, 15, 158, 117, 159, 116, 160, 15, 161, 118, 162, 119, 163, 15, 164, 120, 165, 119, 166, 15, 167, 121, 168, 119, 169, 15, 170, 122, 171, 123, 172, 15, 173, 124, 174, 125, 175, 15, 176, 126, 177, 125, 178, 15, 179, 127, 180, 128, 181, 15, 182, 129, 183, 128, 184, 15, 185, 130, 186, 131, 187, 15, 188, 132, 189, 131, 190, 15, 191, 133, 192, 134, 193, 15, 194, 135, 195, 134, 196, 15, 197, 136, 198, 137, 199, 15, 200, 138, 201, 139, 202, 15, 203, 140, 204, 139, 205, 15, 206, 141, 207, 139, 208, 15, 209, 142, 210, 139, 211, 15, 212, 143, 213, 139, 214, 15, 215, 144, 216, 139, 217, 15, 218, 145, 219, 146, 220, 15, 221, 147, 222, 146, 223, 15, 224, 148, 225, 146, 226, 15, 227, 149, 228, 150, 229, 15, 230, 151, 231, 152, 232, 15, 233, 153, 234, 152, 235, 15, 236, 154, 237, 152, 238, 15, 239, 155, 240, 156, 241, 15, 242, 157, 243, 156, 244, 15, 245, 158, 246, 159, 247, 15, 248, 160, 249, 159, 250, 15, 251, 161, 252, 162, 253, 15, 254, 163, 255, 162, 256, 15, 257, 164, 258, 165, 259, 15, 260, 166, 261, 156, 262, 15, 263, 167, 264, 156, 265, 15, 266, 168, 267, 156, 268, 15, 269, 169, 270, 156, 271, 15, 272, 170, 273, 156, 274, 15, 275, 171, 276, 156, 277, 15, 278, 172, 279, 156, 280, 15, 281, 173, 282, 156, 283, 15, 284, 174, 285, 156, 286, 15, 287, 175, 288, 156, 289, 15, 290, 176, 291, 156, 292, 15, 293, 177, 294, 156, 295, 15, 296, 178, 297, 156, 298, 15, 299, 179, 300, 156, 301, 15, 302, 180, 303, 156, 304, 15, 305, 181, 306, 182, 307, 15, 308, 183, 309, 184, 310, 15, 311, 185, 312, 184, 313, 15, 314, 186, 315, 187, 316, 15, 317, 188, 318, 187, 319, 15, 320, 3, 321, 3, 322, 4, 323, 5, 324, 43, 325, 5, 0, 28, 0, 330, 327, -1, 5, 1, 189, 328, 190, 12, 191, 85, 192, 329, 193, 0, 28, 0, 336, 331, -1, 8, 1, 194, 328, 190, 12, 195, 85, 3, 332, 17, 333, 196, 334, 197, 335, 15, 0, 28, 0, 330, 337, -1, 6, 1, 198, 328, 199, 12, 200, 85, 3, 329, 201, 338, 38, 0, 28, 0, 336, 339, -1, 8, 1, 202, 328, 190, 12, 195, 85, 3, 332, 17, 333, 203, 334, 204, 335, 15, 0, 28, 0, 330, 340, -1, 6, 1, 205, 328, 190, 12, 206, 85, 3, 329, 207, 341, 38, 0, 28, 0, 330, 342, -1, 6, 1, 208, 328, 190, 12, 209, 85, 3, 329, 210, 341, 38, 0, 28, 0, 330, 343, -1, 5, 1, 211, 328, 190, 12, 212, 85, 3, 329, 213, 0, 28, 0, 330, 344, -1, 6, 1, 214, 328, 190, 12, 215, 85, 3, 329, 216, 341, 38, 0, 28, 0, 330, 345, -1, 5, 1, 217, 328, 190, 12, 218, 85, 3, 329, 219, 0, 28, 0, 336, 346, -1, 7, 1, 220, 12, 221, 85, 39, 332, 17, 333, 222, 334, 223, 335, 15, 0, 28, 0, 330, 347, -1, 6, 1, 224, 328, 190, 12, 225, 85, 3, 329, 219, 341, 38, 0, 28, 0, 336, 348, -1, 7, 1, 226, 12, 227, 85, 39, 332, 17, 333, 228, 334, 229, 335, 15, 0, 28, 0, 336, 349, -1, 7, 1, 230, 12, 227, 85, 39, 332, 17, 333, 231, 334, 232, 335, 15, 0, 28, 0, 330, 350, -1, 6, 1, 233, 328, 190, 12, 234, 85, 3, 329, 235, 341, 38, 0, 28, 0, 336, 351, -1, 7, 1, 236, 12, 227, 85, 39, 332, 17, 333, 237, 334, 238, 335, 15, 0, 28, 0, 330, 352, -1, 5, 1, 239, 328, 190, 12, 240, 85, 3, 329, 241, 0, 28, 0, 336, 353, -1, 7, 1, 242, 12, 243, 85, 39, 332, 17, 333, 244, 334, 245, 335, 15, 0, 28, 0, 330, 354, -1, 6, 1, 246, 328, 190, 12, 247, 85, 3, 329, 248, 341, 38, 0, 28, 0, 336, 355, -1, 7, 1, 249, 12, 227, 85, 39, 332, 17, 333, 250, 334, 251, 335, 15, 0, 28, 0, 330, 356, -1, 6, 1, 252, 328, 190, 12, 253, 85, 3, 329, 235, 341, 38, 0, 28, 0, 336, 357, -1, 7, 1, 254, 12, 227, 85, 39, 332, 17, 333, 255, 334, 256, 335, 15, 0, 28, 0, 330, 358, -1, 5, 1, 257, 328, 190, 12, 258, 85, 3, 329, 259, 0, 28, 0, 336, 359, -1, 7, 1, 260, 12, 221, 85, 39, 332, 17, 333, 261, 334, 262, 335, 15, 0, 28, 0, 330, 360, -1, 5, 1, 263, 328, 190, 12, 264, 85, 3, 329, 265, 0, 28, 0, 336, 361, -1, 6, 1, 266, 85, 39, 332, 17, 333, 267, 334, 268, 335, 15, 0, 28, 0, 330, 362, -1, 5, 1, 269, 328, 190, 12, 270, 85, 3, 329, 271, 0, 28, 0, 336, 363, -1, 7, 1, 272, 12, 227, 85, 39, 332, 17, 333, 273, 334, 274, 335, 15, 0, 28, 0, 330, 364, -1, 6, 1, 275, 328, 190, 12, 276, 85, 3, 329, 259, 341, 38, 0, 28, 0, 336, 365, -1, 7, 1, 277, 12, 227, 85, 39, 332, 17, 333, 278, 334, 279, 335, 15, 0, 28, 0, 330, 366, -1, 6, 1, 280, 328, 190, 12, 281, 85, 3, 329, 271, 341, 38, 0, 28, 0, 330, 367, -1, 6, 1, 282, 328, 190, 12, 283, 85, 284, 329, 285, 341, 38, 0, 28, 0, 336, 368, -1, 7, 1, 286, 12, 227, 85, 39, 332, 17, 333, 287, 334, 288, 335, 15, 0, 28, 0, 330, 369, -1, 6, 1, 289, 328, 190, 12, 290, 85, 3, 329, 219, 341, 38, 0, 28, 0, 336, 370, -1, 7, 1, 291, 12, 227, 85, 39, 332, 17, 333, 292, 334, 293, 335, 15, 0, 28, 0, 330, 371, -1, 6, 1, 294, 328, 190, 12, 295, 85, 3, 329, 271, 341, 38, 0, 28, 0, 330, 372, -1, 5, 1, 296, 328, 190, 12, 297, 85, 3, 329, 285, 0, 28, 0, 330, 373, -1, 6, 1, 298, 328, 190, 12, 299, 85, 3, 329, 300, 341, 38, 0, 28, 0, 330, 374, -1, 5, 1, 301, 328, 190, 12, 302, 85, 3, 329, 303, 0, 28, 0, 330, 375, -1, 6, 1, 304, 328, 190, 12, 305, 85, 3, 329, 300, 341, 38, 0, 28, 0, 330, 376, -1, 5, 1, 306, 328, 190, 12, 307, 85, 3, 329, 300, 0, 28, 0, 330, 377, -1, 5, 1, 308, 328, 190, 12, 309, 85, 3, 329, 300, 0, 28, 0, 330, 378, -1, 5, 1, 310, 328, 190, 12, 311, 85, 3, 329, 271, 0, 28, 0, 330, 379, -1, 5, 1, 312, 328, 190, 12, 313, 85, 3, 329, 300, 0, 28, 0, 330, 380, -1, 5, 1, 314, 328, 190, 12, 315, 85, 3, 329, 271, 0, 28, 0, 330, 381, -1, 6, 1, 316, 328, 190, 12, 317, 85, 3, 329, 271, 341, 38, 0, 28, 0, 330, 382, -1, 7, 1, 318, 328, 319, 12, 320, 85, 3, 329, 300, 7, 321, 341, 38, 0, 28, 0, 330, 383, -1, 6, 1, 322, 328, 190, 12, 323, 85, 3, 329, 300, 341, 38, 0, 28, 0, 330, 384, -1, 5, 1, 324, 328, 190, 12, 325, 85, 3, 329, 300, 0, 28, 0, 330, 385, -1, 5, 1, 326, 328, 190, 12, 327, 85, 3, 329, 300, 0, 28, 0, 336, 386, -1, 7, 1, 328, 12, 227, 85, 3, 332, 17, 333, 329, 334, 330, 335, 15, 0, 28, 0, 330, 387, -1, 5, 1, 331, 328, 190, 12, 332, 85, 3, 329, 219, 0, 28, 0, 336, 388, -1, 6, 1, 333, 12, 334, 332, 17, 333, 335, 334, 336, 335, 15, 0, 28, 0, 330, 389, -1, 5, 1, 337, 328, 190, 12, 338, 85, 3, 329, 271, 0, 28, 0, 330, 390, -1, 6, 1, 339, 328, 190, 12, 302, 85, 284, 329, 303, 341, 38, 0, 28, 0, 330, 391, -1, 5, 1, 340, 328, 190, 12, 341, 85, 342, 329, 219, 0, 28, 0, 330, 392, -1, 5, 1, 343, 328, 190, 12, 344, 85, 3, 329, 219, 0, 28, 0, 336, 393, -1, 7, 1, 345, 12, 227, 85, 39, 332, 17, 333, 346, 334, 347, 335, 15, 0, 28, 0, 330, 394, -1, 6, 1, 348, 328, 190, 12, 349, 85, 3, 329, 350, 341, 38, 0, 28, 0, 330, 395, -1, 5, 1, 351, 328, 352, 12, 353, 85, 3, 329, 271, 0, 28, 0, 330, 396, -1, 5, 1, 354, 328, 190, 12, 355, 85, 3, 329, 300, 0, 28, 0, 330, 397, -1, 5, 1, 356, 328, 190, 12, 357, 85, 3, 329, 300, 0, 28, 0, 330, 398, -1, 5, 1, 358, 328, 190, 12, 359, 329, 300, 341, 38, 0, 28, 0, 330, 399, -1, 6, 1, 360, 328, 190, 12, 361, 85, 3, 329, 300, 341, 38, 0, 28, 0, 330, 400, -1, 6, 1, 362, 328, 190, 12, 363, 85, 3, 329, 300, 341, 38, 0, 28, 0, 330, 401, -1, 6, 1, 364, 328, 190, 12, 365, 85, 284, 329, 285, 341, 38, 0, 28, 0, 330, 402, -1, 7, 1, 366, 328, 367, 12, 368, 85, 3, 329, 300, 7, 369, 341, 38, 0, 28, 0, 330, 403, -1, 5, 1, 370, 328, 371, 12, 372, 85, 3, 329, 303, 0, 28, 0, 330, 404, -1, 6, 1, 373, 328, 374, 12, 375, 85, 3, 329, 300, 341, 38, 0, 28, 0, 330, 405, -1, 5, 1, 376, 328, 377, 12, 378, 85, 3, 329, 271, 0, 28, 0, 330, 406, -1, 5, 1, 379, 328, 380, 12, 381, 85, 3, 329, 382, 0, 28, 0, 330, 407, -1, 5, 1, 383, 328, 384, 12, 385, 85, 3, 329, 300, 0, 28, 0, 330, 408, -1, 5, 1, 386, 328, 387, 12, 388, 85, 3, 329, 300, 0, 28, 0, 330, 409, -1, 5, 1, 389, 328, 390, 12, 391, 85, 3, 329, 300, 0, 28, 0, 336, 410, -1, 6, 1, 392, 12, 393, 332, 17, 333, 394, 334, 395, 335, 15, 0, 28, 0, 336, 411, -1, 4, 332, 17, 333, 396, 334, 397, 335, 15, 0, 28, 0, 336, 412, -1, 5, 1, 398, 332, 17, 333, 399, 334, 400, 335, 15, 0, 28, 0, 336, 413, -1, 5, 1, 401, 332, 17, 333, 402, 334, 403, 335, 15, 0, 28, 0, 330, 414, -1, 5, 1, 404, 328, 190, 12, 405, 85, 406, 329, 285, 0, 28, 0, 330, 415, -1, 5, 1, 407, 328, 352, 12, 408, 85, 3, 329, 271, 0, 28, 0, 330, 416, -1, 5, 1, 409, 328, 190, 12, 410, 85, 3, 329, 411, 0, 28, 0, 330, 417, -1, 5, 1, 412, 328, 413, 12, 414, 85, 415, 329, 300, 0, 28, 0, 330, 418, -1, 5, 1, 416, 328, 413, 12, 417, 85, 415, 329, 300, 0, 28, 0, 330, 419, -1, 6, 1, 418, 328, 419, 12, 420, 85, 415, 329, 300, 341, 38, 0, 28, 0, 330, 420, -1, 6, 1, 421, 328, 419, 12, 422, 85, 415, 329, 300, 341, 38, 0, 28, 0, 330, 421, -1, 6, 1, 423, 328, 190, 12, 424, 85, 3, 329, 285, 341, 38, 0, 28, 0, 330, 422, -1, 6, 1, 425, 328, 190, 12, 426, 85, 427, 329, 303, 341, 38, 0, 28, 0, 330, 423, -1, 6, 1, 428, 328, 429, 12, 430, 85, 3, 329, 431, 341, 38, 0, 28, 0, 330, 424, -1, 6, 1, 432, 328, 190, 12, 426, 85, 3, 329, 303, 341, 38, 0, 28, 0, 330, 425, -1, 5, 1, 433, 328, 429, 12, 434, 85, 3, 329, 431, 0, 28, 0, 336, 426, -1, 5, 1, 435, 332, 17, 333, 436, 334, 437, 335, 15, 0, 28, 0, 336, 427, -1, 4, 332, 17, 333, 438, 334, 439, 335, 15, 0, 28, 0, 330, 428, -1, 5, 1, 440, 328, 352, 12, 441, 85, 3, 329, 271, 0, 28, 0, 336, 429, -1, 5, 85, 3, 332, 17, 333, 442, 334, 443, 335, 15, 0, 28, 0, 336, 430, -1, 5, 85, 3, 332, 17, 333, 444, 334, 445, 335, 15, 0, 28, 0, 336, 431, -1, 5, 85, 3, 332, 17, 333, 446, 334, 447, 335, 15, 0, 28, 0, 336, 432, -1, 5, 85, 3, 332, 17, 333, 448, 334, 449, 335, 15, 0, 28, 0, 336, 433, -1, 5, 85, 3, 332, 17, 333, 450, 334, 451, 335, 15, 0, 28, 0, 336, 434, -1, 5, 85, 3, 332, 17, 333, 452, 334, 453, 335, 15, 0, 28, 0, 336, 435, -1, 7, 1, 454, 12, 455, 85, 3, 332, 17, 333, 456, 334, 457, 335, 15, 0, 28, 0, 330, 436, -1, 5, 1, 458, 328, 459, 12, 460, 85, 415, 329, 300, 0, 28, 0, 336, 437, -1, 7, 1, 461, 12, 455, 85, 3, 332, 17, 333, 462, 334, 463, 335, 15, 0, 28, 0, 330, 438, -1, 6, 1, 464, 328, 465, 12, 466, 85, 467, 329, 411, 341, 38, 0, 28, 0, 330, 439, -1, 5, 1, 468, 328, 469, 12, 470, 85, 415, 329, 300, 0, 28, 0, 336, 440, -1, 7, 1, 471, 12, 455, 85, 3, 332, 17, 333, 472, 334, 473, 335, 15, 0, 28, 0, 330, 441, -1, 5, 1, 474, 328, 475, 12, 476, 85, 3, 329, 477, 0, 28, 0, 330, 442, -1, 5, 1, 478, 328, 465, 12, 479, 85, 192, 329, 480, 0, 28, 0, 330, 443, -1, 6, 1, 481, 328, 190, 12, 482, 85, 3, 329, 303, 341, 38, 0, 28, 0, 330, 444, -1, 6, 1, 483, 328, 190, 12, 484, 85, 3, 329, 300, 341, 38, 0, 28, 0, 330, 445, -1, 4, 1, 485, 328, 190, 12, 486, 329, 300, 0, 25, 0, 2147483647, 446, 487, 1, 1, 488, 0, 25, 0, 2147483647, 447, 78, 5, 1, 489, 12, 80, 85, 39, 86, 86, 87, 86, 0, 25, 0, 326, 448, -1, 14, 94, 15, 95, 490, 96, 491, 97, 15, 98, 492, 99, 491, 100, 15, 320, 3, 321, 3, 322, 4, 323, 5, 324, 43, 325, 5, 3, 493, 0, 140, 0, 336, 336, -1, 5, 1, 494, 332, 17, 333, 495, 334, 496, 335, 15, 0, 25, 0, 2147483647, 449, 497, 1, 1, 498, 0, 25, 0, 2147483647, 450, 497, 1, 1, 499, 0, 25, 0, 2147483647, 451, 497, 1, 1, 500, 0, 25, 0, 2147483647, 452, 497, 1, 1, 501, 0, 25, 0, 2147483647, 453, 497, 1, 1, 502, 0, 25, 0, 2147483647, 454, 497, 1, 1, 503, 0, 25, 0, 2147483647, 455, 497, 1, 1, 504, 0, 25, 0, 2147483647, 456, 497, 1, 1, 505, 0, 25, 0, 2147483647, 457, 497, 1, 1, 506, 0, 25, 0, 2147483647, 458, 497, 1, 1, 507, 0, 25, 0, 2147483647, 459, 497, 1, 1, 508, 0, 25, 0, 2147483647, 460, 497, 1, 1, 509, 0, 25, 0, 2147483647, 461, 497, 1, 1, 510, 0, 25, 0, 2147483647, 462, 497, 1, 1, 511, 0, 25, 0, 2147483647, 463, 497, 1, 1, 512, 0, 25, 0, 2147483647, 464, 497, 1, 1, 513, 0, 0, 0, 4, 465, -1, 2, 1, 514, 3, 515, 0, 158, 0, 326, 466, -1, 11, 1, 516, 94, 15, 95, 517, 96, 518, 97, 38, 320, 3, 321, 3, 322, 4, 323, 5, 324, 43, 325, 5, 0, 159, 0, 467, 467, -1, 5, 1, 519, 12, 520, 468, 517, 335, 38, 469, 17, 0, 159, 0, 330, 330, -1, 5, 14, 521, 1, 522, 12, 523, 85, 524, 329, 525, 0, 159, 0, 330, 470, -1, 5, 14, 526, 1, 527, 12, 528, 85, 427, 329, 525, 0, 159, 0, 330, 471, -1, 4, 14, 526, 1, 529, 12, 530, 329, 525, 0, 158, 0, 330, 472, -1, 4, 1, 531, 12, 532, 85, 3, 329, 533, 0, 158, 0, 330, 473, -1, 4, 1, 534, 12, 535, 85, 3, 329, 536, 0, 158, 0, 330, 474, -1, 4, 1, 537, 12, 538, 85, 539, 329, 540, 0, 158, 0, 330, 475, -1, 4, 1, 541, 12, 542, 85, 539, 329, 543, 0, 158, 0, 2147483647, 476, 544, 2, 1, 545, 12, 546, 0, 158, 0, 2147483647, 477, 544, 2, 1, 547, 12, 546, 0, 158, 0, 330, 478, -1, 4, 1, 548, 12, 532, 329, 533, 341, 38, 0, 158, 0, 330, 479, -1, 5, 1, 549, 12, 550, 85, 3, 329, 533, 341, 38, 0, 0, 0, 4, 480, -1, 2, 85, 415, 3, 551, 0, 172, 0, 2147483647, 481, 552, 5, 1, 553, 12, 554, 85, 3, 482, 555, 483, 555, 0, 173, 0, 484, 484, -1, 1, 1, 556, 0, 173, 0, 484, 485, -1, 1, 1, 557, 0, 172, 0, 2147483647, 446, 552, 3, 1, 558, 482, 559, 483, 559, 0, 0, 0, 2147483647, 486, 560, 4, 1, 561, 12, 562, 85, 86, 91, 563, 0, 177, 0, 484, 484, -1, 2, 1, 564, 12, 565, 0, 0, 0, 2147483647, 487, 566, 7, 1, 567, 12, 568, 85, 569, 488, 570, 489, 571, 490, 563, 491, 572, 0, 179, 0, 62, 62, -1, 9, 1, 573, 63, 5, 64, 43, 65, 43, 66, 69, 67, 43, 68, 39, 69, 70, 70, 5, 0, 179, 0, 62, 492, -1, 10, 1, 574, 12, 575, 63, 85, 64, 43, 65, 43, 66, 69, 67, 43, 68, 3, 69, 70, 70, 5, 0, 0, 0, 505, 493, -1, 24, 1, 576, 85, 39, 94, 15, 95, 577, 96, 578, 97, 15, 320, 3, 321, 3, 494, 39, 89, 43, 324, 43, 325, 5, 90, 43, 495, 15, 496, 17, 497, 17, 498, 15, 499, 15, 500, 38, 501, 4, 502, 5, 503, 579, 504, 579, 3, 580, 0, 182, 0, 330, 330, -1, 1, 329, 581, 0, 182, 0, 467, 467, -1, 4, 12, 582, 468, 577, 335, 15, 469, 17, 0, 0, 0, 326, 506, -1, 17, 1, 583, 12, 584, 94, 15, 95, 585, 96, 586, 97, 38, 98, 587, 99, 586, 100, 38, 320, 3, 321, 3, 322, 4, 323, 5, 324, 43, 325, 5, 2, 588, 3, 589, 0, 185, 0, 330, 330, -1, 4, 1, 590, 328, 591, 12, 592, 329, 382, 0, 185, 0, 336, 467, -1, 6, 1, 593, 12, 582, 332, 17, 333, 594, 334, 496, 335, 38, 0, 0, 0, 2147483647, 507, 595, 0, 0, 0, 0, 2147483647, 508, 596, 1, 1, 597, 0, 0, 0, 2147483647, 505, 598, 3, 1, 599, 12, 600, 2, 601, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="602" shared="false">
+				<vector2> -2.51758, 0 </vector2>
+				<resource  external="0">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "2D" </string>
+				</dictionary>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<vector2> 1, 1 </vector2>
+				<resource  external="1">  </resource>
+				<vector2> 0.4, 0.4 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.25 </real>
+				<vector2> 6.60912, -711.858 </vector2>
+				<resource  external="2">  </resource>
+				<resource  external="3">  </resource>
+				<resource name=""></resource>				<bool> False </bool>
+				<string> "btn_left" </string>
+				<int> 0 </int>
+				<vector2> 333.438, -413.25 </vector2>
+				<resource  external="4">  </resource>
+				<resource  external="5">  </resource>
+				<string> "btn_right" </string>
+				<real> 0.32 </real>
+				<vector2> -417.245, -417.268 </vector2>
+				<resource  external="6">  </resource>
+				<resource  external="7">  </resource>
+				<string> "btn_jump" </string>
+				<vector2> -200, -1450 </vector2>
+				<vector2> 1.5, 1.5 </vector2>
+				<resource  external="8">  </resource>
+				<resource  external="9">  </resource>
+				<string> "" </string>
+				<vector2> 405.095, 328.265 </vector2>
+				<vector2> 1.08134, 1.12139 </vector2>
+				<real> -258 </real>
+				<real> -72 </real>
+				<real> 352 </real>
+				<real> 190 </real>
+				<bool> True </bool>
+				<int> 2 </int>
+				<resource  external="10">  </resource>
+				<color> 0, 0.71875, 1, 1 </color>
+				<color> 0, 0, 0, 1 </color>
+				<real> 1 </real>
+				<int> -1 </int>
+				<resource  external="11">  </resource>
+				<string> "res://igu/splashes.txt" </string>
+				<vector2> 10, 15 </vector2>
+				<vector2> 0.5, 0.5 </vector2>
+				<resource  external="12">  </resource>
+				<resource  external="13">  </resource>
+				<vector2> 69.1277, 10 </vector2>
+				<vector2> 150, 10 </vector2>
+				<vector2> 230, 10 </vector2>
+				<real> 12 </real>
+				<real> 542 </real>
+				<real> 72 </real>
+				<real> 555 </real>
+				<string> "castellano" </string>
+				<resource  external="14">  </resource>
+				<resource  external="15">  </resource>
+				<real> 530 </real>
+				<real> 106 </real>
+				<real> 865 </real>
+				<real> 431 </real>
+				<resource  external="16">  </resource>
+				<resource  external="17">  </resource>
+				<real> -5 </real>
+				<real> 0.92 </real>
+				<real> 2048 </real>
+				<resource  external="18">  </resource>
+				<real> 10 </real>
+				<resource  external="19">  </resource>
+				<real> -0.936171 </real>
+				<int> 500 </int>
+				<resource  external="20">  </resource>
+				<vector2> -1937.02, -1123.88 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="21">  </resource>
+				<vector2> 15480.9, -2356.58 </vector2>
+				<vector2> 0.379731, 0.379731 </vector2>
+				<resource  external="22">  </resource>
+				<vector2> 12102.5, 1431.33 </vector2>
+				<vector2> 1.7151, 1.7151 </vector2>
+				<real> 100 </real>
+				<real> 5 </real>
+				<int> 3 </int>
+				<vector2> -12730, 1320.96 </vector2>
+				<resource  resource_type="Shape2D" path="local://194">  </resource>
+				<matrix32> 0.693918, 6.70716e-05, -9.28929e-05, 0.961064, 11667.3, 24.3496 </matrix32>
+				<resource  resource_type="Shape2D" path="local://195">  </resource>
+				<resource  resource_type="Shape2D" path="local://196">  </resource>
+				<resource  resource_type="Shape2D" path="local://197">  </resource>
+				<resource  resource_type="Shape2D" path="local://198">  </resource>
+				<resource  resource_type="Shape2D" path="local://199">  </resource>
+				<resource  resource_type="Shape2D" path="local://200">  </resource>
+				<matrix32> 0.693918, 6.70716e-05, -9.28929e-05, 0.961064, 11570.6, 142.34 </matrix32>
+				<resource  resource_type="Shape2D" path="local://201">  </resource>
+				<resource  resource_type="Shape2D" path="local://202">  </resource>
+				<resource  resource_type="Shape2D" path="local://203">  </resource>
+				<matrix32> 1.11492, -0, 0, 1.28641, -1419.61, -1807.51 </matrix32>
+				<resource  resource_type="Shape2D" path="local://204">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -2209.66, -2489.01 </matrix32>
+				<resource  resource_type="Shape2D" path="local://205">  </resource>
+				<resource  resource_type="Shape2D" path="local://206">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -2056.6, -515.952 </matrix32>
+				<resource  resource_type="Shape2D" path="local://207">  </resource>
+				<resource  resource_type="Shape2D" path="local://208">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -1817.62, -253.18 </matrix32>
+				<resource  resource_type="Shape2D" path="local://209">  </resource>
+				<resource  resource_type="Shape2D" path="local://210">  </resource>
+				<resource  resource_type="Shape2D" path="local://211">  </resource>
+				<matrix32> 1.1149, -0, 0, 1.28641, -2035.84, -1145.95 </matrix32>
+				<resource  resource_type="Shape2D" path="local://212">  </resource>
+				<resource  resource_type="Shape2D" path="local://213">  </resource>
+				<resource  resource_type="Shape2D" path="local://214">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -1836.02, -844.333 </matrix32>
+				<resource  resource_type="Shape2D" path="local://215">  </resource>
+				<resource  resource_type="Shape2D" path="local://216">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -1823.87, -1377.79 </matrix32>
+				<resource  resource_type="Shape2D" path="local://217">  </resource>
+				<resource  resource_type="Shape2D" path="local://218">  </resource>
+				<resource  resource_type="Shape2D" path="local://219">  </resource>
+				<matrix32> 1.11492, -0, 0, 1.28641, -2317.61, -1604.43 </matrix32>
+				<resource  resource_type="Shape2D" path="local://220">  </resource>
+				<matrix32> 1, -0, 0, 1, -44.2705, -23.6498 </matrix32>
+				<resource  resource_type="Shape2D" path="local://221">  </resource>
+				<resource  resource_type="Shape2D" path="local://222">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -2189.05, -2003.55 </matrix32>
+				<resource  resource_type="Shape2D" path="local://223">  </resource>
+				<resource  resource_type="Shape2D" path="local://224">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -1280.39, -2253.39 </matrix32>
+				<resource  resource_type="Shape2D" path="local://225">  </resource>
+				<resource  resource_type="Shape2D" path="local://226">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -1222.6, -2660.67 </matrix32>
+				<resource  resource_type="Shape2D" path="local://227">  </resource>
+				<resource  resource_type="Shape2D" path="local://228">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -2181.52, -3119.23 </matrix32>
+				<resource  resource_type="Shape2D" path="local://229">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -589.814, -2821.41 </matrix32>
+				<resource  resource_type="Shape2D" path="local://230">  </resource>
+				<resource  resource_type="Shape2D" path="local://231">  </resource>
+				<resource  resource_type="Shape2D" path="local://232">  </resource>
+				<resource  resource_type="Shape2D" path="local://233">  </resource>
+				<resource  resource_type="Shape2D" path="local://234">  </resource>
+				<resource  resource_type="Shape2D" path="local://235">  </resource>
+				<matrix32> 0.896856, -0, 0, 0.999999, 2091.39, 27.1155 </matrix32>
+				<resource  resource_type="Shape2D" path="local://236">  </resource>
+				<resource  resource_type="Shape2D" path="local://237">  </resource>
+				<resource  resource_type="Shape2D" path="local://238">  </resource>
+				<matrix32> 1.11491, -0, 0, 1.28641, -1715.21, -3465.88 </matrix32>
+				<resource  resource_type="Shape2D" path="local://239">  </resource>
+				<matrix32> 1, -0, 0, 0.999999, 4617.05, 1372.06 </matrix32>
+				<resource  resource_type="Shape2D" path="local://240">  </resource>
+				<resource  resource_type="Shape2D" path="local://241">  </resource>
+				<resource  resource_type="Shape2D" path="local://242">  </resource>
+				<matrix32> 1, 0, 0, 1, 0, 0 </matrix32>
+				<resource  resource_type="Shape2D" path="local://243">  </resource>
+				<resource  resource_type="Shape2D" path="local://244">  </resource>
+				<matrix32> 1, -0, 0, 1, 2148.63, 231.076 </matrix32>
+				<resource  resource_type="Shape2D" path="local://245">  </resource>
+				<resource  resource_type="Shape2D" path="local://246">  </resource>
+				<matrix32> 1, -0, 0, 1, 3856.95, 471.497 </matrix32>
+				<resource  resource_type="Shape2D" path="local://247">  </resource>
+				<resource  resource_type="Shape2D" path="local://248">  </resource>
+				<matrix32> 1, -0, 0, 1, -36.3535, 77.2509 </matrix32>
+				<resource  resource_type="Shape2D" path="local://249">  </resource>
+				<resource  resource_type="Shape2D" path="local://250">  </resource>
+				<resource  resource_type="Shape2D" path="local://251">  </resource>
+				<resource  resource_type="Shape2D" path="local://252">  </resource>
+				<resource  resource_type="Shape2D" path="local://253">  </resource>
+				<resource  resource_type="Shape2D" path="local://254">  </resource>
+				<resource  resource_type="Shape2D" path="local://255">  </resource>
+				<resource  resource_type="Shape2D" path="local://256">  </resource>
+				<resource  resource_type="Shape2D" path="local://257">  </resource>
+				<resource  resource_type="Shape2D" path="local://258">  </resource>
+				<resource  resource_type="Shape2D" path="local://259">  </resource>
+				<resource  resource_type="Shape2D" path="local://260">  </resource>
+				<resource  resource_type="Shape2D" path="local://261">  </resource>
+				<resource  resource_type="Shape2D" path="local://262">  </resource>
+				<resource  resource_type="Shape2D" path="local://263">  </resource>
+				<resource  resource_type="Shape2D" path="local://264">  </resource>
+				<matrix32> 0.999997, -0, 0, 1, -108.915, -5.62708 </matrix32>
+				<resource  resource_type="Shape2D" path="local://265">  </resource>
+				<matrix32> 0.999997, -0, 0, 1, -128.421, -123.28 </matrix32>
+				<resource  resource_type="Shape2D" path="local://266">  </resource>
+				<resource  resource_type="Shape2D" path="local://267">  </resource>
+				<matrix32> 0.999997, -0, 0, 1, -167.145, 4.58465 </matrix32>
+				<resource  resource_type="Shape2D" path="local://268">  </resource>
+				<vector2> 19019.3, 494.655 </vector2>
+				<real> -0.005538 </real>
+				<vector2> 1.33985, 1.55345 </vector2>
+				<int> 9 </int>
+				<resource  external="23">  </resource>
+				<vector2> 11667.3, 24.3496 </vector2>
+				<vector2> 0.693918, 0.961064 </vector2>
+				<vector2_array  len="14"> 					9914.69, 329.494, 9948.03, 383.28, 10069.6, 340.807, 10155.5, 336.535, 10323.9, 502.945, 10722.4, 503.542, 10781.2, 605.452, 11056.8, 596.773, 11478.1, 580.062, 11594.7, 631.301, 11630.8, 685.225, 11615.2, 765.909, 9452.23, 731.302, 9724.54, 366.31 </vector2_array>
+				<vector2> 0, 5 </vector2>
+				<vector2> 12906, 234.96 </vector2>
+				<real> -5.461362 </real>
+				<vector2> 1.64575, 0.953869 </vector2>
+				<resource  external="24">  </resource>
+				<vector2> 11570.6, 142.34 </vector2>
+				<vector2_array  len="7"> 					2397.58, 86.2699, 1281.74, 47.5827, 1232.2, 65.4709, 454.902, 64.8908, 223.922, 59.5378, 173.543, 166.509, 2436.5, 162.225 </vector2_array>
+				<vector2> 6, 8 </vector2>
+				<vector2> 14642.9, -360.933 </vector2>
+				<vector2> 0.879081, 1.21751 </vector2>
+				<resource  external="25">  </resource>
+				<vector2> 16629.5, 15.5806 </vector2>
+				<vector2> 0.815831, 0.47705 </vector2>
+				<resource  external="26">  </resource>
+				<vector2> 16377.9, 56.2257 </vector2>
+				<vector2> 0.327708, 0.781126 </vector2>
+				<resource  external="27">  </resource>
+				<vector2> 17647.3, -2281.95 </vector2>
+				<vector2> 1.64857, 1.33413 </vector2>
+				<resource  external="28">  </resource>
+				<vector2> 18120.4, -1899.76 </vector2>
+				<vector2> 1.17056, 1.13657 </vector2>
+				<resource  external="29">  </resource>
+				<vector2> -1419.61, -1807.51 </vector2>
+				<vector2> 1.11492, 1.28641 </vector2>
+				<vector2_array  len="6"> 					17381.8, -78.0397, 17558.2, -61.2021, 17722.6, -35.9457, 17700.2, 1.45746, 17322.7, 69.1387, 17358.9, -70.514 </vector2_array>
+				<vector2> 9, 9 </vector2>
+				<vector2> 17350.2, -2654.13 </vector2>
+				<vector2> 2.02578, 1.70793 </vector2>
+				<vector2> -2209.66, -2489.01 </vector2>
+				<vector2> 1.11491, 1.28641 </vector2>
+				<vector2_array  len="6"> 					17389.5, -103.995, 17568.7, -105.434, 17846.4, -130.989, 17664.2, -73.2802, 17303.1, -36.3811, 17173.7, -65.153 </vector2_array>
+				<vector2> 10, 11 </vector2>
+				<vector2> -2056.6, -515.952 </vector2>
+				<vector2_array  len="6"> 					17067.3, -49.4021, 17374.8, -39.407, 17641.3, -4.09453, 17638, 14.9933, 17358.5, -15.3757, 17039.6, -39.1164 </vector2_array>
+				<vector2> 12, 13 </vector2>
+				<vector2> 17825.7, -244.244 </vector2>
+				<vector2> 1.01237, 0.969683 </vector2>
+				<resource  external="30">  </resource>
+				<vector2> -1817.62, -253.18 </vector2>
+				<vector2_array  len="6"> 					17552.4, -0.228798, 17609.6, -0.228798, 17683.9, -11.5745, 17678.4, -127.43, 17697.4, -3.35124, 17566.8, 12.3502 </vector2_array>
+				<vector2> 14, 16 </vector2>
+				<vector2> 17629.4, -1567.52 </vector2>
+				<vector2> 0.67982, 0.560096 </vector2>
+				<resource  external="31">  </resource>
+				<vector2> -2035.84, -1145.95 </vector2>
+				<vector2> 1.1149, 1.28641 </vector2>
+				<vector2_array  len="6"> 					17226.9, 62.7208, 17358.7, 28.9643, 17547.5, 45.8426, 17414.1, 45.9474, 17327.2, 51.1408, 17280.8, 61.4225 </vector2_array>
+				<vector2> 17, 19 </vector2>
+				<vector2> 17824, -809.724 </vector2>
+				<vector2> 1.51666, 0.802316 </vector2>
+				<resource  external="32">  </resource>
+				<vector2> -1836.02, -844.333 </vector2>
+				<vector2_array  len="6"> 					17560.8, 23.2909, 17634.4, 13.6921, 17732.6, 15.6558, 17742.4, -299.549, 17751.3, 26.1541, 17550.2, 34.6438 </vector2_array>
+				<vector2> 20, 21 </vector2>
+				<vector2> 17807.7, -1349.34 </vector2>
+				<vector2> 1.28834, 1.23402 </vector2>
+				<vector2> -1823.87, -1377.79 </vector2>
+				<vector2_array  len="6"> 					17541.1, 18.1671, 17616, 18.1671, 17688.4, -8.58459, 17690.4, -249.689, 17704.1, -4.30347, 17605, 36.7354 </vector2_array>
+				<vector2> 22, 24 </vector2>
+				<vector2> 17354.1, -1623.07 </vector2>
+				<vector2> 1.0797, 1.26893 </vector2>
+				<resource  external="33">  </resource>
+				<vector2> -2317.61, -1604.43 </vector2>
+				<vector2_array  len="6"> 					17579.6, -51.3723, 17715.6, -44.8173, 17783.6, -14.5311, 17637.1, 8.74591, 17452.8, 26.4363, 17451.9, -14.6888 </vector2_array>
+				<vector2> 25, 25 </vector2>
+				<vector2> 17571.7, 16.2499 </vector2>
+				<vector2> 1.09954, 1.05318 </vector2>
+				<resource  external="34">  </resource>
+				<vector2> -44.2705, -23.6498 </vector2>
+				<vector2_array  len="6"> 					17547.5, -16.5042, 17614.5, -6.23737, 17681.7, -12.3782, 17675.6, 5.9046, 17615.7, 16.6592, 17547.9, -8.07632 </vector2_array>
+				<vector2> 26, 27 </vector2>
+				<vector2> 17386.2, -2089.68 </vector2>
+				<vector2> 1.11924, 1.21538 </vector2>
+				<resource  external="35">  </resource>
+				<vector2> -2189.05, -2003.55 </vector2>
+				<vector2_array  len="6"> 					17413.5, -62.6179, 17573.8, -70.408, 17818.9, -121.553, 17704, -82.7284, 17452, -42.8782, 17311.7, -44.4413 </vector2_array>
+				<vector2> 28, 29 </vector2>
+				<vector2> 18273.9, -2331.4 </vector2>
+				<vector2> 1.40234, 1.75666 </vector2>
+				<vector2> -1280.39, -2253.39 </vector2>
+				<vector2_array  len="6"> 					17367.2, -119.215, 17618.7, -108.879, 17852.2, -58.9215, 17621.6, -21.0227, 17407, -77.0096, 17208.2, -111.463 </vector2_array>
+				<vector2> 30, 31 </vector2>
+				<vector2> 18346.4, -2864.05 </vector2>
+				<vector2> 1.54883, 1.55958 </vector2>
+				<vector2> 20551.2, -1662.47 </vector2>
+				<vector2> 3.39353, 2.74627 </vector2>
+				<int> 17 </int>
+				<resource  external="36">  </resource>
+				<vector2> -1222.6, -2660.67 </vector2>
+				<vector2_array  len="6"> 					17326.3, -190.855, 17585, -144.325, 17809.5, -151.728, 17941.2, -131.635, 17502.5, -125.03, 17250.3, -191.35 </vector2_array>
+				<vector2> 32, 33 </vector2>
+				<vector2> 17552.6, -3217.98 </vector2>
+				<vector2> 1.11579, 0.909691 </vector2>
+				<vector2> -2181.52, -3119.23 </vector2>
+				<vector2_array  len="6"> 					17634.1, -66.0759, 17784.2, -76.1953, 17830.1, -60.5574, 17748.1, -22.8215, 17494, -32.4836, 17561.6, -53.1558 </vector2_array>
+				<vector2> 34, 34 </vector2>
+				<vector2> 20942.3, -3049.89 </vector2>
+				<vector2> 0.539775, 0.74162 </vector2>
+				<vector2> 23340.4, -1698.35 </vector2>
+				<vector2> 3.29027, 2.6627 </vector2>
+				<vector2> 18927.3, -2758.27 </vector2>
+				<vector2> 1.77868, 1.85675 </vector2>
+				<resource  external="37">  </resource>
+				<vector2> 21834.4, -3039.18 </vector2>
+				<vector2> 1.03944, 1.06628 </vector2>
+				<resource  external="38">  </resource>
+				<vector2> 22137.7, -2921.68 </vector2>
+				<vector2> 1.82903, 1.46671 </vector2>
+				<vector2> 21406.3, -2894.87 </vector2>
+				<vector2> 1.49724, 1.77164 </vector2>
+				<vector2> 20627.9, -2810.11 </vector2>
+				<vector2> 1.61004, 1.88875 </vector2>
+				<vector2> 20320.4, -2724.52 </vector2>
+				<vector2> 1.41962, 1.42948 </vector2>
+				<vector2> 19857.1, -2737.39 </vector2>
+				<vector2> 1.99434, 1.93671 </vector2>
+				<vector2> 22930.1, -3489.36 </vector2>
+				<vector2> 0.677452, 0.788142 </vector2>
+				<vector2> 23687.2, -2707.94 </vector2>
+				<vector2> 1.87263, 1.88562 </vector2>
+				<vector2> 25643.3, -2545.36 </vector2>
+				<real> 83.509293 </real>
+				<vector2> 1.38819, 1.75239 </vector2>
+				<vector2> 3.49985, -0.459393 </vector2>
+				<vector2> 23024.1, -2818.05 </vector2>
+				<vector2> 1.66864, 1.64391 </vector2>
+				<vector2> 24715.9, -2863.69 </vector2>
+				<vector2> 1.45374, 1.75537 </vector2>
+				<vector2> 23889.3, -2761.61 </vector2>
+				<vector2> 1.78277, 1.79156 </vector2>
+				<vector2> -589.814, -2821.41 </vector2>
+				<vector2_array  len="18"> 					17371.5, -11.5679, 17886.6, 25.392, 18760.3, -26.278, 19425.3, -85.3795, 20135.7, -145.8, 20753.2, -91.1338, 21495.2, -6.25696, 21687.7, 34.0236, 21931.7, -10.5728, 22356.6, -30.713, 22642.1, -81.0636, 23062, -89.45, 23113.3, -60.1561, 21616.2, 141.815, 20061.9, -23.2467, 18384.6, 125.841, 17850.2, 147.139, 17352.5, 56.6218 </vector2_array>
+				<vector2> 35, 40 </vector2>
+				<vector2> 21877.2, -3105.21 </vector2>
+				<vector2> 0.295908, 0.367663 </vector2>
+				<vector2> 2091.39, 27.1155 </vector2>
+				<vector2> 0.896856, 0.999999 </vector2>
+				<vector2_array  len="9"> 					20811.4, -3125.3, 20854.3, -3125.29, 20930.9, -3094.57, 20987.7, -3083.94, 21032.3, -3056.94, 21056.5, -3017.95, 20971.9, -3049.41, 20862.5, -3088.27, 20821.3, -3093.83 </vector2_array>
+				<vector2> 41, 43 </vector2>
+				<vector2> 24188.1, -2961.17 </vector2>
+				<vector2> 0.435574, 0.645563 </vector2>
+				<vector2> 24287.5, -2979.73 </vector2>
+				<vector2> 24373, -3302.01 </vector2>
+				<vector2> 0.374687, 0.543302 </vector2>
+				<int> 18 </int>
+				<vector2> 18024.4, -3540.79 </vector2>
+				<vector2> 0.65367, 0.647551 </vector2>
+				<vector2> -1715.21, -3465.88 </vector2>
+				<vector2_array  len="6"> 					17710.6, -48.0791, 17785, -41.8604, 17834.3, -24.7585, 17723.1, -15.4302, 17611, -17.7622, 17637.9, -36.4187 </vector2_array>
+				<vector2> 44, 44 </vector2>
+				<vector2> 26215.1, -2956.83 </vector2>
+				<vector2> 2.07883, 2.10154 </vector2>
+				<resource  external="39">  </resource>
+				<vector2> 26051.1, -3015.3 </vector2>
+				<real> 16.851974 </real>
+				<vector2> 0.916348, 1.26605 </vector2>
+				<vector2> 26986.9, -3070.37 </vector2>
+				<vector2> 1.60319, 1.57063 </vector2>
+				<vector2> 26140.3, -2944.58 </vector2>
+				<vector2> 1.6888, 1.79917 </vector2>
+				<vector2> 28221.2, -3057.31 </vector2>
+				<vector2> 1.61346, 1.74798 </vector2>
+				<vector2> 29121.4, -2959.08 </vector2>
+				<vector2> 1.7691, 1.85422 </vector2>
+				<vector2> 29966.6, -2814.33 </vector2>
+				<vector2> 1.42146, 1.71614 </vector2>
+				<vector2> 28348.3, -2415.93 </vector2>
+				<vector2> 2.95865, 2.76304 </vector2>
+				<vector2> 30288.6, -2731.5 </vector2>
+				<real> -85.067284 </real>
+				<vector2> 1.14173, 1.66206 </vector2>
+				<vector2> 235.979, 50.6097 </vector2>
+				<vector2> 32423.5, -1343.2 </vector2>
+				<real> 4.510991 </real>
+				<vector2> 2.98695, 3.46083 </vector2>
+				<vector2> 31261, -2617.08 </vector2>
+				<real> -9.550137 </real>
+				<vector2> 2.02554, 1.78334 </vector2>
+				<vector2> 29509.7, -1346.31 </vector2>
+				<real> -31.511194 </real>
+				<vector2> 1.48922, 2.01276 </vector2>
+				<vector2> 32287.9, -2478.64 </vector2>
+				<real> 17.714767 </real>
+				<vector2> 2.39869, 2.32127 </vector2>
+				<resource  external="40">  </resource>
+				<vector2> 31965, -2165.65 </vector2>
+				<real> 19.169371 </real>
+				<vector2> 1.7694, 1.94995 </vector2>
+				<vector2> 30003.2, -1495.55 </vector2>
+				<real> 0.549924 </real>
+				<vector2> 1.6391, 1.88267 </vector2>
+				<vector2> 29143.4, -1394.77 </vector2>
+				<real> -1.305703 </real>
+				<vector2> 1.70521, 1.91263 </vector2>
+				<vector2> 4617.05, 1372.06 </vector2>
+				<vector2> 1, 0.999999 </vector2>
+				<vector2_array  len="12"> 					24144.7, -2785.9, 24496.1, -2844.48, 24978.7, -2869.58, 25337.3, -2927.58, 25809.1, -2966.64, 26186.6, -3112.27, 26715.6, -3226.06, 26813.3, -3198.17, 25888.1, -2891.9, 25037.3, -2758, 24526.8, -2730.11, 24180.9, -2713.37 </vector2_array>
+				<vector2> 45, 47 </vector2>
+				<vector2_array  len="8"> 					25687.3, -2952.09, 26051.9, -3024.27, 26536.7, -3053.88, 26890.2, -3120.5, 27352.9, -3155.66, 27410.2, -3094.59, 26460.9, -2920.63, 25729.9, -2863.26 </vector2_array>
+				<vector2> 48, 49 </vector2>
+				<vector2> 2148.63, 231.076 </vector2>
+				<vector2_array  len="8"> 					25718.6, -3386.25, 26195.6, -3361.14, 26558.3, -3283.04, 27034, -3260.31, 27402.1, -3176.25, 27402.1, -3114.9, 26504.6, -3185.33, 25673.1, -3326.2 </vector2_array>
+				<vector2> 50, 51 </vector2>
+				<vector2> 3856.95, 471.497 </vector2>
+				<vector2_array  len="8"> 					25718.6, -3386.25, 26195.6, -3361.14, 26481.4, -3273.17, 26481.4, -2939.36, 26434.2, -2625.52, 26432, -3016.63, 26435.1, -3183.54, 25673.1, -3326.2 </vector2_array>
+				<vector2> 52, 53 </vector2>
+				<vector2> 31154.1, -2424.44 </vector2>
+				<vector2> 2.92224, 2.72904 </vector2>
+				<int> 14 </int>
+				<vector2> 30738.8, -2283.78 </vector2>
+				<vector2> 0.980008, 1.354 </vector2>
+				<vector2> 31148.4, -2431.81 </vector2>
+				<vector2> 2.87219, 2.97219 </vector2>
+				<resource  external="41">  </resource>
+				<vector2> 30880, -1697.45 </vector2>
+				<real> 8.134949 </real>
+				<vector2> 1.90971, 2.03902 </vector2>
+				<int> 10 </int>
+				<vector2> 28300, -1151.43 </vector2>
+				<vector2> 1.76651, 2.02875 </vector2>
+				<vector2> 27691.7, -748.97 </vector2>
+				<real> -8.729341 </real>
+				<vector2> 1.59789, 1.71909 </vector2>
+				<vector2> 28491, -506.474 </vector2>
+				<vector2> 1.59551, 1.84433 </vector2>
+				<vector2> 27408.4, -793.689 </vector2>
+				<vector2> 1.35247, 1.16461 </vector2>
+				<vector2> 29885.4, -800.908 </vector2>
+				<vector2> 2.5905, 2.65514 </vector2>
+				<int> 15 </int>
+				<vector2> 27300.1, -1197.23 </vector2>
+				<real> -6.912281 </real>
+				<vector2> 0.736666, 0.870571 </vector2>
+				<resource  external="42">  </resource>
+				<vector2> 28106.7, -607.5 </vector2>
+				<vector2> 28458.5, -413.791 </vector2>
+				<vector2> 0.943889, 1.26043 </vector2>
+				<vector2> -36.3535, 77.2509 </vector2>
+				<vector2_array  len="6"> 					28740.9, -1399.24, 28277, -1297.21, 27932.8, -1189.74, 28014.7, -1163.14, 28353.2, -1233.27, 28796.6, -1338.02 </vector2_array>
+				<vector2> 54, 54 </vector2>
+				<vector2_array  len="14"> 					27143, -1193.45, 27286.6, -1225.18, 27464.1, -1208.5, 27422.9, -1116.77, 27259.9, -1106.6, 27290, -916.195, 27752.6, -804.292, 28083.3, -690.72, 28100, -657.316, 28557.6, -552.095, 28898.4, -436.852, 28751.4, -432.73, 28041.5, -613.992, 27212.2, -858.52 </vector2_array>
+				<vector2> 55, 58 </vector2>
+				<vector2> 28287.8, -3661.95 </vector2>
+				<vector2> 0.859855, 1.188 </vector2>
+				<vector2_array  len="6"> 					30859.7, -2338.13, 30761.1, -2271.32, 30584.1, -2241.26, 30537.3, -2186.14, 30739.4, -2191.15, 30856.3, -2294.7 </vector2_array>
+				<vector2> 59, 60 </vector2>
+				<vector2_array  len="6"> 					30805.5, -2800.77, 31311.6, -2676.98, 31667.7, -2546.68, 31630.8, -2462.61, 31230.9, -2616.4, 30697.8, -2749.69 </vector2_array>
+				<vector2> 61, 62 </vector2>
+				<vector2_array  len="6"> 					32386.2, -2416.91, 31910.4, -2230.31, 31574.2, -2023.2, 31664.4, -1980.14, 31974, -2174.94, 32447.5, -2410.6 </vector2_array>
+				<vector2> 63, 64 </vector2>
+				<vector2_array  len="6"> 					32494.1, -2932.75, 31481.3, -4376.38, 30336.6, -6040.76, 31126.5, -5341.62, 31913, -4534.01, 32647, -3013.98 </vector2_array>
+				<vector2> 65, 65 </vector2>
+				<vector2_array  len="7"> 					24298.5, -3013.53, 24239.8, -2982, 24200.4, -2959.13, 24161.3, -2953.82, 24155.3, -2903.41, 24246.2, -2949.84, 24299.4, -2994.03 </vector2_array>
+				<vector2> 66, 67 </vector2>
+				<vector2_array  len="5"> 					23049.1, -3851.84, 22967.8, -4060.8, 22489.8, -4677.74, 22952.8, -4032.16, 23027, -3835.88 </vector2_array>
+				<vector2> 68, 69 </vector2>
+				<vector2> -108.915, -5.62708 </vector2>
+				<vector2> 0.999997, 1 </vector2>
+				<vector2_array  len="4"> 					12769, 192.987, 12887.4, -1342.36, 12801.6, -1325.2, 12678.2, 194.226 </vector2_array>
+				<vector2> 70, 70 </vector2>
+				<vector2> 28950.6, -82.4827 </vector2>
+				<real> 14.901473 </real>
+				<vector2> 1.81451, 2.02625 </vector2>
+				<vector2> -128.421, -123.28 </vector2>
+				<vector2_array  len="7"> 					29483.8, -168.243, 29015.6, -31.2981, 28614.1, 161.208, 28739.8, 227.787, 29102.5, 37.1745, 29600.4, -138.634, 29557.8, -170.094 </vector2_array>
+				<vector2> 71, 72 </vector2>
+				<vector2> 28120.7, -451.025 </vector2>
+				<real> 6.406217 </real>
+				<vector2> 1.59358, 1.2569 </vector2>
+				<int> 16 </int>
+				<vector2> 27997.8, 353.7 </vector2>
+				<real> 6.00358 </real>
+				<vector2> 2.05585, 1.91254 </vector2>
+				<vector2> -167.145, 4.58465 </vector2>
+				<vector2_array  len="6"> 					28648.8, 198.04, 28093.2, 292.842, 27791.4, 410.598, 27628.4, 377.888, 27701.9, 451.348, 28740.7, 250.118 </vector2_array>
+				<vector2> 73, 74 </vector2>
+				<vector2> 27325.9, 184.67 </vector2>
+				<real> 0.639401 </real>
+				<vector2> 0.975706, 1.10203 </vector2>
+				<resource  external="43">  </resource>
+				<vector2> 28887.1, -282.623 </vector2>
+				<vector2> 2.58345, 2.12501 </vector2>
+				<resource  external="44">  </resource>
+				<vector2> 17017.1, -613.253 </vector2>
+				<vector2> 1.50446, 1.58261 </vector2>
+				<vector2> 17322.5, -514.315 </vector2>
+				<vector2> 1.30804, 1.33095 </vector2>
+				<vector2> 17311.7, -1072.78 </vector2>
+				<vector2> 1.04259, 1.06636 </vector2>
+				<resource  external="45">  </resource>
+				<vector2> 10171.9, -2475.27 </vector2>
+				<vector2> 17841, -958.391 </vector2>
+				<resource  resource_type="Shape2D" path="local://192">  </resource>
+				<matrix32> 1, -0, 0, 1, 14.4053, -65.375 </matrix32>
+				<resource  resource_type="Shape2D" path="local://193">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 14.4053, -65.375 </vector2>
+				<vector2_array  len="4"> 					6823.52, 1977.25, 6941.17, 2024.33, 7720.83, 2106.76, 6798.66, 2110.49 </vector2_array>
+				<vector2> 0, 1 </vector2>
+				<resource  external="46">  </resource>
+				<vector2> 3055.16, 1192.06 </vector2>
+				<vector2> 6129.53, -2456.49 </vector2>
+				<vector2> 6375.49, -2324.93 </vector2>
+				<vector2> 9800.82, -2100.32 </vector2>
+				<vector2> 12561.5, -1991.66 </vector2>
+				<vector2> 12755.4, -2004.25 </vector2>
+				<vector2> 12931.6, -1946.35 </vector2>
+				<vector2> 13100.3, -1890.96 </vector2>
+				<vector2> 14770.2, -2124.68 </vector2>
+				<vector2> 14934.8, -2166.52 </vector2>
+				<vector2> 15107.7, -2152.58 </vector2>
+				<vector2> 17844, -1730.89 </vector2>
+				<vector2> 19190.1, -1141.95 </vector2>
+				<vector2> 18495.6, -967.389 </vector2>
+				<vector2> 14845.1, 257.011 </vector2>
+				<vector2> 16434.8, 460.878 </vector2>
+				<vector2> -14763.2, -145.573 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 0, 170.16 </vector2>
+				<resource  resource_type="Shape2D" path="local://3">  </resource>
+				<matrix32> 430.506, -0, 0, 6.89146, 24353.8, 1228.59 </matrix32>
+				<vector2> 24353.8, 1228.59 </vector2>
+				<vector2> 430.506, 6.89146 </vector2>
+				<real> 0.77 </real>
+				<vector2> 16059.4, 1119.51 </vector2>
+				<vector2> 5.50434, 7.33746 </vector2>
+				<int> 8 </int>
+				<resource  external="47">  </resource>
+				<real> 0.91 </real>
+				<vector2> 29093.8, 1286.61 </vector2>
+				<vector2> 12.7032, 9.72739 </vector2>
+				<vector2> 30966.7, 693.66 </vector2>
+				<vector2> 9.96953, 6.57354 </vector2>
+				<vector2> 13752.7, 437.068 </vector2>
+				<vector2> 0.745585, 0.857869 </vector2>
+				<resource  external="48">  </resource>
+				<vector2> -809.808, -560.377 </vector2>
+				<vector2> 0.675659, 0.767049 </vector2>
+				<resource  external="49">  </resource>
+				<vector2> 26631.5, 191.083 </vector2>
+				<vector2> 1.6392, 1.80417 </vector2>
+				<int> -2 </int>
+				<resource  external="50">  </resource>
+				<vector2> 12457, 530.997 </vector2>
+				<vector2> 2.33563, 2.32032 </vector2>
+				<resource  external="51">  </resource>
+				<resource  external="52">  </resource>
+				<vector2> 13742.5, 609.389 </vector2>
+				<vector2> 1.88279, 2.23608 </vector2>
+				<vector2> 16365.3, 588.02 </vector2>
+				<vector2> 14685.3, 457.023 </vector2>
+				<vector2> 16395, 459.535 </vector2>
+				<vector2> 0.745585, 0.804699 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="53">  </resource>
+				<vector2> -602.437, 225.671 </vector2>
+				<vector2> 1.09706, 0.982723 </vector2>
+				<string> "chaman1" </string>
+				<vector2> 175.325, -235.273 </vector2>
+				<vector2> 696.068, -37.0669 </vector2>
+				<vector2> 12923.5, 383.364 </vector2>
+				<string> "huevo" </string>
+				<resource  external="54">  </resource>
+				<vector2> 3249.55, -3377.37 </vector2>
+				<vector2> 0.685439, 0.685439 </vector2>
+				<int> 5 </int>
+				<vector2> -0.978941, 149.308 </vector2>
+				<vector2> 1.45892, 1.45892 </vector2>
+				<resource  external="55">  </resource>
+				<vector2> 174.619, 366.21 </vector2>
+				<vector2> 0.7969, 0.7969 </vector2>
+				<int> 11 </int>
+				<int> 600 </int>
+				<int> 700 </int>
+				<int> 1400 </int>
+				<vector2> -276.242, -119.368 </vector2>
+				<vector2> -277.229, -121.13 </vector2>
+				<vector2> 0.96917, 0.944922 </vector2>
+				<vector2> -2355.13, 144.512 </vector2>
+				<resource  resource_type="Shape2D" path="local://4">  </resource>
+				<matrix32> 3.38266, -0, 0, 3.38266, 0, 0 </matrix32>
+				<real> -1 </real>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<resource  external="56">  </resource>
+				<vector2> 3.38266, 3.38266 </vector2>
+				<vector2> 17641.7, -2548.52 </vector2>
+				<vector2> 1.84742, 1.84742 </vector2>
+				<resource  resource_type="Shape2D" path="local://124">  </resource>
+				<matrix32> 3.38266, -0, 0, 3.38266, -126.908, 58.849 </matrix32>
+				<resource  resource_type="Shape2D" path="local://125">  </resource>
+				<resource  external="57">  </resource>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<vector2> 86.4595, 179.655 </vector2>
+				<real> 18.425556 </real>
+				<vector2> 0.521003, 0.551602 </vector2>
+				<vector2> -126.908, 58.849 </vector2>
+				<vector2_array  len="5"> 					30.2, -22.3687, 30.8018, 5.8728, 29.3472, 31.6869, 51.8892, 30.2326, 49.3442, -27.5764 </vector2_array>
+				<resource  external="58">  </resource>
+				<resource  external="59">  </resource>
+				<vector2> 5719.26, 567.298 </vector2>
+				<resource  external="60">  </resource>
+				<vector2> 665.257, 471.652 </vector2>
+				<vector2> 0.689762, 0.689762 </vector2>
+				<resource  external="61">  </resource>
+			</array>
+			<string> "version" </string>
+			<int> 2 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
