@@ -26,11 +26,11 @@ var dialog_dict = {
 
 
 var dialog_dict2 = {
-	chaman1 ="Hi, i'm the [b]Yanomami[/b] chman",
-	chaman2 = "Segundo diálogo ingles",
-	chaman3 = "Tercer diálogo ingles",
+	chaman1 ="[fill]Hi, i'm the [b]Yanomami[/b] chman",
+	chaman2 = "[fill]Segundo diálogo ingles",
+	chaman3 = "[fill]Tercer diálogo ingles",
 	gracias_fuego = "[center]Urraa ingles... gracias por conseguir el fuego, ahora podremos comer nuestro alimento cocinado. Te daré una pluma de loro como agradecimiento.[/center]",
-	pazul = "[center]Gracias por conseguirme una pluma azul ingles.[/center]",
+	pazul = "[fill]Gracias por conseguirme una pluma azul ingles.",
 	huevo = "[fill][color=purple]Ingles... A los caimanes les atrae el sonido de los huevos cuando caen dentro del agua.[/color]",
 	huevo_listo = "[fill][color=purple]Ingles... Lo más seguro es que todos los caimanes se vendrán a este lugar.[/color]",
 
@@ -40,11 +40,11 @@ var dialog_dict2 = {
 
 
 var dialog_dict3 = {
-	chaman1 ="Totihitawe, Hola soy el chaman [b]yanomami[/b]",
-	chaman2 = "yano Segundo diálogo",
-	chaman3 = "yano Tercer diálogo",
-	gracias_fuego = "[center]Urraa yanomami... gracias por conseguir el fuego, ahora podremos comer nuestro alimento cocinado. Te daré una pluma de loro como agradecimiento.[/center]",
-	pazul = "[center]Gracias por conseguirme una pluma azul yanomami.[/center]",
+	chaman1 ="Hola! soy el [b]Chamán[/b] yanomami, necesito tu ayuda para atrapar el ave que se robo el [color=yellow]fuego[/color]",
+	chaman2 = "[fill]yano Segundo diálogo",
+	chaman3 = "[fill]yano Tercer diálogo",
+	gracias_fuego = "Urraa yanomami... gracias por conseguir el fuego, ahora podremos comer nuestro alimento cocinado. Te daré una pluma de loro como agradecimiento.",
+	pazul = "[fill]Gracias por conseguirme una pluma azul yanomami.",
 	huevo = "[fill][color=purple]Yanomami... A los caimanes les atrae el sonido de los huevos cuando caen dentro del agua.[/color]",
 	huevo_listo = "[fill][color=purple]Yanomami... Lo más seguro es que todos los caimanes se vendrán a este lugar.[/color]",
 

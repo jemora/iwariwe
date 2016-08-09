@@ -69,6 +69,16 @@ var caiman
 var caiman_sensor_frente
 var caiman_sensor_arriba
 
+var timer_20
+var timer_9
+
+var sonido_cueva1
+var sonido_viento
+var sonido_cueva_caiman
+var agua = false
+
+
+
 
 func _ready():
 #	get_node("Ave_fuego").connect("body_enter", get_node("telaraña"), "restar")
@@ -80,6 +90,7 @@ func _ready():
 
 
 
+#------------------------------------------
 	set_process(true)
 
 	player = get_node("player")
@@ -111,6 +122,11 @@ func _ready():
 	checkpoint = get_node("checkpoint")
 	timer = get_node("Timer")
 	timer_poresito = get_node("Timer_reinicio")
+	sonido_cueva1 = get_node("sonido_cueva1/SamplePlayer2D")
+	sonido_cueva_caiman = get_node("sonido_cueva_caiman/SamplePlayer2D")
+	sonido_viento = get_node("sonido_viento/SamplePlayer2D")
+	
+
 
 	tela_arana = get_tree().get_nodes_in_group("tela_arana")
 	ave_ray = get_node("Ave_fuego/RayCast2D")
@@ -121,9 +137,23 @@ func _ready():
 	caiman_sensor_frente = get_node("Caiman_move/caiman/Area2D/sensor_adelante")
 	caiman_sensor_arriba = get_node("Caiman_move/caiman/Area2D/sensor_arriba")
 
-#	plumero = get_node("plumero")
 
 
+#--reproduce los sonidos al inicio--------------------------
+	sonido_cueva1()
+	sonido_viento()
+	sonido_cueva_caiman()
+
+#--repite los sonidos----------------------
+	timer_20 = get_node("Timer_20")
+	timer_20.start()
+	timer_20.connect('timeout',self,'sonido_cueva1')
+	timer_20.connect('timeout',self,'sonido_cueva_caiman')
+
+	timer_9 = get_node("Timer_9")
+	timer_9.start()
+	timer_9.connect('timeout',self,'sonido_viento')
+	
 
 
 
@@ -144,28 +174,11 @@ func _process(delta):
 	for player in get_tree().get_nodes_in_group("player"):
 		if ave_viva == true:
 			ave_ray_arriba.add_exception(player)
-		
-	
-	
-#	if on_ground():
-#		if Input.is_action_pressed("ui_up"):
-#			if not player_animation.is_playing():
-#				player_animation.play('squash')
-#				player.set_axis_velocity(Vector2(0,-600))
-#				player_samples.play('jump')
-	
-	#if on_ground():
-#	if Input.is_action_pressed('ui_left'):
-#		player.set_axis_velocity(Vector2(-speed,0))
-#	if Input.is_action_pressed('ui_right'):
-#		player.set_axis_velocity(Vector2(speed,0))
+
+
 	
 	if porecito in player.get_colliding_bodies():
 		if kissable:
-#			print('Hey player girl!')
-#			porecito_samples.play('kiss1')
-#			porecito_samples.play('femyawn_ed')
-#			hearts.set('config/emitting',true)
 			kissable = false
 			timer.start()
 			timer.connect('timeout',self,'next_level')
@@ -202,7 +215,7 @@ func _process(delta):
 			timer.start()
 			timer.connect('timeout',self,'restar')
 			sonidos_player.play("grito_muerte_caiman")
-			sonidos_player.play("pancada_agua")
+			fx.play("pancada_agua")
 			var grito = get_node("gui/splash/label")
 			grito.set_text("caiman")			
 			var dialogo = get_tree().get_nodes_in_group("caiman")
@@ -215,7 +228,7 @@ func _process(delta):
 			timer_poresito.start()
 			timer_poresito.connect('timeout',self,'restar')
 			sonidos_player.play("grito_muerte_caiman")
-			sonidos_player.play("pancada_agua")
+			fx.play("pancada_agua")
 			var grito = get_node("gui/splash/label")
 			grito.set_text("caiman")
 			var dialogo = get_tree().get_nodes_in_group("caiman")
@@ -228,7 +241,7 @@ func _process(delta):
 			timer_poresito.start()
 			timer_poresito.connect('timeout',self,'restar')
 			sonidos_player.play("grito_muerte_caiman")
-			sonidos_player.play("pancada_agua")
+			fx.play("pancada_agua")
 			var grito = get_node("gui/splash/label")
 			grito.set_text("caiman")
 			var dialogo = get_tree().get_nodes_in_group("caiman")
@@ -247,7 +260,7 @@ func _process(delta):
 				ave.restar()
 
 
-#------------------------ entrega de pluma
+#---------- entrega de pluma
 	if plumero in player.get_colliding_bodies():
 			var grito = get_node("gui/splash/label")
 			grito.set_text("plumero")
@@ -301,12 +314,24 @@ func _process(delta):
 	if  items.check() == 1:
 		_on_items_pressed()
 
-	
+
+
+#-------SONIDOS AMBIENTE----------
+
+func sonido_cueva1():
+	sonido_cueva1.play("ambiente_sapo_grillos")
+
+func sonido_cueva_caiman():
+	sonido_cueva_caiman.play("cueva_caiman")
+
+func sonido_viento():
+	sonido_viento.play("viento")
 
 
 
 
 
+#--------------transicion escenas--------------
 func misio_fuego():
 	get_tree().change_scene("res://niveles/transicion.scn")
 
@@ -712,6 +737,111 @@ func _on_player_body_enter( body ):
 		
 		var grito = get_node("gui/splash/label")
 		grito.set_text("Fuegoooo...")
+
+
+#------pisar agua---------
+	if (body.has_method("agua")):
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for mensaje in mensajes_GUI:
+			mensaje.pisar_agua()
+			mensaje.pisar_tierra_off()
+			mensaje.pisar_grama_off()
+			mensaje.pisar_madera_off()
+			mensaje.salto_dificil_off()
+			mensaje.rebote_off()
+			mensaje.sigilo_off()
+
+#------pisar tierra---------
+	if (body.has_method("tierra")):
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for mensaje in mensajes_GUI:
+			mensaje.pisar_agua_off()
+			mensaje.pisar_tierra()
+			mensaje.pisar_grama_off()
+			mensaje.pisar_madera_off()
+			mensaje.salto_dificil_off()
+			mensaje.rebote_off()
+			mensaje.sigilo_off()
+
+
+#------pisar grama---------
+	if (body.has_method("grama")):
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for mensaje in mensajes_GUI:
+			mensaje.pisar_agua_off()
+			mensaje.pisar_tierra_off()
+			mensaje.pisar_grama()
+			mensaje.pisar_madera_off()
+			mensaje.salto_dificil_off()
+			mensaje.rebote_off()
+			mensaje.sigilo_off()
+
+
+#------pisar madera---------
+	if (body.has_method("madera")):
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for mensaje in mensajes_GUI:
+			mensaje.pisar_agua_off()
+			mensaje.pisar_tierra_off()
+			mensaje.pisar_grama_off()
+			mensaje.pisar_madera()
+			mensaje.salto_dificil_off()
+			mensaje.rebote_off()
+			mensaje.sigilo_off()
+
+
+#------pisar salto_dificil---------
+	if (body.has_method("salto_dificil")):
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for mensaje in mensajes_GUI:
+			mensaje.pisar_agua_off()
+			mensaje.pisar_tierra_off()
+			mensaje.pisar_grama_off()
+			mensaje.pisar_madera_off()
+			mensaje.salto_dificil()
+			mensaje.rebote_off()
+			mensaje.sigilo_off()
+
+#------pisar salto_rebote---------
+	if (body.has_method("rebote")):
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for mensaje in mensajes_GUI:
+			mensaje.pisar_agua_off()
+			mensaje.pisar_tierra_off()
+			mensaje.pisar_grama_off()
+			mensaje.pisar_madera_off()
+			mensaje.salto_dificil_off()
+			mensaje.rebote()
+			mensaje.sigilo_off()
+
+
+#------sigilo---------
+	if (body.has_method("sigilo")):
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for mensaje in mensajes_GUI:
+			mensaje.pisar_agua_off()
+			mensaje.pisar_tierra_off()
+			mensaje.pisar_grama_off()
+			mensaje.pisar_madera_off()
+			mensaje.salto_dificil_off()
+			mensaje.rebote_off()
+			mensaje.sigilo()
+
+
+
+
+
+
+
+
+
+#------grullir madera---------
+	if (body.has_method("grullir_madera")):
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for mensaje in mensajes_GUI:
+			mensaje.grullir_madera()
+
+
 
 
 

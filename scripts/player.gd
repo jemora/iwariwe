@@ -41,6 +41,7 @@ var anim_speed = 1.0
 var anim_blend = 0.2
 
 var sonidoplayer
+var fx
 
 var talking = true
 var sonidolisto
@@ -51,6 +52,17 @@ var salto = 0
 var timer_salto = 0
 var timer_pasos
 var pasos = false
+var agua = false
+var tierra = false
+var grama = false
+var madera = false
+var salto_dificil = false
+var grito_caida = false
+var aire = 0
+var rebote = false
+var sigilo = false
+
+
 
 func move(speed, acc, delta):
 	current_speed.x = lerp(current_speed.x , speed, acc * delta)
@@ -72,6 +84,7 @@ func _ready():
 
 #-----Lista de sonidos Sonidos
 	sonidoplayer = get_node("SamplePlayer2D")
+	fx = get_node("SamplePlayer2D_reinicio")
 	timer_pasos = get_owner().get_node("Timer_pasos")
 	timer_pasos.connect('timeout',self,'sonido_pasos')
 
@@ -90,15 +103,29 @@ func _ready():
 #	Timer_reinicio = get_owner().get_node("Timer_reinicio") 
 #	get_owner().get_node("fuego").connect("body_enter", get_node("player"), "_on_Timer_reinicio_timeout")
 
-#	print(text_mensaje)
+#	print(salto_dificil)
 
 
-func sonido_pasos():
-	sonidoplayer.play("pasos")
+func sonido_pasos(): # viene de timer_pasos
 
+	if pasos == true:
+		if agua == true:
+			fx.play("camino_agua")
+			
+		if tierra == true:
+			sonidoplayer.play("pasos_tierra")
+			
+		if grama == true:
+			fx.play("pisada_hojas")
+			
+		if madera == true:
+			fx.play("pasos")
+	
+		if rebote == true:
+			fx.play("pasos_tierra")
 
-
-
+		if salto_dificil == true:
+			fx.play("pasos_tierra")
 
 
 func rotate_behavior():
@@ -111,9 +138,51 @@ func rotate_behavior():
 
 func mensaje_off():
 	text_mensaje = false
-
 func mensaje_on():
 	text_mensaje = true
+
+func pisar_agua():
+	agua = true
+#	sonidoplayer.play("pancada_agua") pisar_agua
+	
+func pisar_agua_off():
+	agua = false
+
+func pisar_tierra():
+	tierra = true
+func pisar_tierra_off():
+	tierra = false
+
+func pisar_grama():
+	grama = true
+func pisar_grama_off():
+	grama = false
+
+func pisar_madera():
+	madera = true
+func pisar_madera_off():
+	madera = false
+
+func salto_dificil():
+	salto_dificil = true
+func salto_dificil_off():
+	salto_dificil = false
+
+func rebote():
+	rebote = true
+func rebote_off():
+	rebote = false
+
+func sigilo():
+	sigilo = true
+func sigilo_off():
+	sigilo = false
+
+func grullir_madera():
+	sonidoplayer.play("grullido_madera")
+
+
+
 
 
 func _fixed_process(delta):
@@ -176,7 +245,63 @@ func _fixed_process(delta):
 
 
 
-#	print(pasos)
+#	print("salto ",salto, " - ", timer_salto, " - ", " aire ", aire)
+#	print(tierra, agua, madera, salto_dificil, rebote, grama, sigilo)
+#	print(agua)
+
+
+
+
+#------suena los pasos cuando se mueve------------
+	if btn_left.check() == 2 and aire == 0 and salto == 0 or btn_right.check() == 2 and aire == 0 and salto == 0:
+
+		if pasos == false:
+			if tierra == true:
+				fx.play("pasos_tierra")
+
+		if pasos == false:
+			if agua == true:
+				fx.play("camino_agua")
+
+		if pasos == false:
+			if grama == true:
+				fx.play("pisada_hojas")
+
+		if pasos == false:
+			if madera == true:
+				fx.play("pasos")
+
+		if pasos == false:
+			if rebote == true:
+				fx.play("pasos_tierra")
+
+		if pasos == false:
+			if salto_dificil == true:
+				fx.play("pasos_tierra")
+
+#-----------------------------------
+
+
+
+
+
+
+#-----grito caida libre sin saltar-----------
+	if aire == 1 and grito_caida == false and timer_salto > 50 and timer_salto < 60:
+		if salto == 0:
+			sonidoplayer.play("grito_corto")
+			grito_caida = true
+			salto = 1
+#			timer_salto = 0 grito_corto
+
+
+#-----grito caida libre saltando-----------
+	if aire == 1 and grito_caida == false and timer_salto > 60 and timer_salto < 80:
+		if salto == 1:
+			sonidoplayer.play("salto_dificil")
+			grito_caida = true
+			salto = 1
+#			timer_salto = 0
 
 
 
@@ -200,18 +325,48 @@ func _fixed_process(delta):
 func ground_state(delta):
 
 	if btn_left.check() == 2:
+		
 		move(-player_speed, acceleration, delta)
 		ORIENTATION_NEXT = "left"
-		anim = "run"
-		anim_speed = 2.0
+		
+		if agua == false or sigilo == false:
+			anim = "run"
+			anim_speed = 2.0
+			player_speed = 500
+
+		if agua == true:
+			anim = "run"
+			anim_speed = 0.5
+			player_speed = 300
 		anim_blend = 0.2
 
-		
+		if sigilo == true:
+			anim = "run"
+			anim_speed = 0.8
+			player_speed = 300
+		anim_blend = 0.2
+
+
 	elif btn_right.check() == 2:
+
 		move(player_speed, acceleration, delta)
 		ORIENTATION_NEXT = "right"
-		anim = "run"
-		anim_speed = 2.0
+		
+		if agua == false or sigilo == false:
+			anim = "run"
+			anim_speed = 2.0
+			player_speed = 500
+
+		if agua == true:
+			anim = "run"
+			anim_speed = 0.5
+			player_speed = 300
+		anim_blend = 0.2
+
+		if sigilo == true:
+			anim = "run"
+			anim_speed = 0.8
+			player_speed = 300
 		anim_blend = 0.2
 
 
@@ -221,8 +376,10 @@ func ground_state(delta):
 		pasos = false
 		anim_speed = .5
 		anim_blend = 0.2
+		player_speed = 550
 		pasos = false
 		timer_pasos.stop()
+
 
 
 
@@ -234,37 +391,153 @@ func ground_state(delta):
 	rotate_behavior()
 	
 	if is_on_ground():
-		salto = 1
+#		timer_salto = 0
+		grito_caida = false
+		
+#		if timer_salto < 30:
+#			aire = 0
+		aire = 0
 
 
+
+		
 		if btn_jump.check() == 1:
 			set_axis_velocity(Vector2(0,-jumpforce))
 			jumping = 1
 			
-			sonidoplayer.play("mujido_salto_corto")
 			
 
-#----sonido caida-------
-		if salto == 1 and timer_salto > 10 and timer_salto < 59:
-			sonidoplayer.play("pasos")
-			salto = 0
-			timer_salto = 0
-	
-		if salto == 1 and timer_salto > 60 and timer_salto < 119:
-			sonidoplayer.play("caida_media")
-			salto = 0
-			timer_salto = 0
+#-----sonido al saltar---------
+			if tierra == true:
+				sonidoplayer.play("mujido_salto_corto")
+			if agua == true:
+				sonidoplayer.play("pujido_agua")
+			if grama == true:
+				sonidoplayer.play("mujido_salto_corto")
+			if madera == true:
+				sonidoplayer.play("mujido_salto_corto")
+			if salto_dificil == true:
+				sonidoplayer.play("salto_dificil")
+			if rebote == true:
+				sonidoplayer.play("mujido_salto_corto")
 
-		if salto == 1 and timer_salto > 120:
-			sonidoplayer.play("caida_salto_largo")
-			salto = 0
-			timer_salto = 0
+
+
+#----sonido caida-------
+		if tierra == true:
+			if salto == 1 and timer_salto > 10 and timer_salto < 59:
+				sonidoplayer.play("pasos_tierra")
+				salto = 0
+				timer_salto = 0
+		
+			if salto == 1 and timer_salto > 60 and timer_salto < 100:
+				sonidoplayer.play("caida_media")
+				salto = 0
+				timer_salto = 0
+	
+			if salto == 1 and timer_salto > 100:
+				sonidoplayer.play("caida_salto_largo")
+				salto = 0
+				timer_salto = 0
+
+		if agua == true:
+			if salto == 1 and timer_salto > 10 and timer_salto < 59:
+				sonidoplayer.play("pancada_agua")
+				salto = 0
+				timer_salto = 0
+		
+			if salto == 1 and timer_salto > 60 and timer_salto < 100:
+				sonidoplayer.play("pancada_agua")
+				salto = 0
+				timer_salto = 0
+	
+			if salto == 1 and timer_salto > 100:
+				sonidoplayer.play("pancada_agua")
+				salto = 0
+				timer_salto = 0
+			if salto == 0 and timer_salto > 100:
+				sonidoplayer.play("pancada_agua")
+				salto = 1
+
+		if grama == true:
+			if salto == 1 and timer_salto > 10 and timer_salto < 59:
+				sonidoplayer.play("pisada_hojas")
+				salto = 0
+				timer_salto = 0
+		
+			if salto == 1 and timer_salto > 60 and timer_salto < 100:
+				sonidoplayer.play("caida_media")
+				salto = 0
+				timer_salto = 0
+	
+			if salto == 1 and timer_salto > 100:
+				sonidoplayer.play("caida_salto_largo")
+				salto = 0
+				timer_salto = 0
+
+		if madera == true:
+			if salto == 1 and timer_salto > 10 and timer_salto < 59:
+				sonidoplayer.play("pasos")
+				salto = 0
+				timer_salto = 0
+		
+			if salto == 1 and timer_salto > 60 and timer_salto < 100:
+				sonidoplayer.play("caida_media")
+				salto = 0
+				timer_salto = 0
+	
+			if salto == 1 and timer_salto > 100:
+				sonidoplayer.play("caida_salto_largo")
+				salto = 0
+				timer_salto = 0
+
+		if salto_dificil == true:
+			if salto == 1 and timer_salto > 10 and timer_salto < 59:
+				sonidoplayer.play("pasos_tierra")
+				salto = 0
+				timer_salto = 0
+		
+			if salto == 1 and timer_salto > 60 and timer_salto < 100:
+				sonidoplayer.play("caida_media")
+				salto = 0
+				timer_salto = 0
+	
+			if salto == 1 and timer_salto > 100:
+				sonidoplayer.play("caida_salto_largo")
+				salto = 0
+				timer_salto = 0
+
+		if rebote == true:
+			if salto == 1 and timer_salto > 10 and timer_salto < 59:
+				sonidoplayer.play("pasos_tierra")
+				salto = 0
+				timer_salto = 0
+		
+			if salto == 1 and timer_salto > 60 and timer_salto < 100:
+				sonidoplayer.play("pasos_tierra")
+				salto = 0
+				timer_salto = 0
+	
+			if salto == 1 and timer_salto > 100:
+				sonidoplayer.play("caida_salto_largo")
+				salto = 0
+				timer_salto = 0
+
 
 
 		if btn_left.check() == 2 or btn_right.check() == 2:
 			if pasos == false:
 				pasos = true
 				timer_pasos.start()
+
+
+#------indica esta en el aire----se deactiva en el suelo
+		if btn_jump.check() == 2 or btn_jump.check() == 1:
+#			aire = 1
+			salto = 1
+
+
+
 
 
 
@@ -276,11 +549,13 @@ func ground_state(delta):
 
 
 func air_state(delta):
-	print(timer_salto)
-	salto = 1
+
 	timer_salto += 1
 	timer_pasos.stop()
 	pasos = false
+	if timer_salto > 5:
+		aire = 1
+	
 
 	if btn_left.check() == 2:
 		move(-player_speed, air_acceleration, delta)
@@ -310,7 +585,13 @@ func air_state(delta):
 	if is_on_ground():
 		PLAYERSTATE_NEXT = "ground"
 	
-	
+#-----grito caida libre al saltar-----------
+
+
+
+
+
+
 
 
 

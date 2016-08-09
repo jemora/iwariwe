@@ -1,4 +1,4 @@
-# BONOS GEAR
+
 extends Node2D
 
 export var valor = 1
@@ -101,3 +101,4 @@ func coge_pluma( body ):
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
 			pluma.huevo_premio()
+		queue_free()
