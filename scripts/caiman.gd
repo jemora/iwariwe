@@ -15,8 +15,6 @@ var player
 var sensor_adente
 var ataque_arriba = false
 
-var sensor_arriba
-
 var import_chispa = preload("res://../elementos/fuego_ave.scn")
 var sonido
 
@@ -34,7 +32,7 @@ func _ready():
 	player = get_owner().get_node("player")
 	sensor_adente = get_node("Area2D/sensor_adelante")
 	sonido = get_owner().get_node("player/SamplePlayer2D")
-	sensor_arriba = get_node("Area2D/sensor_arriba")
+
 
 
 func _process(delta):
@@ -90,7 +88,7 @@ func atacar_arriba():
 func girar():
 	set_scale(Vector2(-1,1))
 #	set_scale(Vector2(1,-1))
-	sensor_arriba.queue_free()
+
 
 
 

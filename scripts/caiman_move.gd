@@ -7,8 +7,6 @@ extends RigidBody2D
 var mover = false
 
 
-
-
 func _ready():
 	add_to_group("caiman_move")
 	set_process(true)
@@ -36,4 +34,4 @@ func parar():
 func _process(delta):
 	if mover == true:
 		set_mode(MODE_CHARACTER)
-		set_linear_velocity(Vector2(361, -021))
+		set_linear_velocity(Vector2(350, -020))

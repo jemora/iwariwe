@@ -1,70 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="130" version="2.0" version_name="Godot Engine v2.0.stable.official">
-	<ext_resource path="res://scripts/idiomas_igu.gd" type="Script" index="14"></ext_resource>
-	<ext_resource path="res://textures/fondos/tronco2.png" type="Texture" index="30"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture" index="4"></ext_resource>
-	<ext_resource path="res://textures/elementos/opciones.png" type="Texture" index="8"></ext_resource>
-	<ext_resource path="res://scripts/touch_screen_button.gd" type="Script" index="1"></ext_resource>
-	<ext_resource path="res://textures/fondos/montañas_1_2.png" type="Texture" index="50"></ext_resource>
-	<ext_resource path="res://scripts/level.gd" type="Script" index="0"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture" index="3"></ext_resource>
-	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="18"></ext_resource>
-	<ext_resource path="res://fonts/chalk.fnt" type="Font" index="10"></ext_resource>
-	<ext_resource path="res://scripts/grullir_madera.gd" type="Script" index="57"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture" index="5"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture" index="7"></ext_resource>
-	<ext_resource path="res://scripts/texto_gui.gd" type="Script" index="11"></ext_resource>
-	<ext_resource path="res://elementos/Popup_pause.scn" type="PackedScene" index="16"></ext_resource>
-	<ext_resource path="res://sonidos/ambiente-aves_agua.ogg" type="AudioStream" index="19"></ext_resource>
-	<ext_resource path="res://textures/fondos/arbol_seco1.png" type="Texture" index="54"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture" index="2"></ext_resource>
+<resource_file type="PackedScene" subresource_count="122" version="2.0" version_name="Godot Engine v2.0.stable.official">
 	<ext_resource path="res://textures/elementos/items.png" type="Texture" index="12"></ext_resource>
-	<ext_resource path="res://textures/fondos/agua_lejos.png" type="Texture" index="35"></ext_resource>
-	<ext_resource path="res://textures/fondos/hueco_camino.png" type="Texture" index="51"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras5.png" type="Texture" index="23"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras7.png" type="Texture" index="25"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras3.png" type="Texture" index="45"></ext_resource>
+	<ext_resource path="res://textures/fondos/montañas_1_2.png" type="Texture" index="50"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedra2.png" type="Texture" index="44"></ext_resource>
 	<ext_resource path="res://textures/fondos/barro_camico.png" type="Texture" index="52"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras1_grande.png" type="Texture" index="39"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras7.png" type="Texture" index="25"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras5.png" type="Texture" index="23"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras8.png" type="Texture" index="27"></ext_resource>
+	<ext_resource path="res://textures/fondos/hueco_camino.png" type="Texture" index="51"></ext_resource>
+	<ext_resource path="res://scripts/level.gd" type="Script" index="0"></ext_resource>
 	<ext_resource path="res://textures/fondos/rama1.png" type="Texture" index="46"></ext_resource>
+	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="18"></ext_resource>
 	<ext_resource path="res://textures/fondos/plantas_camino.png" type="Texture" index="37"></ext_resource>
-	<ext_resource path="res://scripts/sigilo.gd" type="Script" index="58"></ext_resource>
-	<ext_resource path="res://textures/fondos/tronco1.png" type="Texture" index="31"></ext_resource>
-	<ext_resource path="res://textures/elementos/opciones_on.png" type="Texture" index="9"></ext_resource>
-	<ext_resource path="res://scripts/save_load.gd" type="Script" index="20"></ext_resource>
 	<ext_resource path="res://textures/fondos/piedras6.png" type="Texture" index="24"></ext_resource>
+	<ext_resource path="res://textures/fondos/rama2.png" type="Texture" index="47"></ext_resource>
+	<ext_resource path="res://textures/fondos/muro.png" type="Texture" index="40"></ext_resource>
+	<ext_resource path="res://fonts/chalk.fnt" type="Font" index="10"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco1.png" type="Texture" index="54"></ext_resource>
+	<ext_resource path="res://textures/fondos/agua_lejos.png" type="Texture" index="35"></ext_resource>
+	<ext_resource path="res://elementos/Popup_pause.scn" type="PackedScene" index="16"></ext_resource>
+	<ext_resource path="res://textures/elementos/opciones.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://scripts/save_load.gd" type="Script" index="20"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras1.png" type="Texture" index="29"></ext_resource>
+	<ext_resource path="res://scripts/touch_screen_button.gd" type="Script" index="1"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras1_grande.png" type="Texture" index="39"></ext_resource>
+	<ext_resource path="res://scripts/idiomas_igu.gd" type="Script" index="14"></ext_resource>
+	<ext_resource path="res://scripts/texto_gui.gd" type="Script" index="11"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://textures/elementos/opciones_on.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://textures/fondos/tronco2.png" type="Texture" index="30"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://textures/fondos/tronco1.png" type="Texture" index="31"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_grande6.png" type="Texture" index="32"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://textures/fondos/cueva_interna.png" type="Texture" index="38"></ext_resource>
 	<ext_resource path="res://textures/fondos/musgo1.png" type="Texture" index="36"></ext_resource>
 	<ext_resource path="res://textures/fondos/arbol_seco3.png" type="Texture" index="55"></ext_resource>
-	<ext_resource path="res://textures/fondos/cueva_interna.png" type="Texture" index="38"></ext_resource>
-	<ext_resource path="res://textures/fondos/arbol_grande6.png" type="Texture" index="32"></ext_resource>
-	<ext_resource path="res://elementos/colmena.xml" type="PackedScene" index="34"></ext_resource>
-	<ext_resource path="res://elementos/medicina.xml" type="PackedScene" index="21"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture" index="6"></ext_resource>
-	<ext_resource path="res://textures/fondos/rama2.png" type="Texture" index="47"></ext_resource>
+	<ext_resource path="res://sonidos/ambiente-aves_agua.ogg" type="AudioStream" index="19"></ext_resource>
 	<ext_resource path="res://textures/fondos/rama.png" type="Texture" index="56"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras1.png" type="Texture" index="29"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedra2.png" type="Texture" index="44"></ext_resource>
+	<ext_resource path="res://textures/fondos/montaña_tierra.png" type="Texture" index="41"></ext_resource>
 	<ext_resource path="res://textures/fondos/piedras4.png" type="Texture" index="26"></ext_resource>
 	<ext_resource path="res://textures/fondos/raiz5.png" type="Texture" index="53"></ext_resource>
-	<ext_resource path="res://textures/fondos/muro.png" type="Texture" index="40"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras8.png" type="Texture" index="27"></ext_resource>
-	<ext_resource path="res://textures/fondos/raiz2.png" type="Texture" index="49"></ext_resource>
-	<ext_resource path="res://textures/fondos/montaña_tierra.png" type="Texture" index="41"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras3.png" type="Texture" index="45"></ext_resource>
-	<ext_resource path="res://textures/platformer/parallax_bg.tscn" type="PackedScene" index="61"></ext_resource>
-	<ext_resource path="res://textures/fondos/raiz1.png" type="Texture" index="48"></ext_resource>
-	<ext_resource path="res://textures/fondos/montaña_pared.png" type="Texture" index="43"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras9.png" type="Texture" index="28"></ext_resource>
+	<ext_resource path="res://elementos/medicina.xml" type="PackedScene" index="21"></ext_resource>
 	<ext_resource path="res://elementos/Popup_item.scn" type="PackedScene" index="17"></ext_resource>
-	<ext_resource path="res://elementos/checkpoint.scn" type="PackedScene" index="63"></ext_resource>
-	<ext_resource path="res://elementos/ave_fuego.scn" type="PackedScene" index="62"></ext_resource>
-	<ext_resource path="res://elementos/chaman.scn" type="PackedScene" index="59"></ext_resource>
-	<ext_resource path="res://personajes/character.xml" type="PackedScene" index="60"></ext_resource>
+	<ext_resource path="res://textures/fondos/raiz1.png" type="Texture" index="48"></ext_resource>
+	<ext_resource path="res://igu/dialogue_box.scn" type="PackedScene" index="15"></ext_resource>
 	<ext_resource path="res://elementos/pluma_blanca.xml" type="PackedScene" index="33"></ext_resource>
 	<ext_resource path="res://elementos/elementos_misiones.scn" type="PackedScene" index="13"></ext_resource>
+	<ext_resource path="res://textures/platformer/parallax_bg.tscn" type="PackedScene" index="59"></ext_resource>
 	<ext_resource path="res://elementos/poresito.scn" type="PackedScene" index="22"></ext_resource>
-	<ext_resource path="res://igu/dialogue_box.scn" type="PackedScene" index="15"></ext_resource>
+	<ext_resource path="res://elementos/checkpoint.scn" type="PackedScene" index="61"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras9.png" type="Texture" index="28"></ext_resource>
+	<ext_resource path="res://elementos/colmena.xml" type="PackedScene" index="34"></ext_resource>
+	<ext_resource path="res://elementos/ave_fuego.scn" type="PackedScene" index="60"></ext_resource>
+	<ext_resource path="res://textures/fondos/raiz2.png" type="Texture" index="49"></ext_resource>
+	<ext_resource path="res://personajes/character.xml" type="PackedScene" index="58"></ext_resource>
+	<ext_resource path="res://textures/fondos/montaña_pared.png" type="Texture" index="43"></ext_resource>
+	<ext_resource path="res://elementos/chaman.scn" type="PackedScene" index="57"></ext_resource>
 	<ext_resource path="res://mundos/caminos/camino4.scn" type="PackedScene" index="42"></ext_resource>
-	<ext_resource path="res://elementos/sonidos_ambiente.scn" type="PackedScene" index="64"></ext_resource>
 	<resource type="ConvexPolygonShape2D" path="local://64">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2_array name="points" len="7"> 			-1079.39, 747.483, -1021.68, 728.907, -960.641, 725.59, -877.713, 740.849, -847.859, 764.068, -831.273, 793.922, -1114.55, 788.615 </vector2_array>
@@ -360,42 +357,17 @@
 		<vector2 name="extents"> 117.498, 10 </vector2>
 
 	</resource>
-	<resource type="ConvexPolygonShape2D" path="local://65">
-		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			-20.5107, 45.532, 27.0459, -56.0786, 84.4893, 57.532 </vector2_array>
-
-	</resource>
-	<resource type="ConvexPolygonShape2D" path="local://66">
-		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			-39.0986, 23.3848, 12.9785, -95.1748, 58.4082, 28.925 </vector2_array>
-
-	</resource>
-	<resource type="ConvexPolygonShape2D" path="local://67">
-		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="3"> 			-28.0205, -27.3549, -7.27734, -96.2946, 14.4355, -19.4662 </vector2_array>
-
-	</resource>
-	<resource type="ConvexPolygonShape2D" path="local://68">
-		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			-789.054, 46.4247, -791.325, 110.043, -1181.58, 65.25, -1169.89, 20.155 </vector2_array>
-
-	</resource>
-	<resource type="ConvexPolygonShape2D" path="local://69">
-		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			-761.788, -1.28888, -720.891, 64.6013, -1317.4, 64.1126, -1309.36, 3.25525 </vector2_array>
-
-	</resource>
 	<main_resource>
 		<dictionary name="_bundled" shared="false">
 			<string> "conn_count" </string>
 			<int> 9 </int>
 			<string> "conns" </string>
-			<int_array  len="54"> 				0, 1, 391, 390, 2, 0, 7, 0, 15, 392, 2, 0, 9, 9, 394, 393, 2, 0, 11, 0, 15, 395, 2, 0, 12, 0, 15, 396, 2, 0, 13, 0, 15, 397, 2, 0, 14, 0, 15, 398, 2, 0, 20, 150, 400, 399, 2, 0, 150, 0, 402, 401, 2, 0 </int_array>
+			<int_array  len="54"> 				0, 1, 384, 383, 2, 0, 7, 0, 17, 385, 2, 0, 9, 9, 387, 386, 2, 0, 11, 0, 17, 388, 2, 0, 12, 0, 17, 389, 2, 0, 13, 0, 17, 390, 2, 0, 14, 0, 17, 391, 2, 0, 20, 141, 393, 392, 2, 0, 141, 0, 395, 394, 2, 0 </int_array>
 			<string> "editable_instances" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="403">
+			<string_array  len="396">
 				<string> "world" </string>
 				<string> "transform/pos" </string>
 				<string> "script/script" </string>
@@ -408,8 +380,10 @@
 				<string> "scale" </string>
 				<string> "CanvasLayer" </string>
 				<string> "left_inputs" </string>
+				<string> "visibility/visible" </string>
 				<string> "transform/scale" </string>
 				<string> "left" </string>
+				<string> "visibility/opacity" </string>
 				<string> "normal" </string>
 				<string> "pressed" </string>
 				<string> "bitmask" </string>
@@ -443,7 +417,6 @@
 				<string> "hud_text" </string>
 				<string> "items" </string>
 				<string> "items_mision" </string>
-				<string> "visibility/visible" </string>
 				<string> "items_mision2" </string>
 				<string> "items_mision3" </string>
 				<string> "idioma_gui" </string>
@@ -461,8 +434,6 @@
 				<string> "Timer_reinicio" </string>
 				<string> "Timer_parar" </string>
 				<string> "Timer_pasos" </string>
-				<string> "Timer_20" </string>
-				<string> "Timer_9" </string>
 				<string> "SamplePlayer2D" </string>
 				<string> "params/volume_db" </string>
 				<string> "params/pitch_scale" </string>
@@ -733,7 +704,6 @@
 				<string> "CollisionShape2D" </string>
 				<string> "shape" </string>
 				<string> "_update_shape_index" </string>
-				<string> "visibility/opacity" </string>
 				<string> "hueco_camino6" </string>
 				<string> "arbles_fondo1" </string>
 				<string> "rocas_fondo_oscuro" </string>
@@ -767,8 +737,6 @@
 				<string> "arbol_seco1" </string>
 				<string> "hueco_camino7" </string>
 				<string> "rocas_fondo2" </string>
-				<string> "grullir_madera 2" </string>
-				<string> "sigilo" </string>
 				<string> "dialogos_obj" </string>
 				<string> "chaman1" </string>
 				<string> "line" </string>
@@ -783,9 +751,6 @@
 				<string> "parallax_bg" </string>
 				<string> "Ave_fuego" </string>
 				<string> "checkpoint" </string>
-				<string> "sonido_cueva1" </string>
-				<string> "sonido_viento" </string>
-				<string> "sonido_cueva_caiman" </string>
 				<string> "_on_world_script_changed" </string>
 				<string> "script_changed" </string>
 				<string> "_on_pausa_pressed" </string>
@@ -801,14 +766,14 @@
 				<string> "body_enter" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 162 </int>
+			<int> 148 </int>
 			<string> "node_paths" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="3118"> 				-1, -1, 4, 0, -1, 3, 1, 0, 2, 1, 3, 2, 0, 0, 0, 10, 5, -1, 5, 6, 3, 7, 4, 8, 5, 9, 6, 2, 7, 0, 1, 0, 4, 11, -1, 1, 12, 8, 0, 2, 0, 20, 13, -1, 8, 1, 9, 12, 10, 14, 11, 15, 12, 16, 13, 17, 14, 18, 15, 19, 16, 0, 2, 0, 20, 21, -1, 8, 1, 17, 12, 18, 14, 19, 15, 20, 16, 13, 17, 14, 18, 21, 19, 16, 0, 1, 0, 4, 22, -1, 1, 12, 8, 0, 5, 0, 20, 20, -1, 8, 1, 22, 12, 23, 14, 24, 15, 25, 16, 13, 17, 14, 18, 26, 19, 16, 0, 5, 0, 20, 23, -1, 8, 1, 27, 12, 28, 14, 29, 15, 30, 16, 13, 17, 14, 18, 31, 19, 16, 0, 1, 0, 4, 24, -1, 3, 1, 32, 12, 33, 3, 34, 0, 8, 0, 43, 25, -1, 18, 26, 35, 27, 36, 28, 37, 29, 38, 30, 39, 31, 39, 32, 40, 33, 41, 34, 42, 35, 43, 36, 3, 37, 3, 38, 39, 39, 44, 40, 16, 41, 45, 2, 46, 42, 47, 0, 1, 0, 4, 44, -1, 0, 0, 1, 0, 20, 45, -1, 8, 1, 48, 12, 49, 14, 50, 15, 50, 16, 13, 17, 14, 18, 31, 19, 16, 0, 1, 0, 2147483647, 46, 51, 1, 47, 14, 0, 1, 0, 2147483647, 48, 51, 2, 47, 14, 1, 52, 0, 1, 0, 2147483647, 49, 51, 2, 47, 14, 1, 53, 0, 1, 0, 43, 50, -1, 12, 26, 54, 27, 55, 28, 56, 29, 57, 30, 39, 31, 39, 32, 40, 51, 58, 39, 44, 40, 16, 41, 45, 2, 59, 0, 1, 0, 2147483647, 52, 60, 4, 26, 61, 27, 62, 28, 63, 29, 64, 0, 1, 0, 2147483647, 53, 65, 5, 47, 14, 54, 3, 55, 3, 28, 5, 29, 66, 0, 1, 0, 2147483647, 56, 67, 7, 47, 14, 54, 3, 55, 3, 26, 68, 27, 69, 28, 70, 29, 71, 0, 0, 0, 57, 57, -1, 4, 58, 3, 59, 72, 60, 14, 61, 39, 0, 0, 0, 57, 62, -1, 4, 58, 3, 59, 73, 60, 14, 61, 14, 0, 0, 0, 57, 63, -1, 4, 58, 3, 59, 74, 60, 14, 61, 14, 0, 0, 0, 57, 64, -1, 4, 58, 3, 59, 75, 60, 14, 61, 14, 0, 0, 0, 57, 65, -1, 4, 58, 3, 59, 74, 60, 14, 61, 14, 0, 0, 0, 57, 66, -1, 4, 58, 3, 59, 76, 60, 14, 61, 14, 0, 0, 0, 67, 67, -1, 8, 68, 77, 69, 78, 70, 44, 71, 79, 72, 44, 73, 3, 74, 80, 75, 5, 0, 0, 0, 67, 76, -1, 8, 68, 81, 69, 44, 70, 44, 71, 79, 72, 44, 73, 3, 74, 80, 75, 5, 0, 0, 0, 86, 77, -1, 8, 78, 82, 79, 14, 80, 39, 81, 83, 82, 39, 83, 14, 84, 5, 85, 84, 0, 0, 0, 4, 87, -1, 1, 2, 85, 0, 0, 0, 4, 88, -1, 2, 1, 86, 3, 87, 0, 29, 0, 2147483647, 89, 88, 3, 1, 89, 12, 90, 90, 40, 0, 29, 0, 2147483647, 91, 88, 3, 1, 91, 12, 90, 90, 40, 0, 29, 0, 2147483647, 92, 88, 5, 1, 92, 12, 90, 90, 93, 93, 40, 94, 94, 0, 29, 0, 2147483647, 95, 95, 7, 1, 96, 12, 97, 90, 40, 96, 98, 97, 99, 98, 100, 99, 100, 0, 29, 0, 111, 100, -1, 11, 101, 14, 102, 101, 103, 102, 104, 14, 105, 3, 106, 3, 107, 4, 108, 5, 109, 44, 110, 5, 3, 103, 0, 34, 0, 112, 112, -1, 4, 113, 16, 114, 104, 115, 4, 116, 14, 0, 29, 0, 111, 117, -1, 26, 101, 14, 102, 105, 103, 106, 104, 14, 118, 107, 119, 106, 120, 14, 121, 108, 122, 106, 123, 14, 124, 109, 125, 106, 126, 14, 127, 110, 128, 106, 129, 14, 130, 111, 131, 106, 132, 14, 105, 3, 106, 3, 107, 4, 108, 5, 109, 44, 110, 5, 3, 112, 0, 36, 0, 112, 133, -1, 5, 1, 113, 113, 16, 114, 114, 115, 115, 116, 14, 0, 29, 0, 111, 134, -1, 162, 1, 116, 101, 14, 102, 117, 103, 118, 104, 14, 118, 119, 119, 118, 120, 14, 121, 120, 122, 121, 123, 14, 124, 122, 125, 121, 126, 14, 127, 123, 128, 124, 129, 14, 130, 125, 131, 124, 132, 14, 135, 126, 136, 127, 137, 14, 138, 128, 139, 127, 140, 14, 141, 129, 142, 130, 143, 14, 144, 131, 145, 130, 146, 14, 147, 132, 148, 133, 149, 14, 150, 134, 151, 133, 152, 14, 153, 135, 154, 136, 155, 14, 156, 137, 157, 136, 158, 14, 159, 138, 160, 139, 161, 14, 162, 140, 163, 139, 164, 14, 165, 141, 166, 142, 167, 14, 168, 143, 169, 142, 170, 14, 171, 144, 172, 145, 173, 14, 174, 146, 175, 145, 176, 14, 177, 147, 178, 148, 179, 14, 180, 149, 181, 148, 182, 14, 183, 150, 184, 151, 185, 14, 186, 152, 187, 151, 188, 14, 189, 153, 190, 154, 191, 14, 192, 155, 193, 154, 194, 14, 195, 156, 196, 157, 197, 14, 198, 158, 199, 157, 200, 14, 201, 159, 202, 160, 203, 14, 204, 161, 205, 160, 206, 14, 207, 162, 208, 160, 209, 14, 210, 163, 211, 164, 212, 14, 213, 165, 214, 164, 215, 14, 216, 166, 217, 167, 218, 14, 219, 168, 220, 167, 221, 14, 222, 169, 223, 170, 224, 14, 225, 171, 226, 170, 227, 14, 228, 172, 229, 170, 230, 14, 231, 173, 232, 174, 233, 14, 234, 175, 235, 174, 236, 14, 237, 176, 238, 174, 239, 14, 240, 177, 241, 178, 242, 14, 243, 179, 244, 178, 245, 14, 246, 180, 247, 181, 248, 14, 249, 182, 250, 181, 251, 14, 252, 183, 253, 181, 254, 14, 255, 184, 256, 185, 257, 14, 258, 186, 259, 185, 260, 14, 261, 187, 262, 185, 263, 14, 264, 188, 265, 189, 266, 14, 267, 190, 268, 189, 269, 14, 105, 3, 106, 3, 107, 4, 108, 5, 109, 44, 110, 5, 3, 191, 0, 38, 0, 274, 270, -1, 5, 1, 192, 271, 193, 12, 194, 272, 195, 273, 39, 0, 38, 0, 112, 112, -1, 7, 1, 196, 271, 193, 12, 197, 113, 16, 114, 198, 115, 199, 116, 14, 0, 38, 0, 274, 275, -1, 5, 1, 200, 271, 193, 12, 201, 272, 202, 273, 39, 0, 38, 0, 112, 276, -1, 7, 1, 203, 271, 193, 12, 197, 113, 16, 114, 204, 115, 205, 116, 14, 0, 38, 0, 274, 277, -1, 5, 1, 206, 271, 193, 12, 207, 272, 208, 273, 39, 0, 38, 0, 112, 278, -1, 7, 1, 209, 271, 193, 12, 197, 113, 16, 114, 210, 115, 211, 116, 14, 0, 38, 0, 274, 279, -1, 5, 1, 212, 271, 193, 12, 213, 272, 195, 273, 39, 0, 38, 0, 112, 280, -1, 7, 1, 214, 271, 193, 12, 197, 113, 16, 114, 198, 115, 215, 116, 14, 0, 38, 0, 274, 281, -1, 5, 1, 216, 271, 193, 12, 217, 272, 208, 273, 39, 0, 38, 0, 112, 282, -1, 7, 1, 218, 271, 193, 12, 219, 113, 16, 114, 220, 115, 221, 116, 14, 0, 38, 0, 274, 283, -1, 5, 1, 222, 271, 193, 12, 223, 272, 208, 273, 39, 0, 38, 0, 112, 284, -1, 7, 1, 224, 271, 193, 12, 225, 113, 16, 114, 220, 115, 226, 116, 14, 0, 38, 0, 274, 285, -1, 5, 1, 227, 271, 193, 12, 228, 272, 202, 273, 39, 0, 38, 0, 112, 286, -1, 7, 1, 229, 271, 193, 12, 197, 113, 16, 114, 204, 115, 230, 116, 14, 0, 38, 0, 274, 287, -1, 5, 1, 231, 271, 193, 12, 232, 272, 195, 273, 39, 0, 38, 0, 112, 288, -1, 7, 1, 233, 271, 193, 12, 197, 113, 16, 114, 198, 115, 234, 116, 14, 0, 38, 0, 274, 289, -1, 5, 1, 235, 271, 193, 12, 236, 272, 195, 273, 39, 0, 38, 0, 112, 290, -1, 7, 1, 237, 271, 193, 12, 197, 113, 16, 114, 198, 115, 238, 116, 14, 0, 38, 0, 274, 291, -1, 5, 1, 239, 271, 193, 12, 240, 272, 202, 273, 39, 0, 38, 0, 112, 292, -1, 7, 1, 241, 271, 193, 12, 197, 113, 16, 114, 204, 115, 242, 116, 14, 0, 38, 0, 274, 293, -1, 5, 1, 243, 271, 193, 12, 244, 272, 202, 273, 39, 0, 38, 0, 112, 294, -1, 7, 1, 245, 271, 193, 12, 197, 113, 16, 114, 246, 115, 247, 116, 14, 0, 38, 0, 274, 295, -1, 5, 1, 248, 271, 193, 12, 249, 272, 208, 273, 39, 0, 38, 0, 112, 296, -1, 7, 1, 250, 271, 193, 12, 219, 113, 16, 114, 220, 115, 251, 116, 14, 0, 38, 0, 274, 297, -1, 5, 1, 252, 271, 193, 12, 253, 272, 208, 273, 39, 0, 38, 0, 112, 298, -1, 7, 1, 254, 271, 193, 12, 219, 113, 16, 114, 220, 115, 255, 116, 14, 0, 38, 0, 274, 299, -1, 4, 1, 256, 271, 193, 12, 257, 272, 195, 0, 38, 0, 112, 300, -1, 7, 1, 258, 271, 193, 12, 197, 113, 16, 114, 259, 115, 260, 116, 14, 0, 38, 0, 274, 301, -1, 4, 1, 261, 271, 193, 12, 197, 272, 262, 0, 38, 0, 112, 302, -1, 7, 1, 263, 271, 193, 12, 197, 113, 16, 114, 264, 115, 265, 116, 14, 0, 38, 0, 274, 303, -1, 5, 1, 266, 271, 193, 12, 267, 90, 268, 272, 269, 0, 38, 0, 112, 304, -1, 7, 1, 270, 271, 193, 12, 197, 113, 16, 114, 271, 115, 272, 116, 14, 0, 38, 0, 274, 305, -1, 5, 1, 273, 271, 274, 12, 275, 272, 269, 273, 39, 0, 38, 0, 112, 306, -1, 7, 1, 276, 271, 193, 12, 197, 113, 16, 114, 277, 115, 278, 116, 14, 0, 38, 0, 274, 307, -1, 5, 1, 279, 271, 274, 12, 275, 90, 3, 272, 280, 0, 38, 0, 112, 308, -1, 8, 1, 281, 271, 193, 12, 197, 90, 3, 113, 16, 114, 282, 115, 283, 116, 14, 0, 38, 0, 274, 309, -1, 4, 1, 284, 271, 193, 12, 285, 272, 262, 0, 38, 0, 112, 310, -1, 7, 1, 286, 271, 193, 12, 197, 113, 16, 114, 287, 115, 288, 116, 14, 0, 38, 0, 274, 311, -1, 4, 1, 289, 271, 290, 12, 267, 272, 269, 0, 38, 0, 112, 312, -1, 7, 1, 291, 271, 193, 12, 197, 113, 16, 114, 292, 115, 293, 116, 14, 0, 38, 0, 274, 313, -1, 4, 1, 294, 12, 295, 90, 3, 272, 296, 0, 38, 0, 112, 314, -1, 8, 1, 297, 271, 193, 12, 197, 90, 3, 113, 16, 114, 298, 115, 299, 116, 14, 0, 38, 0, 274, 315, -1, 4, 1, 300, 271, 193, 12, 301, 272, 262, 0, 38, 0, 274, 316, -1, 6, 1, 302, 271, 303, 12, 304, 90, 3, 272, 305, 273, 39, 0, 38, 0, 274, 317, -1, 6, 1, 306, 271, 307, 12, 308, 90, 3, 272, 309, 318, 39, 0, 38, 0, 112, 319, -1, 8, 1, 310, 271, 193, 12, 197, 90, 3, 113, 16, 114, 311, 115, 312, 116, 14, 0, 38, 0, 274, 320, -1, 5, 1, 313, 271, 193, 12, 314, 272, 195, 273, 39, 0, 38, 0, 112, 321, -1, 7, 1, 315, 271, 193, 12, 197, 113, 16, 114, 198, 115, 316, 116, 14, 0, 38, 0, 274, 322, -1, 6, 1, 317, 271, 193, 12, 318, 90, 3, 272, 319, 273, 39, 0, 29, 0, 2147483647, 323, 320, 1, 1, 321, 0, 29, 0, 2147483647, 324, 320, 1, 1, 322, 0, 29, 0, 2147483647, 325, 320, 1, 1, 323, 0, 29, 0, 2147483647, 326, 320, 1, 1, 324, 0, 29, 0, 2147483647, 327, 320, 1, 1, 325, 0, 29, 0, 2147483647, 328, 326, 1, 1, 327, 0, 29, 0, 2147483647, 329, 320, 1, 1, 328, 0, 29, 0, 2147483647, 330, 320, 1, 1, 329, 0, 29, 0, 2147483647, 331, 320, 1, 1, 330, 0, 0, 0, 4, 332, -1, 1, 3, 331, 0, 97, 0, 111, 333, -1, 12, 1, 332, 101, 14, 102, 333, 103, 334, 104, 39, 105, 3, 106, 3, 107, 4, 108, 5, 109, 44, 110, 5, 3, 335, 0, 98, 0, 334, 334, -1, 5, 1, 336, 12, 337, 335, 333, 116, 39, 336, 16, 0, 98, 0, 274, 274, -1, 5, 337, 338, 1, 339, 12, 340, 90, 341, 272, 342, 0, 97, 0, 274, 338, -1, 4, 1, 343, 12, 344, 90, 3, 272, 345, 0, 97, 0, 274, 339, -1, 4, 1, 346, 12, 347, 90, 45, 272, 348, 0, 97, 0, 274, 340, -1, 4, 1, 349, 12, 350, 90, 45, 272, 351, 0, 97, 0, 274, 341, -1, 4, 1, 352, 12, 353, 272, 354, 273, 39, 0, 97, 0, 274, 342, -1, 4, 1, 355, 12, 356, 90, 341, 272, 357, 0, 97, 0, 274, 343, -1, 5, 1, 358, 12, 359, 90, 45, 272, 360, 273, 39, 0, 97, 0, 274, 344, -1, 3, 1, 361, 12, 362, 272, 348, 0, 97, 0, 2147483647, 345, 363, 2, 1, 364, 12, 365, 0, 97, 0, 2147483647, 346, 363, 2, 1, 366, 12, 367, 0, 97, 0, 2147483647, 347, 363, 2, 1, 368, 12, 367, 0, 97, 0, 274, 348, -1, 4, 1, 369, 12, 370, 90, 45, 272, 371, 0, 97, 0, 274, 349, -1, 5, 1, 372, 271, 373, 12, 374, 90, 375, 272, 376, 0, 97, 0, 274, 350, -1, 5, 1, 377, 271, 193, 12, 378, 90, 45, 272, 379, 0, 97, 0, 274, 351, -1, 6, 1, 380, 271, 193, 12, 381, 90, 45, 272, 262, 273, 39, 0, 97, 0, 274, 277, -1, 5, 1, 382, 12, 383, 90, 45, 272, 371, 273, 39, 0, 97, 0, 274, 275, -1, 5, 1, 384, 12, 385, 90, 45, 272, 371, 273, 39, 0, 97, 0, 274, 270, -1, 5, 1, 386, 12, 387, 90, 45, 272, 371, 273, 39, 0, 97, 0, 274, 279, -1, 4, 1, 388, 12, 389, 90, 45, 272, 371, 0, 97, 0, 274, 281, -1, 4, 1, 390, 12, 391, 90, 45, 272, 371, 0, 97, 0, 274, 283, -1, 5, 1, 392, 12, 393, 90, 45, 272, 371, 273, 39, 0, 97, 0, 274, 352, -1, 6, 1, 394, 271, 193, 12, 395, 90, 45, 272, 396, 273, 39, 0, 97, 0, 274, 353, -1, 6, 1, 397, 271, 193, 12, 398, 90, 45, 272, 399, 273, 39, 0, 97, 0, 274, 354, -1, 6, 1, 400, 271, 193, 12, 401, 90, 45, 272, 402, 273, 39, 0, 97, 0, 274, 355, -1, 6, 1, 403, 271, 193, 12, 404, 90, 45, 272, 402, 273, 39, 0, 97, 0, 274, 356, -1, 6, 1, 405, 271, 193, 12, 404, 90, 45, 272, 406, 273, 39, 0, 97, 0, 274, 357, -1, 4, 1, 407, 12, 408, 90, 268, 272, 409, 0, 97, 0, 2147483647, 358, 363, 2, 1, 410, 12, 411, 0, 97, 0, 274, 359, -1, 3, 1, 412, 12, 413, 272, 414, 0, 97, 0, 274, 360, -1, 4, 1, 415, 12, 344, 90, 3, 272, 416, 0, 97, 0, 274, 361, -1, 4, 1, 417, 12, 344, 90, 3, 272, 345, 0, 97, 0, 274, 362, -1, 5, 1, 418, 12, 344, 90, 3, 272, 345, 273, 39, 0, 97, 0, 274, 363, -1, 5, 1, 419, 12, 344, 90, 3, 272, 345, 273, 39, 0, 97, 0, 274, 364, -1, 4, 1, 420, 12, 344, 90, 3, 272, 345, 0, 97, 0, 274, 365, -1, 6, 1, 421, 271, 193, 12, 422, 90, 45, 272, 423, 273, 39, 0, 97, 0, 274, 366, -1, 4, 1, 424, 12, 425, 90, 45, 272, 348, 0, 97, 0, 274, 367, -1, 4, 1, 426, 12, 427, 90, 428, 272, 429, 0, 97, 0, 274, 368, -1, 5, 1, 430, 271, 431, 12, 432, 90, 428, 272, 433, 0, 97, 0, 274, 369, -1, 4, 1, 434, 12, 344, 272, 345, 273, 39, 0, 97, 0, 274, 370, -1, 5, 1, 435, 271, 436, 12, 437, 90, 45, 272, 438, 0, 97, 0, 111, 371, -1, 17, 101, 14, 102, 439, 103, 440, 104, 39, 118, 441, 119, 442, 120, 39, 121, 443, 122, 444, 123, 39, 105, 3, 106, 3, 107, 4, 108, 5, 109, 44, 110, 5, 2, 445, 0, 140, 0, 112, 112, -1, 5, 1, 446, 113, 16, 114, 447, 115, 4, 116, 39, 0, 140, 0, 112, 276, -1, 5, 1, 448, 113, 16, 114, 449, 115, 6, 116, 39, 0, 140, 0, 112, 278, -1, 5, 1, 450, 113, 16, 114, 451, 115, 452, 116, 39, 0, 97, 0, 111, 372, -1, 15, 101, 14, 102, 453, 103, 454, 104, 39, 118, 455, 119, 456, 120, 39, 105, 3, 106, 3, 107, 4, 108, 5, 109, 44, 110, 5, 2, 457, 3, 458, 0, 144, 0, 112, 112, -1, 5, 1, 459, 113, 16, 114, 460, 115, 4, 116, 39, 0, 144, 0, 112, 276, -1, 5, 1, 461, 113, 16, 114, 462, 115, 6, 116, 39, 0, 0, 0, 4, 373, -1, 1, 3, 463, 0, 147, 0, 2147483647, 374, 464, 5, 1, 465, 12, 466, 90, 3, 375, 467, 376, 467, 0, 148, 0, 377, 377, -1, 2, 1, 468, 12, 469, 0, 0, 0, 2147483647, 378, 470, 7, 1, 471, 12, 472, 90, 473, 379, 474, 380, 475, 381, 375, 382, 476, 0, 150, 0, 67, 67, -1, 9, 1, 477, 68, 5, 69, 44, 70, 44, 71, 79, 72, 44, 73, 40, 74, 80, 75, 5, 0, 150, 0, 67, 383, -1, 10, 1, 478, 12, 479, 68, 99, 69, 44, 70, 44, 71, 79, 72, 44, 73, 3, 74, 80, 75, 5, 0, 0, 0, 2147483647, 384, 480, 0, 0, 0, 0, 2147483647, 385, 481, 1, 1, 482, 0, 154, 0, 377, 377, -1, 1, 1, 483, 0, 0, 0, 2147483647, 386, 484, 2, 1, 485, 90, 375, 0, 0, 0, 377, 387, -1, 2, 1, 486, 3, 487, 0, 157, 0, 67, 67, -1, 8, 68, 5, 69, 44, 70, 44, 71, 79, 72, 44, 73, 3, 74, 80, 75, 5, 0, 0, 0, 377, 388, -1, 2, 1, 488, 3, 489, 0, 159, 0, 67, 67, -1, 9, 1, 490, 68, 5, 69, 44, 70, 491, 71, 492, 72, 44, 73, 3, 74, 80, 75, 5, 0, 0, 0, 2147483647, 389, 493, 1, 1, 494, 0 </int_array>
+			<int_array  len="2852"> 				-1, -1, 4, 0, -1, 3, 1, 0, 2, 1, 3, 2, 0, 0, 0, 10, 5, -1, 5, 6, 3, 7, 4, 8, 5, 9, 6, 2, 7, 0, 1, 0, 4, 11, -1, 3, 12, 8, 13, 9, 3, 10, 0, 2, 0, 22, 14, -1, 8, 15, 11, 1, 12, 16, 13, 17, 14, 18, 15, 19, 8, 20, 16, 21, 17, 0, 2, 0, 22, 23, -1, 8, 15, 18, 1, 19, 16, 20, 17, 21, 18, 15, 19, 8, 20, 22, 21, 17, 0, 1, 0, 4, 24, -1, 3, 12, 8, 13, 9, 3, 23, 0, 5, 0, 22, 22, -1, 8, 15, 24, 1, 25, 16, 26, 17, 27, 18, 15, 19, 8, 20, 28, 21, 17, 0, 5, 0, 22, 25, -1, 8, 1, 29, 13, 30, 16, 31, 17, 32, 18, 15, 19, 8, 20, 33, 21, 17, 0, 1, 0, 4, 26, -1, 2, 1, 34, 13, 35, 0, 8, 0, 45, 27, -1, 18, 28, 36, 29, 37, 30, 38, 31, 39, 32, 40, 33, 40, 34, 41, 35, 42, 36, 43, 37, 44, 38, 3, 39, 3, 40, 40, 41, 45, 42, 17, 43, 46, 2, 47, 44, 48, 0, 1, 0, 4, 46, -1, 0, 0, 1, 0, 22, 47, -1, 8, 1, 49, 13, 50, 16, 51, 17, 51, 18, 15, 19, 8, 20, 33, 21, 17, 0, 1, 0, 2147483647, 48, 52, 1, 12, 8, 0, 1, 0, 2147483647, 49, 52, 2, 12, 8, 1, 53, 0, 1, 0, 2147483647, 50, 52, 2, 12, 8, 1, 54, 0, 1, 0, 45, 51, -1, 12, 28, 55, 29, 56, 30, 57, 31, 58, 32, 40, 33, 40, 34, 41, 52, 59, 41, 45, 42, 17, 43, 46, 2, 60, 0, 1, 0, 2147483647, 53, 61, 4, 28, 62, 29, 63, 30, 64, 31, 65, 0, 1, 0, 2147483647, 54, 66, 5, 12, 8, 55, 3, 56, 3, 30, 5, 31, 67, 0, 1, 0, 2147483647, 57, 68, 7, 12, 8, 55, 3, 56, 3, 28, 69, 29, 70, 30, 71, 31, 72, 0, 0, 0, 58, 58, -1, 4, 59, 3, 60, 73, 61, 8, 62, 40, 0, 0, 0, 58, 63, -1, 4, 59, 3, 60, 74, 61, 8, 62, 8, 0, 0, 0, 58, 64, -1, 4, 59, 3, 60, 75, 61, 8, 62, 8, 0, 0, 0, 58, 65, -1, 4, 59, 3, 60, 76, 61, 8, 62, 8, 0, 0, 0, 66, 66, -1, 8, 67, 77, 68, 78, 69, 45, 70, 79, 71, 45, 72, 3, 73, 80, 74, 5, 0, 0, 0, 66, 75, -1, 8, 67, 81, 68, 45, 69, 45, 70, 79, 71, 45, 72, 3, 73, 80, 74, 5, 0, 0, 0, 85, 76, -1, 8, 77, 82, 78, 8, 79, 40, 80, 83, 81, 40, 82, 8, 83, 5, 84, 84, 0, 0, 0, 4, 86, -1, 1, 2, 85, 0, 0, 0, 4, 87, -1, 2, 1, 86, 3, 87, 0, 27, 0, 2147483647, 88, 88, 3, 1, 89, 13, 90, 89, 41, 0, 27, 0, 2147483647, 90, 88, 3, 1, 91, 13, 90, 89, 41, 0, 27, 0, 2147483647, 91, 88, 5, 1, 92, 13, 90, 89, 93, 92, 41, 93, 94, 0, 27, 0, 2147483647, 94, 95, 7, 1, 96, 13, 97, 89, 41, 95, 98, 96, 99, 97, 100, 98, 100, 0, 27, 0, 110, 99, -1, 11, 100, 8, 101, 101, 102, 102, 103, 8, 104, 3, 105, 3, 106, 4, 107, 5, 108, 45, 109, 5, 3, 103, 0, 32, 0, 111, 111, -1, 4, 112, 17, 113, 104, 114, 4, 115, 8, 0, 27, 0, 110, 116, -1, 26, 100, 8, 101, 105, 102, 106, 103, 8, 117, 107, 118, 106, 119, 8, 120, 108, 121, 106, 122, 8, 123, 109, 124, 106, 125, 8, 126, 110, 127, 106, 128, 8, 129, 111, 130, 106, 131, 8, 104, 3, 105, 3, 106, 4, 107, 5, 108, 45, 109, 5, 3, 112, 0, 34, 0, 111, 132, -1, 5, 1, 113, 112, 17, 113, 114, 114, 115, 115, 8, 0, 27, 0, 110, 133, -1, 162, 1, 116, 100, 8, 101, 117, 102, 118, 103, 8, 117, 119, 118, 118, 119, 8, 120, 120, 121, 121, 122, 8, 123, 122, 124, 121, 125, 8, 126, 123, 127, 124, 128, 8, 129, 125, 130, 124, 131, 8, 134, 126, 135, 127, 136, 8, 137, 128, 138, 127, 139, 8, 140, 129, 141, 130, 142, 8, 143, 131, 144, 130, 145, 8, 146, 132, 147, 133, 148, 8, 149, 134, 150, 133, 151, 8, 152, 135, 153, 136, 154, 8, 155, 137, 156, 136, 157, 8, 158, 138, 159, 139, 160, 8, 161, 140, 162, 139, 163, 8, 164, 141, 165, 142, 166, 8, 167, 143, 168, 142, 169, 8, 170, 144, 171, 145, 172, 8, 173, 146, 174, 145, 175, 8, 176, 147, 177, 148, 178, 8, 179, 149, 180, 148, 181, 8, 182, 150, 183, 151, 184, 8, 185, 152, 186, 151, 187, 8, 188, 153, 189, 154, 190, 8, 191, 155, 192, 154, 193, 8, 194, 156, 195, 157, 196, 8, 197, 158, 198, 157, 199, 8, 200, 159, 201, 160, 202, 8, 203, 161, 204, 160, 205, 8, 206, 162, 207, 160, 208, 8, 209, 163, 210, 164, 211, 8, 212, 165, 213, 164, 214, 8, 215, 166, 216, 167, 217, 8, 218, 168, 219, 167, 220, 8, 221, 169, 222, 170, 223, 8, 224, 171, 225, 170, 226, 8, 227, 172, 228, 170, 229, 8, 230, 173, 231, 174, 232, 8, 233, 175, 234, 174, 235, 8, 236, 176, 237, 174, 238, 8, 239, 177, 240, 178, 241, 8, 242, 179, 243, 178, 244, 8, 245, 180, 246, 181, 247, 8, 248, 182, 249, 181, 250, 8, 251, 183, 252, 181, 253, 8, 254, 184, 255, 185, 256, 8, 257, 186, 258, 185, 259, 8, 260, 187, 261, 185, 262, 8, 263, 188, 264, 189, 265, 8, 266, 190, 267, 189, 268, 8, 104, 3, 105, 3, 106, 4, 107, 5, 108, 45, 109, 5, 3, 191, 0, 36, 0, 273, 269, -1, 5, 1, 192, 270, 193, 13, 194, 271, 195, 272, 40, 0, 36, 0, 111, 111, -1, 7, 1, 196, 270, 193, 13, 197, 112, 17, 113, 198, 114, 199, 115, 8, 0, 36, 0, 273, 274, -1, 5, 1, 200, 270, 193, 13, 201, 271, 202, 272, 40, 0, 36, 0, 111, 275, -1, 7, 1, 203, 270, 193, 13, 197, 112, 17, 113, 204, 114, 205, 115, 8, 0, 36, 0, 273, 276, -1, 5, 1, 206, 270, 193, 13, 207, 271, 208, 272, 40, 0, 36, 0, 111, 277, -1, 7, 1, 209, 270, 193, 13, 197, 112, 17, 113, 210, 114, 211, 115, 8, 0, 36, 0, 273, 278, -1, 5, 1, 212, 270, 193, 13, 213, 271, 195, 272, 40, 0, 36, 0, 111, 279, -1, 7, 1, 214, 270, 193, 13, 197, 112, 17, 113, 198, 114, 215, 115, 8, 0, 36, 0, 273, 280, -1, 5, 1, 216, 270, 193, 13, 217, 271, 208, 272, 40, 0, 36, 0, 111, 281, -1, 7, 1, 218, 270, 193, 13, 219, 112, 17, 113, 220, 114, 221, 115, 8, 0, 36, 0, 273, 282, -1, 5, 1, 222, 270, 193, 13, 223, 271, 208, 272, 40, 0, 36, 0, 111, 283, -1, 7, 1, 224, 270, 193, 13, 225, 112, 17, 113, 220, 114, 226, 115, 8, 0, 36, 0, 273, 284, -1, 5, 1, 227, 270, 193, 13, 228, 271, 202, 272, 40, 0, 36, 0, 111, 285, -1, 7, 1, 229, 270, 193, 13, 197, 112, 17, 113, 204, 114, 230, 115, 8, 0, 36, 0, 273, 286, -1, 5, 1, 231, 270, 193, 13, 232, 271, 195, 272, 40, 0, 36, 0, 111, 287, -1, 7, 1, 233, 270, 193, 13, 197, 112, 17, 113, 198, 114, 234, 115, 8, 0, 36, 0, 273, 288, -1, 5, 1, 235, 270, 193, 13, 236, 271, 195, 272, 40, 0, 36, 0, 111, 289, -1, 7, 1, 237, 270, 193, 13, 197, 112, 17, 113, 198, 114, 238, 115, 8, 0, 36, 0, 273, 290, -1, 5, 1, 239, 270, 193, 13, 240, 271, 202, 272, 40, 0, 36, 0, 111, 291, -1, 7, 1, 241, 270, 193, 13, 197, 112, 17, 113, 204, 114, 242, 115, 8, 0, 36, 0, 273, 292, -1, 5, 1, 243, 270, 193, 13, 244, 271, 202, 272, 40, 0, 36, 0, 111, 293, -1, 7, 1, 245, 270, 193, 13, 197, 112, 17, 113, 246, 114, 247, 115, 8, 0, 36, 0, 273, 294, -1, 5, 1, 248, 270, 193, 13, 249, 271, 208, 272, 40, 0, 36, 0, 111, 295, -1, 7, 1, 250, 270, 193, 13, 219, 112, 17, 113, 220, 114, 251, 115, 8, 0, 36, 0, 273, 296, -1, 5, 1, 252, 270, 193, 13, 253, 271, 208, 272, 40, 0, 36, 0, 111, 297, -1, 7, 1, 254, 270, 193, 13, 219, 112, 17, 113, 220, 114, 255, 115, 8, 0, 36, 0, 273, 298, -1, 4, 1, 256, 270, 193, 13, 257, 271, 195, 0, 36, 0, 111, 299, -1, 7, 1, 258, 270, 193, 13, 197, 112, 17, 113, 259, 114, 260, 115, 8, 0, 36, 0, 273, 300, -1, 4, 1, 261, 270, 193, 13, 197, 271, 262, 0, 36, 0, 111, 301, -1, 7, 1, 263, 270, 193, 13, 197, 112, 17, 113, 264, 114, 265, 115, 8, 0, 36, 0, 273, 302, -1, 5, 1, 266, 270, 193, 13, 267, 89, 268, 271, 269, 0, 36, 0, 111, 303, -1, 7, 1, 270, 270, 193, 13, 197, 112, 17, 113, 271, 114, 272, 115, 8, 0, 36, 0, 273, 304, -1, 5, 1, 273, 270, 274, 13, 275, 271, 269, 272, 40, 0, 36, 0, 111, 305, -1, 7, 1, 276, 270, 193, 13, 197, 112, 17, 113, 277, 114, 278, 115, 8, 0, 36, 0, 273, 306, -1, 5, 1, 279, 270, 274, 13, 275, 89, 3, 271, 280, 0, 36, 0, 111, 307, -1, 8, 1, 281, 270, 193, 13, 197, 89, 3, 112, 17, 113, 282, 114, 283, 115, 8, 0, 36, 0, 273, 308, -1, 4, 1, 284, 270, 193, 13, 285, 271, 262, 0, 36, 0, 111, 309, -1, 7, 1, 286, 270, 193, 13, 197, 112, 17, 113, 287, 114, 288, 115, 8, 0, 36, 0, 273, 310, -1, 4, 1, 289, 270, 290, 13, 267, 271, 269, 0, 36, 0, 111, 311, -1, 7, 1, 291, 270, 193, 13, 197, 112, 17, 113, 292, 114, 293, 115, 8, 0, 36, 0, 273, 312, -1, 4, 1, 294, 13, 295, 89, 3, 271, 296, 0, 36, 0, 111, 313, -1, 8, 1, 297, 270, 193, 13, 197, 89, 3, 112, 17, 113, 298, 114, 299, 115, 8, 0, 36, 0, 273, 314, -1, 4, 1, 300, 270, 193, 13, 301, 271, 262, 0, 36, 0, 273, 315, -1, 6, 1, 302, 270, 303, 13, 304, 89, 3, 271, 305, 272, 40, 0, 36, 0, 273, 316, -1, 6, 1, 306, 270, 307, 13, 308, 89, 3, 271, 309, 317, 40, 0, 36, 0, 111, 318, -1, 8, 1, 310, 270, 193, 13, 197, 89, 3, 112, 17, 113, 311, 114, 312, 115, 8, 0, 36, 0, 273, 319, -1, 5, 1, 313, 270, 193, 13, 314, 271, 195, 272, 40, 0, 36, 0, 111, 320, -1, 7, 1, 315, 270, 193, 13, 197, 112, 17, 113, 198, 114, 316, 115, 8, 0, 36, 0, 273, 321, -1, 6, 1, 317, 270, 193, 13, 318, 89, 3, 271, 319, 272, 40, 0, 27, 0, 2147483647, 322, 320, 1, 1, 321, 0, 27, 0, 2147483647, 323, 320, 1, 1, 322, 0, 27, 0, 2147483647, 324, 320, 1, 1, 323, 0, 27, 0, 2147483647, 325, 320, 1, 1, 324, 0, 27, 0, 2147483647, 326, 320, 1, 1, 325, 0, 27, 0, 2147483647, 327, 326, 1, 1, 327, 0, 27, 0, 2147483647, 328, 320, 1, 1, 328, 0, 27, 0, 2147483647, 329, 320, 1, 1, 329, 0, 27, 0, 2147483647, 330, 320, 1, 1, 330, 0, 0, 0, 4, 331, -1, 1, 3, 331, 0, 95, 0, 110, 332, -1, 12, 1, 332, 100, 8, 101, 333, 102, 334, 103, 40, 104, 3, 105, 3, 106, 4, 107, 5, 108, 45, 109, 5, 3, 335, 0, 96, 0, 333, 333, -1, 5, 1, 336, 13, 337, 334, 333, 115, 40, 335, 17, 0, 96, 0, 273, 273, -1, 5, 15, 338, 1, 339, 13, 340, 89, 341, 271, 342, 0, 95, 0, 273, 336, -1, 4, 1, 343, 13, 344, 89, 3, 271, 345, 0, 95, 0, 273, 337, -1, 4, 1, 346, 13, 347, 89, 46, 271, 348, 0, 95, 0, 273, 338, -1, 4, 1, 349, 13, 350, 89, 46, 271, 351, 0, 95, 0, 273, 339, -1, 4, 1, 352, 13, 353, 271, 354, 272, 40, 0, 95, 0, 273, 340, -1, 4, 1, 355, 13, 356, 89, 341, 271, 357, 0, 95, 0, 273, 341, -1, 5, 1, 358, 13, 359, 89, 46, 271, 360, 272, 40, 0, 95, 0, 273, 342, -1, 3, 1, 361, 13, 362, 271, 348, 0, 95, 0, 2147483647, 343, 363, 2, 1, 364, 13, 365, 0, 95, 0, 2147483647, 344, 363, 2, 1, 366, 13, 367, 0, 95, 0, 2147483647, 345, 363, 2, 1, 368, 13, 367, 0, 95, 0, 273, 346, -1, 4, 1, 369, 13, 370, 89, 46, 271, 371, 0, 95, 0, 273, 347, -1, 5, 1, 372, 270, 373, 13, 374, 89, 375, 271, 376, 0, 95, 0, 273, 348, -1, 5, 1, 377, 270, 193, 13, 378, 89, 46, 271, 379, 0, 95, 0, 273, 349, -1, 6, 1, 380, 270, 193, 13, 381, 89, 46, 271, 262, 272, 40, 0, 95, 0, 273, 276, -1, 5, 1, 382, 13, 383, 89, 46, 271, 371, 272, 40, 0, 95, 0, 273, 274, -1, 5, 1, 384, 13, 385, 89, 46, 271, 371, 272, 40, 0, 95, 0, 273, 269, -1, 5, 1, 386, 13, 387, 89, 46, 271, 371, 272, 40, 0, 95, 0, 273, 278, -1, 4, 1, 388, 13, 389, 89, 46, 271, 371, 0, 95, 0, 273, 280, -1, 4, 1, 390, 13, 391, 89, 46, 271, 371, 0, 95, 0, 273, 282, -1, 5, 1, 392, 13, 393, 89, 46, 271, 371, 272, 40, 0, 95, 0, 273, 350, -1, 6, 1, 394, 270, 193, 13, 395, 89, 46, 271, 396, 272, 40, 0, 95, 0, 273, 351, -1, 6, 1, 397, 270, 193, 13, 398, 89, 46, 271, 399, 272, 40, 0, 95, 0, 273, 352, -1, 6, 1, 400, 270, 193, 13, 401, 89, 46, 271, 402, 272, 40, 0, 95, 0, 273, 353, -1, 6, 1, 403, 270, 193, 13, 404, 89, 46, 271, 402, 272, 40, 0, 95, 0, 273, 354, -1, 6, 1, 405, 270, 193, 13, 404, 89, 46, 271, 406, 272, 40, 0, 95, 0, 273, 355, -1, 4, 1, 407, 13, 408, 89, 268, 271, 409, 0, 95, 0, 2147483647, 356, 363, 2, 1, 410, 13, 411, 0, 95, 0, 273, 357, -1, 3, 1, 412, 13, 413, 271, 414, 0, 95, 0, 273, 358, -1, 4, 1, 415, 13, 344, 89, 3, 271, 416, 0, 95, 0, 273, 359, -1, 4, 1, 417, 13, 344, 89, 3, 271, 345, 0, 95, 0, 273, 360, -1, 5, 1, 418, 13, 344, 89, 3, 271, 345, 272, 40, 0, 95, 0, 273, 361, -1, 5, 1, 419, 13, 344, 89, 3, 271, 345, 272, 40, 0, 95, 0, 273, 362, -1, 4, 1, 420, 13, 344, 89, 3, 271, 345, 0, 95, 0, 273, 363, -1, 6, 1, 421, 270, 193, 13, 422, 89, 46, 271, 423, 272, 40, 0, 95, 0, 273, 364, -1, 4, 1, 424, 13, 425, 89, 46, 271, 348, 0, 95, 0, 273, 365, -1, 4, 1, 426, 13, 427, 89, 428, 271, 429, 0, 95, 0, 273, 366, -1, 5, 1, 430, 270, 431, 13, 432, 89, 428, 271, 433, 0, 95, 0, 273, 367, -1, 4, 1, 434, 13, 344, 271, 345, 272, 40, 0, 95, 0, 273, 368, -1, 5, 1, 435, 270, 436, 13, 437, 89, 46, 271, 438, 0, 0, 0, 4, 369, -1, 1, 3, 439, 0, 138, 0, 2147483647, 370, 440, 5, 1, 441, 13, 442, 89, 3, 371, 443, 372, 443, 0, 139, 0, 373, 373, -1, 2, 1, 444, 13, 445, 0, 0, 0, 2147483647, 374, 446, 7, 1, 447, 13, 448, 89, 449, 375, 450, 376, 451, 377, 375, 378, 452, 0, 141, 0, 66, 66, -1, 9, 1, 453, 67, 5, 68, 45, 69, 45, 70, 79, 71, 45, 72, 41, 73, 80, 74, 5, 0, 141, 0, 66, 379, -1, 10, 1, 454, 13, 455, 67, 99, 68, 45, 69, 45, 70, 79, 71, 45, 72, 3, 73, 80, 74, 5, 0, 0, 0, 2147483647, 380, 456, 0, 0, 0, 0, 2147483647, 381, 457, 1, 1, 458, 0, 145, 0, 373, 373, -1, 1, 1, 459, 0, 0, 0, 2147483647, 382, 460, 2, 1, 461, 89, 375, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="495" shared="false">
+			<array  len="462" shared="false">
 				<vector2> -2.51758, 0 </vector2>
 				<resource  external="0">  </resource>
 				<dictionary  shared="false">
@@ -820,21 +785,29 @@
 				<real> 0 </real>
 				<vector2> 1, 1 </vector2>
 				<resource  external="1">  </resource>
+				<bool> False </bool>
 				<vector2> 0.4, 0.4 </vector2>
-				<vector2> 1.6, -925 </vector2>
-				<vector2> 2.33, 2.33 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.11593 </real>
+				<vector2> 6.60912, -711.858 </vector2>
 				<resource  external="2">  </resource>
 				<resource  external="3">  </resource>
-				<resource name=""></resource>				<bool> False </bool>
-				<string> "btn_left" </string>
+				<resource name=""></resource>				<string> "btn_left" </string>
 				<int> 0 </int>
-				<vector2> 231.5, -495.646 </vector2>
-				<vector2> 2.33271, 2.33271 </vector2>
+				<real> 0.15221 </real>
+				<vector2> 333.438, -413.25 </vector2>
 				<resource  external="4">  </resource>
 				<resource  external="5">  </resource>
 				<string> "btn_right" </string>
-				<vector2> -417.285, -1278.03 </vector2>
-				<vector2> 2.05015, 2.89218 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
+				<real> 0.137207 </real>
+				<vector2> -417.245, -417.268 </vector2>
 				<resource  external="6">  </resource>
 				<resource  external="7">  </resource>
 				<string> "btn_jump" </string>
@@ -845,10 +818,6 @@
 				<string> "" </string>
 				<vector2> 405.095, 328.265 </vector2>
 				<vector2> 1.08134, 1.12139 </vector2>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
 				<real> -258 </real>
 				<real> -59 </real>
 				<real> 346 </real>
@@ -890,7 +859,6 @@
 				<real> 1.5 </real>
 				<real> 19 </real>
 				<real> 0.3 </real>
-				<real> 9 </real>
 				<real> -5 </real>
 				<real> 0.92 </real>
 				<real> 2048 </real>
@@ -1271,44 +1239,17 @@
 				<real> -21.196331 </real>
 				<vector2> 1.263, 1.37326 </vector2>
 				<resource  external="56">  </resource>
-				<resource  resource_type="Shape2D" path="local://65">  </resource>
-				<matrix32> 1, -0, 0, 1, 13127, 402.513 </matrix32>
-				<resource  resource_type="Shape2D" path="local://66">  </resource>
-				<matrix32> 1, -0, 0, 1, 12449.5, 439.342 </matrix32>
-				<resource  resource_type="Shape2D" path="local://67">  </resource>
-				<matrix32> 1, 0, 0, 1, 11909.2, 475.083 </matrix32>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<resource  external="57">  </resource>
-				<vector2> 13127, 402.513 </vector2>
-				<vector2_array  len="3"> 					84.4893, 57.532, 27.0459, -56.0786, -20.5107, 45.532 </vector2_array>
-				<vector2> 12449.5, 439.342 </vector2>
-				<vector2_array  len="3"> 					58.4082, 28.925, 12.9785, -95.1748, -39.0986, 23.3848 </vector2_array>
-				<vector2> 11909.2, 475.083 </vector2>
-				<vector2_array  len="3"> 					14.4355, -19.4662, -7.27734, -96.2946, -28.0205, -27.3549 </vector2_array>
-				<vector2> 2, 2 </vector2>
-				<resource  resource_type="Shape2D" path="local://68">  </resource>
-				<matrix32> 1, -0, 0, 1, 13143.6, 495.588 </matrix32>
-				<resource  resource_type="Shape2D" path="local://69">  </resource>
-				<matrix32> 1, -0, 0, 1, 13879.8, 520.581 </matrix32>
-				<resource  external="58">  </resource>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<vector2> 13143.6, 495.588 </vector2>
-				<vector2_array  len="4"> 					-789.054, 46.4247, -791.325, 110.043, -1181.58, 65.25, -1169.89, 20.155 </vector2_array>
-				<vector2> 13879.8, 520.581 </vector2>
-				<vector2_array  len="4"> 					-761.788, -1.28888, -720.891, 64.6013, -1317.4, 64.1126, -1309.36, 3.25525 </vector2_array>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<resource  external="59">  </resource>
 				<vector2> 14162.1, 384.517 </vector2>
 				<vector2> 0.979908, 0.877779 </vector2>
 				<string> "chaman1" </string>
 				<vector2> 217.529, -239.419 </vector2>
 				<vector2> 1.0205, 1.13924 </vector2>
-				<resource  external="60">  </resource>
+				<resource  external="58">  </resource>
 				<vector2> 259.021, 316.844 </vector2>
 				<vector2> 0.7969, 0.7969 </vector2>
 				<int> 11 </int>
@@ -1318,27 +1259,12 @@
 				<vector2> -276.242, -119.368 </vector2>
 				<vector2> -277.229, -121.13 </vector2>
 				<vector2> 0.96917, 0.944922 </vector2>
-				<resource  external="61">  </resource>
-				<resource  external="62">  </resource>
+				<resource  external="59">  </resource>
+				<resource  external="60">  </resource>
 				<vector2> -3795.09, -361.176 </vector2>
 				<vector2> -61.9336, 147.841 </vector2>
-				<resource  external="63">  </resource>
+				<resource  external="61">  </resource>
 				<vector2> 14926.1, 417.654 </vector2>
-				<vector2> -1003.89, 517.017 </vector2>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<vector2> 8177.99, -1983.29 </vector2>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<vector2> -1368.25, 16.4135 </vector2>
-				<real> 60 </real>
-				<real> 3048 </real>
-				<resource  external="64">  </resource>
-				<vector2> 12507.8, 399.487 </vector2>
 			</array>
 			<string> "version" </string>
 			<int> 2 </int>

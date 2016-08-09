@@ -67,12 +67,12 @@ region_rect = Rect2( 0, 0, 800, 400 )
 
 transform/pos = Vector2( 7, 140.568 )
 motion/scale = Vector2( 0.2, 0.8 )
-motion/mirroring = Vector2( 1030, 0 )
+motion/mirroring = Vector2( 900, 0 )
 
 [node name="Sprite" type="Sprite" parent="mount_1"]
 
-transform/pos = Vector2( -6.44397, -144.714 )
-transform/scale = Vector2( 1.15041, 1.40042 )
+transform/pos = Vector2( -6.44397, -139.099 )
+transform/scale = Vector2( 1.00273, 1.29719 )
 texture = ExtResource( 4 )
 centered = false
 region = true

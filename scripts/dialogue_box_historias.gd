@@ -18,10 +18,10 @@ var texto
 var dialog_dict = {
 	
 	nada = "",
-	historia1 = "[fill]Mi pueblo Yanomami ha estado comiendo su alimento crudo porque no tienen fuego, uno de los chamanes tenía fuego oculto y se iba a la selva para cocinar alimento solo para el y su mujer. Hace unos días se descubrió que guardaba el fuego en su estómago y la única manera de sacárselo fué haciéndolo reír. Sin embargo su mujer es malvada, ha enviado una ave para que se lleve el fuego lejos y ha lanzado una maldición al pueblo, que con ese mismo fuego los cremaran cuando mueran y beberán sus huesos.[/fill][center] NECESITAMOS TU AYUDA PARA ATRAPAR EL AVE QUE SE LLEVÓ EL FUEGO Y ENCENDER UN ÁRBOL ALTO PARA QUE ESPARSA BRASAS A TODAS LAS PERSONAS DEL PUEBLO.",
-	historia2 = "[fill][b]En ésta [color=green]misión[/color][/b] deberás perseguir el ave hasta que puedas quitarle el fuego, ten cuidado de no quedarte mucho tiempo detrás de ella o las chispas de fuego te quemarán; la mejor forma es saltandole arriba.",
-	historia3 = "[fill]Observa encima de los árboles, es posible que encuetres algunas cosas útiles.",
-	historia4 = "[fill]No te confíes en las maderas del camino, ultimamente el puente se ha estado cayendo por las lluvias.",
+	historia1 = "[fill]Mi pueblo Yanomami ha estado comiendo su alimento crudo porque no tienen fuego, uno de los caciques tenía fuego oculto y se iba a la selva para cocinar alimento solo para el y su mujer. Hace unos días se descubrió que guardaba el fuego en su estómago y la única manera de sacárselo fué haciéndolo reír. Sin embargo su mujer es malvada, ha enviado una ave para que se lleve el fuego lejos y ha lanzado una maldición al pueblo, que con ese mismo fuego los cremaran cuando mueran y beberán sus huesos.[/fill][center] NECESITAMOS TU AYUDA PARA ATRAPAR EL AVE QUE SE LLEVÓ EL FUEGO Y ENCENDER UN ÁRBOL ALTO PARA QUE ESPARSA BRASAS A TODAS LAS PERSONAS DEL PUEBLO.",
+	historia2 = "[fill] [b][color=red]Iwariwë[/color][/b]nace de la participación de un grupo de pobladores de la comunidad yanomami de Poripori, en el Alto Orinoco de Venezuela, en un taller en el que vivieron la experiencia colectiva de realizar un libro de manera artesanal, que incluyó la fabricación de papel, hilos y tintas, con materiales naturales de su entorno, y el aprendizaje de técnicas de encuadernación.El libro contiene textos manuscritos en idioma yanomami y dibujos cargados de simbolismo, realizados por ellos mismos, que nos ofrecen una particular versión de uno de los mitos fundamentales de su cultura: Iwariwë, el origen del fuego entre los hombres. Monte Ávila Editores Latinoamericana/ Instituto de Estudios Avanzados, 2011 4.000 ejemplares. 22 págs.Fotografía: Ascenso al Acopán fotos de Arianna AQ.[/fill]",
+	historia3 = "[fill]De cualquier modo, el relato que reproducimos en esta edición, fruto de la trascripción hecha de la voz del chamán Makowë, tiene una riqueza que no se agota en significaciones precisas. Su belleza sintética, sus curiosas imágenes y a veces sus escatológicos símbolos hablan de una cosmología rica y completa, apenas conocida por el pueblo venezolano. Este relato de Iwariwë se desarrolla en un ambiente donde los hombres son animales, y viceversas, subrayando la tremenda confusión que existe en la cultura yanomami entre dioses, hombres y naturaleza.[/fill]",
+	historia4 = "[fill]Fruto de un intercambio que casi lleva dos décadas entre miembros de la comunidad Mahekoto (Platanal, Alto Orinoco) y artistas como la mexicana Laura Anderson Barbata e investigadores del patrimonio y la conservación como el venezolano Álvaro González, es que ha sido posible la producción de este libro tan especial. Desde 1992 se estableció un nexo intercultural que ha llevado a algunos miembros de la comunidad yanomami a dominar la producción de papel artesanal a partir de pulpas vegetales, y en general a apropiarse de la tecnología del libro, tal como lo apreciamos en esta hermosa edición, manufacturada por miembros de la cooperativa Nii Nomijamotima, coordinada por Sheroanawë Hakihiiwë.[/fill]",
 
 
 
@@ -33,21 +33,21 @@ var dialog_dict = {
 
 var dialog_dict2 = {
 	nada = "",
-	historia1 = "[fill](Ingles) Mi pueblo Yanomami ha estado comiendo su alimento crudo porque no tienen fuego, uno de los chamanes tenía fuego oculto y se iba a la selva para cocinar alimento solo para el y su mujer. Hace unos días se descubrió que guardaba el fuego en su estómago y la única manera de sacárselo fué haciéndolo reír. Sin embargo su mujer es malvada, ha enviado una ave para que se lleve el fuego lejos y ha lanzado una maldición al pueblo, que con ese mismo fuego los cremaran cuando mueran y beberán sus huesos.[/fill][center] NECESITAMOS TU AYUDA PARA ATRAPAR EL AVE QUE SE LLEVÓ EL FUEGO Y ENCENDER UN ÁRBOL ALTO PARA QUE ESPARSA BRASAS A TODAS LAS PERSONAS DEL PUEBLO.",
-	historia2 = "[fill][b](ingles) En ésta [color=green]misión[/color][/b] deberás perseguir el ave hasta que puedas quitarle el fuego, ten cuidado de no quedarte mucho tiempo detrás de ella o las chispas de fuego te quemarán; la mejor forma es saltandole arriba.",
-	historia3 = "[fill](ingles) Observa encima de los árboles, es posible que encuetres algunas cosas útiles.[/fill]",
-	historia4 = "[fill](ingles) No te confíes en las maderas del camino, ultimamente el puente se ha estado cayendo por las lluvias.",
+	historia1 = "[center]Primero ingles Relato del dueño del [color=yellow]fuego[/color][/center]",
+	historia2 = "[center]Segundo InglesRelato del dueño del [color=yellow]fuego dos[/color][/center]",
+	historia3 = "[fill]Tercero ingles del segundo[/fill]",
+	historia4 = "[center]cuarto ingles del sgundo[/center]",
 
-# 	historia4 = "[center]cuarto ingles del sgundo[/center]",
+
 }
 
 
 var dialog_dict3 = {
 	nada = "",
-	historia1 = "[fill](yanomami) Mi pueblo Yanomami ha estado comiendo su alimento crudo porque no tienen fuego, uno de los chamanes tenía fuego oculto y se iba a la selva para cocinar alimento solo para el y su mujer. Hace unos días se descubrió que guardaba el fuego en su estómago y la única manera de sacárselo fué haciéndolo reír. Sin embargo su mujer es malvada, ha enviado una ave para que se lleve el fuego lejos y ha lanzado una maldición al pueblo, que con ese mismo fuego los cremaran cuando mueran y beberán sus huesos.[/fill][center] NECESITAMOS TU AYUDA PARA ATRAPAR EL AVE QUE SE LLEVÓ EL FUEGO Y ENCENDER UN ÁRBOL ALTO PARA QUE ESPARSA BRASAS A TODAS LAS PERSONAS DEL PUEBLO.",
-	historia2 = "[fill][b](yanomami) En ésta [color=green]misión[/color][/b] deberás perseguir el ave hasta que puedas quitarle el fuego, ten cuidado de no quedarte mucho tiempo detrás de ella o las chispas de fuego te quemarán; la mejor forma es saltandole arriba.",
-	historia3 = "[fill](yanomami) Observa encima de los árboles, es posible que encuetres algunas cosas útiles.[/fill]",
-	historia4 = "[fill](yanomami) No te confíes en las maderas del camino, ultimamente el puente se ha estado cayendo por las lluvias.",
+	historia1 ="Totihitawe, Hola soy el chaman [b]yanomami[/b]",
+	historia2 = "yano Segundo diálogo",
+	historia3 = "yano Tercer diálogo",
+	historia4 = "[center]Urraa yanomami... gracias por conseguir el fuego, ahora podremos comer nuestro alimento cocinado. Te daré una pluma de loro como agradecimiento.[/center]",
 
 
 

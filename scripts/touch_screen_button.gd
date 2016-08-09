@@ -5,8 +5,6 @@ extends CanvasLayer
 # var a=2
 # var b="textvar"
 #var mensaje = 1
-var opacidad_controles = 0.2
-
 
 func _ready():
 	# Initialization here
@@ -19,14 +17,3 @@ func _ready():
 
 #	mensaje = get_parent().get_node("gui/bonos_collected")
 #	get_node("gui_text/splash/label").set_text(str(mensaje))
-	opacidad_controles()
-
-
-
-func opacidad_controles():
-	var left = get_node("left_inputs/left")
-	var right = get_node("left_inputs/right")
-	var salto = get_node("right_inputs/TouchScreenButton")
-	left.set_opacity(opacidad_controles)
-	right.set_opacity(opacidad_controles)
-	salto.set_opacity(opacidad_controles)
