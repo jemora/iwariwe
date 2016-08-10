@@ -1,4 +1,4 @@
-# BONOS GEAR
+
 extends Node2D
 
 export var valor = 1
@@ -56,12 +56,24 @@ func coge_pluma( body ):
 		for pluma in mensajes_pluma:
 			pluma.pluma_premio()
 
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 8
+
 
 	if color == 2:# amarilla
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
 			pluma.pluma_premio2()
+
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 7
 
 
 	if color == 3:# morada
@@ -70,6 +82,13 @@ func coge_pluma( body ):
 		for pluma in mensajes_pluma:
 			pluma.pluma_premio3()
 
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 9
+
+
 
 	if color == 4:# roja
 
@@ -77,12 +96,24 @@ func coge_pluma( body ):
 		for pluma in mensajes_pluma:
 			pluma.pluma_premio4()
 
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 10
+
 
 	if color == 5:# verde
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
 			pluma.pluma_premio5()
+
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 11
 
 
 	if color == 6:# pluma blanca recoleccion, completar para ganar una dorada
@@ -95,9 +126,20 @@ func coge_pluma( body ):
 		grito.set_text("Pluma blanca")	
 
 
-	
+
+
 	if color == 7:# huevo
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
 			pluma.huevo_premio()
+		queue_free()
+		
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 12
+		
+		
+		

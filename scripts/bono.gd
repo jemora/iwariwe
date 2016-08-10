@@ -21,19 +21,28 @@ func _ready():
 	
 #-----Lista de sonidos
 	sonidolisto = get_node("SamplePlayer2D")
-
+#	print(bonos_collected)
 	
 
-	linea = get_owner().bonos_total
+#	linea = get_owner().bonos_total
 
 func _collect_gear( body ):	
 	if get_node("AnimationPlayer").get_current_animation() != "collect":
 		if get_owner() != null:
 			get_owner().bonos_collected += value
-			get_owner().get_node("gui/Popup_item/bonos_collected").set_text(str(linea))
+			get_owner().get_node("gui/Popup_item/bonos_collected").set_text(str(get_owner().bonos_collected))
 
 		sonidolisto.play("listo")
 		get_node("AnimationPlayer").play("collect")
+
+#----------
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 6
+
+#-------------
 
 
 

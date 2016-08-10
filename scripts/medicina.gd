@@ -94,6 +94,12 @@ func _collect_gear( body ):
 		var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
 		for dialo in set_opacidad:
 			dialo.set_opacidad()
+			
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 1
 	
 	
 	if frame == 2:
@@ -101,19 +107,39 @@ func _collect_gear( body ):
 		var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
 		for dialo in set_opacidad:
 			dialo.set_opacidad()
-	
+
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 2
+
+
 	if frame == 3:
 		get_owner().get_node("gui/splash/label").set_text("Flor roja")
 		var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
 		for dialo in set_opacidad:
 			dialo.set_opacidad()
 	
-	
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 3
+
+
 	if frame == 4:
 		get_owner().get_node("gui/splash/label").set_text("Hongo liso")
 		var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
 		for dialo in set_opacidad:
 			dialo.set_opacidad()
+			
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 4
+		
 
 	if frame == 5:
 		get_owner().get_node("gui/splash/label").set_text("Hongo pintado")
@@ -121,4 +147,10 @@ func _collect_gear( body ):
 		for dialo in set_opacidad:
 			dialo.set_opacidad()
 
-	
+		var add_premios = get_tree().get_nodes_in_group("add_premio")
+		for premio in add_premios:
+			premio.activar()
+		var add_premio = get_owner().get_node("gui/add_premios")
+		add_premio.frame = 5
+
+

@@ -10,29 +10,34 @@ const path = "user://data.txt"
 var bonos = 0
 var medicinas = 0
 var plumas = 0
-#var idioma = ""
-#var idiomas
+var opacidad = 0.0
+var obt_opacidad = false
+
+
 
 func _ready():
-	load_data()
-#	print_data()
-#	gold = 100
-#	score = 500
-#	name = "Dude"
 #	save_data()
+	load_data()
+	add_to_group("save_load")
+	set_process(true)
+
+
 	get_owner().get_node("gui/Popup_item/Bonos_tolal").set_text(str(bonos))
 	get_owner().get_node("gui/Popup_item/Medicina_total").set_text(str(medicinas))
 	get_owner().get_node("gui/Popup_item/Plumas_total").set_text(str(plumas))
-#	get_node("name").set_text(name)
-	add_to_group("save_load")
-#	print(idioma)
 	
-#	set_delta(true)
-#	idiomas = get_owner().get_node("gui/idioma_gui").lenguaje_GUI
-#	idioma = idiomas
 
-#func _delta(delta):
-#	idioma = get_owner().get_node("gui/idioma_gui").get_text()
+
+
+
+	
+func _process(delta):
+#	print(obt_opacidad)
+	obt_opacidad = get_owner().get_node("gui/Popup_pause").obt_opacidad
+	
+	if obt_opacidad == true:
+		opacidad = get_owner().get_node("gui/Popup_pause").slider_valor
+
 
 
 
@@ -55,6 +60,9 @@ func add_plumas():
 
 
 
+
+
+
 func load_data():
 	var f = File.new()
 	var err = f.open(path,File.READ)
@@ -65,10 +73,12 @@ func load_data():
 	bonos = f.get_var()
 	medicinas = f.get_var()
 	plumas = f.get_var()
+	opacidad = f.get_var()
 #	idioma = idioma
 #	print("Data loaded.")
+#	print("saved ", get_opacidad)
 	return 0 # succesfully loaded
-
+	
 
 
 
@@ -77,6 +87,7 @@ func load_data():
 
 
 func save_data():
+	
 	var f = File.new()
 	var err = f.open(path,File.WRITE)
 	
@@ -87,8 +98,9 @@ func save_data():
 	f.store_var(bonos)
 	f.store_var(medicinas)
 	f.store_var(plumas)
+	f.store_var(opacidad)
 #	f.store_var(idioma)
-#	print("Data saved.")
+#	print("saved ", opacidad)
 	
 	var dialogo = get_tree().get_nodes_in_group("dialogue_box") # actualiza el dialogo del chaman
 	for dialo in dialogo: 
