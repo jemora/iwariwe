@@ -66,7 +66,7 @@ func _on_salir_pressed():
 
 func _on_ir_menu_pressed():
 	get_tree().set_pause(false)
-	get_tree().change_scene("res://menu/idioma/idiomas.scn")
+	get_tree().change_scene("res://elementos/menu.scn")
 
 
 func _on_reiniciar_pressed():

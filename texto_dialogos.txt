@@ -33,21 +33,22 @@ var dialog_dict = {
 
 var dialog_dict2 = {
 	nada = "",
-	historia1 = "[fill](Ingles) Mi pueblo Yanomami ha estado comiendo su alimento crudo porque no tienen fuego, uno de los chamanes tenía fuego oculto y se iba a la selva para cocinar alimento solo para el y su mujer. Hace unos días se descubrió que guardaba el fuego en su estómago y la única manera de sacárselo fué haciéndolo reír. Sin embargo su mujer es malvada, ha enviado una ave para que se lleve el fuego lejos y ha lanzado una maldición al pueblo, que con ese mismo fuego los cremaran cuando mueran y beberán sus huesos.[/fill][center] NECESITAMOS TU AYUDA PARA ATRAPAR EL AVE QUE SE LLEVÓ EL FUEGO Y ENCENDER UN ÁRBOL ALTO PARA QUE ESPARSA BRASAS A TODAS LAS PERSONAS DEL PUEBLO.",
-	historia2 = "[fill][b](ingles) En ésta [color=green]misión[/color][/b] deberás perseguir el ave hasta que puedas quitarle el fuego, ten cuidado de no quedarte mucho tiempo detrás de ella o las chispas de fuego te quemarán; la mejor forma es saltandole arriba.",
-	historia3 = "[fill](ingles) Observa encima de los árboles, es posible que encuetres algunas cosas útiles.[/fill]",
-	historia4 = "[fill](ingles) No te confíes en las maderas del camino, ultimamente el puente se ha estado cayendo por las lluvias.",
+	historia1 = "[fill](English) My Yanomami people have been eating their food raw because they have fire, one of the shamans had hidden fire and went to the forest for cooking food and only for his wife. A few days ago it was discovered that kept the fire in his stomach and the only way to get it out was making him laugh. But his wife is evil, has sent a bird to the fire is carried away and launched a curse to the people, with the same fire cremated when they die and drink their bones.[/fill][center] NEED YOUR HELP TO cATCH THE BIRD THAT TOOK THE FIRE AND HIGH ON A TREE FOR ESPARSA BRASAS ALL PEOPLE OF THE PEOPLE.",
+	historia2 = "[fill][b](English) In this [color=green]mission[/color][/b] you should pursue the bird until you can remove the fire, be careful not to stay long behind her or sparks of fire will burn her; the best way is by jumping up.",
+	historia3 = "[fill](English) Seen above the trees, you may find some useful things.[/fill]",
+	historia4 = "[fill](English) 
+Do not rely on the woods road, the bridge has lately been falling rain.",
 
-# 	historia4 = "[center]cuarto ingles del sgundo[/center]",
+# 	historia4 = "[center]English the second quarter[/center]",
 }
 
 
 var dialog_dict3 = {
 	nada = "",
-	historia1 = "[fill](yanomami) Mi pueblo Yanomami ha estado comiendo su alimento crudo porque no tienen fuego, uno de los chamanes tenía fuego oculto y se iba a la selva para cocinar alimento solo para el y su mujer. Hace unos días se descubrió que guardaba el fuego en su estómago y la única manera de sacárselo fué haciéndolo reír. Sin embargo su mujer es malvada, ha enviado una ave para que se lleve el fuego lejos y ha lanzado una maldición al pueblo, que con ese mismo fuego los cremaran cuando mueran y beberán sus huesos.[/fill][center] NECESITAMOS TU AYUDA PARA ATRAPAR EL AVE QUE SE LLEVÓ EL FUEGO Y ENCENDER UN ÁRBOL ALTO PARA QUE ESPARSA BRASAS A TODAS LAS PERSONAS DEL PUEBLO.",
-	historia2 = "[fill][b](yanomami) En ésta [color=green]misión[/color][/b] deberás perseguir el ave hasta que puedas quitarle el fuego, ten cuidado de no quedarte mucho tiempo detrás de ella o las chispas de fuego te quemarán; la mejor forma es saltandole arriba.",
-	historia3 = "[fill](yanomami) Observa encima de los árboles, es posible que encuetres algunas cosas útiles.[/fill]",
-	historia4 = "[fill](yanomami) No te confíes en las maderas del camino, ultimamente el puente se ha estado cayendo por las lluvias.",
+	historia1 = "[fill](yanomami) Ipa theri peni nii riye pe wamahe kowa wake thaponomiheha, mori shapori ani wake re thaponoweini urihi hami nii pe ripiama pe suwepi sho kekipi niya ha iyani.ai the titi haru hami the pe moyawerayoma pei hushomi hami kowa wa ke re thaponowei e wake hape pehi a ikama mahe,ma kuwi pe suwepi e ano hushuwo he parohooma, yaro a nakarema a niya ha shimani wake wake misi nia ha ruwamani ma kuwi,ihin tehe a hirai showaoma, ihin wake ma kuwini wamaki yaprayou hoowe wamaki ishi pe kowayou heowe a kuma.[/fill][center] WAMAREKI TA ÁYERIPRARI KIRITHAMI YAMA HUWEAPE KOPWA WAKE KAI RE ISIRIHE WAKE RE MAKEKUTUHE HII ISIWE KE HIMAMI WAKE PARARAYOMA KOMI THE PE PEHI YANOMAMI.",
+	historia2 = "[fill][b](yanomami) Ei the a re [color=green]kuwiha kirithami[/color][/b] wama a nosi pope kowa wama e wake hukeape,waha moyawei kuni wa no si yauwo aheteo mai wa isihirayou wei kethe, wa isihimamope wa ha yutuyutu moni.",
+	historia3 = "[fill](yanomami) Heyaka hami the mi hii hi hami,ai totihitawe wathe he harei wei kethe.[/fill]",
+	historia4 = "[fill](yanomami) The pe puhi potihe pei yo hami wa riya re huuwei,hei tehe pei yo pe wariyo maa ani.",
 
 
 

@@ -47,6 +47,6 @@ func _on_japanese_pressed():
 
 
 func _on_Button_pressed():
-	get_tree().change_scene("res://niveles/level_01_a.xml")
+	get_tree().change_scene("res://elementos/menu.scn")
 #	get_node().goto_scene("res://../niveles/level_01B.xml")
 
