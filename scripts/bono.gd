@@ -32,7 +32,7 @@ func _collect_gear( body ):
 			get_owner().bonos_collected += value
 			get_owner().get_node("gui/Popup_item/bonos_collected").set_text(str(get_owner().bonos_collected))
 
-		sonidolisto.play("listo")
+		sonidolisto.play("premio")
 		get_node("AnimationPlayer").play("collect")
 
 #----------
@@ -48,7 +48,7 @@ func _collect_gear( body ):
 
 		if get_owner().bonos_collected == get_owner().bonos_total:
 			get_owner().get_node("gui/splash/label").set_text("Nueva colmena ganada")
-			sonidolisto.play("vida")
+			sonidolisto.play("premio")
 
 			var add_bonos = get_tree().get_nodes_in_group("save_load")
 			for bonos in add_bonos:

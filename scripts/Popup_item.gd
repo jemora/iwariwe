@@ -1,13 +1,26 @@
 
 extends PopupPanel
 
-# member variables here, example:
-# var a=2
-# var b="textvar"
+var medicina_total
+var medicina_colectada
+var sonido
+var medicina
+var colmena
+var plumas
+
 
 func _ready():
+	set_process(true)
 
-	pass
+	medicina_colectada = get_node("medicinas_collected")
+	medicina_total = get_node("medicinas_total")
+	sonido = get_node("SamplePlayer2D")
+
+	colmena = get_node("Bonos_tolal")
+	medicina = get_node("Medicina_total")
+	plumas = get_node("plumas_total")
+
+
 
 func _on_continuar_item_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("world")
@@ -19,14 +32,27 @@ func _on_icon_bonos_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("save_load")
 	for usar in mensajes_GUI:
 		usar.restar_bonos()
+#	if colmena != "0":
+		sonido.play("listo")
 
 func _on_icon_medicinas_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("save_load")
 	for usar in mensajes_GUI:
 		usar.restar_medicinas()
-
+#	if medicina != "0":
+		sonido.play("listo")
 
 func _on_icon_plumas_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("save_load")
 	for usar in mensajes_GUI:
 		usar.restar_plumas()
+#	if plumas != "0":
+		sonido.play("listo")
+
+
+func _process(delta):
+	
+	pass
+
+
+

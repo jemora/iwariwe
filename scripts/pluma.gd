@@ -37,7 +37,7 @@ func coge_pluma( body ):
 
 		if get_owner().pluma_collected == get_owner().pluma_total:
 			get_owner().get_node("gui/splash/label").set_text("Pluma premio")
-			sonidolisto.play("vida")
+			sonidolisto.play("premio")
 
 
 #..........guardar

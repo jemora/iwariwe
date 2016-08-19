@@ -5,8 +5,12 @@ export var value_medicina = 1
 export var frame = 1
 
 var sonidolisto
+var fx
+
+export var sound = "explosion_magia"
 
 func _ready():
+	set_process(true)
 	# Initialization here
 	if get_owner() != null:
 		get_owner().medicinas_total += value_medicina
@@ -17,9 +21,12 @@ func _ready():
 	
 #-----Lista de sonidos
 	sonidolisto = get_node("SamplePlayer2D")
+	fx = get_owner().get_node("SamplePlayer2D")
 
 
 
+	
+	
 
 	if frame == 1: 
 		get_node("frame").set_frame(1)
@@ -65,27 +72,24 @@ func _collect_gear( body ):
 		if get_owner() != null:
 			get_owner().medicinas_collected += value_medicina
 			get_owner().get_node("gui/Popup_item/medicinas_collected").set_text(str(get_owner().medicinas_collected))
-			sonidolisto.play("listo")
+			sonidolisto.play("premio")
 			get_node("AnimationPlayer").play("collect")
 
 
-
-		#queue_free()  
-
-		if get_owner().medicinas_collected == get_owner().medicinas_total:
-			get_owner().get_node("gui/splash/label").set_text("Lista las medicinas")
-			sonidolisto.play("vida")
-
-#..........opacidad de los mensajes
-			var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
-			for dialo in set_opacidad:
-				dialo.set_opacidad()
-
-
 #..........guardar
-			var add_medicinas = get_tree().get_nodes_in_group("save_load")
-			for medicinas in add_medicinas:
-				medicinas.add_medicinas()
+	if get_owner().medicinas_collected == get_owner().medicinas_total:
+		var add_medicinas = get_tree().get_nodes_in_group("save_load")
+		for medicinas in add_medicinas:
+			medicinas.add_medicinas()
+			
+		fx.play("explosion_magia")
+
+
+
+
+
+
+
 
 
 # nombre de las medicinas--------------
@@ -152,5 +156,24 @@ func _collect_gear( body ):
 			premio.activar()
 		var add_premio = get_owner().get_node("gui/add_premios")
 		add_premio.frame = 5
+
+
+
+func _process(delta):
+	
+	if get_owner().medicinas_collected == get_owner().medicinas_total:
+		get_owner().get_node("gui/splash/label").set_text("Lista las medicinas")
+
+
+
+#..........opacidad de los mensajes
+	var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
+	for dialo in set_opacidad:
+		dialo.set_opacidad()
+
+
+
+
+		
 
 

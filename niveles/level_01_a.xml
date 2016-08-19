@@ -1,71 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="131" version="2.0" version_name="Godot Engine v2.0.stable.official">
-	<ext_resource path="res://textures/fondos/arbol_seco1.png" type="Texture" index="55"></ext_resource>
+<resource_file type="PackedScene" subresource_count="138" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://elementos/Popup_pause.scn" type="PackedScene" index="24"></ext_resource>
+	<ext_resource path="res://textures/fondos/raiz5.png" type="Texture" index="61"></ext_resource>
+	<ext_resource path="res://textures/fondos/muro.png" type="Texture" index="48"></ext_resource>
+	<ext_resource path="res://textures/fondos/raiz2.png" type="Texture" index="57"></ext_resource>
+	<ext_resource path="res://shared/tema_chino.thm" type="Theme" index="21"></ext_resource>
+	<ext_resource path="res://textures/fondos/tronco2.png" type="Texture" index="38"></ext_resource>
+	<ext_resource path="res://fonts/ruso3.fnt" type="Font" index="18"></ext_resource>
 	<ext_resource path="res://scripts/level.gd" type="Script" index="0"></ext_resource>
-	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="19"></ext_resource>
+	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="26"></ext_resource>
 	<ext_resource path="res://elementos/elementos_misiones.scn" type="PackedScene" index="14"></ext_resource>
-	<ext_resource path="res://textures/platformer/parallax_bg.tscn" type="PackedScene" index="64"></ext_resource>
 	<ext_resource path="res://scripts/touch_screen_button.gd" type="Script" index="1"></ext_resource>
+	<ext_resource path="res://elementos/saco.scn" type="PackedScene" index="13"></ext_resource>
 	<ext_resource path="res://scripts/texto_gui.gd" type="Script" index="12"></ext_resource>
-	<ext_resource path="res://scripts/save_load.gd" type="Script" index="21"></ext_resource>
-	<ext_resource path="res://elementos/Popup_pause.scn" type="PackedScene" index="17"></ext_resource>
-	<ext_resource path="res://fonts/chalk.fnt" type="Font" index="11"></ext_resource>
-	<ext_resource path="res://scripts/idiomas_igu.gd" type="Script" index="15"></ext_resource>
-	<ext_resource path="res://sonidos/ambiente-aves_agua.ogg" type="AudioStream" index="20"></ext_resource>
-	<ext_resource path="res://elementos/poresito.scn" type="PackedScene" index="23"></ext_resource>
-	<ext_resource path="res://textures/fondos/musgo1.png" type="Texture" index="37"></ext_resource>
-	<ext_resource path="res://elementos/Popup_item.scn" type="PackedScene" index="18"></ext_resource>
-	<ext_resource path="res://textures/fondos/arbol_seco3.png" type="Texture" index="56"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture" index="5"></ext_resource>
-	<ext_resource path="res://textures/elementos/opciones_on.png" type="Texture" index="9"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras6.png" type="Texture" index="25"></ext_resource>
-	<ext_resource path="res://textures/fondos/cueva_interna.png" type="Texture" index="39"></ext_resource>
-	<ext_resource path="res://textures/fondos/tronco2.png" type="Texture" index="31"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture" index="2"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture" index="3"></ext_resource>
-	<ext_resource path="res://textures/fondos/montañas_1_2.png" type="Texture" index="51"></ext_resource>
-	<ext_resource path="res://elementos/pluma_blanca.xml" type="PackedScene" index="34"></ext_resource>
-	<ext_resource path="res://textures/elementos/opciones.png" type="Texture" index="8"></ext_resource>
-	<ext_resource path="res://elementos/checkpoint.scn" type="PackedScene" index="63"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture" index="4"></ext_resource>
-	<ext_resource path="res://textures/fondos/hueco_camino.png" type="Texture" index="52"></ext_resource>
-	<ext_resource path="res://textures/fondos/rama1.png" type="Texture" index="47"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras5.png" type="Texture" index="24"></ext_resource>
-	<ext_resource path="res://scripts/grullir_madera.gd" type="Script" index="58"></ext_resource>
-	<ext_resource path="res://textures/fondos/agua_lejos.png" type="Texture" index="36"></ext_resource>
-	<ext_resource path="res://elementos/ave_fuego.scn" type="PackedScene" index="62"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras9.png" type="Texture" index="29"></ext_resource>
-	<ext_resource path="res://elementos/sonidos_ambiente.scn" type="PackedScene" index="65"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture" index="7"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras7.png" type="Texture" index="26"></ext_resource>
-	<ext_resource path="res://textures/fondos/plantas_camino.png" type="Texture" index="38"></ext_resource>
-	<ext_resource path="res://textures/fondos/barro_camico.png" type="Texture" index="53"></ext_resource>
-	<ext_resource path="res://textures/fondos/raiz1.png" type="Texture" index="49"></ext_resource>
-	<ext_resource path="res://textures/elementos/items.png" type="Texture" index="13"></ext_resource>
-	<ext_resource path="res://scripts/sigilo.gd" type="Script" index="59"></ext_resource>
-	<ext_resource path="res://textures/fondos/tronco1.png" type="Texture" index="32"></ext_resource>
-	<ext_resource path="res://textures/fondos/arbol_grande6.png" type="Texture" index="33"></ext_resource>
-	<ext_resource path="res://textures/fondos/rama2.png" type="Texture" index="48"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras1_grande.png" type="Texture" index="40"></ext_resource>
-	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture" index="6"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras1.png" type="Texture" index="30"></ext_resource>
-	<ext_resource path="res://textures/fondos/rama.png" type="Texture" index="57"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedra2.png" type="Texture" index="45"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras4.png" type="Texture" index="27"></ext_resource>
-	<ext_resource path="res://textures/fondos/raiz5.png" type="Texture" index="54"></ext_resource>
-	<ext_resource path="res://textures/fondos/muro.png" type="Texture" index="41"></ext_resource>
-	<ext_resource path="res://textures/fondos/montaña_tierra.png" type="Texture" index="42"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras3.png" type="Texture" index="46"></ext_resource>
-	<ext_resource path="res://textures/fondos/piedras8.png" type="Texture" index="28"></ext_resource>
-	<ext_resource path="res://textures/fondos/raiz2.png" type="Texture" index="50"></ext_resource>
-	<ext_resource path="res://textures/fondos/montaña_pared.png" type="Texture" index="44"></ext_resource>
-	<ext_resource path="res://personajes/character.xml" type="PackedScene" index="61"></ext_resource>
-	<ext_resource path="res://elementos/medicina.xml" type="PackedScene" index="22"></ext_resource>
-	<ext_resource path="res://elementos/chaman.scn" type="PackedScene" index="60"></ext_resource>
-	<ext_resource path="res://mundos/caminos/camino4.scn" type="PackedScene" index="43"></ext_resource>
-	<ext_resource path="res://elementos/colmena.xml" type="PackedScene" index="35"></ext_resource>
-	<ext_resource path="res://igu/dialogue_box.scn" type="PackedScene" index="16"></ext_resource>
+	<ext_resource path="res://scripts/save_load.gd" type="Script" index="28"></ext_resource>
 	<ext_resource path="res://elementos/add_premios.scn" type="PackedScene" index="10"></ext_resource>
+	<ext_resource path="res://elementos/Popup_item.scn" type="PackedScene" index="25"></ext_resource>
+	<ext_resource path="res://personajes/character.xml" type="PackedScene" index="68"></ext_resource>
+	<ext_resource path="res://mundos/caminos/camino4.scn" type="PackedScene" index="50"></ext_resource>
+	<ext_resource path="res://fonts/arabe2.fnt" type="Font" index="16"></ext_resource>
+	<ext_resource path="res://fonts/chalk.fnt" type="Font" index="11"></ext_resource>
+	<ext_resource path="res://textures/fondos/cueva_interna.png" type="Texture" index="46"></ext_resource>
+	<ext_resource path="res://textures/fondos/tronco1.png" type="Texture" index="39"></ext_resource>
+	<ext_resource path="res://elementos/checkpoint.scn" type="PackedScene" index="70"></ext_resource>
+	<ext_resource path="res://elementos/ave_fuego.scn" type="PackedScene" index="69"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco1.png" type="Texture" index="62"></ext_resource>
+	<ext_resource path="res://elementos/chaman.scn" type="PackedScene" index="67"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras1_grande.png" type="Texture" index="47"></ext_resource>
+	<ext_resource path="res://scripts/idiomas_igu.gd" type="Script" index="15"></ext_resource>
+	<ext_resource path="res://igu/dialogue_box.scn" type="PackedScene" index="23"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedra2.png" type="Texture" index="52"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left_pressed.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_left.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://textures/fondos/rama1.png" type="Texture" index="54"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump.png" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://textures/elementos/opciones_on.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://textures/elementos/opciones.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://textures/fondos/rama.png" type="Texture" index="64"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras5.png" type="Texture" index="31"></ext_resource>
+	<ext_resource path="res://textures/fondos/montaña_pared.png" type="Texture" index="51"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras9.png" type="Texture" index="36"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras7.png" type="Texture" index="33"></ext_resource>
+	<ext_resource path="res://textures/fondos/montañas_1_2.png" type="Texture" index="58"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras6.png" type="Texture" index="32"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_grande6.png" type="Texture" index="40"></ext_resource>
+	<ext_resource path="res://textures/fondos/hueco_camino.png" type="Texture" index="59"></ext_resource>
+	<ext_resource path="res://sonidos/ambiente-aves_agua.ogg" type="AudioStream" index="27"></ext_resource>
+	<ext_resource path="res://scripts/sigilo.gd" type="Script" index="66"></ext_resource>
+	<ext_resource path="res://textures/fondos/agua_lejos.png" type="Texture" index="43"></ext_resource>
+	<ext_resource path="res://textures/fondos/musgo1.png" type="Texture" index="44"></ext_resource>
+	<ext_resource path="res://scripts/grullir_madera.gd" type="Script" index="65"></ext_resource>
+	<ext_resource path="res://textures/fondos/plantas_camino.png" type="Texture" index="45"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_right_pressed.png" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras3.png" type="Texture" index="53"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras4.png" type="Texture" index="34"></ext_resource>
+	<ext_resource path="res://textures/fondos/rama2.png" type="Texture" index="55"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras8.png" type="Texture" index="35"></ext_resource>
+	<ext_resource path="res://textures/fondos/barro_camico.png" type="Texture" index="60"></ext_resource>
+	<ext_resource path="res://textures/fondos/piedras1.png" type="Texture" index="37"></ext_resource>
+	<ext_resource path="res://textures/fondos/arbol_seco3.png" type="Texture" index="63"></ext_resource>
+	<ext_resource path="res://textures/fondos/raiz1.png" type="Texture" index="56"></ext_resource>
+	<ext_resource path="res://textures/fondos/montaña_tierra.png" type="Texture" index="49"></ext_resource>
+	<ext_resource path="res://textures/buttons/touch_jump_pressed.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://shared/tema_arabe.thm" type="Theme" index="20"></ext_resource>
+	<ext_resource path="res://shared/tema_latin.tres" type="Theme" index="22"></ext_resource>
+	<ext_resource path="res://shared/tema_ruso.thm" type="Theme" index="19"></ext_resource>
+	<ext_resource path="res://elementos/medicina.xml" type="PackedScene" index="29"></ext_resource>
+	<ext_resource path="res://fonts/mandarin.fnt" type="Font" index="17"></ext_resource>
+	<ext_resource path="res://elementos/poresito.scn" type="PackedScene" index="30"></ext_resource>
+	<ext_resource path="res://elementos/colmena.xml" type="PackedScene" index="42"></ext_resource>
+	<ext_resource path="res://elementos/pluma_blanca.xml" type="PackedScene" index="41"></ext_resource>
+	<ext_resource path="res://textures/platformer/parallax_bg.tscn" type="PackedScene" index="71"></ext_resource>
+	<ext_resource path="res://elementos/sonidos_ambiente.scn" type="PackedScene" index="72"></ext_resource>
 	<resource type="ConvexPolygonShape2D" path="local://64">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2_array name="points" len="7"> 			-1079.39, 747.483, -1021.68, 728.907, -960.641, 725.59, -877.713, 740.849, -847.859, 764.068, -831.273, 793.922, -1114.55, 788.615 </vector2_array>
@@ -391,12 +398,12 @@
 			<string> "conn_count" </string>
 			<int> 9 </int>
 			<string> "conns" </string>
-			<int_array  len="54"> 				0, 1, 393, 392, 2, 0, 7, 0, 15, 394, 2, 0, 10, 10, 396, 395, 2, 0, 12, 0, 15, 397, 2, 0, 13, 0, 15, 398, 2, 0, 14, 0, 15, 399, 2, 0, 15, 0, 15, 400, 2, 0, 21, 151, 402, 401, 2, 0, 151, 0, 404, 403, 2, 0 </int_array>
+			<int_array  len="54"> 				0, 1, 401, 400, 2, 0, 7, 0, 15, 402, 2, 0, 10, 10, 404, 403, 2, 0, 12, 0, 15, 405, 2, 0, 13, 0, 15, 406, 2, 0, 14, 0, 15, 407, 2, 0, 15, 0, 15, 408, 2, 0, 21, 151, 410, 409, 2, 0, 151, 0, 412, 411, 2, 0 </int_array>
 			<string> "editable_instances" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="405">
+			<string_array  len="413">
 				<string> "world" </string>
 				<string> "transform/pos" </string>
 				<string> "script/script" </string>
@@ -441,7 +448,6 @@
 				<string> "percent_visible" </string>
 				<string> "lines_skipped" </string>
 				<string> "max_lines_visible" </string>
-				<string> "splashes_path" </string>
 				<string> "Label" </string>
 				<string> "hud_text" </string>
 				<string> "items" </string>
@@ -451,6 +457,14 @@
 				<string> "items_mision3" </string>
 				<string> "idioma_gui" </string>
 				<string> "text" </string>
+				<string> "FONT_latin" </string>
+				<string> "FONT_arabe" </string>
+				<string> "FONT_chino" </string>
+				<string> "FONT_ruso" </string>
+				<string> "Tema_ruso" </string>
+				<string> "Tema_arabe" </string>
+				<string> "Tema_chino" </string>
+				<string> "Tema_latin" </string>
 				<string> "dialogue_box" </string>
 				<string> "Popup_pause" </string>
 				<string> "Popup_item" </string>
@@ -490,6 +504,7 @@
 				<string> "elementos" </string>
 				<string> "medicina1" </string>
 				<string> "z/z" </string>
+				<string> "sound" </string>
 				<string> "medicina2" </string>
 				<string> "hongo_cueva" </string>
 				<string> "value_medicina" </string>
@@ -809,9 +824,9 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="3121"> 				-1, -1, 4, 0, -1, 3, 1, 0, 2, 1, 3, 2, 0, 0, 0, 10, 5, -1, 5, 6, 3, 7, 4, 8, 5, 9, 6, 2, 7, 0, 1, 0, 4, 11, -1, 1, 12, 8, 0, 2, 0, 20, 13, -1, 8, 1, 9, 12, 10, 14, 11, 15, 12, 16, 13, 17, 14, 18, 15, 19, 16, 0, 2, 0, 20, 21, -1, 8, 1, 17, 12, 18, 14, 19, 15, 20, 16, 13, 17, 14, 18, 21, 19, 16, 0, 1, 0, 4, 22, -1, 1, 12, 8, 0, 5, 0, 20, 20, -1, 8, 1, 22, 12, 23, 14, 24, 15, 25, 16, 13, 17, 14, 18, 26, 19, 16, 0, 5, 0, 20, 23, -1, 9, 24, 27, 1, 28, 12, 29, 14, 30, 15, 31, 16, 13, 17, 14, 18, 32, 19, 16, 0, 1, 0, 2147483647, 25, 33, 0, 0, 1, 0, 4, 26, -1, 3, 1, 34, 12, 35, 3, 36, 0, 9, 0, 45, 27, -1, 18, 28, 37, 29, 38, 30, 39, 31, 40, 32, 41, 33, 41, 34, 27, 35, 42, 36, 43, 37, 44, 38, 3, 39, 3, 40, 41, 41, 45, 42, 16, 43, 46, 2, 47, 44, 48, 0, 1, 0, 4, 46, -1, 0, 0, 1, 0, 20, 47, -1, 8, 1, 49, 12, 50, 14, 51, 15, 51, 16, 13, 17, 14, 18, 32, 19, 16, 0, 1, 0, 2147483647, 48, 52, 1, 49, 14, 0, 1, 0, 2147483647, 50, 52, 2, 49, 14, 1, 53, 0, 1, 0, 2147483647, 51, 52, 2, 49, 14, 1, 54, 0, 1, 0, 45, 52, -1, 12, 28, 55, 29, 56, 30, 57, 31, 58, 32, 41, 33, 41, 34, 27, 53, 59, 41, 45, 42, 16, 43, 46, 2, 60, 0, 1, 0, 2147483647, 54, 61, 4, 28, 62, 29, 63, 30, 64, 31, 65, 0, 1, 0, 2147483647, 55, 66, 1, 49, 14, 0, 1, 0, 2147483647, 56, 67, 7, 49, 14, 57, 3, 58, 3, 28, 68, 29, 69, 30, 70, 31, 71, 0, 0, 0, 59, 59, -1, 4, 60, 3, 61, 72, 62, 14, 63, 41, 0, 0, 0, 59, 64, -1, 4, 60, 3, 61, 73, 62, 14, 63, 14, 0, 0, 0, 59, 65, -1, 4, 60, 3, 61, 74, 62, 14, 63, 14, 0, 0, 0, 59, 66, -1, 4, 60, 3, 61, 75, 62, 14, 63, 14, 0, 0, 0, 59, 67, -1, 4, 60, 3, 61, 74, 62, 14, 63, 14, 0, 0, 0, 59, 68, -1, 4, 60, 3, 61, 76, 62, 14, 63, 14, 0, 0, 0, 69, 69, -1, 8, 70, 77, 71, 78, 72, 45, 73, 79, 74, 45, 75, 3, 76, 80, 77, 5, 0, 0, 0, 69, 78, -1, 8, 70, 81, 71, 45, 72, 45, 73, 79, 74, 45, 75, 3, 76, 80, 77, 5, 0, 0, 0, 88, 79, -1, 8, 80, 82, 81, 14, 82, 41, 83, 83, 84, 41, 85, 14, 86, 5, 87, 84, 0, 0, 0, 4, 89, -1, 2, 24, 27, 2, 85, 0, 0, 0, 4, 90, -1, 2, 1, 86, 3, 87, 0, 30, 0, 2147483647, 91, 88, 3, 1, 89, 12, 90, 92, 27, 0, 30, 0, 2147483647, 93, 88, 3, 1, 91, 12, 90, 92, 27, 0, 30, 0, 2147483647, 94, 88, 5, 1, 92, 12, 90, 92, 93, 95, 27, 96, 94, 0, 30, 0, 2147483647, 97, 95, 7, 1, 96, 12, 97, 92, 27, 98, 98, 99, 99, 100, 100, 101, 100, 0, 30, 0, 113, 102, -1, 11, 103, 14, 104, 101, 105, 102, 106, 14, 107, 3, 108, 3, 109, 4, 110, 5, 111, 45, 112, 5, 3, 103, 0, 35, 0, 114, 114, -1, 4, 115, 16, 116, 104, 117, 4, 118, 14, 0, 30, 0, 113, 119, -1, 26, 103, 14, 104, 105, 105, 106, 106, 14, 120, 107, 121, 106, 122, 14, 123, 108, 124, 106, 125, 14, 126, 109, 127, 106, 128, 14, 129, 110, 130, 106, 131, 14, 132, 111, 133, 106, 134, 14, 107, 3, 108, 3, 109, 4, 110, 5, 111, 45, 112, 5, 3, 112, 0, 37, 0, 114, 135, -1, 5, 1, 113, 115, 16, 116, 114, 117, 115, 118, 14, 0, 30, 0, 113, 136, -1, 162, 1, 116, 103, 14, 104, 117, 105, 118, 106, 14, 120, 119, 121, 118, 122, 14, 123, 120, 124, 121, 125, 14, 126, 122, 127, 121, 128, 14, 129, 123, 130, 124, 131, 14, 132, 125, 133, 124, 134, 14, 137, 126, 138, 127, 139, 14, 140, 128, 141, 127, 142, 14, 143, 129, 144, 130, 145, 14, 146, 131, 147, 130, 148, 14, 149, 132, 150, 133, 151, 14, 152, 134, 153, 133, 154, 14, 155, 135, 156, 136, 157, 14, 158, 137, 159, 136, 160, 14, 161, 138, 162, 139, 163, 14, 164, 140, 165, 139, 166, 14, 167, 141, 168, 142, 169, 14, 170, 143, 171, 142, 172, 14, 173, 144, 174, 145, 175, 14, 176, 146, 177, 145, 178, 14, 179, 147, 180, 148, 181, 14, 182, 149, 183, 148, 184, 14, 185, 150, 186, 151, 187, 14, 188, 152, 189, 151, 190, 14, 191, 153, 192, 154, 193, 14, 194, 155, 195, 154, 196, 14, 197, 156, 198, 157, 199, 14, 200, 158, 201, 157, 202, 14, 203, 159, 204, 160, 205, 14, 206, 161, 207, 160, 208, 14, 209, 162, 210, 160, 211, 14, 212, 163, 213, 164, 214, 14, 215, 165, 216, 164, 217, 14, 218, 166, 219, 167, 220, 14, 221, 168, 222, 167, 223, 14, 224, 169, 225, 170, 226, 14, 227, 171, 228, 170, 229, 14, 230, 172, 231, 170, 232, 14, 233, 173, 234, 174, 235, 14, 236, 175, 237, 174, 238, 14, 239, 176, 240, 174, 241, 14, 242, 177, 243, 178, 244, 14, 245, 179, 246, 178, 247, 14, 248, 180, 249, 181, 250, 14, 251, 182, 252, 181, 253, 14, 254, 183, 255, 181, 256, 14, 257, 184, 258, 185, 259, 14, 260, 186, 261, 185, 262, 14, 263, 187, 264, 185, 265, 14, 266, 188, 267, 189, 268, 14, 269, 190, 270, 189, 271, 14, 107, 3, 108, 3, 109, 4, 110, 5, 111, 45, 112, 5, 3, 191, 0, 39, 0, 276, 272, -1, 5, 1, 192, 273, 193, 12, 194, 274, 195, 275, 41, 0, 39, 0, 114, 114, -1, 7, 1, 196, 273, 193, 12, 197, 115, 16, 116, 198, 117, 199, 118, 14, 0, 39, 0, 276, 277, -1, 5, 1, 200, 273, 193, 12, 201, 274, 202, 275, 41, 0, 39, 0, 114, 278, -1, 7, 1, 203, 273, 193, 12, 197, 115, 16, 116, 204, 117, 205, 118, 14, 0, 39, 0, 276, 279, -1, 5, 1, 206, 273, 193, 12, 207, 274, 208, 275, 41, 0, 39, 0, 114, 280, -1, 7, 1, 209, 273, 193, 12, 197, 115, 16, 116, 210, 117, 211, 118, 14, 0, 39, 0, 276, 281, -1, 5, 1, 212, 273, 193, 12, 213, 274, 195, 275, 41, 0, 39, 0, 114, 282, -1, 7, 1, 214, 273, 193, 12, 197, 115, 16, 116, 198, 117, 215, 118, 14, 0, 39, 0, 276, 283, -1, 5, 1, 216, 273, 193, 12, 217, 274, 208, 275, 41, 0, 39, 0, 114, 284, -1, 7, 1, 218, 273, 193, 12, 219, 115, 16, 116, 220, 117, 221, 118, 14, 0, 39, 0, 276, 285, -1, 5, 1, 222, 273, 193, 12, 223, 274, 208, 275, 41, 0, 39, 0, 114, 286, -1, 7, 1, 224, 273, 193, 12, 225, 115, 16, 116, 220, 117, 226, 118, 14, 0, 39, 0, 276, 287, -1, 5, 1, 227, 273, 193, 12, 228, 274, 202, 275, 41, 0, 39, 0, 114, 288, -1, 7, 1, 229, 273, 193, 12, 197, 115, 16, 116, 204, 117, 230, 118, 14, 0, 39, 0, 276, 289, -1, 5, 1, 231, 273, 193, 12, 232, 274, 195, 275, 41, 0, 39, 0, 114, 290, -1, 7, 1, 233, 273, 193, 12, 197, 115, 16, 116, 198, 117, 234, 118, 14, 0, 39, 0, 276, 291, -1, 5, 1, 235, 273, 193, 12, 236, 274, 195, 275, 41, 0, 39, 0, 114, 292, -1, 7, 1, 237, 273, 193, 12, 197, 115, 16, 116, 198, 117, 238, 118, 14, 0, 39, 0, 276, 293, -1, 5, 1, 239, 273, 193, 12, 240, 274, 202, 275, 41, 0, 39, 0, 114, 294, -1, 7, 1, 241, 273, 193, 12, 197, 115, 16, 116, 204, 117, 242, 118, 14, 0, 39, 0, 276, 295, -1, 5, 1, 243, 273, 193, 12, 244, 274, 202, 275, 41, 0, 39, 0, 114, 296, -1, 7, 1, 245, 273, 193, 12, 197, 115, 16, 116, 246, 117, 247, 118, 14, 0, 39, 0, 276, 297, -1, 5, 1, 248, 273, 193, 12, 249, 274, 208, 275, 41, 0, 39, 0, 114, 298, -1, 7, 1, 250, 273, 193, 12, 219, 115, 16, 116, 220, 117, 251, 118, 14, 0, 39, 0, 276, 299, -1, 5, 1, 252, 273, 193, 12, 253, 274, 208, 275, 41, 0, 39, 0, 114, 300, -1, 7, 1, 254, 273, 193, 12, 219, 115, 16, 116, 220, 117, 255, 118, 14, 0, 39, 0, 276, 301, -1, 4, 1, 256, 273, 193, 12, 257, 274, 195, 0, 39, 0, 114, 302, -1, 7, 1, 258, 273, 193, 12, 197, 115, 16, 116, 259, 117, 260, 118, 14, 0, 39, 0, 276, 303, -1, 4, 1, 261, 273, 193, 12, 197, 274, 262, 0, 39, 0, 114, 304, -1, 7, 1, 263, 273, 193, 12, 197, 115, 16, 116, 264, 117, 265, 118, 14, 0, 39, 0, 276, 305, -1, 5, 1, 266, 273, 193, 12, 267, 92, 268, 274, 269, 0, 39, 0, 114, 306, -1, 7, 1, 270, 273, 193, 12, 197, 115, 16, 116, 271, 117, 272, 118, 14, 0, 39, 0, 276, 307, -1, 5, 1, 273, 273, 274, 12, 275, 274, 269, 275, 41, 0, 39, 0, 114, 308, -1, 7, 1, 276, 273, 193, 12, 197, 115, 16, 116, 277, 117, 278, 118, 14, 0, 39, 0, 276, 309, -1, 5, 1, 279, 273, 274, 12, 275, 92, 3, 274, 280, 0, 39, 0, 114, 310, -1, 8, 1, 281, 273, 193, 12, 197, 92, 3, 115, 16, 116, 282, 117, 283, 118, 14, 0, 39, 0, 276, 311, -1, 4, 1, 284, 273, 193, 12, 285, 274, 262, 0, 39, 0, 114, 312, -1, 7, 1, 286, 273, 193, 12, 197, 115, 16, 116, 287, 117, 288, 118, 14, 0, 39, 0, 276, 313, -1, 4, 1, 289, 273, 290, 12, 267, 274, 269, 0, 39, 0, 114, 314, -1, 7, 1, 291, 273, 193, 12, 197, 115, 16, 116, 292, 117, 293, 118, 14, 0, 39, 0, 276, 315, -1, 4, 1, 294, 12, 295, 92, 3, 274, 296, 0, 39, 0, 114, 316, -1, 8, 1, 297, 273, 193, 12, 197, 92, 3, 115, 16, 116, 298, 117, 299, 118, 14, 0, 39, 0, 276, 317, -1, 4, 1, 300, 273, 193, 12, 301, 274, 262, 0, 39, 0, 276, 318, -1, 6, 1, 302, 273, 303, 12, 304, 92, 3, 274, 305, 275, 41, 0, 39, 0, 276, 319, -1, 6, 1, 306, 273, 307, 12, 308, 92, 3, 274, 309, 320, 41, 0, 39, 0, 114, 321, -1, 8, 1, 310, 273, 193, 12, 197, 92, 3, 115, 16, 116, 311, 117, 312, 118, 14, 0, 39, 0, 276, 322, -1, 5, 1, 313, 273, 193, 12, 314, 274, 195, 275, 41, 0, 39, 0, 114, 323, -1, 7, 1, 315, 273, 193, 12, 197, 115, 16, 116, 198, 117, 316, 118, 14, 0, 39, 0, 276, 324, -1, 6, 1, 317, 273, 193, 12, 318, 92, 3, 274, 319, 275, 41, 0, 30, 0, 2147483647, 325, 320, 1, 1, 321, 0, 30, 0, 2147483647, 326, 320, 1, 1, 322, 0, 30, 0, 2147483647, 327, 320, 1, 1, 323, 0, 30, 0, 2147483647, 328, 320, 1, 1, 324, 0, 30, 0, 2147483647, 329, 320, 1, 1, 325, 0, 30, 0, 2147483647, 330, 326, 1, 1, 327, 0, 30, 0, 2147483647, 331, 320, 1, 1, 328, 0, 30, 0, 2147483647, 332, 320, 1, 1, 329, 0, 30, 0, 2147483647, 333, 320, 1, 1, 330, 0, 0, 0, 4, 334, -1, 1, 3, 331, 0, 98, 0, 113, 335, -1, 12, 1, 332, 103, 14, 104, 333, 105, 334, 106, 41, 107, 3, 108, 3, 109, 4, 110, 5, 111, 45, 112, 5, 3, 335, 0, 99, 0, 336, 336, -1, 5, 1, 336, 12, 337, 337, 333, 118, 41, 338, 16, 0, 99, 0, 276, 276, -1, 5, 339, 338, 1, 339, 12, 340, 92, 341, 274, 342, 0, 98, 0, 276, 340, -1, 4, 1, 343, 12, 344, 92, 3, 274, 345, 0, 98, 0, 276, 341, -1, 4, 1, 346, 12, 347, 92, 46, 274, 348, 0, 98, 0, 276, 342, -1, 4, 1, 349, 12, 350, 92, 46, 274, 351, 0, 98, 0, 276, 343, -1, 4, 1, 352, 12, 353, 274, 354, 275, 41, 0, 98, 0, 276, 344, -1, 4, 1, 355, 12, 356, 92, 341, 274, 357, 0, 98, 0, 276, 345, -1, 5, 1, 358, 12, 359, 92, 46, 274, 360, 275, 41, 0, 98, 0, 276, 346, -1, 3, 1, 361, 12, 362, 274, 348, 0, 98, 0, 2147483647, 347, 363, 2, 1, 364, 12, 365, 0, 98, 0, 2147483647, 348, 363, 2, 1, 366, 12, 367, 0, 98, 0, 2147483647, 349, 363, 2, 1, 368, 12, 367, 0, 98, 0, 276, 350, -1, 4, 1, 369, 12, 370, 92, 46, 274, 371, 0, 98, 0, 276, 351, -1, 5, 1, 372, 273, 373, 12, 374, 92, 375, 274, 376, 0, 98, 0, 276, 352, -1, 5, 1, 377, 273, 193, 12, 378, 92, 46, 274, 379, 0, 98, 0, 276, 353, -1, 6, 1, 380, 273, 193, 12, 381, 92, 46, 274, 262, 275, 41, 0, 98, 0, 276, 279, -1, 5, 1, 382, 12, 383, 92, 46, 274, 371, 275, 41, 0, 98, 0, 276, 277, -1, 5, 1, 384, 12, 385, 92, 46, 274, 371, 275, 41, 0, 98, 0, 276, 272, -1, 5, 1, 386, 12, 387, 92, 46, 274, 371, 275, 41, 0, 98, 0, 276, 281, -1, 4, 1, 388, 12, 389, 92, 46, 274, 371, 0, 98, 0, 276, 283, -1, 4, 1, 390, 12, 391, 92, 46, 274, 371, 0, 98, 0, 276, 285, -1, 5, 1, 392, 12, 393, 92, 46, 274, 371, 275, 41, 0, 98, 0, 276, 354, -1, 6, 1, 394, 273, 193, 12, 395, 92, 46, 274, 396, 275, 41, 0, 98, 0, 276, 355, -1, 6, 1, 397, 273, 193, 12, 398, 92, 46, 274, 399, 275, 41, 0, 98, 0, 276, 356, -1, 6, 1, 400, 273, 193, 12, 401, 92, 46, 274, 402, 275, 41, 0, 98, 0, 276, 357, -1, 6, 1, 403, 273, 193, 12, 404, 92, 46, 274, 402, 275, 41, 0, 98, 0, 276, 358, -1, 6, 1, 405, 273, 193, 12, 404, 92, 46, 274, 406, 275, 41, 0, 98, 0, 276, 359, -1, 4, 1, 407, 12, 408, 92, 268, 274, 409, 0, 98, 0, 2147483647, 360, 363, 2, 1, 410, 12, 411, 0, 98, 0, 276, 361, -1, 3, 1, 412, 12, 413, 274, 414, 0, 98, 0, 276, 362, -1, 4, 1, 415, 12, 344, 92, 3, 274, 416, 0, 98, 0, 276, 363, -1, 4, 1, 417, 12, 344, 92, 3, 274, 345, 0, 98, 0, 276, 364, -1, 5, 1, 418, 12, 344, 92, 3, 274, 345, 275, 41, 0, 98, 0, 276, 365, -1, 5, 1, 419, 12, 344, 92, 3, 274, 345, 275, 41, 0, 98, 0, 276, 366, -1, 4, 1, 420, 12, 344, 92, 3, 274, 345, 0, 98, 0, 276, 367, -1, 6, 1, 421, 273, 193, 12, 422, 92, 46, 274, 423, 275, 41, 0, 98, 0, 276, 368, -1, 4, 1, 424, 12, 425, 92, 46, 274, 348, 0, 98, 0, 276, 369, -1, 4, 1, 426, 12, 427, 92, 428, 274, 429, 0, 98, 0, 276, 370, -1, 5, 1, 430, 273, 431, 12, 432, 92, 428, 274, 433, 0, 98, 0, 276, 371, -1, 4, 1, 434, 12, 344, 274, 345, 275, 41, 0, 98, 0, 276, 372, -1, 5, 1, 435, 273, 436, 12, 437, 92, 46, 274, 438, 0, 98, 0, 113, 373, -1, 17, 103, 14, 104, 439, 105, 440, 106, 41, 120, 441, 121, 442, 122, 41, 123, 443, 124, 444, 125, 41, 107, 3, 108, 3, 109, 4, 110, 5, 111, 45, 112, 5, 2, 445, 0, 141, 0, 114, 114, -1, 5, 1, 446, 115, 16, 116, 447, 117, 4, 118, 41, 0, 141, 0, 114, 278, -1, 5, 1, 448, 115, 16, 116, 449, 117, 6, 118, 41, 0, 141, 0, 114, 280, -1, 5, 1, 450, 115, 16, 116, 451, 117, 452, 118, 41, 0, 98, 0, 113, 374, -1, 15, 103, 14, 104, 453, 105, 454, 106, 41, 120, 455, 121, 456, 122, 41, 107, 3, 108, 3, 109, 4, 110, 5, 111, 45, 112, 5, 2, 457, 3, 458, 0, 145, 0, 114, 114, -1, 5, 1, 459, 115, 16, 116, 460, 117, 4, 118, 41, 0, 145, 0, 114, 278, -1, 5, 1, 461, 115, 16, 116, 462, 117, 6, 118, 41, 0, 0, 0, 4, 375, -1, 1, 3, 463, 0, 148, 0, 2147483647, 376, 464, 5, 1, 465, 12, 466, 92, 3, 377, 467, 378, 467, 0, 149, 0, 379, 379, -1, 2, 1, 468, 12, 469, 0, 0, 0, 2147483647, 380, 470, 7, 1, 471, 12, 472, 92, 473, 381, 474, 382, 475, 383, 375, 384, 476, 0, 151, 0, 69, 69, -1, 9, 1, 477, 70, 5, 71, 45, 72, 45, 73, 79, 74, 45, 75, 27, 76, 80, 77, 5, 0, 151, 0, 69, 385, -1, 10, 1, 478, 12, 479, 70, 99, 71, 45, 72, 45, 73, 79, 74, 45, 75, 3, 76, 80, 77, 5, 0, 0, 0, 2147483647, 386, 480, 1, 1, 481, 0, 154, 0, 379, 379, -1, 1, 1, 482, 0, 0, 0, 2147483647, 387, 483, 2, 1, 484, 92, 375, 0, 0, 0, 2147483647, 388, 485, 0, 0, 0, 0, 379, 389, -1, 2, 1, 486, 3, 487, 0, 158, 0, 69, 69, -1, 8, 70, 5, 71, 45, 72, 45, 73, 79, 74, 45, 75, 3, 76, 80, 77, 5, 0, 0, 0, 379, 390, -1, 2, 1, 488, 3, 489, 0, 160, 0, 69, 69, -1, 9, 1, 490, 70, 5, 71, 45, 72, 491, 73, 492, 74, 45, 75, 3, 76, 80, 77, 5, 0, 0, 0, 2147483647, 391, 493, 1, 1, 494, 0 </int_array>
+			<int_array  len="3127"> 				-1, -1, 4, 0, -1, 3, 1, 0, 2, 1, 3, 2, 0, 0, 0, 10, 5, -1, 5, 6, 3, 7, 4, 8, 5, 9, 6, 2, 7, 0, 1, 0, 4, 11, -1, 2, 12, 8, 3, 9, 0, 2, 0, 20, 13, -1, 8, 1, 10, 12, 11, 14, 12, 15, 13, 16, 14, 17, 15, 18, 16, 19, 17, 0, 2, 0, 20, 21, -1, 8, 1, 18, 12, 19, 14, 20, 15, 21, 16, 14, 17, 15, 18, 22, 19, 17, 0, 1, 0, 4, 22, -1, 2, 12, 8, 3, 23, 0, 5, 0, 20, 20, -1, 8, 1, 24, 12, 25, 14, 26, 15, 27, 16, 14, 17, 15, 18, 28, 19, 17, 0, 5, 0, 20, 23, -1, 9, 24, 29, 1, 30, 12, 31, 14, 32, 15, 33, 16, 14, 17, 15, 18, 34, 19, 17, 0, 1, 0, 2147483647, 25, 35, 0, 0, 1, 0, 4, 26, -1, 3, 1, 36, 12, 37, 3, 38, 0, 9, 0, 44, 27, -1, 17, 28, 39, 29, 40, 30, 41, 31, 42, 32, 43, 33, 43, 34, 29, 35, 44, 36, 45, 37, 46, 38, 3, 39, 3, 40, 43, 41, 47, 42, 17, 43, 48, 2, 49, 0, 1, 0, 4, 45, -1, 0, 0, 1, 0, 2147483647, 46, 50, 0, 0, 1, 0, 2147483647, 47, 51, 1, 48, 15, 0, 1, 0, 2147483647, 49, 51, 2, 48, 15, 1, 52, 0, 1, 0, 2147483647, 50, 51, 2, 48, 15, 1, 53, 0, 1, 0, 44, 51, -1, 20, 28, 54, 29, 55, 30, 56, 31, 57, 32, 43, 33, 43, 34, 29, 52, 58, 41, 47, 42, 17, 43, 48, 2, 59, 53, 44, 54, 60, 55, 61, 56, 62, 57, 63, 58, 64, 59, 65, 60, 66, 0, 1, 0, 2147483647, 61, 67, 4, 28, 68, 29, 69, 30, 70, 31, 71, 0, 1, 0, 2147483647, 62, 72, 1, 48, 15, 0, 1, 0, 2147483647, 63, 73, 7, 48, 15, 64, 3, 65, 3, 28, 74, 29, 75, 30, 76, 31, 77, 0, 0, 0, 66, 66, -1, 4, 67, 3, 68, 78, 69, 15, 70, 43, 0, 0, 0, 66, 71, -1, 4, 67, 3, 68, 79, 69, 15, 70, 15, 0, 0, 0, 66, 72, -1, 4, 67, 3, 68, 80, 69, 15, 70, 15, 0, 0, 0, 66, 73, -1, 4, 67, 3, 68, 81, 69, 15, 70, 15, 0, 0, 0, 66, 74, -1, 4, 67, 3, 68, 80, 69, 15, 70, 15, 0, 0, 0, 66, 75, -1, 4, 67, 3, 68, 82, 69, 15, 70, 15, 0, 0, 0, 76, 76, -1, 8, 77, 83, 78, 84, 79, 47, 80, 85, 81, 47, 82, 3, 83, 86, 84, 5, 0, 0, 0, 76, 85, -1, 8, 77, 87, 78, 47, 79, 47, 80, 85, 81, 47, 82, 3, 83, 86, 84, 5, 0, 0, 0, 95, 86, -1, 8, 87, 88, 88, 15, 89, 43, 90, 89, 91, 43, 92, 15, 93, 5, 94, 90, 0, 0, 0, 4, 96, -1, 2, 24, 29, 2, 91, 0, 0, 0, 4, 97, -1, 2, 1, 92, 3, 93, 0, 30, 0, 2147483647, 98, 94, 4, 1, 95, 12, 96, 99, 29, 100, 97, 0, 30, 0, 2147483647, 101, 94, 4, 1, 98, 12, 96, 99, 29, 100, 97, 0, 30, 0, 2147483647, 102, 94, 6, 1, 99, 12, 96, 99, 100, 103, 29, 104, 101, 100, 97, 0, 30, 0, 2147483647, 105, 102, 7, 1, 103, 12, 104, 99, 29, 106, 105, 107, 106, 108, 107, 109, 107, 0, 30, 0, 121, 110, -1, 11, 111, 15, 112, 108, 113, 109, 114, 15, 115, 3, 116, 3, 117, 4, 118, 5, 119, 47, 120, 5, 3, 110, 0, 35, 0, 122, 122, -1, 4, 123, 17, 124, 111, 125, 4, 126, 15, 0, 30, 0, 121, 127, -1, 26, 111, 15, 112, 112, 113, 113, 114, 15, 128, 114, 129, 113, 130, 15, 131, 115, 132, 113, 133, 15, 134, 116, 135, 113, 136, 15, 137, 117, 138, 113, 139, 15, 140, 118, 141, 113, 142, 15, 115, 3, 116, 3, 117, 4, 118, 5, 119, 47, 120, 5, 3, 119, 0, 37, 0, 122, 143, -1, 5, 1, 120, 123, 17, 124, 121, 125, 122, 126, 15, 0, 30, 0, 121, 144, -1, 162, 1, 123, 111, 15, 112, 124, 113, 125, 114, 15, 128, 126, 129, 125, 130, 15, 131, 127, 132, 128, 133, 15, 134, 129, 135, 128, 136, 15, 137, 130, 138, 131, 139, 15, 140, 132, 141, 131, 142, 15, 145, 133, 146, 134, 147, 15, 148, 135, 149, 134, 150, 15, 151, 136, 152, 137, 153, 15, 154, 138, 155, 137, 156, 15, 157, 139, 158, 140, 159, 15, 160, 141, 161, 140, 162, 15, 163, 142, 164, 143, 165, 15, 166, 144, 167, 143, 168, 15, 169, 145, 170, 146, 171, 15, 172, 147, 173, 146, 174, 15, 175, 148, 176, 149, 177, 15, 178, 150, 179, 149, 180, 15, 181, 151, 182, 152, 183, 15, 184, 153, 185, 152, 186, 15, 187, 154, 188, 155, 189, 15, 190, 156, 191, 155, 192, 15, 193, 157, 194, 158, 195, 15, 196, 159, 197, 158, 198, 15, 199, 160, 200, 161, 201, 15, 202, 162, 203, 161, 204, 15, 205, 163, 206, 164, 207, 15, 208, 165, 209, 164, 210, 15, 211, 166, 212, 167, 213, 15, 214, 168, 215, 167, 216, 15, 217, 169, 218, 167, 219, 15, 220, 170, 221, 171, 222, 15, 223, 172, 224, 171, 225, 15, 226, 173, 227, 174, 228, 15, 229, 175, 230, 174, 231, 15, 232, 176, 233, 177, 234, 15, 235, 178, 236, 177, 237, 15, 238, 179, 239, 177, 240, 15, 241, 180, 242, 181, 243, 15, 244, 182, 245, 181, 246, 15, 247, 183, 248, 181, 249, 15, 250, 184, 251, 185, 252, 15, 253, 186, 254, 185, 255, 15, 256, 187, 257, 188, 258, 15, 259, 189, 260, 188, 261, 15, 262, 190, 263, 188, 264, 15, 265, 191, 266, 192, 267, 15, 268, 193, 269, 192, 270, 15, 271, 194, 272, 192, 273, 15, 274, 195, 275, 196, 276, 15, 277, 197, 278, 196, 279, 15, 115, 3, 116, 3, 117, 4, 118, 5, 119, 47, 120, 5, 3, 198, 0, 39, 0, 284, 280, -1, 5, 1, 199, 281, 200, 12, 201, 282, 202, 283, 43, 0, 39, 0, 122, 122, -1, 7, 1, 203, 281, 200, 12, 204, 123, 17, 124, 205, 125, 206, 126, 15, 0, 39, 0, 284, 285, -1, 5, 1, 207, 281, 200, 12, 208, 282, 209, 283, 43, 0, 39, 0, 122, 286, -1, 7, 1, 210, 281, 200, 12, 204, 123, 17, 124, 211, 125, 212, 126, 15, 0, 39, 0, 284, 287, -1, 5, 1, 213, 281, 200, 12, 214, 282, 215, 283, 43, 0, 39, 0, 122, 288, -1, 7, 1, 216, 281, 200, 12, 204, 123, 17, 124, 217, 125, 218, 126, 15, 0, 39, 0, 284, 289, -1, 5, 1, 219, 281, 200, 12, 220, 282, 202, 283, 43, 0, 39, 0, 122, 290, -1, 7, 1, 221, 281, 200, 12, 204, 123, 17, 124, 205, 125, 222, 126, 15, 0, 39, 0, 284, 291, -1, 5, 1, 223, 281, 200, 12, 224, 282, 215, 283, 43, 0, 39, 0, 122, 292, -1, 7, 1, 225, 281, 200, 12, 226, 123, 17, 124, 227, 125, 228, 126, 15, 0, 39, 0, 284, 293, -1, 5, 1, 229, 281, 200, 12, 230, 282, 215, 283, 43, 0, 39, 0, 122, 294, -1, 7, 1, 231, 281, 200, 12, 232, 123, 17, 124, 227, 125, 233, 126, 15, 0, 39, 0, 284, 295, -1, 5, 1, 234, 281, 200, 12, 235, 282, 209, 283, 43, 0, 39, 0, 122, 296, -1, 7, 1, 236, 281, 200, 12, 204, 123, 17, 124, 211, 125, 237, 126, 15, 0, 39, 0, 284, 297, -1, 5, 1, 238, 281, 200, 12, 239, 282, 202, 283, 43, 0, 39, 0, 122, 298, -1, 7, 1, 240, 281, 200, 12, 204, 123, 17, 124, 205, 125, 241, 126, 15, 0, 39, 0, 284, 299, -1, 5, 1, 242, 281, 200, 12, 243, 282, 202, 283, 43, 0, 39, 0, 122, 300, -1, 7, 1, 244, 281, 200, 12, 204, 123, 17, 124, 205, 125, 245, 126, 15, 0, 39, 0, 284, 301, -1, 5, 1, 246, 281, 200, 12, 247, 282, 209, 283, 43, 0, 39, 0, 122, 302, -1, 7, 1, 248, 281, 200, 12, 204, 123, 17, 124, 211, 125, 249, 126, 15, 0, 39, 0, 284, 303, -1, 5, 1, 250, 281, 200, 12, 251, 282, 209, 283, 43, 0, 39, 0, 122, 304, -1, 7, 1, 252, 281, 200, 12, 204, 123, 17, 124, 253, 125, 254, 126, 15, 0, 39, 0, 284, 305, -1, 5, 1, 255, 281, 200, 12, 256, 282, 215, 283, 43, 0, 39, 0, 122, 306, -1, 7, 1, 257, 281, 200, 12, 226, 123, 17, 124, 227, 125, 258, 126, 15, 0, 39, 0, 284, 307, -1, 5, 1, 259, 281, 200, 12, 260, 282, 215, 283, 43, 0, 39, 0, 122, 308, -1, 7, 1, 261, 281, 200, 12, 226, 123, 17, 124, 227, 125, 262, 126, 15, 0, 39, 0, 284, 309, -1, 4, 1, 263, 281, 200, 12, 264, 282, 202, 0, 39, 0, 122, 310, -1, 7, 1, 265, 281, 200, 12, 204, 123, 17, 124, 266, 125, 267, 126, 15, 0, 39, 0, 284, 311, -1, 4, 1, 268, 281, 200, 12, 204, 282, 269, 0, 39, 0, 122, 312, -1, 7, 1, 270, 281, 200, 12, 204, 123, 17, 124, 271, 125, 272, 126, 15, 0, 39, 0, 284, 313, -1, 5, 1, 273, 281, 200, 12, 274, 99, 275, 282, 276, 0, 39, 0, 122, 314, -1, 7, 1, 277, 281, 200, 12, 204, 123, 17, 124, 278, 125, 279, 126, 15, 0, 39, 0, 284, 315, -1, 5, 1, 280, 281, 281, 12, 282, 282, 276, 283, 43, 0, 39, 0, 122, 316, -1, 7, 1, 283, 281, 200, 12, 204, 123, 17, 124, 284, 125, 285, 126, 15, 0, 39, 0, 284, 317, -1, 5, 1, 286, 281, 281, 12, 282, 99, 3, 282, 287, 0, 39, 0, 122, 318, -1, 8, 1, 288, 281, 200, 12, 204, 99, 3, 123, 17, 124, 289, 125, 290, 126, 15, 0, 39, 0, 284, 319, -1, 4, 1, 291, 281, 200, 12, 292, 282, 269, 0, 39, 0, 122, 320, -1, 7, 1, 293, 281, 200, 12, 204, 123, 17, 124, 294, 125, 295, 126, 15, 0, 39, 0, 284, 321, -1, 4, 1, 296, 281, 297, 12, 274, 282, 276, 0, 39, 0, 122, 322, -1, 7, 1, 298, 281, 200, 12, 204, 123, 17, 124, 299, 125, 300, 126, 15, 0, 39, 0, 284, 323, -1, 4, 1, 301, 12, 302, 99, 3, 282, 303, 0, 39, 0, 122, 324, -1, 8, 1, 304, 281, 200, 12, 204, 99, 3, 123, 17, 124, 305, 125, 306, 126, 15, 0, 39, 0, 284, 325, -1, 4, 1, 307, 281, 200, 12, 308, 282, 269, 0, 39, 0, 284, 326, -1, 6, 1, 309, 281, 310, 12, 311, 99, 3, 282, 312, 283, 43, 0, 39, 0, 284, 327, -1, 6, 1, 313, 281, 314, 12, 315, 99, 3, 282, 316, 328, 43, 0, 39, 0, 122, 329, -1, 8, 1, 317, 281, 200, 12, 204, 99, 3, 123, 17, 124, 318, 125, 319, 126, 15, 0, 39, 0, 284, 330, -1, 5, 1, 320, 281, 200, 12, 321, 282, 202, 283, 43, 0, 39, 0, 122, 331, -1, 7, 1, 322, 281, 200, 12, 204, 123, 17, 124, 205, 125, 323, 126, 15, 0, 39, 0, 284, 332, -1, 6, 1, 324, 281, 200, 12, 325, 99, 3, 282, 326, 283, 43, 0, 30, 0, 2147483647, 333, 327, 1, 1, 328, 0, 30, 0, 2147483647, 334, 327, 1, 1, 329, 0, 30, 0, 2147483647, 335, 327, 1, 1, 330, 0, 30, 0, 2147483647, 336, 327, 1, 1, 331, 0, 30, 0, 2147483647, 337, 327, 1, 1, 332, 0, 30, 0, 2147483647, 338, 333, 1, 1, 334, 0, 30, 0, 2147483647, 339, 327, 1, 1, 335, 0, 30, 0, 2147483647, 340, 327, 1, 1, 336, 0, 30, 0, 2147483647, 341, 327, 1, 1, 337, 0, 0, 0, 4, 342, -1, 1, 3, 338, 0, 98, 0, 121, 343, -1, 12, 1, 339, 111, 15, 112, 340, 113, 341, 114, 43, 115, 3, 116, 3, 117, 4, 118, 5, 119, 47, 120, 5, 3, 342, 0, 99, 0, 344, 344, -1, 5, 1, 343, 12, 344, 345, 340, 126, 43, 346, 17, 0, 99, 0, 284, 284, -1, 5, 347, 345, 1, 346, 12, 347, 99, 348, 282, 349, 0, 98, 0, 284, 348, -1, 4, 1, 350, 12, 351, 99, 3, 282, 352, 0, 98, 0, 284, 349, -1, 4, 1, 353, 12, 354, 99, 48, 282, 355, 0, 98, 0, 284, 350, -1, 4, 1, 356, 12, 357, 99, 48, 282, 358, 0, 98, 0, 284, 351, -1, 4, 1, 359, 12, 360, 282, 361, 283, 43, 0, 98, 0, 284, 352, -1, 4, 1, 362, 12, 363, 99, 348, 282, 364, 0, 98, 0, 284, 353, -1, 5, 1, 365, 12, 366, 99, 48, 282, 367, 283, 43, 0, 98, 0, 284, 354, -1, 3, 1, 368, 12, 369, 282, 355, 0, 98, 0, 2147483647, 355, 370, 2, 1, 371, 12, 372, 0, 98, 0, 2147483647, 356, 370, 2, 1, 373, 12, 374, 0, 98, 0, 2147483647, 357, 370, 2, 1, 375, 12, 374, 0, 98, 0, 284, 358, -1, 4, 1, 376, 12, 377, 99, 48, 282, 378, 0, 98, 0, 284, 359, -1, 5, 1, 379, 281, 380, 12, 381, 99, 382, 282, 383, 0, 98, 0, 284, 360, -1, 5, 1, 384, 281, 200, 12, 385, 99, 48, 282, 386, 0, 98, 0, 284, 361, -1, 6, 1, 387, 281, 200, 12, 388, 99, 48, 282, 269, 283, 43, 0, 98, 0, 284, 287, -1, 5, 1, 389, 12, 390, 99, 48, 282, 378, 283, 43, 0, 98, 0, 284, 285, -1, 5, 1, 391, 12, 392, 99, 48, 282, 378, 283, 43, 0, 98, 0, 284, 280, -1, 5, 1, 393, 12, 394, 99, 48, 282, 378, 283, 43, 0, 98, 0, 284, 289, -1, 4, 1, 395, 12, 396, 99, 48, 282, 378, 0, 98, 0, 284, 291, -1, 4, 1, 397, 12, 398, 99, 48, 282, 378, 0, 98, 0, 284, 293, -1, 5, 1, 399, 12, 400, 99, 48, 282, 378, 283, 43, 0, 98, 0, 284, 362, -1, 6, 1, 401, 281, 200, 12, 402, 99, 48, 282, 403, 283, 43, 0, 98, 0, 284, 363, -1, 6, 1, 404, 281, 200, 12, 405, 99, 48, 282, 406, 283, 43, 0, 98, 0, 284, 364, -1, 6, 1, 407, 281, 200, 12, 408, 99, 48, 282, 409, 283, 43, 0, 98, 0, 284, 365, -1, 6, 1, 410, 281, 200, 12, 411, 99, 48, 282, 409, 283, 43, 0, 98, 0, 284, 366, -1, 6, 1, 412, 281, 200, 12, 411, 99, 48, 282, 413, 283, 43, 0, 98, 0, 284, 367, -1, 4, 1, 414, 12, 415, 99, 275, 282, 416, 0, 98, 0, 2147483647, 368, 370, 2, 1, 417, 12, 418, 0, 98, 0, 284, 369, -1, 3, 1, 419, 12, 420, 282, 421, 0, 98, 0, 284, 370, -1, 4, 1, 422, 12, 351, 99, 3, 282, 423, 0, 98, 0, 284, 371, -1, 4, 1, 424, 12, 351, 99, 3, 282, 352, 0, 98, 0, 284, 372, -1, 5, 1, 425, 12, 351, 99, 3, 282, 352, 283, 43, 0, 98, 0, 284, 373, -1, 5, 1, 426, 12, 351, 99, 3, 282, 352, 283, 43, 0, 98, 0, 284, 374, -1, 4, 1, 427, 12, 351, 99, 3, 282, 352, 0, 98, 0, 284, 375, -1, 6, 1, 428, 281, 200, 12, 429, 99, 48, 282, 430, 283, 43, 0, 98, 0, 284, 376, -1, 4, 1, 431, 12, 432, 99, 48, 282, 355, 0, 98, 0, 284, 377, -1, 4, 1, 433, 12, 434, 99, 435, 282, 436, 0, 98, 0, 284, 378, -1, 5, 1, 437, 281, 438, 12, 439, 99, 435, 282, 440, 0, 98, 0, 284, 379, -1, 4, 1, 441, 12, 351, 282, 352, 283, 43, 0, 98, 0, 284, 380, -1, 5, 1, 442, 281, 443, 12, 444, 99, 48, 282, 445, 0, 98, 0, 121, 381, -1, 17, 111, 15, 112, 446, 113, 447, 114, 43, 128, 448, 129, 449, 130, 43, 131, 450, 132, 451, 133, 43, 115, 3, 116, 3, 117, 4, 118, 5, 119, 47, 120, 5, 2, 452, 0, 141, 0, 122, 122, -1, 5, 1, 453, 123, 17, 124, 454, 125, 4, 126, 43, 0, 141, 0, 122, 286, -1, 5, 1, 455, 123, 17, 124, 456, 125, 6, 126, 43, 0, 141, 0, 122, 288, -1, 5, 1, 457, 123, 17, 124, 458, 125, 459, 126, 43, 0, 98, 0, 121, 382, -1, 15, 111, 15, 112, 460, 113, 461, 114, 43, 128, 462, 129, 463, 130, 43, 115, 3, 116, 3, 117, 4, 118, 5, 119, 47, 120, 5, 2, 464, 3, 465, 0, 145, 0, 122, 122, -1, 5, 1, 466, 123, 17, 124, 467, 125, 4, 126, 43, 0, 145, 0, 122, 286, -1, 5, 1, 468, 123, 17, 124, 469, 125, 6, 126, 43, 0, 0, 0, 4, 383, -1, 0, 0, 148, 0, 2147483647, 384, 470, 5, 1, 471, 12, 472, 99, 3, 385, 473, 386, 473, 0, 149, 0, 387, 387, -1, 2, 1, 474, 12, 475, 0, 0, 0, 2147483647, 388, 476, 7, 1, 477, 12, 478, 99, 479, 389, 480, 390, 481, 391, 382, 392, 482, 0, 151, 0, 76, 76, -1, 9, 1, 483, 77, 5, 78, 47, 79, 47, 80, 85, 81, 47, 82, 29, 83, 86, 84, 5, 0, 151, 0, 76, 393, -1, 10, 1, 484, 12, 485, 77, 106, 78, 47, 79, 47, 80, 85, 81, 47, 82, 3, 83, 86, 84, 5, 0, 0, 0, 2147483647, 394, 486, 1, 1, 487, 0, 154, 0, 387, 387, -1, 1, 1, 488, 0, 0, 0, 2147483647, 395, 489, 2, 1, 490, 99, 382, 0, 0, 0, 2147483647, 396, 491, 0, 0, 0, 0, 387, 397, -1, 2, 1, 492, 3, 493, 0, 158, 0, 76, 76, -1, 8, 77, 5, 78, 47, 79, 47, 80, 85, 81, 47, 82, 3, 83, 86, 84, 5, 0, 0, 0, 387, 398, -1, 2, 1, 494, 3, 495, 0, 160, 0, 76, 76, -1, 9, 1, 496, 77, 5, 78, 47, 79, 497, 80, 498, 81, 47, 82, 3, 83, 86, 84, 5, 0, 0, 0, 2147483647, 399, 499, 1, 1, 500, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="495" shared="false">
+			<array  len="501" shared="false">
 				<vector2> -2.51758, 0 </vector2>
 				<resource  external="0">  </resource>
 				<dictionary  shared="false">
@@ -824,6 +839,10 @@
 				<vector2> 1, 1 </vector2>
 				<resource  external="1">  </resource>
 				<vector2> 0.4, 0.4 </vector2>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<vector2> 1.6, -925 </vector2>
 				<vector2> 2.33, 2.33 </vector2>
 				<resource  external="2">  </resource>
@@ -836,6 +855,10 @@
 				<resource  external="4">  </resource>
 				<resource  external="5">  </resource>
 				<string> "btn_right" </string>
+				<dictionary  shared="false">
+					<string> "_editor_collapsed" </string>
+					<bool> True </bool>
+				</dictionary>
 				<vector2> -417.285, -1278.03 </vector2>
 				<vector2> 2.05015, 2.89218 </vector2>
 				<resource  external="6">  </resource>
@@ -865,9 +888,6 @@
 				<real> 1 </real>
 				<int> -1 </int>
 				<resource  external="12">  </resource>
-				<string> "res://igu/splashes.txt" </string>
-				<vector2> 10, 15 </vector2>
-				<vector2> 0.5, 0.5 </vector2>
 				<resource  external="13">  </resource>
 				<resource  external="14">  </resource>
 				<vector2> 150, 10 </vector2>
@@ -879,12 +899,19 @@
 				<string> "castellano" </string>
 				<resource  external="15">  </resource>
 				<resource  external="16">  </resource>
+				<resource  external="17">  </resource>
+				<resource  external="18">  </resource>
+				<resource  external="19">  </resource>
+				<resource  external="20">  </resource>
+				<resource  external="21">  </resource>
+				<resource  external="22">  </resource>
+				<resource  external="23">  </resource>
 				<real> 530 </real>
 				<real> 106 </real>
 				<real> 865 </real>
 				<real> 431 </real>
-				<resource  external="17">  </resource>
-				<resource  external="18">  </resource>
+				<resource  external="24">  </resource>
+				<resource  external="25">  </resource>
 				<real> -8 </real>
 				<real> -6 </real>
 				<real> -10 </real>
@@ -897,25 +924,26 @@
 				<real> -5 </real>
 				<real> 0.92 </real>
 				<real> 2048 </real>
-				<resource  external="19">  </resource>
+				<resource  external="26">  </resource>
 				<real> 10 </real>
-				<resource  external="20">  </resource>
+				<resource  external="27">  </resource>
 				<real> -0.936171 </real>
 				<int> 500 </int>
-				<resource  external="21">  </resource>
+				<resource  external="28">  </resource>
 				<vector2> -0.663422, 2.65369 </vector2>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
 				</dictionary>
-				<resource  external="22">  </resource>
+				<resource  external="29">  </resource>
 				<vector2> 3449.51, 586.723 </vector2>
 				<vector2> 0.379731, 0.379731 </vector2>
+				<string> "explosion_magia" </string>
 				<vector2> 5821.57, 744.597 </vector2>
 				<vector2> -1057.36, 714.784 </vector2>
 				<int> 17 </int>
 				<int> 4 </int>
-				<resource  external="23">  </resource>
+				<resource  external="30">  </resource>
 				<vector2> 2081.35, 297.442 </vector2>
 				<vector2> 1.7151, 1.7151 </vector2>
 				<real> 100 </real>
@@ -1024,20 +1052,20 @@
 				<vector2> 6318.65, 285.766 </vector2>
 				<real> -0.005538 </real>
 				<vector2> 1.38487, 1.91803 </vector2>
-				<resource  external="24">  </resource>
+				<resource  external="31">  </resource>
 				<vector2> 6315.33, 302.865 </vector2>
 				<vector2> 0.693918, 0.961064 </vector2>
 				<vector2_array  len="7"> 					368.065, -105.777, 263.598, -115.939, -8.25391, -116.508, -199.92, -112.359, -335.03, -109.965, -360.848, -66.7405, 46.4961, -33.2629 </vector2_array>
 				<vector2> 0, 1 </vector2>
 				<vector2> 7071.9, 33.4917 </vector2>
 				<vector2> 1.35059, 1.87055 </vector2>
-				<resource  external="25">  </resource>
+				<resource  external="32">  </resource>
 				<vector2> 7072, 24.5172 </vector2>
 				<vector2_array  len="7"> 					368.065, -105.777, 263.598, -115.939, 3.1543, -93.8718, -199.92, -112.359, -335.03, -109.965, -360.848, -66.7405, 46.4961, -33.2629 </vector2_array>
 				<vector2> 2, 3 </vector2>
 				<vector2> 7897.76, 9.75952 </vector2>
 				<vector2> 1.31195, 1.81703 </vector2>
-				<resource  external="26">  </resource>
+				<resource  external="33">  </resource>
 				<vector2> 7933.42, 110.151 </vector2>
 				<vector2_array  len="7"> 					307.115, -105.618, 179.651, -154.44, -23.2402, -152.548, -209.225, -157.23, -387.398, -107.447, -360.848, -66.7405, 322.729, -64.2999 </vector2_array>
 				<vector2> 4, 5 </vector2>
@@ -1091,14 +1119,14 @@
 				<vector2_array  len="7"> 					368.065, -105.777, 266.847, -113.644, -8.25391, -116.508, -199.92, -112.359, -323.962, -114.756, -309.585, -66.3341, 383.418, -69.8412 </vector2_array>
 				<vector2> 26, 27 </vector2>
 				<vector2> 9664.79, -1720.14 </vector2>
-				<resource  external="27">  </resource>
+				<resource  external="34">  </resource>
 				<vector2> 9667.18, -1742.18 </vector2>
 				<vector2_array  len="7"> 					355.562, 99.5706, 339.753, 7.34497, 99.0059, 13.9973, 99.1084, -165.098, -148.716, -139.283, -272.952, 69.2253, 314.882, 192.829 </vector2_array>
 				<vector2> 28, 30 </vector2>
 				<vector2> 10092.5, -1414.24 </vector2>
 				<vector2> 0.944008, 1.52556 </vector2>
 				<int> -2 </int>
-				<resource  external="28">  </resource>
+				<resource  external="35">  </resource>
 				<vector2> 10445.1, -1102.73 </vector2>
 				<vector2_array  len="7"> 					-656.901, -192.794, -369.206, -218.541, -382.256, -342.444, -422.188, -397.847, -679.862, -431.823, -794.155, -473.409, -819.715, -335.499 </vector2_array>
 				<vector2> 31, 32 </vector2>
@@ -1109,7 +1137,7 @@
 				<vector2_array  len="7"> 					-656.901, -192.794, -328.756, -130.059, -324.488, -322.585, -332.711, -382.016, -617.757, -462.153, -763.303, -524.879, -819.715, -335.499 </vector2_array>
 				<vector2> 33, 34 </vector2>
 				<vector2> 10742.5, -824.075 </vector2>
-				<resource  external="29">  </resource>
+				<resource  external="36">  </resource>
 				<vector2> 11028.4, -433.441 </vector2>
 				<vector2_array  len="7"> 					2.96973, -175.714, 6.0166, -249.148, -266.464, -333.442, -492.945, -422.85, -503.567, -471.393, -797.273, -509.697, -674.782, -316.823 </vector2_array>
 				<vector2> 35, 37 </vector2>
@@ -1125,7 +1153,7 @@
 				<vector2> 41, 42 </vector2>
 				<vector2> 11446.5, 413.745 </vector2>
 				<vector2> 1.3631, 1.4935 </vector2>
-				<resource  external="30">  </resource>
+				<resource  external="37">  </resource>
 				<vector2> 11570.6, 142.34 </vector2>
 				<vector2_array  len="7"> 					222.223, 59.8059, 108.875, 47.0492, 107.434, -56.392, -49.8535, -58.076, -86.8613, -46.7337, -168.143, 58.9706, 238.254, 124.495 </vector2_array>
 				<vector2> 43, 45 </vector2>
@@ -1134,11 +1162,11 @@
 				<vector2> 12070.3, 287.529 </vector2>
 				<real> -3.532365 </real>
 				<vector2> 1.37978, 1.71779 </vector2>
-				<resource  external="31">  </resource>
+				<resource  external="38">  </resource>
 				<vector2> 12856, 300.135 </vector2>
 				<real> 0.46472 </real>
 				<vector2> 1.71273, 0.754624 </vector2>
-				<resource  external="32">  </resource>
+				<resource  external="39">  </resource>
 				<vector2> 11573.1, 326.12 </vector2>
 				<vector2_array  len="7"> 					2324.98, -47.3717, 1258.22, 2.76807, 1199.55, -8.78137, 1148.88, -8.77783, 218.115, -87.662, 1044.88, 60.5506, 2439.66, -16.5703 </vector2_array>
 				<vector2> 46, 48 </vector2>
@@ -1148,14 +1176,14 @@
 				<vector2> 49, 50 </vector2>
 				<vector2> 14642.9, -360.933 </vector2>
 				<vector2> 0.879081, 1.21751 </vector2>
-				<resource  external="33">  </resource>
-				<resource  external="34">  </resource>
+				<resource  external="40">  </resource>
+				<resource  external="41">  </resource>
 				<vector2> 3454.21, 95.3046 </vector2>
 				<vector2> -1139.32, 293.698 </vector2>
 				<vector2> 8719.18, -1985.82 </vector2>
 				<vector2> 9015.57, -1207.28 </vector2>
 				<vector2> 11787.1, -112.204 </vector2>
-				<resource  external="35">  </resource>
+				<resource  external="42">  </resource>
 				<vector2> 9865.47, -1029.22 </vector2>
 				<vector2> 10163.5, -1720.25 </vector2>
 				<vector2> 8895.15, -920.999 </vector2>
@@ -1177,28 +1205,28 @@
 				<vector2> 7925.84, 778.967 </vector2>
 				<vector2> 14.4789, 3.5102 </vector2>
 				<int> 16 </int>
-				<resource  external="36">  </resource>
+				<resource  external="43">  </resource>
 				<vector2> 13752.7, 435.068 </vector2>
 				<vector2> 0.745585, 0.857869 </vector2>
-				<resource  external="37">  </resource>
+				<resource  external="44">  </resource>
 				<vector2> 4112.06, 444.091 </vector2>
 				<vector2> 1.0173, 1.15008 </vector2>
-				<resource  external="38">  </resource>
+				<resource  external="45">  </resource>
 				<vector2> -1122, 246.749 </vector2>
 				<vector2> 1.20883, 2.04398 </vector2>
-				<resource  external="39">  </resource>
-				<vector2> -65.9814, 545.013 </vector2>
+				<resource  external="46">  </resource>
+				<vector2> -65.9814, 541.218 </vector2>
 				<vector2> 1.47437, 1.48196 </vector2>
-				<resource  external="40">  </resource>
+				<resource  external="47">  </resource>
 				<vector2> -974.933, 765.76 </vector2>
 				<vector2> 0.545675, 0.974127 </vector2>
-				<resource  external="41">  </resource>
+				<resource  external="48">  </resource>
 				<vector2> 238.999, 337.618 </vector2>
 				<vector2> 0.977525, 0.974295 </vector2>
-				<resource  external="42">  </resource>
+				<resource  external="49">  </resource>
 				<vector2> 911.844, 469.674 </vector2>
 				<vector2> 0.760526, 0.906749 </vector2>
-				<resource  external="43">  </resource>
+				<resource  external="50">  </resource>
 				<vector2> 170.627, 662.762 </vector2>
 				<vector2> 1.06262, 1.38023 </vector2>
 				<vector2> 3164.63, 652.442 </vector2>
@@ -1206,15 +1234,15 @@
 				<vector2> 1442.46, 472.738 </vector2>
 				<vector2> 6222.28, 421.49 </vector2>
 				<vector2> 3.09654, 3.48927 </vector2>
-				<resource  external="44">  </resource>
+				<resource  external="51">  </resource>
 				<vector2> 5117.5, 750.78 </vector2>
 				<real> 10.638272 </real>
 				<vector2> 0.460035, 0.782274 </vector2>
 				<int> 5 </int>
-				<resource  external="45">  </resource>
+				<resource  external="52">  </resource>
 				<vector2> 5662.1, 760.463 </vector2>
 				<vector2> -0.619974, 0.693096 </vector2>
-				<resource  external="46">  </resource>
+				<resource  external="53">  </resource>
 				<vector2> 4874.61, 439.369 </vector2>
 				<vector2> -0.693918, 0.961064 </vector2>
 				<vector2> 8919.33, -891.764 </vector2>
@@ -1231,56 +1259,56 @@
 				<vector2> 2.52306, 2.97819 </vector2>
 				<vector2> 5708.74, -325.97 </vector2>
 				<vector2> -0.667601, 0.91781 </vector2>
-				<resource  external="47">  </resource>
+				<resource  external="54">  </resource>
 				<vector2> 8184.23, -966.099 </vector2>
 				<vector2> -1.2804, 1.77333 </vector2>
-				<resource  external="48">  </resource>
+				<resource  external="55">  </resource>
 				<vector2> 6138.75, 891.886 </vector2>
 				<vector2> -0.735072, 1.01806 </vector2>
-				<resource  external="49">  </resource>
+				<resource  external="56">  </resource>
 				<vector2> 9379.13, -1441.54 </vector2>
 				<vector2> -0.439486, 0.494027 </vector2>
 				<vector2> 8335.92, -2314.16 </vector2>
-				<resource  external="50">  </resource>
+				<resource  external="57">  </resource>
 				<vector2> 12547.6, 641.378 </vector2>
 				<vector2> 2.33563, 2.32032 </vector2>
-				<resource  external="51">  </resource>
+				<resource  external="58">  </resource>
 				<vector2> 13742.5, 609.389 </vector2>
 				<vector2> 1.88279, 2.23608 </vector2>
 				<vector2> 483.553, 468.378 </vector2>
 				<vector2> 0.745585, 0.767049 </vector2>
-				<resource  external="52">  </resource>
+				<resource  external="59">  </resource>
 				<vector2> 3480.63, 616.209 </vector2>
-				<resource  external="53">  </resource>
+				<resource  external="60">  </resource>
 				<vector2> 3845.18, 542.865 </vector2>
 				<vector2> 4544.21, 537.98 </vector2>
 				<vector2> 2136.15, 364.597 </vector2>
 				<vector2> 227.47, 581.982 </vector2>
 				<vector2> 7240.47, -2272.4 </vector2>
 				<vector2> -0.767241, 1.06262 </vector2>
-				<resource  external="54">  </resource>
+				<resource  external="61">  </resource>
 				<vector2> 3384.71, 442.584 </vector2>
 				<vector2> -0.936434, 1.15008 </vector2>
 				<vector2> 3930.11, 15.1057 </vector2>
 				<vector2> 3.20136, 1.9377 </vector2>
 				<int> 15 </int>
-				<resource  external="55">  </resource>
+				<resource  external="62">  </resource>
 				<vector2> 11624.2, 61.2507 </vector2>
 				<real> -7.739283 </real>
 				<vector2> 2.54548, 1.81404 </vector2>
-				<resource  external="56">  </resource>
+				<resource  external="63">  </resource>
 				<vector2> 14683.8, 458.426 </vector2>
 				<vector2> -212.128, -317.375 </vector2>
 				<real> -21.196331 </real>
 				<vector2> 1.263, 1.37326 </vector2>
-				<resource  external="57">  </resource>
+				<resource  external="64">  </resource>
 				<resource  resource_type="Shape2D" path="local://65">  </resource>
 				<matrix32> 1, -0, 0, 1, 13127, 402.513 </matrix32>
 				<resource  resource_type="Shape2D" path="local://66">  </resource>
 				<matrix32> 1, -0, 0, 1, 12449.5, 439.342 </matrix32>
 				<resource  resource_type="Shape2D" path="local://67">  </resource>
 				<matrix32> 1, 0, 0, 1, 11909.2, 475.083 </matrix32>
-				<resource  external="58">  </resource>
+				<resource  external="65">  </resource>
 				<vector2> 13127, 402.513 </vector2>
 				<vector2_array  len="3"> 					84.4893, 57.532, 27.0459, -56.0786, -20.5107, 45.532 </vector2_array>
 				<vector2> 12449.5, 439.342 </vector2>
@@ -1292,7 +1320,7 @@
 				<matrix32> 1, -0, 0, 1, 13143.6, 495.588 </matrix32>
 				<resource  resource_type="Shape2D" path="local://69">  </resource>
 				<matrix32> 1, -0, 0, 1, 13879.8, 520.581 </matrix32>
-				<resource  external="59">  </resource>
+				<resource  external="66">  </resource>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
 					<bool> True </bool>
@@ -1301,17 +1329,13 @@
 				<vector2_array  len="4"> 					-789.054, 46.4247, -791.325, 110.043, -1181.58, 65.25, -1169.89, 20.155 </vector2_array>
 				<vector2> 13879.8, 520.581 </vector2>
 				<vector2_array  len="4"> 					-761.788, -1.28888, -720.891, 64.6013, -1317.4, 64.1126, -1309.36, 3.25525 </vector2_array>
-				<dictionary  shared="false">
-					<string> "_editor_collapsed" </string>
-					<bool> True </bool>
-				</dictionary>
-				<resource  external="60">  </resource>
-				<vector2> 14162.1, 384.517 </vector2>
+				<resource  external="67">  </resource>
+				<vector2> 777.507, 452.156 </vector2>
 				<vector2> 0.979908, 0.877779 </vector2>
 				<string> "chaman1" </string>
 				<vector2> 217.529, -239.419 </vector2>
 				<vector2> 1.0205, 1.13924 </vector2>
-				<resource  external="61">  </resource>
+				<resource  external="68">  </resource>
 				<vector2> 259.021, 316.844 </vector2>
 				<vector2> 0.7969, 0.7969 </vector2>
 				<int> 11 </int>
@@ -1321,12 +1345,12 @@
 				<vector2> -276.242, -119.368 </vector2>
 				<vector2> -277.229, -121.13 </vector2>
 				<vector2> 0.96917, 0.944922 </vector2>
-				<resource  external="62">  </resource>
+				<resource  external="69">  </resource>
 				<vector2> -3795.09, -361.176 </vector2>
 				<vector2> -61.9336, 147.841 </vector2>
-				<resource  external="63">  </resource>
+				<resource  external="70">  </resource>
 				<vector2> 14926.1, 417.654 </vector2>
-				<resource  external="64">  </resource>
+				<resource  external="71">  </resource>
 				<vector2> -1003.89, 517.017 </vector2>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
@@ -1340,7 +1364,7 @@
 				<vector2> -1368.25, 16.4135 </vector2>
 				<real> 60 </real>
 				<real> 3048 </real>
-				<resource  external="65">  </resource>
+				<resource  external="72">  </resource>
 				<vector2> 12507.8, 399.487 </vector2>
 			</array>
 			<string> "version" </string>

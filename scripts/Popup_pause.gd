@@ -14,6 +14,7 @@ var obt_opacidad = false
 
 
 func _ready():
+	add_to_group("font_idioma")
 
 	caja_slider = get_node("opacidad_controles")
 	slider = get_node("opacidad_controles/HSlider")

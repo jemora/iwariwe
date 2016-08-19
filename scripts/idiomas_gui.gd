@@ -14,6 +14,16 @@ var idioma = 0
 var idiomas
 var save = true
 
+
+onready var _label = Label.new()
+export (Font) var FONT_latin
+export (Font) var FONT_arabe
+export (Font) var FONT_chino
+export (Font) var FONT_ruso
+
+
+
+
 func _ready():
 	load_data()
 #	print_data()
@@ -27,18 +37,51 @@ func _ready():
 #	get_node("name").set_text(name)
 	add_to_group("idioma_save")
 	
-	
 	set_process(true)
 
 	idiomas = get_text()
 	
 #	print(idioma)
-	
-	
+
+
+
+func fuente():
+
+
+	if (FONT_latin != null):
+		if idioma == 1 or idioma == 2 or idioma == 3 or idioma == 5:	
+			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
+			for font in font_idioma:
+				font.add_font_override("font", FONT_latin)
+#				font.add_color_override("font_color", Color(0.2, 0.6, 0.8, 1.0))
+				
+
+		if idioma == 6:
+			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
+			for font in font_idioma:
+				font.add_font_override("font", FONT_arabe)
+#				font.add_color_override("font_color", Color(0.2, 0.6, 0.8, 1.0))
+
+		if idioma == 4:
+			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
+			for font in font_idioma:
+				font.add_font_override("font", FONT_chino)
+#				font.add_color_override("font_color", Color(0.9, 0.5, 0.8, 1.0))
+
+		if idioma == 7:
+			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
+			for font in font_idioma:
+				font.add_font_override("font", FONT_ruso)
+#				font.add_color_override("font_color", Color(0.2, 0.6, 0.8, 1.0))
+				
+
+
 
 #--------------------------
 	
 func _process(delta):
+	fuente()
+	
 	if save == true:
 		var timer = get_node("Timer")
 		timer.start()
@@ -57,9 +100,17 @@ func _process(delta):
 	if idiomas == "yanomami":
 		idioma = 3
 
+	if idiomas == "chino":
+		idioma = 4
 
+	if idiomas == "portugues":
+		idioma = 5
 
+	if idiomas == "arabe":
+		idioma = 6
 
+	if idiomas == "ruso":
+		idioma = 7
 
 
 

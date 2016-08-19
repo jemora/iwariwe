@@ -1,7 +1,7 @@
 
 extends Label
 
-export(String, FILE) var splashes_path = "res://igu/splashes.txt"
+#export(String, FILE) var splashes_path = "res://igu/splashes.txt"
 
 #onready var splashes = FileManager.get_file_lines(splashes_path)
 
@@ -14,6 +14,8 @@ var on = 1
 func _ready():
 	add_to_group("Idioma_GUI")
 	add_to_group("mensajes_GUI")
+	add_to_group("font_idioma")
+	
 	
 #	print(idioma)
 	
@@ -31,13 +33,15 @@ func _ready():
 
 
 #------PROCESO ACTIVO AUTONOMO---
-	set_process(true)
+#	set_process(true)
+	
+	
 #func _process(delta):
 #---------LLAMA EL TEXTO DEL LABEL IDIOMA GUI------------
 #	var set_idiomas = get_owner().get_node("gui/idioma_gui").set_text()
 #	set_text(str(set_idiomas))
 #--------------------------------
-
+#	set_text(splashes[1])
 
 
 

@@ -1,6 +1,7 @@
-[gd_resource type="Theme" load_steps=12 format=1]
+[gd_resource type="Theme" load_steps=13 format=1]
 
-[ext_resource path="res://fonts/papercut.fnt" type="Font" id=1]
+[ext_resource path="res://fonts/arabe.fnt" type="Font" id=1]
+[ext_resource path="res://fonts/chalk.fnt" type="Font" id=2]
 
 [sub_resource type="StyleBoxTexture" id=1]
 
@@ -150,10 +151,10 @@ draw_center = true
 [resource]
 
 default_font = ExtResource( 1 )
-Button/colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
-Button/colors/font_color_disabled = Color( 0, 0, 0, 0.2 )
-Button/colors/font_color_hover = Color( 0.941176, 0.941176, 0.941176, 1 )
-Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/colors/font_color = Color( 0.976562, 0.118256, 0.118256, 1 )
+Button/colors/font_color_disabled = Color( 0.121582, 0.394192, 0.972656, 1 )
+Button/colors/font_color_hover = Color( 0.371094, 0.142059, 0.142059, 1 )
+Button/colors/font_color_pressed = Color( 0.722656, 0.533524, 0.533524, 1 )
 Button/constants/hseparation = 2
 Button/fonts/font = ExtResource( 1 )
 Button/styles/disabled = SubResource( 1 )
@@ -161,19 +162,19 @@ Button/styles/focus = SubResource( 2 )
 Button/styles/hover = SubResource( 3 )
 Button/styles/normal = SubResource( 4 )
 Button/styles/pressed = SubResource( 5 )
-Label/colors/font_color = Color( 0, 0, 0, 1 )
+Label/colors/font_color = Color( 0.28538, 0.96875, 0.20813, 1 )
 Label/colors/font_color_shadow = Color( 0, 0, 0, 0 )
 Label/constants/shadow_as_outline = 0
 Label/constants/shadow_offset_x = 1
 Label/constants/shadow_offset_y = 1
 Label/fonts/font = ExtResource( 1 )
-OptionButton/colors/font_color = Color( 0.878431, 0.878431, 0.878431, 1 )
+OptionButton/colors/font_color = Color( 0.882812, 0.220703, 0.220703, 1 )
 OptionButton/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
 OptionButton/colors/font_color_hover = Color( 0.941176, 0.941176, 0.941176, 1 )
 OptionButton/colors/font_color_pressed = Color( 1, 1, 1, 1 )
 OptionButton/constants/arrow_margin = 12
 OptionButton/constants/hseparation = 2
-OptionButton/fonts/font = ExtResource( 1 )
+OptionButton/fonts/font = ExtResource( 2 )
 OptionButton/styles/disabled = SubResource( 1 )
 OptionButton/styles/focus = SubResource( 2 )
 OptionButton/styles/hover = SubResource( 3 )
@@ -188,7 +189,7 @@ PopupMenu/colors/font_color_disabled = Color( 0.421875, 0.421875, 0.421875, 0.8 
 PopupMenu/colors/font_color_hover = Color( 0.136719, 0.136719, 0.136719, 1 )
 PopupMenu/constants/hseparation = 4
 PopupMenu/constants/vseparation = 8
-PopupMenu/fonts/font = ExtResource( 1 )
+PopupMenu/fonts/font = ExtResource( 2 )
 PopupMenu/icons/submenu = SubResource( 7 )
 PopupMenu/styles/hover = SubResource( 8 )
 PopupMenu/styles/panel = SubResource( 6 )

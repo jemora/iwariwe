@@ -1016,7 +1016,7 @@ func _on_items_mision_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
 	for reinicio in mensajes_GUI:
 		reinicio.set_opacidad()
-
+	fx.play("premio")
 
 #---mensajes de advertencias de los item
 	if mision_n != 1 and mision_frame_fuego ==1 and mision_item_1 == "fuego": # lejos de los dialogos
@@ -1206,6 +1206,7 @@ func _on_items_mision2_pressed(): # presion de los item  activa: presion item
 	var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
 	for reinicio in mensajes_GUI:
 		reinicio.set_opacidad()
+	fx.play("premio")
 
 
 
@@ -1400,7 +1401,7 @@ func _on_items_mision3_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
 	for reinicio in mensajes_GUI:
 		reinicio.set_opacidad()
-
+	fx.play("premio")
 
 
 #---mensajes de advertencias de los item
