@@ -96,7 +96,8 @@ func set_idioma6():
 func set_idioma7():
 	idioma = 7
 
-
+func set_idioma8():
+	idioma = 8
 
 
 
@@ -104,7 +105,7 @@ func set_idioma7():
 
 
 func show_dialog( line ):
-	#------llama el archivo de texto csv y lo abre----- 
+	#------llama el archivo de texto csv y lo abe----- 
 #	f =File.new()
 #	f.open('res://scripts/gdscript.csv',1)
 #--------------------
@@ -128,14 +129,19 @@ func show_dialog( line ):
 		label.set_text("huevo_listo")
 		set_opacity(1)
 
+	if line == "chaman cueva":
+		label.set_text("chaman cueva")
+		set_opacity(1)
 
-
+	if line == "chaman conuco":
+		label.set_text("chaman conuco")
+		set_opacity(1)
 
 
 
 func end_dialog():
 #	f =File.new()
-#	f.open('res://scripts/gdscript.csv',1)
+#	f.open('res://scripts/gdscript.csv',3)
 #	texto.set_bbcode( "" )
 #	f.close()
 	set_opacity( 0 )

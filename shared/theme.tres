@@ -1,7 +1,6 @@
-[gd_resource type="Theme" load_steps=13 format=1]
+[gd_resource type="Theme" load_steps=12 format=1]
 
-[ext_resource path="res://fonts/arabe.fnt" type="Font" id=1]
-[ext_resource path="res://fonts/chalk.fnt" type="Font" id=2]
+[ext_resource path="res://fonts/chino3.fnt" type="Font" id=1]
 
 [sub_resource type="StyleBoxTexture" id=1]
 
@@ -174,7 +173,7 @@ OptionButton/colors/font_color_hover = Color( 0.941176, 0.941176, 0.941176, 1 )
 OptionButton/colors/font_color_pressed = Color( 1, 1, 1, 1 )
 OptionButton/constants/arrow_margin = 12
 OptionButton/constants/hseparation = 2
-OptionButton/fonts/font = ExtResource( 2 )
+OptionButton/fonts/font = ExtResource( 1 )
 OptionButton/styles/disabled = SubResource( 1 )
 OptionButton/styles/focus = SubResource( 2 )
 OptionButton/styles/hover = SubResource( 3 )
@@ -189,7 +188,7 @@ PopupMenu/colors/font_color_disabled = Color( 0.421875, 0.421875, 0.421875, 0.8 
 PopupMenu/colors/font_color_hover = Color( 0.136719, 0.136719, 0.136719, 1 )
 PopupMenu/constants/hseparation = 4
 PopupMenu/constants/vseparation = 8
-PopupMenu/fonts/font = ExtResource( 2 )
+PopupMenu/fonts/font = ExtResource( 1 )
 PopupMenu/icons/submenu = SubResource( 7 )
 PopupMenu/styles/hover = SubResource( 8 )
 PopupMenu/styles/panel = SubResource( 6 )

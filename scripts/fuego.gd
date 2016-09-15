@@ -11,10 +11,11 @@ var player
 
 
 func _ready():
-
+	get_node("fx").play("fuego")
+	get_node("fx1").play("explosion_magia")
 #	move(true)
 	pass
-
+	
 
 #func move(delta):
 #	set_axis_velocity(Vector2(-100,-30))
@@ -30,5 +31,5 @@ func fuego_premio():
 	
 #	get_tree().reload_current_scene()
 	var fx = get_node("fx")
-	fx.play("vida")
+	fx.play("premio2")
 #	get_node("explotar").show()

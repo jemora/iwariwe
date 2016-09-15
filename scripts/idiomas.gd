@@ -9,8 +9,21 @@ var descripcion
 
 func ready():
 #	fuente = get_node("AnimationPlayer")
+	set_process(true)
 
-	pass
+#	pass
+
+func _process(delta):
+	get_node("Sprite2").rotate(3)
+
+
+
+
+
+func _on_Button_pressed():
+	get_tree().change_scene("res://elementos/menu.scn")
+#	get_node().goto_scene("res://../niveles/level_01B.xml")
+#	get_node("/root/global").goto_scene("res://elementos/menu.scn")
 
 
 
@@ -18,7 +31,7 @@ func _on_english_pressed():
 	TranslationServer.set_locale("en")
 #	_goto_scene()
 	get_tree().reload_current_scene()
-	
+
 
 
 
@@ -38,21 +51,16 @@ func _on_spanish_pressed():
 
 
 func _on_japanese_pressed():
-	TranslationServer.set_locale("ja")
+	TranslationServer.set_locale("ms") # yanomami
 #	_goto_scene()
 	get_tree().reload_current_scene()
 
 
 
 
-func _on_Button_pressed():
-	get_tree().change_scene("res://elementos/menu.scn")
-#	get_node().goto_scene("res://../niveles/level_01B.xml")
-
-
 
 func _on_chino_pressed():
-	TranslationServer.set_locale("zh")
+	TranslationServer.set_locale("zh") # Japones
 #	_goto_scene()
 	get_tree().reload_current_scene()
 
@@ -87,9 +95,12 @@ func _on_ruso_pressed():
 
 
 
-	
-	
-	
-	
+
+func _on_japones_pressed():
+	TranslationServer.set_locale("ja_JP")
+#	_goto_scene()
+	get_tree().reload_current_scene()
+
+
 
 

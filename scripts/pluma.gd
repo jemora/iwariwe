@@ -19,10 +19,11 @@ func _ready():
 	#get_node("Area2D").connect("body_enter",get_owner().get_node("gui/splash/label"),"_collect_gear")
 	
 #-----Lista de sonidos
-	sonidolisto = get_node("SamplePlayer2D")
+	sonidolisto = get_owner().get_node("gui/fx_btn_item")
 
 
 func coge_pluma( body ):
+
 
 #	sonidolisto.play("listo")
 #	get_node("AnimationPlayer").play("collect")
@@ -31,13 +32,22 @@ func coge_pluma( body ):
 		if get_owner() != null:
 			get_owner().pluma_collected += valor
 			get_owner().get_node("gui/Popup_item/plumas_collected").set_text(str(get_owner().pluma_collected))
-			sonidolisto.play("listo")
+			if valor == 1:# roja
+				sonidolisto.play("listo")
+			elif valor != 1 or color == 7:# 
+				sonidolisto.play("premio2")
+
+
+				
 			get_node("AnimationPlayer").play("collect")
+
 
 
 		if get_owner().pluma_collected == get_owner().pluma_total:
 			get_owner().get_node("gui/splash/label").set_text("Pluma premio")
-			sonidolisto.play("premio")
+			sonidolisto.play("premio2")
+			
+
 
 
 #..........guardar
@@ -51,6 +61,7 @@ func coge_pluma( body ):
 
 
 	if color == 1: # azul
+		sonidolisto.play("premio2")
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
@@ -64,6 +75,7 @@ func coge_pluma( body ):
 
 
 	if color == 2:# amarilla
+		sonidolisto.play("premio2")
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
@@ -77,6 +89,7 @@ func coge_pluma( body ):
 
 
 	if color == 3:# morada
+		sonidolisto.play("premio2")
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
@@ -91,6 +104,7 @@ func coge_pluma( body ):
 
 
 	if color == 4:# roja
+		sonidolisto.play("premio2")
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
@@ -103,7 +117,11 @@ func coge_pluma( body ):
 		add_premio.frame = 10
 
 
+
+
+
 	if color == 5:# verde
+		sonidolisto.play("premio2")
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
@@ -114,6 +132,8 @@ func coge_pluma( body ):
 			premio.activar()
 		var add_premio = get_owner().get_node("gui/add_premios")
 		add_premio.frame = 11
+
+
 
 
 	if color == 6:# pluma blanca recoleccion, completar para ganar una dorada
@@ -129,6 +149,7 @@ func coge_pluma( body ):
 
 
 	if color == 7:# huevo
+		sonidolisto.play("premio2")
 
 		var mensajes_pluma = get_tree().get_nodes_in_group("world")
 		for pluma in mensajes_pluma:
@@ -141,5 +162,24 @@ func coge_pluma( body ):
 		var add_premio = get_owner().get_node("gui/add_premios")
 		add_premio.frame = 12
 		
+
+
+
+	if valor == 10:# pluma blanca recoleccion, completar para ganar una dorada
+
+		var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
+		for reinicio in mensajes_GUI:
+			reinicio.set_opacidad()
+
+		var grito = get_owner().get_node("gui/splash/label")
+		grito.set_text("Pluma roja")
 		
 		
+	if valor == 5:# pluma blanca recoleccion, completar para ganar una dorada
+
+		var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
+		for reinicio in mensajes_GUI:
+			reinicio.set_opacidad()
+
+		var grito = get_owner().get_node("gui/splash/label")
+		grito.set_text("Pluma verde")

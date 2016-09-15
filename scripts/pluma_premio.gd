@@ -20,7 +20,7 @@ func _ready():
 
 func coge_pluma( body ):
 
-	sonidolisto.play("listo")
+	sonidolisto.play("premio2")
 	get_node("AnimationPlayer").play("collect")
 
 

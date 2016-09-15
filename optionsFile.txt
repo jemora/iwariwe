@@ -1,0 +1,4 @@
+[General]
+
+Music=true
+SoundFx=true

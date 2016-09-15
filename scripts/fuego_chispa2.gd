@@ -25,7 +25,7 @@ func _ready():
 	add_to_group("fuego")
 	
 	var fx = get_node("fx")
-	fx.play("vida")
+	fx.play("fuego")
 
 
 func eliminar():
@@ -65,6 +65,6 @@ func destroy():
 	
 #	get_tree().reload_current_scene()
 	var fx = get_node("fx")
-	fx.play("vida")
+	fx.play("fuego")
 	get_node("explotar").show()
 

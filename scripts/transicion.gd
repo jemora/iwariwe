@@ -22,7 +22,7 @@ func _process(delta):
 	if  btn_action.check() == 1:
 		_on_TouchScreenButton_pressed()
 
-
+	get_node("cargar").rotate(3.0)
 
 
 
@@ -33,10 +33,12 @@ func _on_TouchScreenButton_pressed():
 	time.start()
 	time.set_wait_time(0.1)
 	time.connect('timeout',self,'nueva_escena')
-	
+	get_node("fx").play("papel2")
+
 	
 func nueva_escena():
 	get_tree().change_scene("res://niveles/level_01_b.xml")
+	
 	
 
 

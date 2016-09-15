@@ -6,13 +6,16 @@ const path = "user://data.txt"
 
 
 
-
+var nivel = 1
+var idioma = 1
 var bonos = 0
 var medicinas = 0
 var plumas = 0
 var opacidad = 0.0
+
+
 var obt_opacidad = false
-var sonido
+
 
 
 func _ready():
@@ -26,7 +29,7 @@ func _ready():
 	get_owner().get_node("gui/Popup_item/Medicina_total").set_text(str(medicinas))
 	get_owner().get_node("gui/Popup_item/Plumas_total").set_text(str(plumas))
 	
-	sonido = get_owner().get_node("fx")
+
 
 
 
@@ -47,28 +50,10 @@ func add_bonos():
 	save_data()
 	get_owner().get_node("gui/Popup_item/Bonos_tolal").set_text(str(bonos))
 
-
-
 func add_medicinas():
 	medicinas += 1
 	save_data()
 	get_owner().get_node("gui/Popup_item/Medicina_total").set_text(str(medicinas))
-
-#	get_owner().get_node("gui/splash/label").set_text("Lista las medicinas")
-
-#..........opacidad de los mensajes
-#	var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
-#	for dialo in set_opacidad:
-#		dialo.set_opacidad()
-
-#	sonido.play("explosion_magia")
-
-
-
-
-
-
-
 
 func add_plumas():
 	plumas += 1
@@ -91,6 +76,8 @@ func load_data():
 	bonos = f.get_var()
 	medicinas = f.get_var()
 	plumas = f.get_var()
+	idioma = f.get_var()
+	nivel = f.get_var()
 	opacidad = f.get_var()
 #	idioma = idioma
 #	print("Data loaded.")
@@ -105,7 +92,7 @@ func load_data():
 
 
 func save_data():
-		
+	
 	var f = File.new()
 	var err = f.open(path,File.WRITE)
 	
@@ -116,6 +103,8 @@ func save_data():
 	f.store_var(bonos)
 	f.store_var(medicinas)
 	f.store_var(plumas)
+	f.store_var(idioma)
+	f.store_var(nivel)
 	f.store_var(opacidad)
 #	f.store_var(idioma)
 #	print("saved ", opacidad)
@@ -127,19 +116,11 @@ func save_data():
 	return 0
 	
 
-
-
-#------------------------------------
 func restar_bonos():
 	if bonos != 0:
 		bonos -= 1
 		save_data()
 		get_owner().get_node("gui/Popup_item/Bonos_tolal").set_text(str(bonos))
-
-
-
-
-
 
 func restar_medicinas():
 	if medicinas != 0:
@@ -147,17 +128,11 @@ func restar_medicinas():
 		save_data()
 		get_owner().get_node("gui/Popup_item/Medicina_total").set_text(str(medicinas))
 
-
-
-
-
-
 func restar_plumas():
 	if plumas != 0:
 		plumas -= 1
 		save_data()
 		get_owner().get_node("gui/Popup_item/Plumas_total").set_text(str(plumas))
-
 
 
 

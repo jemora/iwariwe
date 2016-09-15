@@ -46,6 +46,7 @@ func _process(delta):
 
 # llama el valor de opacidad cargado en save_load
 	get_opacidad = get_owner().get_node("save_load").opacidad
+#	get_opacidad = 3.0
 
 #	print("popup ", get_opacidad, " slider ", slider_valor)
 
@@ -57,23 +58,24 @@ func _on_continuar_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("world")
 	for continuar in mensajes_GUI:
 		continuar._on_continuar_pressed()
-
+	get_owner().get_node("gui/fx_btn_item").play("papel_rapido")
 
 
 
 func _on_salir_pressed():
 	get_tree().quit()
-
+	get_owner().get_node("gui/fx_btn_item").play("listo")
 
 func _on_ir_menu_pressed():
 	get_tree().set_pause(false)
 	get_tree().change_scene("res://elementos/menu.scn")
-
+	get_owner().get_node("gui/fx_btn_item").play("listo")
 
 func _on_reiniciar_pressed():
 	get_tree().set_pause(false)
 	get_tree().reload_current_scene()
 
+	get_owner().get_node("gui/fx_btn_item").play("listo")
 
 
 
@@ -88,7 +90,7 @@ func _on_opacidad_pressed():
 	var btn_menu = get_node("ir_menu").hide()
 	var btn_opacidad = get_node("opacidad").hide()
 	var btn_reiniciar = get_node("reiniciar").hide()
-	
+	get_owner().get_node("gui/fx_btn_item").play("listo")
 
 	
 
@@ -122,7 +124,7 @@ func _on_Aplicar_pressed():
 	var save_load = get_tree().get_nodes_in_group("save_load")
 	for save in save_load:
 		save.save_data()
-
+	get_owner().get_node("gui/fx_btn_item").play("listo")
 
 
 

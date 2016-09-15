@@ -6,6 +6,9 @@ extends RigidBody2D
 
 var input_states = preload("res://scripts/input_states.gd")
 
+
+
+
 export var player_speed = 200
 export var jumpforce = 50
 export var acceleration = 7
@@ -33,6 +36,12 @@ var btn_jump = input_states.new("btn_jump")
 
 var btn_action = input_states.new("accion")
 var close_text = input_states.new("btn_jump")
+
+
+
+
+
+
 
 var anim_player = null
 var anim = ""
@@ -76,6 +85,9 @@ func is_on_ground():
 
 func _ready():
 #	get_node("Camera2D").set_zoom(get_node("Camera2D").get_zoom() * get_node("/root/global").viewport_scale)
+
+
+	
 
 	raycast_down = get_node("RayCast2D")
 	raycast_down.add_exception(self)
@@ -254,6 +266,8 @@ func _fixed_process(delta):
 
 #------suena los pasos cuando se mueve------------
 	if btn_left.check() == 2 and aire == 0 and salto == 0 or btn_right.check() == 2 and aire == 0 and salto == 0:
+	
+	
 
 		if pasos == false:
 			if tierra == true:

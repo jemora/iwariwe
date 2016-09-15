@@ -13,7 +13,7 @@ func _ready():
 	termitente = get_node("termitente")
 	animacion = get_node("AnimationPlayer")
 
-	fx = get_node("SamplePlayer2D")
+
 	
 #	animacion.play("termitente")
 	
@@ -22,6 +22,6 @@ func _ready():
 
 func sms_saco():
 	animacion.play("termitente")
-	fx.play("listo")
+	get_node("SamplePlayer2D").play("premio")
 
 	

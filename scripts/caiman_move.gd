@@ -36,4 +36,4 @@ func parar():
 func _process(delta):
 	if mover == true:
 		set_mode(MODE_CHARACTER)
-		set_linear_velocity(Vector2(361, -021))
+		set_linear_velocity(Vector2(361, 8))

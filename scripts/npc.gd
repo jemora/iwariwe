@@ -41,17 +41,17 @@ func _on_activate(): #----viene de actor
 	if line == ("chaman1"):
 		animacion_chaman.play("hablar")
 
-	if line == ("chaman2"):
+	if line == ("gracias_fuego"):
 		animacion_chaman.play("comer")
 
-	if line == ("chaman3"):
+	if line == ("huevo"):
 		animacion_chaman.play("comer")
 
-	if line == ("chaman4"):
+	if line == ("huevo_listo"):
 		animacion_chaman.play("hablar")
 
-	if line == ("chaman5"):
-		animacion_chaman.play("comer")
+	if line == ("chaman cueva"):
+		animacion_chaman.play("hablar")
 
 	if line == ("chaman6"):
 		animacion_chaman.play("comer")
@@ -100,11 +100,11 @@ func _on_activate(): #----viene de actor
 
 
 
-#------------------------
+#------------------------ gracias_fuego
 func _off_activate(): #----viene de actor
 	if line == ("chaman1"):
 		animacion_chaman.play("reposo_baston")
-	if line == ("chaman2"):
+	if line == ("huevo"):
 		animacion_chaman.play("reposo")
 
 	if line == ("chaman3"):

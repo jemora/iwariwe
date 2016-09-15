@@ -108,7 +108,7 @@ func _ready():
 	
 	
 	porecito = get_node("elementos/poresito")
-	porecito.set_mode(2)
+#	porecito.set_mode(1)
 	ray = get_node("player/RayCast2D")
 	ray.add_exception(player)
 	fx = get_node("fx")
@@ -162,7 +162,7 @@ func _ready():
 func _process(delta):
 	
 
-	
+
 	for tela_arana in get_tree().get_nodes_in_group("tela_arana"):
 		if ave_viva == true:
 			ave_ray.add_exception(tela_arana)
@@ -201,10 +201,11 @@ func _process(delta):
 			timer.start()
 			timer.set_wait_time(0.1)
 			timer.connect('timeout',self,'misio_fuego')
-			sonidos_player.play("vida")
+			sonidos_player.play("explosion_magia")
 			var grito = get_node("gui/splash/label")
 			grito.set_text("Mision")
 			checkpoint.queue_free()
+			sonidos_player.play("explosion_magia")
 
 
 
@@ -217,7 +218,7 @@ func _process(delta):
 			sonidos_player.play("grito_muerte_caiman")
 			fx.play("pancada_agua")
 			var grito = get_node("gui/splash/label")
-			grito.set_text("caiman")			
+			grito.set_text("caiman")	# este no es...
 			var dialogo = get_tree().get_nodes_in_group("caiman")
 			for dialo in dialogo:
 				dialo.atacar_arriba()
@@ -334,6 +335,8 @@ func sonido_viento():
 #--------------transicion escenas--------------
 func misio_fuego():
 	get_tree().change_scene("res://niveles/transicion.scn")
+#	get_node("/root/global").goto_scene("res://niveles/transicion.scn")
+
 
 
 
@@ -698,12 +701,13 @@ func _on_pausa_pressed():
 	get_node("gui/Popup_pause").set_exclusive(true)
 	get_node("gui/Popup_pause").popup()
 	get_tree().set_pause(true)
+	get_node("gui/fx_btn_item").play("papel2")
 
 
 func _on_continuar_pressed():
 	get_node("gui/Popup_pause").hide()
 	get_tree().set_pause(false)
-
+	get_node("gui/fx_btn_item").play("slider_papel_rapido")
 
 
 
@@ -713,10 +717,10 @@ func _on_continuar_pressed():
 
 func pluma(): #------viene del ave, morir
 	var chispa = import_chispa.instance()
+	get_node("fx_ave").play("fuego")
 #		chispa.set_name("fuego")
 	chispa.set_pos(get_node("Ave_fuego/Position2D").get_global_pos())
 	add_child(chispa)
-	fx.play("vida")
 	ave_viva = false
 
 
@@ -737,6 +741,7 @@ func _on_player_body_enter( body ):
 		
 		var grito = get_node("gui/splash/label")
 		grito.set_text("Fuegoooo...")
+		sonidos_player.play("grito_corto")
 
 
 #------pisar agua---------
@@ -861,6 +866,7 @@ func _on_player_body_enter( body ):
 		mision_frame_fuego = 1
 		gui_item_fuego()
 		mision_lista = true
+		sonidos_player.play("premio2")
 
 
 
@@ -876,6 +882,7 @@ func pluma_premio(): #viene de las plumas
 		mision_lista = true
 		var grito = get_node("gui/splash/label")
 		grito.set_text("Pluma azul")
+		sonidos_player.play("premio2")
 
 #-----------pluma amarilla
 func pluma_premio2(): #viene de las plumas
@@ -888,6 +895,7 @@ func pluma_premio2(): #viene de las plumas
 		mision_lista = true
 		var grito = get_node("gui/splash/label")
 		grito.set_text("Pluma amarilla")
+		sonidos_player.play("premio2")
 
 #-----------pluma morada
 func pluma_premio3(): #viene de las plumas
@@ -900,6 +908,7 @@ func pluma_premio3(): #viene de las plumas
 		mision_lista = true
 		var grito = get_node("gui/splash/label")
 		grito.set_text("Pluma morada")		
+		sonidos_player.play("premio2")
 
 #-----------pluma roja
 func pluma_premio4(): #viene de las plumas
@@ -912,6 +921,10 @@ func pluma_premio4(): #viene de las plumas
 		mision_lista = true
 		var grito = get_node("gui/splash/label")
 		grito.set_text("Pluma roja")		
+		sonidos_player.play("premio2")
+		sonidos_player.play("premio2")
+
+
 
 #-----------pluma verde
 func pluma_premio5(): #viene de las plumas
@@ -924,6 +937,7 @@ func pluma_premio5(): #viene de las plumas
 		mision_lista = true
 		var grito = get_node("gui/splash/label")
 		grito.set_text("Pluma verde")
+		sonidos_player.play("premio2")
 
 
 #-----------huevo
@@ -937,6 +951,7 @@ func huevo_premio(): #viene de las plumas
 		mision_lista = true
 		var grito = get_node("gui/splash/label")
 		grito.set_text("Huevo")
+		sonidos_player.play("premio2")
 
 
 
@@ -966,10 +981,13 @@ func _on_reiniciar_pressed():
 
 func _on_items_pressed():
 	get_node("gui/Popup_item").popup()
+	get_node("gui/fx_btn_item").play("papel2")
 
 
 func _on_continuar_item_pressed():
 	get_node("gui/Popup_item").hide()
+	get_node("gui/fx_btn_item").play("slider_papel_rapido")
+#	get_node("fx_btn_item").stop_all()
 
 
 
@@ -1016,7 +1034,8 @@ func _on_items_mision_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
 	for reinicio in mensajes_GUI:
 		reinicio.set_opacidad()
-	fx.play("premio")
+	get_node("gui/fx_btn_item").play("listo")
+
 
 #---mensajes de advertencias de los item
 	if mision_n != 1 and mision_frame_fuego ==1 and mision_item_1 == "fuego": # lejos de los dialogos
@@ -1206,7 +1225,7 @@ func _on_items_mision2_pressed(): # presion de los item  activa: presion item
 	var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
 	for reinicio in mensajes_GUI:
 		reinicio.set_opacidad()
-	fx.play("premio")
+	get_node("gui/fx_btn_item").play("listo")
 
 
 
@@ -1401,7 +1420,7 @@ func _on_items_mision3_pressed():
 	var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
 	for reinicio in mensajes_GUI:
 		reinicio.set_opacidad()
-	fx.play("premio")
+	get_node("gui/fx_btn_item").play("listo")
 
 
 #---mensajes de advertencias de los item
@@ -1589,6 +1608,7 @@ func _on_items_mision3_pressed():
 
 #-------ENTREGA  DE  PLUMA POR EL CHAMAN ----------
 func entregar_pluma():
+		sonidos_player.play("explosion_magia")
 		var pluma = import_pluma.instance()
 #		pluma.set_name("pluma")
 		pluma.set_pos(get_node("dialogos_obj/chaman1/Position2D").get_global_pos())

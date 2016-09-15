@@ -20,7 +20,7 @@ func _ready():
 	#get_node("Area2D").connect("body_enter",get_owner().get_node("gui/splash/label"),"_collect_gear")
 	
 #-----Lista de sonidos
-	sonidolisto = get_node("SamplePlayer2D")
+	sonidolisto = get_owner().get_node("gui/fx_btn_item")
 #	print(bonos_collected)
 	
 
@@ -32,7 +32,7 @@ func _collect_gear( body ):
 			get_owner().bonos_collected += value
 			get_owner().get_node("gui/Popup_item/bonos_collected").set_text(str(get_owner().bonos_collected))
 
-		sonidolisto.play("premio")
+		sonidolisto.play("listo")
 		get_node("AnimationPlayer").play("collect")
 
 #----------
@@ -48,7 +48,7 @@ func _collect_gear( body ):
 
 		if get_owner().bonos_collected == get_owner().bonos_total:
 			get_owner().get_node("gui/splash/label").set_text("Nueva colmena ganada")
-			sonidolisto.play("premio")
+			sonidolisto.play("premio2")
 
 			var add_bonos = get_tree().get_nodes_in_group("save_load")
 			for bonos in add_bonos:

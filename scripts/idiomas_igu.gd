@@ -13,10 +13,13 @@ export (Font) var FONT_latin
 export (Font) var FONT_arabe
 export (Font) var FONT_chino
 export (Font) var FONT_ruso
+export (Font) var FONT_japon
+
 export (Theme) var Tema_ruso
 export (Theme) var Tema_arabe
 export (Theme) var Tema_chino
 export (Theme) var Tema_latin
+export (Theme) var Tema_japon
 
 
 func _ready():
@@ -40,7 +43,7 @@ func fuente():
 			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
 			for font in font_idioma:
 				font.add_font_override("font", FONT_latin)
-#				font.add_color_override("font_color", Color(0.2, 0.6, 0.9, 1.0))
+#				font.add_color_override("font_color", Color(0.2, 0.6, 0.8, 1.0))
 				font.set_theme(Tema_latin)
 
 
@@ -48,7 +51,7 @@ func fuente():
 			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
 			for font in font_idioma:
 				font.add_font_override("font", FONT_arabe)
-#				font.add_color_override("font_color", Color(0.2, 0.6, 0.9, 1.0))
+#				font.add_color_override("font_color", Color(0.2, 0.6, 0.8, 1.0))
 				font.set_theme(Tema_arabe)
 				
 
@@ -56,19 +59,25 @@ func fuente():
 			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
 			for font in font_idioma:
 				font.add_font_override("font", FONT_chino)
-#				font.add_color_override("font_color", Color(0.2, 0.6, 0.9, 1.0))
+#				font.add_color_override("font_color", Color(0.2, 0.6, 0.8, 1.0))
 				font.set_theme(Tema_chino)
-
+#				pass
 
 
 		if fnt_idioma == 7:
 			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
 			for font in font_idioma:
 				font.add_font_override("font", FONT_ruso)
-#				font.add_color_override("font_color", Color(0.2, 0.6, 0.9, 1.0))
+#				font.add_color_override("font_color", Color(0.2, 0.6, 0.8, 1.0))
 				font.set_theme(Tema_ruso)
 				
 
+		if fnt_idioma == 8:
+			var font_idioma = get_tree().get_nodes_in_group("font_idioma")
+			for font in font_idioma:
+				font.add_font_override("font", FONT_japon)
+#				font.add_color_override("font_color", Color(0.2, 0.6, 0.8, 1.0))
+				font.set_theme(Tema_japon)
 
 
 
@@ -134,4 +143,10 @@ func _process(delta):
 		fnt_idioma = 7
 
 
+	var lenguaje_GUI =  get_text()
+	if lenguaje_GUI == "japones":
+		var idiomas = get_tree().get_nodes_in_group("dialogue_box")
+		for idioma in idiomas:
+			idioma.set_idioma8()
+		fnt_idioma = 8
 

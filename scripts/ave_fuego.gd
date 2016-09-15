@@ -137,6 +137,7 @@ func restar():
 	set_mode(MODE_STATIC)
 	volando.play("volando")
 	volando.set_speed(4)
+	get_node("SamplePlayer2D").play("fuego")
 
 func morir():
 	queue_free()

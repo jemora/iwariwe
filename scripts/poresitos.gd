@@ -5,8 +5,8 @@ var vigilar_on = 0
 var vigilar
 var timer = null
 var timer2 = null
-export var tiempo = 5
-export var tiempo2 = 1
+export var abierto = 5
+export var cerrado = 1
 
 func _ready():
 	add_to_group("poresitos")
@@ -14,17 +14,17 @@ func _ready():
 
 	timer = get_node("Timer").connect("timeout", self , "vigilar_A")
 	timer = get_node("Timer")
-	timer.set_wait_time(tiempo)
+	timer.set_wait_time(abierto)
 
 
 	timer2 = get_node("Timer 2").connect("timeout", self , "vigilar_B")
 	timer2 = get_node("Timer 2")
-	timer2.set_wait_time(tiempo2)
+	timer2.set_wait_time(cerrado)
 
 	timer2.start()
 	set_fixed_process(true)
 
-
+#	alertar()
 
 func _fixed_process(delta):
 
@@ -34,7 +34,7 @@ func _fixed_process(delta):
 	for play in player:
 		var dpos = self.get_pos() - play.get_pos()
 		var dist = sqrt(dpos.x * dpos.x + dpos.y*dpos.y)
-		if dist<500 and vigilar_on == 1: # and btn_action.check() == 1:
+		if dist<500 and vigilar_on == 1:
 			alertar()
 			
 
