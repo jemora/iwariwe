@@ -10,6 +10,7 @@ var pluma_total = 0
 var pluma_collected = 0
 
 
+
 #var player_animation
 var player
 var porecito

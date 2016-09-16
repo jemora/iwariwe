@@ -360,7 +360,7 @@ func sonido_viento():
 
 #--------------transicion escenas--------------
 func misio_fuego():
-	get_tree().change_scene("res://niveles/level_02_b.scn")
+	get_tree().change_scene("res://niveles/transicion_platano.scn")
 #	get_node("/root/global").goto_scene("res://niveles/transicion_platano.scn")
 
 

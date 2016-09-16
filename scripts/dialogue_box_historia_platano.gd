@@ -118,7 +118,7 @@ func show_dialog( line ):
 func _process(delta):
 #	print(fade)
 
-	if historia == 4:
+	if historia == 3:
 		get_owner().get_node("TouchScreenButton").show()
 
 	texto.set_bbcode(get_node("Label").get_text())
@@ -158,27 +158,27 @@ func _process(delta):
 		end_dialog()
 	
 	if historia == 1:
-		ID.set_text("historia fuego")
+		ID.set_text("relato horonami")
 #		show_dialog(line)
 #		line = "historia1"
 		if fade_frame == 40:
-			get_owner().get_node("imagenes").set_frame(1)
+			get_owner().get_node("imagenes").set_frame(5)
 
 
 	if historia == 2:
-		ID.set_text("consejo ave")
+		ID.set_text("consejo ascensores")
 #		show_dialog(line)
 #		line = "historia2"
 		if fade_frame == 40:
-			get_owner().get_node("imagenes").set_frame(2)
+			get_owner().get_node("imagenes").set_frame(6)
 		
 		
 	if historia == 3:
-		ID.set_text("consejo arboles")
+		ID.set_text("consejo salto")
 #		show_dialog(line)
 #		line = "historia3"
 		if fade_frame == 40:
-			get_owner().get_node("imagenes").set_frame(3)
+			get_owner().get_node("imagenes").set_frame(7)
 
 
 	if historia == 4:
@@ -209,7 +209,7 @@ func _process(delta):
 
 #---------- NUMERO DE LAMINAS A MOSTRAR -----------------------
 func _on_TouchScreenButton_adelante_pressed():
-	if historia != 4:
+	if historia != 3:
 		historia += 1
 		opacidad = 0
 		fade = 0

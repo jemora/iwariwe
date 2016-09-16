@@ -54,6 +54,9 @@ func _collect_gear( body ):
 			for bonos in add_bonos:
 				bonos.add_bonos()
 
+		if get_owner().bonos_collected != get_owner().bonos_total:
+			get_owner().get_node("gui/splash/label").set_text("colmena de abejas")
+
 #----------opacidad de los mensajes
 			var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
 			for dialo in set_opacidad:
