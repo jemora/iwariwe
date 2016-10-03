@@ -70,6 +70,22 @@ var grito_caida = false
 var aire = 0
 var rebote = false
 var sigilo = false
+var rebote_planta = 500
+
+var offset
+export var offset_x_velocidad = 3
+
+
+export var offset_y_up_limite = 750
+export var offset_y_down_limite = 600
+
+var offset_x = 700
+var offset_y = 750
+var direccion_player = 1 # 1 equivale a derecha
+
+var camara_limite
+var player_tipo = 2
+
 
 
 
@@ -84,10 +100,12 @@ func is_on_ground():
 		return false
 
 func _ready():
+
 #	get_node("Camera2D").set_zoom(get_node("Camera2D").get_zoom() * get_node("/root/global").viewport_scale)
 
+#	camara_limite = get_node("Camera2D")
 
-	
+
 
 	raycast_down = get_node("RayCast2D")
 	raycast_down.add_exception(self)
@@ -103,19 +121,55 @@ func _ready():
 
 
 
+
+	set_process(true)
+
 	
 	# Initalization here
 	set_fixed_process(true)
 	set_applied_force(Vector2(0,extra_gravity))
 #	set_integrate_forces(true)
 	
-	anim_player = get_node("rotate/character_sprites/AnimationPlayer")
+	if player_tipo == 1:
+		anim_player = get_node("rotate/character_sprites/AnimationPlayer")
+#		get_node("rotate/character_sprites 2").hide()
+		get_node("rotate/character_sprites 2").queue_free()
+		
+	if player_tipo == 2:
+		anim_player = get_node("rotate/character_sprites 2/AnimationPlayer")
+		get_node("rotate/character_sprites").queue_free()
+#		get_node("rotate/character_sprites").hide()
+
+
 
 	sonidolisto = get_node("SamplePlayer2D_reinicio")
 #	Timer_reinicio = get_owner().get_node("Timer_reinicio") 
 #	get_owner().get_node("fuego").connect("body_enter", get_node("player"), "_on_Timer_reinicio_timeout")
 
 #	print(salto_dificil)
+
+func _process(delta):
+	offset = get_node("Camera2D").set_offset(Vector2 (-offset_x, -offset_y))
+#	camara_limite = get_node("Camera2D").set_limit(-1000, -1000)
+
+# eje x, el eje ( y) esta en la variable de: en aire, en tierra del actor
+	if btn_right.check() == 2:
+		direccion_player = 1
+	if direccion_player == 1:
+		if offset_x > 300:
+			offset_x -= offset_x_velocidad
+
+	if btn_left.check() == 2:
+		direccion_player = 0
+	if direccion_player == 0:
+		if offset_x < 1000:
+			offset_x += offset_x_velocidad
+
+
+	print(camara_limite)
+
+
+
 
 
 func sonido_pasos(): # viene de timer_pasos
@@ -326,8 +380,13 @@ func _fixed_process(delta):
 
 	if PLAYERSTATE == "ground":
 		ground_state(delta)
+		if offset_y < offset_y_up_limite:
+			offset_y += 1
+		
 	elif PLAYERSTATE == "air":
 		air_state(delta)
+		if offset_y > offset_y_down_limite:
+			offset_y -= 3
 		
 	if anim != anim_new:
 		anim_new = anim
@@ -339,6 +398,7 @@ func _fixed_process(delta):
 func ground_state(delta):
 
 	if btn_left.check() == 2:
+		direccion_player = 0
 		
 		move(-player_speed, acceleration, delta)
 		ORIENTATION_NEXT = "left"
@@ -545,7 +605,7 @@ func ground_state(delta):
 				timer_pasos.start()
 
 
-#------indica esta en el aire----se deactiva en el suelo
+#------indica esta en el aire----se desactiva en el suelo
 		if btn_jump.check() == 2 or btn_jump.check() == 1:
 #			aire = 1
 			salto = 1
@@ -555,11 +615,10 @@ func ground_state(delta):
 
 
 
-
 	else:
 		PLAYERSTATE_NEXT = "air"
 
-
+	
 
 
 func air_state(delta):
@@ -569,7 +628,11 @@ func air_state(delta):
 	pasos = false
 	if timer_salto > 5:
 		aire = 1
-	
+
+
+
+
+
 
 	if btn_left.check() == 2:
 		move(-player_speed, air_acceleration, delta)
@@ -635,6 +698,11 @@ func _reiniciar_sonido_player():
 #func _on_fuego_body_enter( body ):
 #	get_tree().reload_current_scene()
 
+func rebote_planta():
+	set_axis_velocity(Vector2(0,-rebote_planta))
+	salto = 1
+	aire = 1
+	jumping = 1
 
 
 

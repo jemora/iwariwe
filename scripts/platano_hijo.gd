@@ -7,6 +7,9 @@ var N_platanos = 17
 var platanos = 0
 var resto = 0
 
+var N_botiquines = 2
+var botiquines = 0
+var resto_botiquines = 0
 
 var sonidolisto
 
@@ -67,6 +70,9 @@ func _process(delta):
 	platanos = get_owner().get_node("").platanos
 	resto = N_platanos - platanos
 
+#	botiquines = get_owner().get_node("").botiquines
+#	resto_botiquines = N_botiquines - botiquines
+
 
 func _collect_gear( body ):
 
@@ -83,7 +89,7 @@ func _collect_gear( body ):
 		#queue_free()  
 
 		if get_owner().medicinas_collected == get_owner().medicinas_total:
-			get_owner().get_node("gui/splash/label").set_text("Me falan " + str(resto))
+			get_owner().get_node("gui/splash/label").set_text("Me faltan " + str(resto))
 			sonidolisto.play("premio2")
 
 #..........opacidad de los mensajes
@@ -97,7 +103,7 @@ func _collect_gear( body ):
 
 
 #		if platanos == N_platanos:
-	get_owner().get_node("gui/splash/label").set_text("Me falan " + str(resto))
+	get_owner().get_node("gui/splash/label").set_text("Me faltan " + str(resto))
 	sonidolisto.play("premio2")
 	var set_opacidad = get_tree().get_nodes_in_group("mensajes_GUI")
 	for dialo in set_opacidad:

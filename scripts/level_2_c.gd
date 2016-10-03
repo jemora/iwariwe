@@ -85,6 +85,9 @@ var piedra_menos
 var piedra_mas
 var piedra_circulo
 var platanos = 1
+var planta = 0
+var plantas
+var saltando = 1
 
 
 func _ready():
@@ -97,7 +100,7 @@ func _ready():
 
 
 
-#------------------------------------------
+#------------------------------------------ rebote_planta
 	set_process(true)
 
 	player = get_node("player")
@@ -105,9 +108,9 @@ func _ready():
 	player.set_max_contacts_reported(true)
 	player.set_mode(2)
 
-#	piedra_menos = get_node("piedra_menos")
-#	piedra_menos.set_contact_monitor(true)
-#	piedra_menos.set_max_contacts_reported(true)
+
+
+
 
 
 
@@ -300,6 +303,7 @@ func _process(delta):
 			var grito = get_node("gui/splash/label")
 			grito.set_text("plumero")
 			fx.play("vida")
+
 
 
 
@@ -891,6 +895,31 @@ func _on_player_body_enter( body ):
 		get_node("gui/fx_btn_item").play("listo")
 
 
+#---------rebote planta -----------
+	if (body.has_method("planta")):
+
+		var mensajes_GUI = get_tree().get_nodes_in_group("player")
+		for reinicio in mensajes_GUI:
+			reinicio.rebote_planta()
+#		if planta == 1:
+#		var mensajes_GUI = get_tree().get_nodes_in_group("planta")
+#		for reinicio in mensajes_GUI:
+#			reinicio.rebote()
+
+
+#--------- puerco-espin -----------
+	if (body.has_method("puerco")):
+#		body.destroy()
+		time_start()
+
+		var mensajes_GUI = get_tree().get_nodes_in_group("mensajes_GUI")
+		for reinicio in mensajes_GUI:
+			reinicio.set_opacidad()
+		
+		var grito = get_node("gui/splash/label")
+		grito.set_text("puercoespin")
+		sonidos_player.play("grito_corto")
+		get_node("gui/fx_btn_item").play("listo")
 
 
 
@@ -1663,6 +1692,21 @@ func entregar_pluma():
 #		pluma.set_name("pluma")
 		check.set_pos(get_node("dialogos_obj/chaman1/Position2D_nex").get_global_pos())
 		add_child(check)
+
+
+
+func saltando_on():
+	saltando = 1
+
+
+
+func player():
+	pass
+
+
+
+
+
 
 
 

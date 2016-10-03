@@ -10,6 +10,7 @@ var centrar = 0
 var centrar_on = null
 
 var timer_y
+export var timer_y_wait = 2
 var timer_y_on = 1
 var timer_x
 var timer_x_centrar
@@ -20,6 +21,7 @@ func _ready():
 	set_process(true)
 	
 	timer_y = get_node("Timer_y")
+	timer_y.set_wait_time(timer_y_wait)
 	timer_y.connect('timeout',self,'parar_y')
 
 	timer_x = get_node("Timer_x")

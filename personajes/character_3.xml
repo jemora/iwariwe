@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="6" version="2.0" version_name="Godot Engine v2.0.stable.official">
-	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="3">
-	</ext_resource>
-	<ext_resource path="res://scripts/player.gd" type="Script" index="0">
-	</ext_resource>
-	<ext_resource path="res://textures/player/gBot_head.png" type="Texture" index="1">
-	</ext_resource>
-	<ext_resource path="res://personajes/character_sprites.xml" type="PackedScene" index="2">
-	</ext_resource>
+<resource_file type="PackedScene" subresource_count="7" version="2.0" version_name="Godot Engine v2.0.stable.official">
+	<ext_resource path="res://sonidos/samplelibrary.res" type="SampleLibrary" index="4"></ext_resource>
+	<ext_resource path="res://scripts/player.gd" type="Script" index="0"></ext_resource>
+	<ext_resource path="res://personajes/character_sprites_indigena.xml" type="PackedScene" index="3"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_head.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://personajes/character_sprites.xml" type="PackedScene" index="2"></ext_resource>
 	<resource type="CapsuleShape2D" path="local://1">
-
 		<real name="custom_solver_bias"> 0 </real>
 		<real name="radius"> 44.528008 </real>
 		<real name="height"> 212.356705 </real>
@@ -20,12 +16,12 @@
 			<string> "conn_count" </string>
 			<int> 1 </int>
 			<string> "conns" </string>
-			<int_array  len="6"> 				0, 0, 80, 79, 2, 0 </int_array>
+			<int_array  len="6"> 				0, 0, 84, 83, 2, 0 </int_array>
 			<string> "editable_instances" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="81">
+			<string_array  len="85">
 				<string> "player" </string>
 				<string> "transform/pos" </string>
 				<string> "transform/scale" </string>
@@ -58,6 +54,9 @@
 				<string> "acceleration" </string>
 				<string> "air_acceleration" </string>
 				<string> "extra_gravity" </string>
+				<string> "offset_x_velocidad" </string>
+				<string> "offset_y_up_limite" </string>
+				<string> "offset_y_down_limite" </string>
 				<string> "RigidBody2D" </string>
 				<string> "Camera2D" </string>
 				<string> "offset" </string>
@@ -91,6 +90,7 @@
 				<string> "player_sprite1" </string>
 				<string> "character_sprites" </string>
 				<string> "linear_damp" </string>
+				<string> "character_sprites 2" </string>
 				<string> "CollisionShape2D" </string>
 				<string> "shape" </string>
 				<string> "trigger" </string>
@@ -109,14 +109,14 @@
 				<string> "body_enter" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 10 </int>
+			<int> 11 </int>
 			<string> "node_paths" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="238"> 				-1, -1, 32, 0, -1, 31, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 3, 8, 6, 9, 6, 10, 7, 11, 8, 12, 9, 13, 9, 14, 8, 15, 3, 16, 10, 17, 10, 18, 3, 19, 3, 20, 11, 21, 12, 22, 9, 23, 13, 24, 13, 25, 14, 26, 15, 27, 16, 28, 17, 29, 18, 30, 6, 31, 19, 0, 0, 0, 33, 33, -1, 17, 34, 20, 35, 10, 36, 3, 37, 11, 38, 21, 39, 22, 40, 23, 41, 24, 42, 25, 43, 11, 44, 11, 45, 11, 46, 26, 47, 9, 48, 8, 49, 9, 50, 27, 0, 0, 0, 51, 51, -1, 5, 1, 28, 52, 11, 53, 29, 54, 6, 55, 30, 0, 0, 0, 57, 56, -1, 0, 0, 3, 0, 61, 58, -1, 2, 59, 3, 60, 31, 0, 3, 0, 61, 62, -1, 4, 59, 3, 1, 32, 2, 33, 60, 31, 0, 3, 0, 2147483647, 63, 34, 3, 1, 35, 2, 36, 64, 37, 0, 0, 0, 65, 65, -1, 6, 59, 3, 1, 38, 2, 39, 66, 4, 67, 3, 68, 10, 0, 0, 0, 69, 69, -1, 8, 70, 9, 71, 8, 72, 8, 73, 40, 74, 8, 75, 6, 76, 41, 77, 9, 0, 0, 0, 69, 78, -1, 8, 70, 26, 71, 8, 72, 8, 73, 40, 74, 8, 75, 6, 76, 41, 77, 9, 0 </int_array>
+			<int_array  len="257"> 				-1, -1, 35, 0, -1, 34, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 3, 8, 6, 9, 6, 10, 7, 11, 8, 12, 9, 13, 9, 14, 8, 15, 3, 16, 10, 17, 10, 18, 3, 19, 3, 20, 11, 21, 12, 22, 9, 23, 13, 24, 13, 25, 14, 26, 15, 27, 16, 28, 17, 29, 18, 30, 6, 31, 19, 32, 20, 33, 21, 34, 16, 0, 0, 0, 36, 36, -1, 17, 37, 22, 38, 10, 39, 3, 40, 11, 41, 23, 42, 24, 43, 25, 44, 26, 45, 19, 46, 11, 47, 11, 48, 11, 49, 27, 50, 9, 51, 8, 52, 9, 53, 28, 0, 0, 0, 54, 54, -1, 5, 1, 29, 55, 11, 56, 30, 57, 6, 58, 31, 0, 0, 0, 60, 59, -1, 0, 0, 3, 0, 64, 61, -1, 2, 62, 3, 63, 32, 0, 3, 0, 64, 65, -1, 4, 62, 3, 1, 33, 2, 34, 63, 32, 0, 3, 0, 2147483647, 66, 35, 3, 1, 36, 2, 37, 67, 38, 0, 3, 0, 2147483647, 68, 39, 3, 1, 40, 2, 41, 67, 38, 0, 0, 0, 69, 69, -1, 6, 62, 3, 1, 42, 2, 43, 70, 4, 71, 3, 72, 10, 0, 0, 0, 73, 73, -1, 8, 74, 9, 75, 8, 76, 8, 77, 44, 78, 8, 79, 6, 80, 45, 81, 9, 0, 0, 0, 73, 82, -1, 8, 74, 27, 75, 8, 76, 8, 77, 44, 78, 8, 79, 6, 80, 45, 81, 9, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="42" shared="false">
+			<array  len="46" shared="false">
 				<vector2> 24.5187, 46.9277 </vector2>
 				<vector2> 0.391448, 0.391448 </vector2>
 				<int> 9 </int>
@@ -140,12 +140,13 @@
 				<int> 700 </int>
 				<int> 5 </int>
 				<int> 1400 </int>
+				<int> 3 </int>
+				<int> 750 </int>
 				<vector2> -630, -750 </vector2>
 				<vector2> 1.5, 1.5 </vector2>
 				<int> -600 </int>
-				<int> -250 </int>
+				<int> -2000 </int>
 				<int> 65535 </int>
-				<int> 1300 </int>
 				<real> 5 </real>
 				<real> 0.2 </real>
 				<vector2> 0, -25.8734 </vector2>
@@ -158,10 +159,13 @@
 				<vector2> 4.72469, -144.19 </vector2>
 				<vector2> 0.186142, 0.186142 </vector2>
 				<real> 0.1 </real>
+				<resource  external="3">  </resource>
+				<vector2> 3.76755, -143.597 </vector2>
+				<vector2> 0.194486, 0.194486 </vector2>
 				<vector2> -2.72259, -152.701 </vector2>
 				<vector2> 0.854187, 0.861835 </vector2>
 				<real> 2048 </real>
-				<resource  external="3">  </resource>
+				<resource  external="4">  </resource>
 			</array>
 			<string> "version" </string>
 			<int> 2 </int>

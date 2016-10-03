@@ -76,7 +76,7 @@ var sonido_cueva1
 var sonido_viento
 var sonido_cueva_caiman
 var agua = false
-
+var fundido
 
 
 
@@ -153,7 +153,7 @@ func _ready():
 	timer_9 = get_node("Timer_9")
 	timer_9.start()
 	timer_9.connect('timeout',self,'sonido_viento')
-	
+
 
 
 
@@ -161,6 +161,9 @@ func _ready():
 
 func _process(delta):
 	
+	
+
+
 
 
 	for tela_arana in get_tree().get_nodes_in_group("tela_arana"):
@@ -672,6 +675,8 @@ func gui_item_huevo():
 
 #---viene de poresito
 func time_start():
+	get_node("gui/trancision_negro").fundido_active = 1
+	var fundido = get_node("gui/splash/negro")
 	timer_poresito.start()
 	timer_poresito.connect('timeout',self,'restar')
 	

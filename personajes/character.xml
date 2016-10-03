@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="PackedScene" subresource_count="5" version="2.0" version_name="Godot Engine v2.0.stable.official">
+<resource_file type="PackedScene" subresource_count="6" version="2.0" version_name="Godot Engine v2.0.stable.official">
 	<ext_resource path="res://scripts/player.gd" type="Script" index="0"></ext_resource>
-	<ext_resource path="res://personajes/character_sprites.xml" type="PackedScene" index="2"></ext_resource>
 	<ext_resource path="res://textures/player/gBot_head.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://personajes/character_sprites.xml" type="PackedScene" index="2"></ext_resource>
+	<ext_resource path="res://personajes/character_sprites_indigena.xml" type="PackedScene" index="3"></ext_resource>
 	<resource type="CapsuleShape2D" path="local://1">
 		<real name="custom_solver_bias"> 0 </real>
 		<real name="radius"> 44.528008 </real>
@@ -14,12 +15,12 @@
 			<string> "conn_count" </string>
 			<int> 1 </int>
 			<string> "conns" </string>
-			<int_array  len="6"> 				0, 0, 69, 68, 2, 0 </int_array>
+			<int_array  len="6"> 				0, 0, 73, 72, 2, 0 </int_array>
 			<string> "editable_instances" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="70">
+			<string_array  len="74">
 				<string> "player" </string>
 				<string> "transform/pos" </string>
 				<string> "transform/scale" </string>
@@ -51,6 +52,9 @@
 				<string> "acceleration" </string>
 				<string> "air_acceleration" </string>
 				<string> "extra_gravity" </string>
+				<string> "offset_x_velocidad" </string>
+				<string> "offset_y_up_limite" </string>
+				<string> "offset_y_down_limite" </string>
 				<string> "RigidBody2D" </string>
 				<string> "Camera2D" </string>
 				<string> "offset" </string>
@@ -84,6 +88,7 @@
 				<string> "player_sprite1" </string>
 				<string> "character_sprites" </string>
 				<string> "linear_damp" </string>
+				<string> "character_sprites 2" </string>
 				<string> "CollisionShape2D" </string>
 				<string> "shape" </string>
 				<string> "trigger" </string>
@@ -92,14 +97,14 @@
 				<string> "body_enter" </string>
 			</string_array>
 			<string> "node_count" </string>
-			<int> 8 </int>
+			<int> 9 </int>
 			<string> "node_paths" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="190"> 				-1, -1, 31, 0, -1, 30, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 2, 7, 5, 8, 5, 9, 6, 10, 7, 11, 8, 12, 8, 13, 7, 14, 2, 15, 9, 16, 9, 17, 2, 18, 2, 19, 10, 20, 11, 21, 8, 22, 12, 23, 12, 24, 13, 25, 14, 26, 15, 27, 15, 28, 15, 29, 5, 30, 5, 0, 0, 0, 32, 32, -1, 17, 33, 16, 34, 9, 35, 2, 36, 10, 37, 17, 38, 18, 39, 19, 40, 20, 41, 21, 42, 10, 43, 10, 44, 10, 45, 22, 46, 8, 47, 7, 48, 8, 49, 23, 0, 0, 0, 50, 50, -1, 5, 1, 24, 51, 10, 52, 25, 53, 5, 54, 26, 0, 0, 0, 56, 55, -1, 0, 0, 3, 0, 60, 57, -1, 2, 58, 2, 59, 27, 0, 3, 0, 60, 61, -1, 4, 58, 2, 1, 28, 2, 29, 59, 27, 0, 3, 0, 2147483647, 62, 30, 3, 1, 31, 2, 32, 63, 33, 0, 0, 0, 64, 64, -1, 6, 58, 2, 1, 34, 2, 35, 65, 3, 66, 2, 67, 9, 0 </int_array>
+			<int_array  len="207"> 				-1, -1, 34, 0, -1, 33, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 2, 7, 5, 8, 5, 9, 6, 10, 7, 11, 8, 12, 8, 13, 7, 14, 2, 15, 9, 16, 9, 17, 2, 18, 2, 19, 10, 20, 11, 21, 8, 22, 12, 23, 12, 24, 13, 25, 14, 26, 15, 27, 15, 28, 15, 29, 5, 30, 5, 31, 16, 32, 17, 33, 18, 0, 0, 0, 35, 35, -1, 17, 36, 19, 37, 9, 38, 2, 39, 10, 40, 20, 41, 21, 42, 22, 43, 23, 44, 24, 45, 10, 46, 10, 47, 10, 48, 25, 49, 8, 50, 8, 51, 8, 52, 26, 0, 0, 0, 53, 53, -1, 5, 1, 27, 54, 10, 55, 28, 56, 5, 57, 29, 0, 0, 0, 59, 58, -1, 0, 0, 3, 0, 63, 60, -1, 2, 61, 2, 62, 30, 0, 3, 0, 63, 64, -1, 4, 61, 2, 1, 31, 2, 32, 62, 30, 0, 3, 0, 2147483647, 65, 33, 3, 1, 34, 2, 35, 66, 36, 0, 3, 0, 2147483647, 67, 37, 2, 1, 38, 2, 39, 0, 0, 0, 68, 68, -1, 6, 61, 2, 1, 40, 2, 41, 69, 3, 70, 2, 71, 9, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="36" shared="false">
+			<array  len="42" shared="false">
 				<vector2> 24.5187, 46.9277 </vector2>
 				<vector2> 0.391448, 0.391448 </vector2>
 				<bool> False </bool>
@@ -119,7 +124,10 @@
 					<string> "2D" </string>
 				</dictionary>
 				<int> 10 </int>
-				<vector2> -630, -750 </vector2>
+				<int> 3 </int>
+				<int> 750 </int>
+				<int> 600 </int>
+				<vector2> -300, -750 </vector2>
 				<vector2> 1.5, 1.5 </vector2>
 				<int> -2000 </int>
 				<int> -65536 </int>
@@ -137,6 +145,9 @@
 				<vector2> 4.72469, -144.19 </vector2>
 				<vector2> 0.186142, 0.186142 </vector2>
 				<real> 0.1 </real>
+				<resource  external="3">  </resource>
+				<vector2> 4.37984, -144.182 </vector2>
+				<vector2> 0.184605, 0.188176 </vector2>
 				<vector2> -2.72259, -152.701 </vector2>
 				<vector2> 0.854187, 0.861835 </vector2>
 			</array>
