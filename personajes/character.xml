@@ -15,12 +15,12 @@
 			<string> "conn_count" </string>
 			<int> 1 </int>
 			<string> "conns" </string>
-			<int_array  len="6"> 				0, 0, 73, 72, 2, 0 </int_array>
+			<int_array  len="6"> 				0, 0, 75, 74, 2, 0 </int_array>
 			<string> "editable_instances" </string>
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="74">
+			<string_array  len="76">
 				<string> "player" </string>
 				<string> "transform/pos" </string>
 				<string> "transform/scale" </string>
@@ -53,8 +53,11 @@
 				<string> "air_acceleration" </string>
 				<string> "extra_gravity" </string>
 				<string> "offset_x_velocidad" </string>
+				<string> "offset_y_velocidad" </string>
 				<string> "offset_y_up_limite" </string>
 				<string> "offset_y_down_limite" </string>
+				<string> "offset_y_down_limite2" </string>
+				<string> "offset_x_limite_ave" </string>
 				<string> "RigidBody2D" </string>
 				<string> "Camera2D" </string>
 				<string> "offset" </string>
@@ -87,7 +90,6 @@
 				<string> "Sprite" </string>
 				<string> "player_sprite1" </string>
 				<string> "character_sprites" </string>
-				<string> "linear_damp" </string>
 				<string> "character_sprites 2" </string>
 				<string> "CollisionShape2D" </string>
 				<string> "shape" </string>
@@ -102,9 +104,9 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="207"> 				-1, -1, 34, 0, -1, 33, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 2, 7, 5, 8, 5, 9, 6, 10, 7, 11, 8, 12, 8, 13, 7, 14, 2, 15, 9, 16, 9, 17, 2, 18, 2, 19, 10, 20, 11, 21, 8, 22, 12, 23, 12, 24, 13, 25, 14, 26, 15, 27, 15, 28, 15, 29, 5, 30, 5, 31, 16, 32, 17, 33, 18, 0, 0, 0, 35, 35, -1, 17, 36, 19, 37, 9, 38, 2, 39, 10, 40, 20, 41, 21, 42, 22, 43, 23, 44, 24, 45, 10, 46, 10, 47, 10, 48, 25, 49, 8, 50, 8, 51, 8, 52, 26, 0, 0, 0, 53, 53, -1, 5, 1, 27, 54, 10, 55, 28, 56, 5, 57, 29, 0, 0, 0, 59, 58, -1, 0, 0, 3, 0, 63, 60, -1, 2, 61, 2, 62, 30, 0, 3, 0, 63, 64, -1, 4, 61, 2, 1, 31, 2, 32, 62, 30, 0, 3, 0, 2147483647, 65, 33, 3, 1, 34, 2, 35, 66, 36, 0, 3, 0, 2147483647, 67, 37, 2, 1, 38, 2, 39, 0, 0, 0, 68, 68, -1, 6, 61, 2, 1, 40, 2, 41, 69, 3, 70, 2, 71, 9, 0 </int_array>
+			<int_array  len="211"> 				-1, -1, 37, 0, -1, 36, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 2, 7, 5, 8, 5, 9, 6, 10, 7, 11, 8, 12, 8, 13, 7, 14, 2, 15, 9, 16, 9, 17, 2, 18, 2, 19, 10, 20, 11, 21, 8, 22, 12, 23, 12, 24, 13, 25, 14, 26, 15, 27, 15, 28, 15, 29, 5, 30, 5, 31, 16, 32, 16, 33, 17, 34, 18, 35, 19, 36, 20, 0, 0, 0, 38, 38, -1, 17, 39, 21, 40, 9, 41, 2, 42, 10, 43, 22, 44, 23, 45, 24, 46, 25, 47, 26, 48, 10, 49, 10, 50, 10, 51, 27, 52, 8, 53, 8, 54, 8, 55, 28, 0, 0, 0, 56, 56, -1, 5, 1, 29, 57, 10, 58, 30, 59, 5, 60, 31, 0, 0, 0, 62, 61, -1, 0, 0, 3, 0, 66, 63, -1, 2, 64, 2, 65, 32, 0, 3, 0, 66, 67, -1, 4, 64, 2, 1, 33, 2, 34, 65, 32, 0, 3, 0, 2147483647, 68, 35, 2, 1, 36, 2, 37, 0, 3, 0, 2147483647, 69, 38, 2, 1, 39, 2, 40, 0, 0, 0, 70, 70, -1, 6, 64, 2, 1, 41, 2, 42, 71, 3, 72, 2, 73, 9, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="42" shared="false">
+			<array  len="43" shared="false">
 				<vector2> 24.5187, 46.9277 </vector2>
 				<vector2> 0.391448, 0.391448 </vector2>
 				<bool> False </bool>
@@ -127,6 +129,8 @@
 				<int> 3 </int>
 				<int> 750 </int>
 				<int> 600 </int>
+				<int> 300 </int>
+				<int> 700 </int>
 				<vector2> -300, -750 </vector2>
 				<vector2> 1.5, 1.5 </vector2>
 				<int> -2000 </int>
@@ -144,7 +148,6 @@
 				<resource  external="2">  </resource>
 				<vector2> 4.72469, -144.19 </vector2>
 				<vector2> 0.186142, 0.186142 </vector2>
-				<real> 0.1 </real>
 				<resource  external="3">  </resource>
 				<vector2> 4.37984, -144.182 </vector2>
 				<vector2> 0.184605, 0.188176 </vector2>

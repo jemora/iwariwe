@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="27" version="2.0" version_name="Godot Engine v2.0.stable.official">
-	<ext_resource path="res://textures/player/gBot_head_2.png" type="Texture" index="15"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_foot_r.png" type="Texture" index="11"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_hip.png" type="Texture" index="8"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_shin_l.png" type="Texture" index="13"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_arm_l.png" type="Texture" index="4"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_forearm_l.png" type="Texture" index="5"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_arm_r.png" type="Texture" index="2"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_head_3.png" type="Texture" index="16"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_shin_r.png" type="Texture" index="10"></ext_resource>
-	<ext_resource path="res://sprite_shaders_contorno.shd" type="Shader" index="0"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_forearm_r.png" type="Texture" index="3"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_body.png" type="Texture" index="1"></ext_resource>
-	<ext_resource path="res://textures/player/gBot_leg_r.png" type="Texture" index="9"></ext_resource>
 	<ext_resource path="res://textures/player/gBot_head.png" type="Texture" index="6"></ext_resource>
-	<ext_resource path="res://textures/player/gorrapng.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_shin_r.tex" type="Texture" index="10"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_foot_r.png" type="Texture" index="11"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_forearm_l.tex" type="Texture" index="5"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_head_3.png" type="Texture" index="16"></ext_resource>
 	<ext_resource path="res://textures/player/gBot_foot_l.png" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_head_2.png" type="Texture" index="15"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_body.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_arm_r.tex" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://sprite_shaders_contorno.shd" type="Shader" index="0"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_forearm_r.tex" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_shin_l.tex" type="Texture" index="13"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_hip.png" type="Texture" index="8"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_leg_r.png" type="Texture" index="9"></ext_resource>
+	<ext_resource path="res://textures/player/gBot_arm_l.tex" type="Texture" index="4"></ext_resource>
 	<ext_resource path="res://textures/player/gBot_leg_l.png" type="Texture" index="12"></ext_resource>
+	<ext_resource path="res://textures/player/gorrapng.png" type="Texture" index="7"></ext_resource>
 	<resource type="CanvasItemMaterial" path="local://6">
 		<resource name="shader/shader" external="0">  </resource>
 		<int name="shader/shading_mode"> 0 </int>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resource_file type="PackedScene" subresource_count="26" version="2.0" version_name="Godot Engine v2.0.stable.official">
-	<ext_resource path="res://textures/player/player2/player2_cuerpo.png" type="Texture" index="0"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_canilla_izq.png" type="Texture" index="13"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_brazo_dere.png" type="Texture" index="3"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_brazo_izq.png" type="Texture" index="1"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_interior.png" type="Texture" index="11"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_cara_normal.png" type="Texture" index="6"></ext_resource>
-	<ext_resource path="res://textures/player/gorrapng.png" type="Texture" index="7"></ext_resource>
-	<ext_resource path="res://sprite_shaders_contorno.shd" type="Shader" index="5"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_cara_caida.png" type="Texture" index="18"></ext_resource>
 	<ext_resource path="res://textures/player/player2/player2_cara_cerrado.png" type="Texture" index="17"></ext_resource>
 	<ext_resource path="res://textures/player/player2/player2_pierna_derecha.png" type="Texture" index="15"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_antebrazo_dere.png" type="Texture" index="4"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_brazo_izq.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_brazo_dere.png" type="Texture" index="3"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_canilla_izq.png" type="Texture" index="13"></ext_resource>
+	<ext_resource path="res://sprite_shaders_contorno.shd" type="Shader" index="5"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_cuerpo.tex" type="Texture" index="0"></ext_resource>
+	<ext_resource path="res://textures/player/gorrapng.png" type="Texture" index="7"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_antebrazo_dere.tex" type="Texture" index="4"></ext_resource>
 	<ext_resource path="res://textures/player/player2/player2_pierna_izq.png" type="Texture" index="12"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_pie_izq.png" type="Texture" index="14"></ext_resource>
-	<ext_resource path="res://textures/player/player2/player2_antebrazo_izq.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_interior.png" type="Texture" index="11"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_cara_normal.tex" type="Texture" index="6"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_cara_caida.png" type="Texture" index="18"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_pie_izq.tex" type="Texture" index="14"></ext_resource>
+	<ext_resource path="res://textures/player/player2/player2_antebrazo_izq.tex" type="Texture" index="2"></ext_resource>
 	<ext_resource path="res://textures/player/player2/player2_canilla_dere.png" type="Texture" index="16"></ext_resource>
 	<ext_resource path="res://textures/player/player2/pluma_roj.png" type="Texture" index="10"></ext_resource>
 	<ext_resource path="res://textures/player/player2/pluma_amarilla.png" type="Texture" index="8"></ext_resource>
@@ -2968,9 +2968,9 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="433"> 				-1, -1, 8, 0, -1, 7, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 0, 0, 0, 10, 9, -1, 0, 0, 1, 0, 16, 11, -1, 4, 12, 7, 13, 8, 14, 9, 15, 10, 0, 2, 0, 16, 17, -1, 5, 12, 11, 18, 12, 14, 13, 15, 14, 7, 15, 0, 3, 0, 16, 19, -1, 7, 12, 16, 18, 17, 1, 18, 13, 19, 14, 20, 15, 21, 7, 22, 0, 4, 0, 10, 20, -1, 2, 12, 23, 7, 24, 0, 2, 0, 16, 21, -1, 6, 12, 25, 18, 26, 13, 27, 14, 28, 15, 29, 7, 30, 0, 6, 0, 16, 22, -1, 5, 12, 31, 18, 32, 14, 33, 15, 34, 7, 35, 0, 7, 0, 10, 20, -1, 2, 12, 36, 7, 37, 0, 2, 0, 16, 23, -1, 5, 24, 38, 12, 39, 14, 40, 15, 41, 7, 42, 0, 9, 0, 16, 25, -1, 6, 26, 43, 12, 44, 18, 45, 1, 46, 14, 47, 15, 48, 0, 9, 0, 10, 20, -1, 2, 12, 49, 7, 50, 0, 9, 0, 8, 27, -1, 9, 12, 51, 1, 52, 13, 53, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 54, 0, 12, 0, 16, 28, -1, 5, 12, 55, 18, 56, 1, 57, 14, 58, 15, 59, 0, 12, 0, 16, 29, -1, 5, 12, 60, 18, 61, 1, 62, 14, 63, 15, 64, 0, 12, 0, 16, 30, -1, 5, 12, 65, 18, 66, 1, 67, 14, 68, 15, 69, 0, 1, 0, 16, 31, -1, 4, 12, 70, 13, 8, 14, 71, 15, 72, 0, 16, 0, 16, 32, -1, 4, 12, 73, 14, 74, 15, 75, 7, 76, 0, 17, 0, 16, 33, -1, 4, 12, 77, 14, 78, 15, 79, 7, 80, 0, 18, 0, 16, 34, -1, 4, 12, 81, 14, 82, 15, 83, 7, 84, 0, 19, 0, 10, 20, -1, 2, 12, 85, 7, 86, 0, 16, 0, 16, 35, -1, 5, 12, 87, 13, 53, 14, 88, 15, 89, 7, 90, 0, 21, 0, 16, 36, -1, 4, 12, 91, 14, 92, 15, 93, 7, 94, 0, 22, 0, 16, 37, -1, 4, 12, 95, 14, 82, 15, 96, 7, 97, 0, 23, 0, 10, 20, -1, 2, 12, 98, 7, 99, 0, 16, 0, 10, 20, -1, 2, 12, 100, 7, 101, 0, 0, 0, 38, 38, -1, 12, 39, 8, 40, 102, 41, 103, 42, 104, 43, 105, 44, 106, 45, 107, 46, 108, 47, 1, 48, 5, 49, 109, 50, 110, 0 </int_array>
+			<int_array  len="431"> 				-1, -1, 8, 0, -1, 7, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 6, 0, 0, 0, 10, 9, -1, 0, 0, 1, 0, 16, 11, -1, 4, 12, 7, 13, 8, 14, 9, 15, 10, 0, 2, 0, 16, 17, -1, 5, 12, 11, 18, 12, 14, 13, 15, 14, 7, 15, 0, 3, 0, 16, 19, -1, 7, 12, 16, 18, 17, 1, 18, 13, 8, 14, 19, 15, 20, 7, 21, 0, 4, 0, 10, 20, -1, 2, 12, 22, 7, 23, 0, 2, 0, 16, 21, -1, 6, 12, 24, 18, 25, 13, 26, 14, 27, 15, 28, 7, 29, 0, 6, 0, 16, 22, -1, 5, 12, 30, 18, 31, 14, 32, 15, 33, 7, 34, 0, 7, 0, 10, 20, -1, 2, 12, 35, 7, 36, 0, 2, 0, 16, 23, -1, 5, 24, 37, 12, 38, 14, 39, 15, 40, 7, 41, 0, 9, 0, 16, 25, -1, 6, 26, 42, 12, 43, 18, 44, 1, 45, 14, 46, 15, 47, 0, 9, 0, 10, 20, -1, 2, 12, 48, 7, 49, 0, 9, 0, 8, 27, -1, 8, 12, 50, 13, 51, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 52, 0, 12, 0, 16, 28, -1, 5, 12, 53, 18, 54, 1, 55, 14, 56, 15, 57, 0, 12, 0, 16, 29, -1, 5, 12, 58, 18, 59, 1, 55, 14, 60, 15, 61, 0, 12, 0, 16, 30, -1, 5, 12, 62, 18, 63, 1, 55, 14, 64, 15, 65, 0, 1, 0, 16, 31, -1, 4, 12, 66, 13, 8, 14, 67, 15, 68, 0, 16, 0, 16, 32, -1, 4, 12, 69, 14, 70, 15, 71, 7, 72, 0, 17, 0, 16, 33, -1, 4, 12, 73, 14, 74, 15, 75, 7, 76, 0, 18, 0, 16, 34, -1, 4, 12, 77, 14, 78, 15, 79, 7, 80, 0, 19, 0, 10, 20, -1, 2, 12, 81, 7, 82, 0, 16, 0, 16, 35, -1, 5, 12, 83, 13, 51, 14, 84, 15, 85, 7, 86, 0, 21, 0, 16, 36, -1, 4, 12, 87, 14, 88, 15, 89, 7, 90, 0, 22, 0, 16, 37, -1, 4, 12, 91, 14, 78, 15, 92, 7, 93, 0, 23, 0, 10, 20, -1, 2, 12, 94, 7, 95, 0, 16, 0, 10, 20, -1, 2, 12, 96, 7, 97, 0, 0, 0, 38, 38, -1, 12, 39, 8, 40, 98, 41, 99, 42, 100, 43, 101, 44, 102, 45, 103, 46, 104, 47, 1, 48, 5, 49, 105, 50, 106, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="111" shared="false">
+			<array  len="107" shared="false">
 				<vector2> 0.338848, 0.338848 </vector2>
 				<bool> True </bool>
 				<vector2> 0, 1 </vector2>
@@ -2996,7 +2996,6 @@
 				<vector2> -31.0063, 151.75 </vector2>
 				<real> 9.195914 </real>
 				<vector2> 0.884373, 0.96393 </vector2>
-				<int> 5 </int>
 				<resource  external="2">  </resource>
 				<vector2> 14.9612, 90.8248 </vector2>
 				<dictionary  shared="false">
@@ -3050,7 +3049,6 @@
 					<bool> True </bool>
 				</dictionary>
 				<vector2> -154.988, -213.639 </vector2>
-				<vector2> 1, 1 </vector2>
 				<int> -1 </int>
 				<dictionary  shared="false">
 					<string> "_editor_collapsed" </string>
@@ -3063,12 +3061,10 @@
 				<vector2> -14.9997, 205.933 </vector2>
 				<vector2> 45.1697, 99.0453 </vector2>
 				<real> -25.530008 </real>
-				<vector2> 0.326208, 0.326208 </vector2>
 				<resource  external="9">  </resource>
 				<vector2> -12.3031, 210.61 </vector2>
 				<vector2> 76.3644, 101.859 </vector2>
 				<real> -6.022634 </real>
-				<vector2> 0.326208, 0.326208 </vector2>
 				<resource  external="10">  </resource>
 				<vector2> -9.21475, 213.337 </vector2>
 				<vector2> -10.4214, 124.127 </vector2>
